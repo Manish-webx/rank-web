@@ -137,7 +137,7 @@
             box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
             margin-bottom: 30px;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
             display: flex;
             flex-direction: column;
             height: 100%;
@@ -244,7 +244,7 @@
             transition: all 0.4s ease;
             position: relative;
             overflow: hidden;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
         }
 
         .service-card::before {
@@ -313,7 +313,7 @@
             font-size: 16px;
             font-weight: 600;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
             cursor: default;
         }
 
@@ -1231,7 +1231,7 @@
             backface-visibility: hidden;
             border-radius: 20px;
             box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
             display: flex;
             flex-direction: column;
         }
@@ -1247,6 +1247,8 @@
             z-index: 2;
             position: relative;
             overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
         }
 
         .service-card-front::before {
@@ -1264,6 +1266,10 @@
 
         .service-card:hover .service-card-front::before {
             transform: scaleX(1);
+        }
+        
+        .service-card:hover .service-card-front {
+            border-color: #d0cc37;
         }
 
         .service-card-back {
@@ -1284,6 +1290,23 @@
 
         .service-card-back p {
             color: #666;
+        }
+    
+        @media (max-width: 768px) {
+            .service-card {
+                padding: 0 !important;
+                min-height: 300px !important;
+            }
+            .service-card-inner {
+                min-height: 300px !important;
+            }
+            .service-card-front, .service-card-back {
+                padding: 80px 20px !important;
+                min-height: 300px !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: center !important;
+            }
         }
     </style>
 

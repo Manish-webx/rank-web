@@ -127,7 +127,7 @@
             box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
             margin-bottom: 30px;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
             display: flex;
             flex-direction: column;
             height: 100%;
@@ -233,7 +233,7 @@
             transition: all 0.4s ease;
             position: relative;
             overflow: hidden;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
         }
 
         .service-card::before {
@@ -302,7 +302,7 @@
             font-size: 16px;
             font-weight: 600;
             transition: all 0.3s ease;
-            border: 2px solid transparent;
+            border: 2px solid rgba(255, 255, 255, 0.15);
             cursor: default;
         }
 
