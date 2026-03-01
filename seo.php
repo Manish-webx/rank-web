@@ -1,0 +1,2022 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best SEO Agency in India | Rankmator - SEO Services for Startups & Businesses</title>
+
+
+    <meta name="description"
+        content="Rankmator is the best SEO agency in India offering professional SEO services for startups, service-based businesses, and growing brands. Get 20% off for startups. Expert SEO solutions for Healthcare, Fintech, Real Estate & more.">
+    <meta name="keywords"
+        content="SEO agency in India, best SEO company, professional SEO services, top SEO experts India, SEO for startups, affordable SEO services, healthcare SEO, fintech SEO, dental SEO agency">
+    <meta name="author" content="Rankmator">
+    <link rel="canonical" href="seo.php" />
+
+
+    <?php include('header-link.php'); ?>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+
+        .seo-hero {
+            background-color: #212121;
+            background-image: url('https://cognivicdigital.com/images/seo/texture.png');
+            background-repeat: repeat;
+            padding: 180px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .seo-hero h1 {
+            color: #d0cc37;
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .seo-hero p {
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+
+        .hero-form {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-form h3 {
+            color: #d0cc37;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .hero-form .form-control {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        .hero-form .form-control:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: #d0cc37;
+            color: #fff;
+            box-shadow: 0 0 0 0.2rem rgba(208, 204, 55, 0.25);
+        }
+
+        .hero-form .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .hero-form textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+
+        .seo-section {
+            padding: 30px 0;
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 2px;
+            line-height: 1.3;
+            color: #1a1a1a;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 5px;
+            line-height: 1.6;
+        }
+
+
+        .seo-section .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .seo-section .row>[class*='col-'] {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .why-choose-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            min-height: 280px;
+        }
+
+        .why-choose-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(208, 204, 55, 0.15);
+            border-color: #d0cc37;
+        }
+
+        .why-choose-card h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .why-choose-card p {
+            color: #666;
+            line-height: 1.7;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+
+        .startup-usp-section {
+            background: #f9f9f9;
+            padding: 40px 0;
+            position: relative;
+        }
+
+
+
+        .startup-usp-box {
+            background: #fff;
+            padding: 50px;
+            border-radius: 25px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            border: 2px solid #f0f0f0;
+        }
+
+        .startup-badge {
+            background: #d0cc37;
+            color: #000;
+            padding: 10px 30px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .startup-usp-box h2 {
+            font-size: 36px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .startup-usp-box .discount {
+            font-size: 72px;
+            font-weight: 900;
+            color: #d0cc37;
+            line-height: 1;
+            margin: 20px 0;
+        }
+
+        .startup-features {
+            margin-top: 30px;
+        }
+
+        .startup-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 18px;
+            color: #444;
+            justify-content: flex-start;
+        }
+
+        .startup-feature::before {
+            content: '';
+            margin-right: 15px;
+            font-size: 24px;
+        }
+
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .service-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid transparent;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: #d0cc37;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(208, 204, 55, 0.2);
+            border-color: #d0cc37;
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: #d0cc37;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #000;
+        }
+
+        .service-card h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+
+        .industries-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .industry-tag {
+            background: #f0f0f0;
+            color: #1a1a1a;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            cursor: default;
+        }
+
+        .industry-tag:hover {
+            background: #d0cc37;
+            color: #000;
+            transform: scale(1.05);
+            border-color: #d0cc37;
+        }
+
+
+        .trust-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .trust-item:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transform: translateX(5px);
+        }
+
+        .trust-item::before {
+            content: '';
+            color: #d0cc37;
+            font-size: 24px;
+            font-weight: 700;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .trust-item span {
+            color: #444;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+
+        .final-cta {
+            background: #212121;
+            padding: 30px 0;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .final-cta h2 {
+            font-size: 42px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .final-cta p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 15px;
+        }
+
+        .final-cta .cta-highlight {
+            font-size: 28px;
+            font-weight: 700;
+            color: #d0cc37;
+            margin: 30px 0;
+        }
+
+        .btn-final-cta {
+            background: #d0cc37;
+            color: #000;
+            padding: 20px 50px;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 0;
+            border: 2px solid #d0cc37;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+
+        .btn-final-cta:hover {
+            opacity: 0.65;
+            color: #000;
+        }
+
+
+        .bg-light-gray {
+            background-color: #f8f9fa;
+        }
+
+        .bg-white {
+            background-color: #fff;
+        }
+
+
+        .stats-section {
+            background: #ffffff;
+            padding: 50px 0;
+            position: relative;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 900;
+            color: #d0cc37;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+
+        .testimonials-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 35px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            border-color: #d0cc37;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .testimonial-stars {
+            color: #d0cc37;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #d0cc37;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .testimonial-info h5 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .testimonial-info p {
+            color: #aaa;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+        .pricing-section {
+            background: #f9f9f9;
+            padding: 30px 0;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .pricing-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: #d0cc37;
+            transform: scale(1.05);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -15px;
+            right: 30px;
+            background: #d0cc37;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+
+        .pricing-card h3 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .pricing-price {
+            font-size: 42px;
+            font-weight: 900;
+            color: #d0cc37;
+            margin: 20px 0;
+        }
+
+        .pricing-price span {
+            font-size: 18px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            color: #444;
+            font-size: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+
+        .pricing-features li::before {
+            content: '';
+            color: #d0cc37;
+            font-weight: 700;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+
+        .faq-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 20px auto 0;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: #d0cc37;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .faq-question:hover {
+            color: #d0cc37;
+        }
+
+        .faq-icon {
+            font-size: 24px;
+            color: #d0cc37;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 30px 25px;
+            color: #ccc;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+
+        .portfolio-section {
+            background: #fff;
+            padding: 30px 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            background: #f5f5f5;
+            aspect-ratio: 16/10;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .portfolio-info h4 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .portfolio-info p {
+            color: #d0cc37;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+        .process-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .process-step:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #d0cc37;
+            transform: translateY(-5px);
+        }
+
+        .process-number {
+            width: 60px;
+            height: 60px;
+            background: #d0cc37;
+            color: #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 900;
+            margin: 0 auto 20px;
+        }
+
+
+
+        .process-step h4 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .process-step p {
+            color: #ccc;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+
+        .guarantee-section {
+            background: #fff;
+            padding: 40px 0;
+        }
+
+        .guarantee-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .guarantee-item {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f9f9f9;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .guarantee-item:hover {
+            background: #fff;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .guarantee-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .guarantee-item h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .guarantee-item p {
+            color: #666;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #d0cc37;
+            padding: 15px 0;
+            box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+
+        .sticky-cta.show {
+            transform: translateY(0);
+        }
+
+        .sticky-cta-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .sticky-cta-text {
+            color: #000;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .sticky-cta-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn-sticky {
+            background: #212121;
+            color: #fff;
+            padding: 12px 30px;
+            border: 2px solid #212121;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-sticky:hover {
+            background: transparent;
+            color: #000;
+            text-decoration: none;
+        }
+
+
+        @media (max-width: 768px) {
+            .seo-hero {
+                padding: 100px 0 50px;
+            }
+
+            .seo-hero h1 {
+                font-size: 28px;
+                text-align: center;
+            }
+
+            .seo-hero p {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .startup-usp-box {
+                padding: 30px 20px;
+            }
+
+            .startup-usp-box h2 {
+                font-size: 24px;
+            }
+
+            .startup-usp-box .discount {
+                font-size: 48px;
+            }
+
+            .final-cta {
+                padding: 40px 0;
+            }
+
+            .why-choose-card {
+                min-height: auto;
+            }
+
+            .service-card {
+                padding: 20px 15px;
+                margin-bottom: 15px;
+                height: auto;
+                min-height: auto;
+            }
+
+            .service-icon {
+                display: none;
+            }
+
+            .service-card h4 {
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 18px;
+            }
+
+            .service-card p {
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+
+            .final-cta h2 {
+                font-size: 28px;
+            }
+
+            .final-cta p {
+                font-size: 16px;
+            }
+
+            .final-cta .cta-highlight {
+                font-size: 20px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .stat-number {
+                font-size: 36px;
+            }
+
+            .sticky-cta-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .sticky-cta-text {
+                font-size: 14px;
+            }
+
+            .btn-sticky {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .seo-hero h1 {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .hero-form {
+                padding: 25px 20px;
+            }
+
+            .why-choose-card,
+            .service-card {
+                padding: 20px 15px;
+            }
+
+            .service-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+            }
+
+            .process-grid,
+            .stats-grid,
+            .trust-list,
+            .guarantee-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .industry-tag {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .btn-brand,
+            .btn-final-cta {
+                padding: 15px 30px;
+                font-size: 14px;
+            }
+
+            .faq-question {
+                font-size: 16px;
+                padding: 20px 20px;
+            }
+
+            .faq-answer-content {
+                padding: 0 20px 20px;
+                font-size: 15px;
+            }
+        }
+
+
+        .growth-cta-section {
+            background-color: #212121;
+            padding: 40px 0;
+            color: #fff;
+            position: relative;
+        }
+
+        .growth-cta-content h2 {
+            font-size: 38px;
+            font-weight: 800;
+            margin-bottom: 15px;
+            line-height: 1.2;
+            color: #fff;
+            text-align: left;
+        }
+
+        .growth-cta-content p.subheadline {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            line-height: 1.5;
+            color: #fff;
+            text-align: left;
+        }
+
+        .highlight-text {
+            color: #d0cc37;
+            position: relative;
+            display: inline-block;
+        }
+
+        .highlight-text::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #d0cc37;
+            border-radius: 2px;
+        }
+
+        .growth-form {
+            display: flex;
+            gap: 0;
+            max-width: 500px;
+        }
+
+        .growth-input {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            font-size: 16px;
+            color: #333;
+            outline: none;
+        }
+
+        .growth-btn {
+            background-color: #007bff;
+
+            background-color: #2f80ed;
+
+            background-color: #d0cc37;
+            color: #000;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            font-weight: 700;
+            text-wrap: auto;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .growth-btn:hover {
+            opacity: 0.9;
+            background-color: #b8b731;
+        }
+
+        .growth-image-container {
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .growth-image {
+            max-width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            .growth-form {
+                flex-direction: column;
+            }
+
+            .growth-input,
+            .growth-btn {
+                width: 100%;
+                border-radius: 4px;
+                text-wrap: auto;
+            }
+
+            .growth-input {
+                margin-bottom: 10px;
+            }
+
+            .growth-image-container {
+                margin-top: 40px;
+            }
+
+            .growth-cta-content h2,
+            .growth-cta-content p.subheadline {
+                text-align: center;
+            }
+        }
+
+        /* Flip Card Styles */
+        .service-card {
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            border: none;
+            perspective: 1000px;
+            overflow: visible;
+        }
+
+        .service-card::before {
+            display: none;
+        }
+
+        .service-card:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        .service-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            display: flex;
+        }
+
+        .service-card:hover .service-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .service-card-front,
+        .service-card-back {
+            width: 100%;
+            min-height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card-front {
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 30px;
+            z-index: 2;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card-front::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: #d0cc37;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .service-card:hover .service-card-front::before {
+            transform: scaleX(1);
+        }
+
+        .service-card-back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateY(180deg);
+            padding: 40px 30px;
+            background: #fff;
+            color: #333;
+            justify-content: center;
+        }
+
+        .service-card-back h4 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .service-card-back p {
+            color: #666;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/header-loader.js"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
+    <div id="header-include"></div>
+
+
+
+    <section class="seo-hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7">
+                    <h1>Rankmator - Best SEO Agency in India for Startups, Service-Based Businesses & Growing Brands
+                    </h1>
+                    <p>If you are searching for the <strong>Best SEO Agency in India</strong> that truly understands
+                        your business, then you're in the right place.</p>
+                    <p>At Rankmator, we help startups, service-based businesses, and ambitious brands unlock predictable
+                        organic growth with result-driven SEO strategies that increase visibility, traffic, leads, and
+                        long-term business authority.</p>
+
+                </div>
+
+
+                <div class="col-md-5">
+                    <div class="hero-form">
+                        <h3>Get Free SEO Strategy</h3>
+                        <form action="mail.php" method="POST" name="seoContactForm" id="seoContactForm" novalidate>
+                            <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
+                                required>
+                            <input name="email" type="email" class="form-control" placeholder="Your Email *"
+                                id="hero-email" required>
+                            <input name="phone" type="tel" class="form-control" placeholder="Your Phone *"
+                                id="hero-phone" required>
+                            <textarea class="form-control" name="message" placeholder="Tell us about your business *"
+                                id="hero-message" required></textarea>
+                            <button type="submit" class="btn btn-brand btn-lg btn-block">Book Your FREE
+                                Consultation</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #1a1a1a;">Proven Results That Speak for Themselves</h2>
+                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them.
+                        Here's what we've achieved for businesses like yours.</p>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Keywords Ranked</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Avg. Traffic Increase</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3X</div>
+                    <div class="stat-label">ROI on Average</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seo-section" style="background: #212121;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #fff;">Why Choose Rankmator as Your SEO Agency?</h2>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">SEO is not just about
+                        keywords. It's about
+                        understanding the psychology
+                        of search, user journey, and how your business solves problems better than your competitors.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>Result-Driven Approach</h4>
+                        <p>Rankmator combines advanced analytics, deep keyword research, cutting-edge SEO frameworks,
+                            and optimized content strategies to boost your organic presence.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>Rank Faster</h4>
+                        <p>Our mission is simple: Rank your business faster while maintaining a natural, human tone in
+                            every piece of content we produce.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>Improve Conversions</h4>
+                        <p>We don't just drive traffic-we focus on converting visitors into paying customers with
+                            strategic content and user experience optimization.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>Build Long-Term Authority</h4>
+                        <p>We help you establish your brand as a trusted authority in your industry through consistent,
+                            high-quality SEO practices.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>Expert Team</h4>
+                        <p>Our strategies are inspired by industry leaders like Brian Dean, Matt Diggity, Aleyda Solis,
+                            Neil Patel, and SEMrush Academy.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>AI-Powered Tracking & Performance Monitoring</h4>
+                        <p>AI-powered tracking with data-driven insights to monitor performance, optimize strategies,
+                            and ensure continuous growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title">Real Results We've Delivered</h2>
+                    <p class="section-subtitle">See the tangible impact our SEO strategies have created for businesses
+                        across India</p>
+                </div>
+            </div>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item">
+                    <img src="img/Traffic-growth1.webp" alt="Traffic Growth Results" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>400% Traffic Increase</h4>
+                            <p>Healthcare Clinic - 6 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item">
+                    <img src="img/Local-seo.webp" alt="Keyword Rankings" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>50+ Keywords on Page 1</h4>
+                            <p>Real Estate Business - 4 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item">
+                    <img src="img/Traffic-growth2.webp">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>10X Local Lead Generation</h4>
+                            <p>Dental Clinic - 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-12 text-center">
+                    <p style="font-size: 16px; color: #666;">These are just a few examples. Your business could be next!
+                    </p>
+                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free SEO Strategy -></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="process-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #fff;">Our Proven SEO Process</h2>
+                    <p class="section-subtitle" style="color: #ccc;">A systematic approach that delivers consistent,
+                        measurable results</p>
+                </div>
+            </div>
+            <div class="process-grid">
+
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <h4>Research & Audit</h4>
+                    <p>Deep dive into your business, competitors, and current SEO status</p>
+                </div>
+
+
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <h4>Strategy Development</h4>
+                    <p>Create customized SEO roadmap tailored to your goals and industry</p>
+                </div>
+
+
+                <div class="process-step">
+                    <div class="process-number">3</div>
+
+                    <h4>Implementation</h4>
+                    <p>Execute on-page, off-page, technical SEO with precision</p>
+                </div>
+
+
+                <div class="process-step">
+                    <div class="process-number">4</div>
+
+                    <h4>Monitor & Optimize</h4>
+                    <p>Track rankings, analyze data, and continuously improve performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="startup-usp-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="startup-usp-box text-center">
+                        <div class="startup-badge">STARTUP SPECIAL</div>
+                        <h2>We Understand Startups - And That's Our Superpower</h2>
+                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Starting a business from zero is
+                            not easy. A small idea -> a business model -> first clients -> market growth... this
+                            journey is
+                            emotional, challenging, and full of uncertainty.</p>
+
+                        <div class="discount">20% OFF</div>
+                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all SEO plans for startups</p>
+
+
+                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We know the
+                            struggle of building something from scratch-that's why we stand with you."</p>
+
+                        <a href="#contact-section" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                            Startup Offer -></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seo-section" style="background: #212121;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #fff;">Our SEO Services - Designed for High-Growth
+                        Businesses</h2>
+                    <p class="section-subtitle" style="color: #ccc;">We follow a data-driven and ROI-focused SEO
+                        approach inspired by
+                        industry leaders.</p>
+                </div>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Technical-SEO.webp');">
+                            <h4>1. Technical SEO Optimization</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Technical SEO Optimization</h4>
+                            <p>A strong website architecture ensures that Google can crawl, index, and rank your content
+                                effortlessly. We fix technical issues, improve site speed, mobile-friendliness, and core
+                                web
+                                vitals.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Keyword-Research.webp');">
+                            <h4>2. Keyword Research & Competitor Analysis</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Keyword Research & Strategy</h4>
+                            <p>Using advanced tools like Ahrefs, SEMrush, and Google Keyword Planner, we build an
+                                optimized
+                                keyword map that includes primary keywords, LSI keywords, long tail, and competitor gap
+                                keywords.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/On-Page-SEO.webp');">
+                            <h4>3. On-Page SEO</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>On-Page SEO</h4>
+                            <p>We optimize every ranking factor Google looks at: meta tags, headings, content, internal
+                                links,
+                                and image alt tags. Our goal is to create pages that Google trusts and users love.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Content-Strategy.webp');">
+                            <h4>4. Content Strategy & SEO Copywriting</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Content Strategy & SEO Copywriting</h4>
+                            <p>Content that ranks AND converts. We produce SEO-optimized service pages, blog posts, and
+                                landing
+                                pages designed to attract your ideal customers and drive actionable results.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Off-Page-SEO.webp');">
+                            <h4>5. Off-Page SEO & Authority Building</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Off-Page SEO & Authority Building</h4>
+                            <p>We focus on quality, not quantity. Build high-authority backlinks from trusted websites.
+                                Better
+                                trust, higher rankings, and long-lasting organic growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Local-SEO-1.webp');">
+                            <h4>6. Local SEO for Indian Businesses</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Local SEO for Indian Businesses</h4>
+                            <p>Perfect for service-based businesses, gyms, dental clinics, lawyers, and more. We
+                                optimize your
+                                Google My Business, local citations, and location-based keywords to dominate local
+                                search.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="seo-section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title">Industries We Serve with Targeted SEO Solutions</h2>
+                    <p class="section-subtitle">Rankmator provides SEO services across 15+ industries with customized,
+                        high-ROI strategies.</p>
+
+                    <div class="industries-grid">
+                        <div class="industry-tag">Healthcare SEO Agency</div>
+                        <div class="industry-tag">Fintech SEO</div>
+                        <div class="industry-tag">Dental SEO Agency</div>
+                        <div class="industry-tag">Dermatologists SEO</div>
+                        <div class="industry-tag">Nutritionists SEO</div>
+                        <div class="industry-tag">Property Developers SEO</div>
+                        <div class="industry-tag">Luxury Villas SEO</div>
+                        <div class="industry-tag">Home Decor SEO</div>
+                        <div class="industry-tag">Resorts SEO</div>
+                        <div class="industry-tag">Dubai Yacht Rentals SEO</div>
+                        <div class="industry-tag">Coaching Institutes SEO</div>
+                        <div class="industry-tag">Pest Control SEO</div>
+                        <div class="industry-tag">Plumbing SEO</div>
+                        <div class="industry-tag">Gyms SEO</div>
+                        <div class="industry-tag">Yoga Studios SEO</div>
+                        <div class="industry-tag">Lawyers SEO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="growth-cta-section">
+        <div class="container">
+            <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
+                <div class="col-md-7">
+                    <div class="growth-cta-content">
+                        <h2>Ready to Stay Visible and Grow Revenue With SEO?</h2>
+                        <p class="subheadline">Get a personalized look at how our AI + SEO experts can <span
+                                class="highlight-text">accelerate your growth.</span></p>
+
+                        <form action="mail.php" method="POST" class="growth-form">
+                            <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
+                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
+                                required>
+                            <button type="submit" class="growth-btn">Get My SEO Growth Plan</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="growth-image-container">
+                        <img src="img/about-us.png" alt="SEO Team" class="growth-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="seo-section bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title">Why Rankmator Is Trusted by Startups & Service Providers in India</h2>
+                    <p class="section-subtitle">Rankmator is the SEO partner you choose when you want performance,
+                        professionalism, and predictable results.</p>
+
+                    <div class="trust-list">
+                        <div class="trust-item">
+                            <span>Focus on business revenue, not vanity metrics</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>SEO built around buyer intent</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>Transparent communication and reporting</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>Fast implementation & monthly growth tracking</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>100% ethical and white-hat SEO</span>
+                        </div>
+                        <div class="trust-item">
+                            <span>Specialized in local + national + global SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
+                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers. Here's everything
+                        you need to know about our SEO services.</p>
+                </div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How long does it take to see SEO results?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Typically, you'll start seeing initial improvements in 2-3 months, with significant results
+                            in 4-6 months. SEO is a long-term strategy, but we provide monthly reports so you can track
+                            progress every step of the way.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What if I don't rank on the first page?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We work with a data-driven approach and have a proven track record. While we can't guarantee
+                            specific rankings (no ethical SEO agency can), we guarantee consistent improvement,
+                            increased traffic, and measurable ROI.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you use ethical (white-hat) SEO practices?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Absolutely! We follow 100% white-hat SEO practices that comply with Google's guidelines. We
+                            never use black-hat tactics that could risk your website's reputation or rankings.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How is Rankmator different from other SEO agencies?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We focus on business outcomes, not just rankings. Our approach combines data, creativity,
+                            and transparency. Plus, we specialize in helping startups and service-based businesses with
+                            affordable yet effective SEO strategies.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can you help with local SEO for my business?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! We offer specialized local SEO services to help you dominate your neighborhood
+                            searches. This includes Google My Business optimization, local citations, and location-based
+                            keyword targeting.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What industries do you work with?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We work with 15+ industries including healthcare, fintech, real estate, e-commerce,
+                            coaching, dental, legal, and more. Each strategy is customized to your specific industry and
+                            target audience.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need to sign a long-term contract?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We offer flexible plans. While we recommend at least 6 months for best results (SEO takes
+                            time), we don't lock you into long contracts. You're free to cancel with 30 days' notice.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will I get monthly reports and updates?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! Transparency is a core value at Rankmator. You'll receive detailed monthly reports
+                            showing traffic growth, keyword rankings, conversions, and actionable insights.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title">Our Guarantees to You</h2>
+                    <p class="section-subtitle">We stand behind our work with these promises</p>
+                </div>
+            </div>
+            <div class="guarantee-grid">
+                <div class="guarantee-item">
+                    <h4>100% White-Hat SEO</h4>
+                    <p>Only ethical practices that comply with Google guidelines</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>Transparent Reporting</h4>
+                    <p>Know exactly what we're doing and the results we're achieving</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>Money-Back Promise</h4>
+                    <p>If we don't meet agreed targets in 6 months, we'll refund you</p>
+                </div>
+                <div class="guarantee-item">
+                    <h4>Dedicated Support</h4>
+                    <p>Your success is our success - we're with you all the way</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="final-cta" id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
+                    <h2>Ready to Grow Your Business with SEO That Actually Delivers Results?</h2>
+                    <p>Your competitors are ranking on Google.</p>
+                    <p>Your customers are searching every day.</p>
+                    <p>And every minute you wait... you lose potential business.</p>
+
+                    <p class="cta-highlight">It's time to turn your website into a revenue machine.<br>
+                        It's time to partner with Rankmator.</p>
+
+                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sticky-cta" id="stickyCTA">
+        <div class="container">
+            <div class="sticky-cta-content">
+                <p class="sticky-cta-text">Ready to Get More Leads? Let's boost your SEO today!</p>
+                <div class="sticky-cta-buttons">
+                    <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in SEO services"
+                        target="_blank" class="btn-sticky">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <?php include('footer-link.php'); ?>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/device.min.js"></script>
+    <script src="js/form.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.circle-progress.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        // Smooth scrolling for anchor links
+        $('a[href*="#"]:not([href="#"])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 80
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(function (question) {
+                question.addEventListener('click', function () {
+                    const faqItem = this.closest('.faq-item');
+                    const allFaqItems = document.querySelectorAll('.faq-item');
+
+
+                    allFaqItems.forEach(function (item) {
+                        if (item !== faqItem) {
+                            item.classList.remove('active');
+                        }
+                    });
+
+
+                    faqItem.classList.toggle('active');
+                });
+            });
+        });
+
+
+        $(window).scroll(function () {
+            var scrollPosition = $(window).scrollTop();
+
+
+            if (scrollPosition > 500) {
+                $('#stickyCTA').addClass('show');
+            } else {
+                $('#stickyCTA').removeClass('show');
+            }
+        });
+    </script>
+    <div id="footer-include"></div>
+    <script src="js/footer-loader.js"></script>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" http-equiv="refresh" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/misc/favicon.png">
+    <title>Contact Us | Rankmator - Best Digital Marketing Agency in Delhi</title>
+    <meta name="description"
+        content="Reach out to Rankmator, the best digital marketing agency in Delhi, for innovative SEO, PPC, and branding solutions tailored to your business needs.">
+    <meta name="keywords"
+        content="Rankmator, digital marketing agency delhi, SEO services delhi, PPC agency delhi, branding agency delhi">
+    <meta name="author" content="Rankmator">
+
+
+
+    <?php include('header-link.php'); ?>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .intro {
+            padding: 120px 0 80px;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+        }
+
+        .intro.introhalf {
+            padding: 100px 0 60px;
+            min-height: 300px;
+        }
+
+        .intro.bg-black {
+            background-color: #000;
+            color: #fff;
+        }
+
+        .intro h1 {
+            color: #fff;
+            font-weight: 700;
+        }
+    </style>
+    <script src="js/header-loader.js"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
+    <div id="header-include"></div>
+
+
+    <header class="intro introhalf bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="hinditext" style="font-size: 48px; margin-bottom: 15px;">Get in Touch</h1>
+                    <p class="engtext" style="font-size: 20px; color: #c7cc4d;">Let's connect and discuss how we can
+                        help grow your business</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <style>
+        .form-control {
+            border: 1px solid #c7cc4d;
+        }
+
+        .btn-dark {
+            border: 2px solid #c7cc4d;
+            background-color: #c7cc4d;
+            color: #fff !important;
+            -webkit-box-shadow: 10px 8px 0px 0px #c7cc4d;
+
+            -moz-box-shadow: 10px 8px 0px 0px #c7cc4d;
+
+            box-shadow: 10px 8px 0px 0px #c7cc4d;
+
+        }
+
+        .btn.btn-dark:hover {
+
+            background: none;
+            color: #000 !important;
+            -webkit-box-shadow: 0px 0px 0px 0px #c7cc4d;
+
+            -moz-box-shadow: 0px 0px 0px 0px #c7cc4d;
+
+            box-shadow: 0px 0px 0px 0px #c7cc4d;
+
+        }
+
+        a:hover {
+            font-weight: 700;
+            color: #c7cc4d;
+        }
+
+        select#subject {
+            color: #999999;
+            font-size: 18px;
+        }
+
+        .form-control {
+            height: 45px;
+        }
+    </style>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 style="text-transform: capitalize; font-size:24px; margin-bottom:10px;">Say <span>hello</span>
+                    </h1>
+
+
+                    <hr>
+
+
+                    <p class="a-envelopenew">
+                        <i class="fa fa-envelope-o fa-fw fa-lg"></i>
+                        <span class="a-envelopenewank">
+                            <a href="mailto:contact@rankmator.com">contact@rankmator.com</a><br>
+                            <a href="mailto:rankmator@gmail.com">rankmator@gmail.com</a>
+                        </span>
+                    </p>
+
+                    <strong>Marketing Related Queries:</strong>
+                    <p><i class="fa fa-phone fa-fw fa-lg"></i>
+                        <a href="tel:919560864432">+91 9560864432</a>
+                    </p>
+
+
+                    <p><i class="fa fa-whatsapp fa-fw fa-lg"></i><a
+                            href="https://api.whatsapp.com/send?phone=919560864432&amp;text=Hi%20Rankmator!"
+                            target="_blank">Let's connect</a>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <h3 style="text-transform: capitalize;">Get in <span>Touch</span></h3>
+                    <hr>
+                    <form action="mail.php" method="POST" id="feedback-form1" class="message-form clear">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="name" class="sr-only control-label">your Name</label>
+                                <input id="name" name="name" type="text" placeholder="Name." required=""
+                                    data-validation-required-message="Please enter name"
+                                    class="form-control input-lg"><span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="email" class="sr-only control-label">your Email</label>
+                                <input id="email" name="email" type="email" placeholder="E-mail." required=""
+                                    data-validation-required-message="Please enter email"
+                                    class="form-control input-lg"><span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="phone" class="sr-only control-label">your Phone</label>
+                                <input id="phone" name="phone" type="tel" pattern="[0-9]{10}" placeholder="Contact No."
+                                    required="" data-validation-required-message="Please enter phone number"
+                                    class="form-control input-lg"><span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="subject" class="sr-only control-label">Subject</label>
+
+                                <select class="form-control" id="subject" name="subject"
+                                    class="form-control form-control-lg" required="">
+                                    <option value="">Subject</option>
+                                    <option value="Creative">Creative</option>
+                                    <option value="Digital">Digital</option>
+                                    <option value="Films">Films</option>
+                                    <option value="Photography">Photography</option>
+                                    <option value="Social">Social</option>
+                                    <option value="Website">Website</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label for="message" class="sr-only control-label">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Message" required=""
+                                    data-validation-required-message="Please enter a message." aria-invalid="false"
+                                    class="form-control input-lg"></textarea><span
+                                    class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <button type="submit" name="btnsave" id="btnsave" value="Send"
+                            class="btn btn-brand btn-xs">Let's Connect</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .footer h6 {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .footlink {
+            margin: 0px 2px 0px 2px;
+        }
+
+        section.bg-dark .fa,
+        section.bg-dark2 .fa {
+            color: #fff;
+        }
+
+        .footer ul,
+        ol {
+            margin-bottom: 0em;
+        }
+
+        .list-inline>li {
+            padding-bottom: 0px;
+            vertical-align: bottom;
+        }
+
+        .flcontainer {
+
+            margin-top: 18%;
+        }
+
+        .footersocial {
+
+            margin-top: 8%;
+        }
+
+        .contacttypo {
+            padding: 30px 20px;
+            filter: gray;
+
+            -webkit-filter: grayscale(100%);
+        }
+
+        .contacttypo:hover {
+            filter: none;
+            -webkit-filter: grayscale(0%);
+        }
+
+        .copyright {
+            padding: 5px 0px 5px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        @media (max-width: 768px) {
+            .flcontainer {
+
+                margin-top: 0%;
+
+                margin-top: 10px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .footer {
+                font-size: 12px
+            }
+
+
+            .footersocial {
+
+                margin-top: 0%;
+                margin-bottom: 10px !important;
+                text-align: center;
+            }
+
+            .copyright {
+                font-size: 12px;
+                font-weight: 100;
+                text-align: center;
+            }
+        }
+    </style>
+
+
+    <?php include('footer-link.php'); ?>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/device.min.js"></script>
+    <script src="js/form.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.circle-progress.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        _linkedin_partner_id = "4032713";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function (l) {
+            if (!l) {
+                window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+            src="https://px.ads.linkedin.com/collect/?pid=4032713&amp;fmt=gif" />
+    </noscript>
+
+
+    <script>
+
+    </script>
+    <div id="footer-include"></div>
+    <script src="js/footer-loader.js"></script>
+</body>
+
+
+
+</html>
+
+

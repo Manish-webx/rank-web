@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/misc/favicon.png">
+
+    <title>Top Digital Agency in Delhi | Coffee and Creative</title>
+    <meta name="description"
+        content="Discover why Coffee and Creative is the top digital agency in Delhi. Leading the way in creativity and innovation.">
+    <meta name="keywords"
+        content="Creative digital agency in delhi, Top Advertising Agencies in Delhi, Best Digital agency in Delhi, top digital marketing companies in Delhi, Best Digital Branding in Delhi, Best Marketing agency in Delhi, Best Creative Agency in Delhi, Best Digital Agency in Delhi, Best Ad Agency in Delhi, SHOPIFY Expert Agency in Delhi, Best Agency for D2C brands in Delhi, Top Creative Agency in Delhi, Top Digital Agency in Delhi, No 1 Creative Agency in Delhi, No 1 Digital Agency in Delhi">
+    <meta name="author" content="Coffee & Creative">
+    <link rel="canonical" href="about.php" />
+    
+
+    
+    <?php include('header-link.php'); ?>
+    
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PMMPR35');</script>
+    
+    <meta name="facebook-domain-verification" content="bpe4130kyar0glt9c5a8r16rthfp82" />
+
+    <meta name="google-site-verification" content="AHiZUWocRNsI6PQ2EqzIBtWaeSqdpTIAK-rxyH-SS8U" />
+
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Coffee & Creative",
+  "image": "https://coffeeandcreative.in/img/cnc_logo_white.svg",
+  "@id": "",
+  "url": "https://coffeeandcreative.in/",
+  "telephone": "099997 77471",
+  "priceRange": "Contact us",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "B - 301, Block B, Saraswati Vihar, Pitam Pura",
+    "addressLocality": "New Delhi",
+    "postalCode": "110034",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.6981904,
+    "longitude": 77.123348
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "19:00"
+  } 
+}
+</script>
+    
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Coffee & Creative",
+  "url": "https://coffeeandcreative.in/",
+  "logo": "https://coffeeandcreative.in/img/cnc_logo_white.svg",
+  "sameAs": [
+    "https://www.facebook.com/coffeeandcreative.in/",
+    "https://instagram.com/nitin_chauhan_photography?igshid=be8k4ogsty5g",
+    "https://www.youtube.com/channel/UCyWEdWfHmMP4yfR5zDEVTfQ",
+    "index.html"
+  ]
+}
+</script>
+
+    
+
+    
+    <script type="application/ld+json">
+    {
+     "@context": "https://schema.org/",
+     "@type": "WebPage",
+     "name": "Coffee & Creative",
+     "speakable":
+     {
+      "@type": "SpeakableSpecification",
+      "xpath": [
+        "/html/head/title",
+        "/html/head/meta[@name='description']/@content"
+        ]
+      },
+     "url": "https://coffeeandcreative.in/"
+     }
+    </script>
+
+    
+    
+    <script type="application/ld+json">
+{  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://coffeeandcreative.in/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://coffeeandcreative.in/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+ </script>
+
+    
+    
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Coffee and Creative | Agency Promo | Best Digital Agency | 2020",
+  "description": "Thirsty for branding?
+Sit back & sip a cup of coffee with us. We are crazy kickass brain boxes doing everything unless you want to see magic tricks done by pasha. Jokes apart! We are the ones who breathe amongst common people, understand them and come out with uncommon ideas to make your brand stand out. We are a plethora of ideas, delivering impactful tailor-made strategies and eye-catchy imagery every now and often.
+    We believe \"baat se baat banti hai\" so let's talk and make it happen.
+ ----------------------------------------------------------------------------------------------------------------- 
+[For business inquiries]
+vipin@coffeeandcreative.in
+ --------------------------------------------------------------------------------------------------------------
+You can also find us at: 
+Website: http://www.coffeeandcreative.in/ 
+Instagram: @coffee_and_creative : https://instagram.com/coffeeandcreati... 
+Instagram: @tryitonce.in : https://bit.ly/3fs0hHM 
+Facebook: https://bit.ly/2YDUaKM 
+LinkedIn: https://bit.ly/35IAZ40",
+  "thumbnailUrl": "https://i.ytimg.com/vi/fS4cH2fky5M/maxresdefault.jpg",
+  "uploadDate": "2020-06-05",
+  "duration": "PT1M22S",  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Coffee and Creative",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://coffeeandcreative.in/img/cnc_logo_black.svg",
+      "width": 60,
+      "height": 40
+    }
+  },
+  "contentUrl": "https://coffeeandcreative.in/",
+  "embedUrl": "https://www.youtube.com/watch?v=fS4cH2fky5M"
+}
+</script>
+
+    
+    
+    <script type="application/ld+json">
+{
+"@context":"http://schema.org",
+"@type":"SiteNavigationElement",
+"Name":
+[
+"HOME",
+"About",
+"Services",
+"Creative",
+"Films",
+"Fahion",
+"Product",
+"Social",
+"Website",
+"Portfolio",
+"Paltan",
+"Clients",
+"Contact"],
+"Url":[
+"https://coffeeandcreative.in/",
+"about.html",
+"creative.html",
+"creative.html",
+"films.html",
+"fashion.html",
+"product.html",
+"social.html",
+"website.html",
+"portfolio.html",
+"paltan.html",
+"clients.html",
+"https://coffeeandcreative.in/contact.php"]
+}</script>
+
+    
+
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/header-loader.js"></script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
+    <div id="header-include"></div>
+    <h1 style="display:none;">Thirsty for branding?</h1>
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMMPR35" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    
+
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMMPR35" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    
+
+    
+    
+    
+    
+    <header class="intro introhalf bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center headerbannertext" style="padding-top: 50px; padding-bottom: 50px;">
+                    <h1 class="text-white">An AI-Focused Marketing Agency Built for Modern Business Growth</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-small">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">Rankmator was founded with a clear belief: growth should be measurable, transparent,
+                        and future-ready, not just creative or experimental.</p>
+                    <p>In today's digital-first world, businesses don't need noise - they need speed,
+                        intelligence, and
+                        results. That's why Rankmator operates as an AI-focused marketing agency, combining human
+                        strategy with artificial intelligence to deliver smarter, faster, and more predictable growth.
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Who We Are</h2>
+                    <p>Rankmator is a modern AI-powered digital marketing agency built for today's fast-moving,
+                        data-driven business environment. From building strong digital foundations to scaling through
+                        performance marketing, SEO, social presence, content, and web experiences - we work as a true
+                        growth partner, not just a service provider.</p>
+                    <p>We blend:</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-check" style="color: #fca311;"></i> Human creativity</li>
+                        <li><i class="fa fa-check" style="color: #fca311;"></i> Strategic thinking</li>
+                        <li><i class="fa fa-check" style="color: #fca311;"></i> Advanced AI tools</li>
+                        <li><i class="fa fa-check" style="color: #fca311;"></i> Real-time data & automation</li>
+                    </ul>
+                    <p>to help businesses grow efficiently, intelligently, and profitably.</p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-md-6">
+                    <h3>Why Rankmator Exists</h3>
+                    <p>Starting a business is exciting. Growing it in today's competitive market is challenging. We
+                        understand the journey:</p>
+                    <ul>
+                        <li>Turning a small idea into a scalable brand</li>
+                        <li>Acquiring customers faster than competitors</li>
+                        <li>Making every marketing rupee accountable</li>
+                        <li>Adapting to rapid changes in technology and algorithms</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>What Makes Rankmator Different</h3>
+                    <dl>
+                        <dt>Results Before Everything</dt>
+                        <dd>We focus on leads, conversions, sales, and ROI - not vanity metrics.</dd>
+                        <br>
+                        <dt>AI + Human Intelligence</dt>
+                        <dd>We don't blindly rely on tools. We combine AI insights with human judgment for smarter
+                            decisions.</dd>
+                        <br>
+                        <dt>Strategy-First Approach</dt>
+                        <dd>Every campaign begins with research, audience understanding, and clear business goals.</dd>
+                        <br>
+                        <dt>Transparency & Trust</dt>
+                        <dd>Clear communication. Honest reporting. Real numbers. No false promises.</dd>
+                        <br>
+                        <dt>Modern, Performance-Driven Execution</dt>
+                        <dd>Latest platforms, advanced analytics, automation, and optimization frameworks.</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-md-12">
+                    <h2>Who We Work With</h2>
+                    <p>We partner with:</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right"></i> Startups & early-stage businesses</li>
+                                <li><i class="fa fa-angle-right"></i> Service-based companies</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right"></i> Professionals & consultants</li>
+                                <li><i class="fa fa-angle-right"></i> E-commerce & D2C brands</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right"></i> SaaS & tech-driven businesses</li>
+                                <li><i class="fa fa-angle-right"></i> Healthcare, education, real estate, and more</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-muted" style="margin-top: 10px;">From local brands to pan-India and global clients,
+                        our strategies are always custom-built and data-informed.</p>
+                </div>
+            </div>
+
+            <div class="row text-center" style="margin-top: 60px; margin-bottom: 20px;">
+                <div class="col-md-8 col-md-offset-2 well">
+                    <h2>Let's Build Intelligent Growth Together</h2>
+                    <p>If you're looking for a marketing partner who understands technology, values strategy, and
+                        delivers measurable growth - Rankmator is ready.</p>
+                    <p style="margin-top: 20px;"><a href="contact.php" class="btn btn-primary btn-lg">?? Book a free
+                            AI-powered growth consultation</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <style>
+        .footer h6 {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .footlink {
+            margin: 0px 2px 0px 2px;
+        }
+
+        section.bg-dark .fa,
+        section.bg-dark2 .fa {
+            color: #fff;
+        }
+
+        .footer ul,
+        ol {
+            margin-bottom: 0em;
+        }
+
+        .list-inline>li {
+            padding-bottom: 0px;
+            vertical-align: bottom;
+        }
+
+        .flcontainer {
+            
+            margin-top: 18%;
+        }
+
+        .footersocial {
+            
+            margin-top: 8%;
+        }
+
+        .contacttypo {
+            padding: 30px 20px;
+            filter: gray;
+            
+            -webkit-filter: grayscale(100%);
+        }
+
+        .contacttypo:hover {
+            filter: none;
+            -webkit-filter: grayscale(0%);
+        }
+
+        .copyright {
+            padding: 5px 0px 5px 0px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        @media (max-width: 768px) {
+            .flcontainer {
+                
+                margin-top: 0%;
+                
+                margin-top: 10px;
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .footer {
+                font-size: 12px
+            }
+
+
+            .footersocial {
+                
+                margin-top: 0%;
+                margin-bottom: 10px !important;
+                text-align: center;
+            }
+
+            .copyright {
+                font-size: 12px;
+                font-weight: 100;
+                text-align: center;
+            }
+        }
+    </style>
+    <section class="section-small footer  bg-dark">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12 text-center" style="vertical-align: middle;">
+                    <div class="flcontainer">
+                        <span class="footlink"><a href="index.php">Home</a></span>
+                        
+                        <span class="footlink"><a href="about.php">About</a></span>
+                        
+                        <span class="footlink"><a href="services.php">Services</a></span>
+                        
+                        <span class="footlink"><a href="portfolio.php">Portfolio</a></span>
+                        
+                        <span class="footlink"><a href="contact.php">Contact</a></span>
+                        <span class="footlink"><a href="blogs.php">Blogs</a></span>
+                    </div>
+
+
+
+                    
+                </div>
+                <div class="col-md-4 col-sm-12 text-center wow zoomIn thirsty_branding_img animated"
+                    data-wow-duration="2s" data-wow-delay=".2s">
+                    
+                    <img src="img/popups/footer_image.png" class="img-rounded img-responsive contacttypo"
+                        alt="contactus">
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <ul class="list-inline footersocial">
+                        <li><a href="https://www.facebook.com/coffeeandcreative.in/" target="_blank"><i
+                                    class="fa fa-facebook-square fa-fw fa-lg"></i></a></li>
+
+                        <li><a href="https://www.youtube.com/channel/UCyWEdWfHmMP4yfR5zDEVTfQ" target="_blank"><i
+                                    class="fa fa-youtube fa-fw fa-lg"></i></a></li>
+
+                        <li><a href="https://www.instagram.com/coffeeandcreative.in/" target="_blank"><i
+                                    class="fa fa-instagram fa-fw fa-lg"></i></a></li>
+                        <li><a href="https://in.linkedin.com/company/vipin-chauhan-7141a876?trk=similar-pages_result-card_full-click"
+                                target="_blank"><i class="fa fa-linkedin-square fa-fw fa-lg"></i></a></li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <section class="section-small footer bg-dark2 no-pad no-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="copyright" style=" padding:10px 10px 10px 0px">
+                        &#x24B8; 2021 <a href="index.php"> Coffee &amp; Creative | All Rights Reserved</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <?php include('footer-link.php'); ?>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/device.min.js"></script>
+    <script src="js/form.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.circle-progress.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+
+
+    <script type="text/javascript">
+        _linkedin_partner_id = "4032713";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function (l) {
+            if (!l) {
+                window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+            src="https://px.ads.linkedin.com/collect/?pid=4032713&amp;fmt=gif" />
+    </noscript>
+
+
+    
+    
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $('#clients').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                lazyLoad: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 2,
+                        dots: false,
+                        nav: false
+                    },
+                    600: {
+                        items: 3,
+                        dots: false,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        dots: false,
+                        nav: false,
+                        loop: false
+                    }
+                }
+            });
+            $('#ak1').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                lazyLoad: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: false,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        dots: false,
+                        nav: true
+                    },
+                    1000: {
+                        items: 3,
+                        dots: false,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+            $('#ak2').owlCarousel({
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                lazyLoad: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: false,
+                        nav: false
+                    },
+                    600: {
+                        items: 2,
+                        dots: false,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: false,
+                        dots: false,
+                        loop: false
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="js/footer-loader.js"></script>
+</body>
+
+
+
+</html>
+
+
+
