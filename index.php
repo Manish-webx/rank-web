@@ -60,7 +60,7 @@
             left: 20px;
         }
     </style>
-    <link rel="canonical" href="index.php" />
+    <link rel="canonical" href="index" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
 </head>
@@ -295,7 +295,7 @@
                         crowd.</p>
                     <p style="color: #fff;">"We know how hard it is to turn an idea into
                         a brand - that's why we exist."</p>
-                    <a href="contact.php" class="btn btn-brand btn-lg">Connect with us -></a>
+                    <a href="contact" class="btn btn-brand btn-lg">Connect with us -></a>
                 </div>
                 <div class="col-md-6">
                     <img src="img/home-page-alian.webp" class="img-responsive" alt="Connect with Rankmator">
@@ -607,7 +607,7 @@
 
 
                 <div class="service-card-wrapper service-standard">
-                    <a href="branding-creative-design.php" style="text-decoration: none; color: inherit;">
+                    <a href="branding-creative-design" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Branding.webp');"></div>
                             <div class="service-overlay"></div>
@@ -621,7 +621,7 @@
 
 
                 <div class="service-card-wrapper service-standard">
-                    <a href="email-marketing.php" style="text-decoration: none; color: inherit;">
+                    <a href="email-marketing" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/email.webp');"></div>
                             <div class="service-overlay"></div>

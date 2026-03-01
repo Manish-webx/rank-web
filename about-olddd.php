@@ -17,7 +17,7 @@
     <meta name="keywords"
         content="Creative digital agency in delhi, Top Advertising Agencies in Delhi, Best Digital agency in Delhi, top digital marketing companies in Delhi, Best Digital Branding in Delhi, Best Marketing agency in Delhi, Best Creative Agency in Delhi, Best Digital Agency in Delhi, Best Ad Agency in Delhi, SHOPIFY Expert Agency in Delhi, Best Agency for D2C brands in Delhi, Top Creative Agency in Delhi, Top Digital Agency in Delhi, No 1 Creative Agency in Delhi, No 1 Digital Agency in Delhi">
     <meta name="author" content="Coffee & Creative">
-    <link rel="canonical" href="about-olddd.php" />
+    <link rel="canonical" href="about-olddd" />
     
 
     
@@ -338,7 +338,7 @@ LinkedIn: https://bit.ly/35IAZ40",
                     <h2>Let's Build Intelligent Growth Together</h2>
                     <p>If you're looking for a marketing partner who understands technology, values strategy, and
                         delivers measurable growth - Rankmator is ready.</p>
-                    <p style="margin-top: 20px;"><a href="contact.php" class="btn btn-primary btn-lg">?? Book a free
+                    <p style="margin-top: 20px;"><a href="contact" class="btn btn-primary btn-lg">?? Book a free
                             AI-powered growth consultation</a></p>
                 </div>
             </div>
@@ -433,16 +433,16 @@ LinkedIn: https://bit.ly/35IAZ40",
 
                 <div class="col-md-4 col-sm-12 text-center" style="vertical-align: middle;">
                     <div class="flcontainer">
-                        <span class="footlink"><a href="index.php">Home</a></span>
+                        <span class="footlink"><a href="index">Home</a></span>
                         
-                        <span class="footlink"><a href="about.php">About</a></span>
+                        <span class="footlink"><a href="about">About</a></span>
                         
-                        <span class="footlink"><a href="services.php">Services</a></span>
+                        <span class="footlink"><a href="services">Services</a></span>
                         
-                        <span class="footlink"><a href="portfolio.php">Portfolio</a></span>
+                        <span class="footlink"><a href="portfolio">Portfolio</a></span>
                         
-                        <span class="footlink"><a href="contact.php">Contact</a></span>
-                        <span class="footlink"><a href="blogs.php">Blogs</a></span>
+                        <span class="footlink"><a href="contact">Contact</a></span>
+                        <span class="footlink"><a href="blogs">Blogs</a></span>
                     </div>
 
 
@@ -480,7 +480,7 @@ LinkedIn: https://bit.ly/35IAZ40",
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <div class="copyright" style=" padding:10px 10px 10px 0px">
-                        &#x24B8; 2021 <a href="index.php"> Coffee &amp; Creative | All Rights Reserved</a>
+                        &#x24B8; 2021 <a href="index"> Coffee &amp; Creative | All Rights Reserved</a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Email marketing agency, email campaign services, email automation, email marketing India, newsletter marketing, email list management, drip campaigns">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="email-marketing.php" />
+    <link rel="canonical" href="email-marketing" />
 
 
     <?php include('header-link.php'); ?>
@@ -1135,7 +1135,7 @@
                         <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We help you
                             harness AI before your competitors do."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                        <a href="contact" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
                             Startup Offer ?</a>
                     </div>
                 </div>
@@ -1417,7 +1417,7 @@
                     <p class="cta-highlight">It's time to embrace the future of marketing.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                    <a href="contact" class="btn btn-final-cta">Book Your FREE Call Today</a>
                 </div>
             </div>
         </div>

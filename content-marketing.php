@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Content Marketing Agency, B2B content marketing agency, content marketing services, SEO content writing, content strategy">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="content-marketing.php" />
+    <link rel="canonical" href="content-marketing" />
 
 
     <?php include('header-link.php'); ?>
@@ -715,7 +715,7 @@
                     <p>Grow faster with Rankmator — your trusted partner for content that drives rankings, leads, and
                         revenue.</p>
                     <p style="font-size: 22px; margin-top: 20px;"><strong>👉 Ready to scale your brand?</strong></p>
-                    <a href="contact.php" class="btn btn-final-cta">Request Your Custom Strategy</a>
+                    <a href="contact" class="btn btn-final-cta">Request Your Custom Strategy</a>
                 </div>
             </div>
         </div>

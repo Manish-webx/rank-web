@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="fintech seo, fintech seo agency, seo for fintech, best fintech seo agency, financial services seo">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="fintech-seo.php" />
+    <link rel="canonical" href="fintech-seo" />
 
 
     <?php include('header-link.php'); ?>
@@ -713,7 +713,7 @@
                     <h2>Ready to Scale Your Fintech Brand with SEO That Converts?</h2>
                     <p>Let’s build a compliant,
                         scalable,
-                        and ROI-focused SEO strategy tailored for your fintech business.</p><a href="contact.php"
+                        and ROI-focused SEO strategy tailored for your fintech business.</p><a href="contact"
                         class="btn btn-final-cta">👉 Get Your Free Fintech
                         SEO Audit</a>
                 </div>

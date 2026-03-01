@@ -1327,7 +1327,7 @@
                 <div class="col-lg-12 text-center">
                     <p style="font-size: 16px; color: #666;">We don't lock clients into long contracts. We focus on
                         performance, trust, and long-term partnerships.</p>
-                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free Local SEO Audit ?</a>
+                    <a href="contact" class="btn btn-brand btn-lg">Get Your Free Local SEO Audit ?</a>
                 </div>
             </div>
         </div>
@@ -1538,7 +1538,7 @@
                     <p>Partner with a trusted agency offering Local SEO services for small businesses that actually
                         drive growth.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Get a Free Local SEO Audit</a>
+                    <a href="contact" class="btn btn-final-cta">Get a Free Local SEO Audit</a>
                 </div>
             </div>
         </div>

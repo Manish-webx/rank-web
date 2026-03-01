@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Dental SEO Agency, dental seo service, dental seo specialist, dental practice seo, seo for dentists">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="dental-seo-agency.php" />
+    <link rel="canonical" href="dental-seo-agency" />
 
 
     <?php include('header-link.php'); ?>
@@ -469,7 +469,7 @@
                         patients,
                         increase appointment bookings,
                         and build long-term local visibility.</p>
-                    <div style="margin-top: 30px;"><a href="contact.php" class="btn btn-brand">Get a Free
+                    <div style="margin-top: 30px;"><a href="contact" class="btn btn-brand">Get a Free
                             Dental SEO Audit</a><a href="tel:9560864432" class="btn btn-default"
                             style="margin-left: 10px; background: transparent; color: #fff; border: 1px solid #fff; padding: 15px 30px; border-radius: 4px; font-weight: 700; text-transform: uppercase;">Talk
                             to a Dental SEO Expert</a></div>
@@ -697,7 +697,7 @@
                     <p>Partner with a trusted Dental SEO agency that understands your
                         practice,
                         patients,
-                        and growth goals.</p><a href="contact.php" class="btn btn-final-cta">?? Get a Free Dental SEO
+                        and growth goals.</p><a href="contact" class="btn btn-final-cta">?? Get a Free Dental SEO
                         Audit</a>
                 </div>
             </div>

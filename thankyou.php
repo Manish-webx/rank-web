@@ -85,7 +85,7 @@
                 <h1 class="thank-you-title">Thank You!</h1>
                 <p class="thank-you-text">Your message has been successfully sent. Our team will review your inquiry and
                     get back to you shortly.</p>
-                <a href="index.php" class="btn-home">Back to Home</a>
+                <a href="index" class="btn-home">Back to Home</a>
             </div>
         </div>
     </section>

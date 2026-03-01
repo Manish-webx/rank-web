@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Healthcare SEO Agency, seo agency for healthcare, medical seo services, medical seo marketing, healthcare seo, seo agency specializes in healthcare">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="healthcare-seo-agency.php" />
+    <link rel="canonical" href="healthcare-seo-agency" />
 
 
     <?php include('header-link.php'); ?>

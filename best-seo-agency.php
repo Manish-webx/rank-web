@@ -1473,7 +1473,7 @@
                 <div class="col-lg-12 text-center">
                     <p style="font-size: 16px; color: #666;">These are just a few examples. Your business could be next!
                     </p>
-                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free SEO Strategy -></a>
+                    <a href="contact" class="btn btn-brand btn-lg">Get Your Free SEO Strategy -></a>
                 </div>
             </div>
         </div>
@@ -1930,7 +1930,7 @@
                     <p class="cta-highlight">It's time to turn your website into a revenue machine.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                    <a href="contact" class="btn btn-final-cta">Book Your FREE Call Today</a>
                 </div>
             </div>
         </div>

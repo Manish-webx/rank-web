@@ -1222,7 +1222,7 @@
                         <p style="font-style: italic; margin-top: 40px; font-size: 18px; color: #444;">"Strategic
                             advertising is no longer optional — it's essential for business survival."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book Your Free
+                        <a href="contact" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book Your Free
                             Ad Strategy Call</a>
                     </div>
                 </div>
@@ -1549,7 +1549,7 @@
                     <p class="cta-highlight">Strategic advertising is no longer optional —<br>
                         it's essential for business survival.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your Free Ad Strategy Call</a>
+                    <a href="contact" class="btn btn-final-cta">Book Your Free Ad Strategy Call</a>
                 </div>
             </div>
         </div>

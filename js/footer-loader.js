@@ -35,18 +35,18 @@
                     <p style="margin: 5px 0;"><a href="best-seo-agency" style="color: #ccc; text-decoration: none;">SEO Services</a></p>
                     <p style="margin: 5px 0;"><a href="local-seo-agency" style="color: #ccc; text-decoration: none;">Local SEO Services</a></p>
                     <p style="margin: 5px 0;"><a href="performance-marketing-agency" style="color: #ccc; text-decoration: none;">Performance Marketing</a></p>
-                    <p style="margin: 5px 0;"><a href="content-marketing.php" style="color: #ccc; text-decoration: none;">Content Marketing</a></p>
+                    <p style="margin: 5px 0;"><a href="content-marketing" style="color: #ccc; text-decoration: none;">Content Marketing</a></p>
                     <p style="margin: 5px 0;"><a href="social-media-marketing-agency" style="color: #ccc; text-decoration: none;">Social Media Marketing</a></p>
-                    <p style="margin: 5px 0;"><a href="email-marketing.php" style="color: #ccc; text-decoration: none;">Email Marketing</a></p>
+                    <p style="margin: 5px 0;"><a href="email-marketing" style="color: #ccc; text-decoration: none;">Email Marketing</a></p>
                 </div>
                 <div class="col-md-3 col-sm-6 text-center">
                     <h4 style="color: #d0cc37;">More Services</h4>
                     <p style="margin: 5px 0;"><a href="ecommerce-marketing-agency" style="color: #ccc; text-decoration: none;">Ecommerce Marketing</a></p>
-                    <p style="margin: 5px 0;"><a href="branding-creative-design.php" style="color: #ccc; text-decoration: none;">Branding & Creative Design</a></p>
+                    <p style="margin: 5px 0;"><a href="branding-creative-design" style="color: #ccc; text-decoration: none;">Branding & Creative Design</a></p>
                     <p style="margin: 5px 0;"><a href="ai-marketing-agency" style="color: #ccc; text-decoration: none;">AI Marketing</a></p>
                     <p style="margin: 5px 0;"><a href="website-design-development-services" style="color: #ccc; text-decoration: none;">Website Development</a></p>
-                    <p style="margin: 5px 0;"><a href="healthcare-seo-agency.php" style="color: #ccc; text-decoration: none;">Healthcare SEO</a></p>
-                    <p style="margin: 5px 0;"><a href="dental-seo-agency.php" style="color: #ccc; text-decoration: none;">Dental SEO</a></p>
+                    <p style="margin: 5px 0;"><a href="healthcare-seo-agency" style="color: #ccc; text-decoration: none;">Healthcare SEO</a></p>
+                    <p style="margin: 5px 0;"><a href="dental-seo-agency" style="color: #ccc; text-decoration: none;">Dental SEO</a></p>
                 </div>
             </div>
             
@@ -75,13 +75,13 @@
                 <div class="col-md-6 text-center">
                     <h5 style="color: #d0cc37; margin-bottom: 15px;">Quick Links</h5>
                     <p style="display: inline-block; margin: 0 15px;">
-                        <a href="index.php" style="color: #ccc; text-decoration: none;">Home</a>
+                        <a href="index" style="color: #ccc; text-decoration: none;">Home</a>
                     </p>
                     <p style="display: inline-block; margin: 0 15px;">
-                        <a href="about.php" style="color: #ccc; text-decoration: none;">About Us</a>
+                        <a href="about" style="color: #ccc; text-decoration: none;">About Us</a>
                     </p>
                     <p style="display: inline-block; margin: 0 15px;">
-                        <a href="contact.php" style="color: #ccc; text-decoration: none;">Contact</a>
+                        <a href="contact" style="color: #ccc; text-decoration: none;">Contact</a>
                     </p>
                 </div>
             </div>

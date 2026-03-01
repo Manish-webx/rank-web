@@ -1368,7 +1368,7 @@
                         <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We know the
                             struggle of building something from scratch-that's why we stand with you."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                        <a href="contact" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
                             Startup Offer -></a>
                     </div>
                 </div>
@@ -1714,7 +1714,7 @@
                     <p class="cta-highlight">It's time to elevate your brand presence.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                    <a href="contact" class="btn btn-final-cta">Book Your FREE Call Today</a>
                 </div>
             </div>
         </div>

@@ -1198,7 +1198,7 @@
                         <p style="font-style: italic; margin-top: 40px; font-size: 18px; color: #444;">"Your audience is
                             online right now. If they're not seeing your brand, you're losing money."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book a Free
+                        <a href="contact" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book a Free
                             SMM Strategy Call</a>
                     </div>
                 </div>
@@ -1509,7 +1509,7 @@
                     <p class="cta-highlight">It's time to stop being invisible.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book a Free SMM Strategy Call</a>
+                    <a href="contact" class="btn btn-final-cta">Book a Free SMM Strategy Call</a>
                 </div>
             </div>
         </div>
