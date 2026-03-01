@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="SEO agency in India, best SEO company, professional SEO services, top SEO experts India, SEO for startups, affordable SEO services, healthcare SEO, fintech SEO, dental SEO agency">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="best-seo-agency.php" />
+    <link rel="canonical" href="best-seo-agency" />
 
 
     <?php include('header-link.php'); ?>

@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="E-commerce Marketing agency, E-commerce marketing, best E-commerce Marketing company, E-commerce Marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing-agency.php" />
+    <link rel="canonical" href="ecommerce-marketing-agency" />
 
 
     <?php include('header-link.php'); ?>

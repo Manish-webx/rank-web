@@ -523,7 +523,7 @@
             <div class="services-masonry-grid">
 
                 <div class="service-card-wrapper service-large">
-                    <a href="best-seo-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="best-seo-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/SEO.webp');"></div>
                             <div class="service-overlay"></div>
@@ -537,7 +537,7 @@
 
 
                 <div class="service-card-wrapper service-standard">
-                    <a href="local-seo-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="local-seo-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Local.webp');"></div>
                             <div class="service-overlay"></div>
@@ -551,7 +551,7 @@
 
 
                 <div class="service-card-wrapper service-standard">
-                    <a href="performance-marketing-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="performance-marketing-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Performance.webp');"></div>
                             <div class="service-overlay"></div>
@@ -565,7 +565,7 @@
 
 
                 <div class="service-card-wrapper service-medium">
-                    <a href="social-media-marketing-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="social-media-marketing-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Social.webp');"></div>
                             <div class="service-overlay"></div>
@@ -579,7 +579,7 @@
 
 
                 <div class="service-card-wrapper service-medium">
-                    <a href="website-design-development-services.php" style="text-decoration: none; color: inherit;">
+                    <a href="website-design-development-services" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Website.webp');"></div>
                             <div class="service-overlay"></div>
@@ -593,7 +593,7 @@
 
 
                 <div class="service-card-wrapper service-large">
-                    <a href="ecommerce-marketing-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="ecommerce-marketing-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/Ecommerce.webp');"></div>
                             <div class="service-overlay"></div>
@@ -635,7 +635,7 @@
 
 
                 <div class="service-card-wrapper service-medium">
-                    <a href="ai-marketing-agency.php" style="text-decoration: none; color: inherit;">
+                    <a href="ai-marketing-agency" style="text-decoration: none; color: inherit;">
                         <div class="service-card">
                             <div class="service-bg" style="background-image: url('img/AI.webp');"></div>
                             <div class="service-overlay"></div>

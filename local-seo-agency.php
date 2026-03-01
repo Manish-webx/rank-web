@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Local seo services, affordable local seo services, Best local seo services in India, local seo services for small business">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="website-design-development-services.php" />
+    <link rel="canonical" href="local-seo-agency" />
 
 
     <?php include('header-link.php'); ?>

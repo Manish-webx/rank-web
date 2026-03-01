@@ -21,15 +21,15 @@
                     <li><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Services <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="best-seo-agency.php">SEO</a></li>
-                            <li><a href="local-seo-agency.php">Local SEO</a></li>
-                            <li><a href="website-design-development-services.php">Website Development</a></li>
-                            <li><a href="ai-marketing-agency.php">AI Marketing</a></li>
+                            <li><a href="best-seo-agency">SEO</a></li>
+                            <li><a href="local-seo-agency">Local SEO</a></li>
+                            <li><a href="website-design-development-services">Website Development</a></li>
+                            <li><a href="ai-marketing-agency">AI Marketing</a></li>
                             <li><a href="email-marketing.php">Email Marketing</a></li>
                             <li><a href="branding-creative-design.php">Branding & Creative Design</a></li>
-                            <li><a href="ecommerce-marketing-agency.php">E-commerce Marketing</a></li>
-                            <li><a href="social-media-marketing-agency.php">Social Media Marketing</a></li>
-                            <li><a href="performance-marketing-agency.php">Performance Marketing</a></li>
+                            <li><a href="ecommerce-marketing-agency">E-commerce Marketing</a></li>
+                            <li><a href="social-media-marketing-agency">Social Media Marketing</a></li>
+                            <li><a href="performance-marketing-agency">Performance Marketing</a></li>
                         </ul>
                     </li>
                     <li><a href="contact.php">Contact</a></li>

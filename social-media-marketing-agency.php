@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Social Media Marketing agency, Social Media marketing, best Social Media Marketing company, Social Media Marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing-agency.php" />
+    <link rel="canonical" href="social-media-marketing-agency" />
 
 
     <?php include('header-link.php'); ?>

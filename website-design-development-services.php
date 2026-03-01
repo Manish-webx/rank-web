@@ -11,7 +11,7 @@
     <meta name="keywords"
         content="Website development company India, web design agency, custom website development, e-commerce website development, WordPress developers, Shopify experts, web application development">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="website-design-development-services.php" />
+    <link rel="canonical" href="website-design-development-services" />
 
 
     <?php include('header-link.php'); ?>

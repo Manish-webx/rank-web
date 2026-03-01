@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="AI marketing agency, AI-powered marketing, best AI marketing company, AI marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing-agency.php" />
+    <link rel="canonical" href="ai-marketing-agency" />
 
 
     <?php include('header-link.php'); ?>

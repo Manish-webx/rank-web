@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Performance Marketing agency, Performance marketing, best Performance Marketing company, Performance Marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing-agency.php" />
+    <link rel="canonical" href="performance-marketing-agency" />
 
 
     <?php include('header-link.php'); ?>
