@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Social Media Marketing Agency in India | Rankmator - Social Media Marketing Services</title>
+    <title>Best Performance Marketing Agency in India | Rankmator - Performance Marketing Services</title>
 
 
     <meta name="description"
-        content="Rankmator is the Best Social Media Marketing Agency in India offering cutting-edge Social Media marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
+        content="Rankmator is the Best Performance Marketing Agency in India offering cutting-edge Performance marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
     <meta name="keywords"
-        content="Social Media Marketing agency, Social Media marketing, best Social Media Marketing company, Social Media Marketing services India, marketing automation, AI content creation, predictive analytics">
+        content="Performance Marketing agency, Performance marketing, best Performance Marketing company, Performance Marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing.php" />
+    <link rel="canonical" href="ai-marketing-agency.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -212,7 +212,7 @@
         }
 
         .startup-feature::before {
-            content: '';
+            content: '??';
             margin-right: 15px;
             font-size: 24px;
         }
@@ -387,7 +387,7 @@
         }
 
         .trust-item::before {
-            content: '';
+            content: '✓';
             color: #d0cc37;
             font-size: 24px;
             font-weight: 700;
@@ -882,8 +882,8 @@
             background-color: #d0cc37;
             color: #000;
             padding: 15px 30px;
-            text-wrap: auto;
             border: none;
+            text-wrap: auto;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
             font-size: 16px;
@@ -991,8 +991,7 @@
             }
         }
     </style>
-    <style>
-    </style>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
 </head>
@@ -1001,32 +1000,37 @@
     <div id="header-include"></div>
 
 
+
     <section class="seo-hero">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>Social Media Marketing Agency That Turns Attention Into Revenue</h1>
-                    <p>At Rankmator, we help businesses <strong>stop getting ignored online</strong> and start
-                        dominating the platforms where customers spend their time.</p>
-                    <p>If your brand isn't growing, engaging, or generating leads from social media — it's not your
-                        fault. <strong>It's the lack of a real strategy.</strong></p>
-                    <p style="margin-top: 25px; font-size: 18px; font-weight: 600; color: #d0cc37;">Stop posting random
-                        content. Start driving revenue.</p>
+                    <h1>A Performance-Driven Advertising Agency for Businesses That Want Real Growth</h1>
+                    <p>Your market is competitive. Your customers have choices. <strong>To win, your brand must be
+                            visible, trusted, and positioned in front of the right audience at the right time.</strong>
+                    </p>
+                    <p>Rankmator helps businesses achieve measurable growth through strategic advertising that delivers
+                        qualified leads, higher conversions, and predictable revenue.</p>
+                    <p style="margin-top: 25px; font-size: 18px; font-weight: 600; color: #d0cc37;">Every ad campaign.
+                        Every rupee. Justified with measurable ROI.</p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Book Your Free 30-Min SMM Strategy Session</h3>
-                        <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm" novalidate>
-                            <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name" required>
-                            <input name="email" type="email" class="form-control" placeholder="Your Email *" id="hero-email"
+                        <h3>Book Your Advertising Strategy Call</h3>
+                        <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm"
+                            novalidate>
+                            <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
                                 required>
-                            <input name="phone" type="tel" class="form-control" placeholder="Your Phone *" id="hero-phone" required>
-                            <textarea class="form-control" name="message" placeholder="Tell us about your business *" id="hero-message"
-                                required></textarea>
+                            <input name="email" type="email" class="form-control" placeholder="Your Email *"
+                                id="hero-email" required>
+                            <input name="phone" type="tel" class="form-control" placeholder="Your Phone *"
+                                id="hero-phone" required>
+                            <textarea class="form-control" name="message" placeholder="Tell us about your business *"
+                                id="hero-message" required></textarea>
                             <button type="submit" class="btn btn-brand btn-lg btn-block">Book Your FREE
                                 Consultation</button>
                         </form>
@@ -1041,28 +1045,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #1a1a1a;">Why Social Media Matters Now More Than Ever
+                    <h2 class="section-title" style="color: #1a1a1a;">Ads Are an Investment, Not a Guessing Game
                     </h2>
-                    <p class="section-subtitle" style="color: #666;">If you're not consistently showing up, your
-                        competitors are.</p>
+                    <p class="section-subtitle" style="color: #666; margin-bottom: 30px;">Most companies run ads without
+                        a strategy or direction, resulting in:</p>
                 </div>
             </div>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-number">4.95B+</div>
-                    <div class="stat-label">Active Users</div>
+                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Wasted Budget
+                    </div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">2.5 Hrs</div>
-                    <div class="stat-label">Daily Scrolling Time</div>
+                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Poor Targeting
+                    </div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">76%</div>
-                    <div class="stat-label">Buyers Trust Followed Brands</div>
+                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Low-Quality Leads
+                    </div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">12X</div>
-                    <div class="stat-label">Video Engagement vs Images</div>
+                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">No Measurable ROI
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p style="font-size: 18px; color: #1a1a1a; font-weight: 600;">If your current advertising isn't
+                        generating revenue, the problem isn't the platform — it's the execution.</p>
+                    <p style="font-size: 16px; color: #666; margin-top: 10px;">At Rankmator, every campaign is built to
+                        justify every rupee you spend.</p>
                 </div>
             </div>
         </div>
@@ -1073,49 +1085,49 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Why Brands Choose Rankmator Over Other Social Media
-                        Agencies
+                    <h2 class="section-title" style="color: #fff;">Why Brands Choose Rankmator as Their Advertising
+                        Partner
                     </h2>
-                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We don't just post content.
-                        We engineer results.</p>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">Professional execution.
+                        Corporate discipline. Sales-focused outcomes.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ Strategy-First Approach</h4>
-                        <p>We don't post random content. We build a calculated roadmap based on your audience, goals,
-                            and competitive landscape.</p>
+                        <h4>✔ Strategic Media Planning</h4>
+                        <p>Every ad campaign begins with market research, audience mapping, and clear objectives. No
+                            guesswork — only strategic execution.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ Content That Stops the Scroll</h4>
-                        <p>Bold creatives, high-converting copy, and thumb-stopping visuals designed to capture
-                            attention and drive action.</p>
+                        <h4>✔ Precision Targeting & Smart Optimization</h4>
+                        <p>We make decisions based on data, not assumptions. Every campaign is continuously optimized
+                            for maximum performance.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ Full-Funnel Execution</h4>
-                        <p>From Awareness → Engagement → Conversion → Retargeting. We manage the entire customer
-                            journey.</p>
+                        <h4>✔ High-Conversion Creatives</h4>
+                        <p>Ad copy, visuals, and messaging crafted to generate action — not just impressions. Every
+                            element is designed to convert.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>✔ Human Creativity + AI Precision</h4>
-                        <p>Maximum quality. Maximum output. Maximum ROI. We combine strategic thinking with data-driven
-                            optimization.</p>
+                        <h4>✔ Multi-Platform Expertise</h4>
+                        <p>Google, Meta, LinkedIn, YouTube, Display, Programmatic — we manage and optimize across all
+                            platforms that matter to your business.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>✔ Clear Reporting</h4>
-                        <p>No fluff. Just performance, leads, and revenue. You'll know exactly what's working and what's
-                            not.</p>
+                        <h4>✔ Transparent Reporting</h4>
+                        <p>You receive performance dashboards, weekly updates, and ROI-driven insights. Always know
+                            where your money is going and what it's delivering.</p>
                     </div>
                 </div>
             </div>
@@ -1127,38 +1139,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">How We Work (Fast, Clear & Effective)</h2>
-                    <p class="section-subtitle" style="color: #ccc;">A proven 4-step system to transform your social
-                        presence</p>
+                    <h2 class="section-title" style="color: #fff;">Our Process — Built for Accuracy and Accountability
+                    </h2>
+                    <p class="section-subtitle" style="color: #ccc;">A proven framework that delivers consistent,
+                        measurable results</p>
                 </div>
             </div>
-            <div class="process-grid">
+            <div class="process-grid" style="grid-template-columns: repeat(5, 1fr);">
 
                 <div class="process-step">
                     <div class="process-number">1</div>
-                    <h4>Brand Audit & Discovery</h4>
-                    <p>Deep dive into your brand, audience, competitors, and current social performance</p>
+                    <h4>Discovery & Audit</h4>
+                    <p>We evaluate your goals, audience, previous campaigns, and competitive landscape</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">2</div>
-                    <h4>Strategy Blueprint</h4>
-                    <p>Custom roadmap with platform selection, content themes, and growth targets</p>
+                    <h4>Strategic Planning</h4>
+                    <p>We develop a comprehensive ad strategy and budget plan aligned with your business objectives</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">3</div>
-                    <h4>Content + Execution</h4>
-                    <p>Create, publish, and manage high-quality content across your social channels</p>
+                    <h4>Campaign Execution</h4>
+                    <p>Our team handles setup, creative development, and multi-platform deployment</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">4</div>
-                    <h4>Tracking, Optimization & Scaling</h4>
-                    <p>Monitor performance, optimize campaigns, and scale what works</p>
+                    <h4>Monitoring & Optimization</h4>
+                    <p>Daily optimization to improve performance, reduce costs, and increase conversions</p>
+                </div>
+
+
+                <div class="process-step">
+                    <div class="process-number">5</div>
+                    <h4>Reporting & Scaling</h4>
+                    <p>Structured reporting with clear KPIs and scale recommendations</p>
                 </div>
             </div>
         </div>
@@ -1171,35 +1191,39 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="startup-usp-box text-center">
-                        <div class="startup-badge">SUCCESS WE DELIVER</div>
-                        <h2>Real Results from Real Campaigns</h2>
-                        <p style="font-size: 18px; color: #666; margin-bottom: 30px;">These aren't projections. They're
-                            actual outcomes from clients who partnered with Rankmator.</p>
+                        <div class="startup-badge">PERFORMANCE HIGHLIGHTS</div>
+                        <h2>Rankmator's Framework Ensures Consistency, Accountability & Measurable Growth</h2>
+                        <p style="font-size: 18px; color: #666; margin-bottom: 30px;">These are real results from real
+                            campaigns. No projections. No promises. Just performance.</p>
 
                         <div class="row" style="margin-top: 40px;">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
+                                <div class="stat-number" style="color: #d0cc37;">4X</div>
+                                <div class="stat-label" style="color: #666;">ROAS across ecommerce</div>
+                            </div>
+                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
+                                <div class="stat-number" style="color: #d0cc37;">60%</div>
+                                <div class="stat-label" style="color: #666;">reduction in CPL</div>
+                            </div>
+                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
                                 <div class="stat-number" style="color: #d0cc37;">3X</div>
-                                <div class="stat-label" style="color: #666;">Engagement within 60 days</div>
+                                <div class="stat-label" style="color: #666;">qualified leads for B2B</div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="stat-number" style="color: #d0cc37;">250%</div>
-                                <div class="stat-label" style="color: #666;">Increase in social leads</div>
+                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
+                                <div class="stat-number" style="color: #d0cc37;">₹10L+</div>
+                                <div class="stat-label" style="color: #666;">monthly ad spend scaled</div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
                                 <div class="stat-number" style="color: #d0cc37;">1M+</div>
-                                <div class="stat-label" style="color: #666;">Viral content reach</div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="stat-number" style="color: #d0cc37;">2-4X</div>
-                                <div class="stat-label" style="color: #666;">ROAS boosted</div>
+                                <div class="stat-label" style="color: #666;">brand impressions</div>
                             </div>
                         </div>
 
-                        <p style="font-style: italic; margin-top: 40px; font-size: 18px; color: #444;">"Your audience is
-                            online right now. If they're not seeing your brand, you're losing money."</p>
+                        <p style="font-style: italic; margin-top: 40px; font-size: 18px; color: #444;">"Strategic
+                            advertising is no longer optional — it's essential for business survival."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book a Free
-                            SMM Strategy Call</a>
+                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book Your Free
+                            Ad Strategy Call</a>
                     </div>
                 </div>
             </div>
@@ -1211,10 +1235,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our Social Media Marketing Services
+                    <h2 class="section-title" style="color: #fff;">Our Advertising Services
                     </h2>
-                    <p class="section-subtitle" style="color: #ccc;">Comprehensive solutions from strategy to scaling
-                    </p>
+                    <p class="section-subtitle" style="color: #ccc;">Full-service advertising solutions across all major
+                        platforms</p>
                 </div>
             </div>
 
@@ -1223,14 +1247,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Social-Media-Strategy.webp');">
-                            <h4>1. Social Media Strategy</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/PPC-Advertising.webp');">
+                            <h4>1. PPC Advertising (Google & Bing Ads)</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Social Media Strategy</h4>
-                            <p>Brand positioning, audience analysis, competitor breakdown. We create a roadmap that
-                                turns your
-                                social channels into revenue engines.</p>
+                            <h4>PPC Advertising (Google & Bing Ads)</h4>
+                            <p>Strategic search advertising campaigns that capture high-intent buyers at the moment
+                                they're
+                                ready to purchase.</p>
                         </div>
                     </div>
                 </div>
@@ -1239,14 +1263,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Content-Creation.webp');">
-                            <h4>2. Content Creation & Design</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/Social-Media-Advertising.webp');">
+                            <h4>2. Social Media Advertising</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Content Creation & Design</h4>
-                            <p>Reels, carousels, videos, and branded graphics that stop the scroll and drive engagement
-                                across
-                                all platforms.</p>
+                            <h4>Social Media Advertising</h4>
+                            <p>Facebook, Instagram, LinkedIn, Twitter ads designed to target, engage, and convert your
+                                ideal
+                                customers.</p>
                         </div>
                     </div>
                 </div>
@@ -1255,14 +1279,13 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Social-Media-Management.webp');">
-                            <h4>3. Social Media Management</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Performance-Marketing-Solutions.webp');">
+                            <h4>3. Performance Marketing Solutions</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Social Media Management</h4>
-                            <p>Publishing, community engagement, DM replies, and growth tactics to build authentic
-                                connections
-                                with your audience.</p>
+                            <h4>Performance Marketing Solutions</h4>
+                            <p>Data-driven campaigns optimized for measurable outcomes: leads, sales, ROAS, and customer
+                                acquisition cost.</p>
                         </div>
                     </div>
                 </div>
@@ -1271,14 +1294,13 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Paid-Social-Advertising.webp');">
-                            <h4>4. Paid Social Advertising</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Creative-Production.webp');">
+                            <h4>4. Creative Production for Ads</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Paid Social Advertising</h4>
-                            <p>Facebook, Instagram, LinkedIn, and YouTube ads optimized for leads and sales, not just
-                                vanity
-                                metrics.</p>
+                            <h4>Creative Production for Ads</h4>
+                            <p>High-converting ad creatives, landing pages, and copy that drive action and maximize your
+                                advertising ROI.</p>
                         </div>
                     </div>
                 </div>
@@ -1287,13 +1309,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Influencer-marketing.webp');">
-                            <h4>5. Influencer & Creator Marketing</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Programmatic-Media-Buying.webp');">
+                            <h4>5. Programmatic & Media Buying</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Influencer & Creator Marketing</h4>
-                            <p>Find, negotiate, and collaborate with creators who match your brand and deliver real ROI.
-                            </p>
+                            <h4>Programmatic & Media Buying</h4>
+                            <p>Automated ad buying across display networks, video platforms, and premium publishers for
+                                maximum
+                                reach efficiency.</p>
                         </div>
                     </div>
                 </div>
@@ -1302,14 +1325,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Analytics-Reporting.webp');">
-                            <h4>6. Analytics, Reporting & Scaling</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Funnel-Optimization.webp');">
+                            <h4>6. Funnel Optimization & Reporting</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Analytics, Reporting & Scaling</h4>
-                            <p>Weekly KPIs, monthly optimization, and growth insights. We show you exactly what's
-                                driving
-                                revenue.</p>
+                            <h4>Funnel Optimization & Reporting</h4>
+                            <p>End-to-end tracking, attribution modeling, and continuous optimization to improve every
+                                stage of
+                                your funnel.</p>
                         </div>
                     </div>
                 </div>
@@ -1322,21 +1345,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Serve With Custom SMM Solutions</h2>
-                    <p class="section-subtitle">Tailored social media strategies for your industry</p>
+                    <h2 class="section-title">Industries We Deliver Results For</h2>
+                    <p class="section-subtitle">Designed for business verticals that require structured advertising</p>
 
                     <div class="industries-grid">
-                        <div class="industry-tag">🩺 Healthcare</div>
-                        <div class="industry-tag">💳 Fintech</div>
-                        <div class="industry-tag">🏠 Real Estate</div>
-                        <div class="industry-tag">🛒 Ecommerce</div>
-                        <div class="industry-tag">🎓 Edtech & Coaching</div>
-                        <div class="industry-tag">💄 Beauty & Fashion</div>
-                        <div class="industry-tag">🍽️ Restaurants</div>
-                        <div class="industry-tag">🏋️ Fitness & Wellness</div>
-                        <div class="industry-tag">🏨 Hospitality</div>
-                        <div class="industry-tag">⭐ Personal Brands & Creators</div>
+                        <div class="industry-tag">Ecommerce</div>
+                        <div class="industry-tag">Real Estate</div>
+                        <div class="industry-tag">Healthcare</div>
+                        <div class="industry-tag">Education & EdTech</div>
+                        <div class="industry-tag">Finance & Fintech</div>
+                        <div class="industry-tag">Beauty & Personal Care</div>
+                        <div class="industry-tag">Hospitality</div>
+                        <div class="industry-tag">Restaurants</div>
+                        <div class="industry-tag">SaaS & Technology</div>
+                        <div class="industry-tag">Corporate & B2B Service Providers</div>
                     </div>
+                    <p style="margin-top: 30px; font-size: 16px; color: #666; font-style: italic;">Each industry
+                        requires a unique advertising approach — we tailor strategies for maximum impact.</p>
                 </div>
             </div>
         </div>
@@ -1352,16 +1377,17 @@
                         <p class="subheadline">Get a personalized look at how our AI experts can <span
                                 class="highlight-text">accelerate your growth.</span></p>
 
-                        <form action="mail.php" method="POST" class="growth-form" >
+                        <form action="mail.php" method="POST" class="growth-form">
                             <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
-                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website" required>
-                            <button type="submit" class="growth-btn">Get My Social Media Marketing Plan</button>
+                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
+                                required>
+                            <button type="submit" class="growth-btn">Get My Performance Marketing Plan</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="Social Media Marketing Team" class="growth-image">
+                        <img src="img/about-us.png" alt="Performance Marketing Team" class="growth-image">
                     </div>
                 </div>
             </div>
@@ -1374,8 +1400,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is Trusted for Social Media Marketing in India</h2>
-                    <p class="section-subtitle">The Social Media Marketing partner you choose when you want innovation
+                    <h2 class="section-title">Why Rankmator Is Trusted for Performance Marketing in India</h2>
+                    <p class="section-subtitle">The Performance Marketing partner you choose when you want innovation
                         and results
                     </p>
 
@@ -1410,50 +1436,64 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Everything you need to know about our Social Media
-                        Marketing services
+                    <p class="section-subtitle" style="color: #ccc;">Business-focused answers to help you make informed
+                        decisions
                     </p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How long before I see results?</span>
+                        <span>What is the ideal advertising budget to start?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            You'll see engagement improvements within weeks; conversions typically within 30-60 days.
-                            Social media is a marathon, not a sprint, but we focus on quick wins while building
-                            long-term growth.
+                            Budgets vary by industry, platform, and goals. We recommend a budget that supports
+                            measurable results. During our strategy call, we'll assess your market and recommend an
+                            appropriate starting budget based on your objectives.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Which platforms should I focus on?</span>
+                        <span>How soon will I see results?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We recommend platforms based on your audience: Instagram, Facebook, LinkedIn, YouTube, or
-                            TikTok. During our strategy session, we analyze where your customers spend time and focus
-                            efforts there.
+                            Early performance improvements appear within 7–15 days as campaigns begin delivering
+                            impressions and clicks. Strong conversions typically develop within 30–60 days as
+                            optimization cycles refine targeting and messaging.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you offer monthly or custom plans?</span>
+                        <span>Do you manage both B2B and B2C advertising?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes - we offer flexible, scalable SMM packages for all business sizes. Whether you need
-                            full-service management or specific campaign support, we customize plans to fit your goals
-                            and budget.
+                            Yes. Our strategies are customized for both markets. B2B campaigns focus on lead quality,
+                            longer sales cycles, and LinkedIn/Google targeting. B2C campaigns prioritize volume,
+                            conversion rate, and social platform performance.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What makes Rankmator different from other ad agencies?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Our focus is on strategy, data accuracy, measurable ROI, and transparent reporting. We don't
+                            rely on vanity metrics or fluff. Every campaign is built with clear KPIs, and you receive
+                            weekly performance updates with actionable insights.
                         </div>
                     </div>
                 </div>
@@ -1467,7 +1507,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title">Our Guarantees to You</h2>
-                    <p class="section-subtitle">We stand behind our Social Media Marketing services</p>
+                    <p class="section-subtitle">We stand behind our Performance Marketing services</p>
                 </div>
             </div>
             <div class="guarantee-grid">
@@ -1502,14 +1542,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Turn Followers Into Paying Customers?</h2>
-                    <p>Your audience is online right now.</p>
-                    <p>If they're not seeing your brand, <strong>you're losing money.</strong></p>
+                    <h2>Ready to Improve Your Lead Quality, Reduce Ad Costs & Increase Revenue?</h2>
+                    <p>Your competitors are advertising. Your customers are taking action.</p>
+                    <p><strong>The question is—are they choosing you or someone else?</strong></p>
 
-                    <p class="cta-highlight">It's time to stop being invisible.<br>
-                        It's time to partner with Rankmator.</p>
+                    <p class="cta-highlight">Strategic advertising is no longer optional —<br>
+                        it's essential for business survival.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book a Free SMM Strategy Call</a>
+                    <a href="contact.php" class="btn btn-final-cta">Book Your Free Ad Strategy Call</a>
                 </div>
             </div>
         </div>
@@ -1521,15 +1561,12 @@
                 <p class="sticky-cta-text">Ready to Transform Your Marketing with AI?</p>
                 <div class="sticky-cta-buttons">
                     <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Social Media Marketing services"
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Performance Marketing services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
     <?php include('footer-link.php'); ?>
 
@@ -1587,8 +1624,6 @@
 </body>
 
 </html>
-
-
 
 
 

@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Website Development Company in India | Rankmator - Custom Web Solutions</title>
+    <title>Best E-commerce Marketing Agency in India | Rankmator - E-commerce Marketing Services</title>
+
+
     <meta name="description"
-        content="Rankmator is the best website development company in India offering custom website design, e-commerce solutions, and web applications. Expert web developers for Startups, Healthcare, Fintech & more.">
+        content="Rankmator is the Best E-commerce Marketing Agency in India offering cutting-edge E-commerce marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
     <meta name="keywords"
-        content="Website development company India, web design agency, custom website development, e-commerce website development, WordPress developers, Shopify experts, web application development">
+        content="E-commerce Marketing agency, E-commerce marketing, best E-commerce Marketing company, E-commerce Marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="website.php" />
+    <link rel="canonical" href="ai-marketing-agency.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -210,7 +212,7 @@
         }
 
         .startup-feature::before {
-            content: '';
+            content: '??';
             margin-right: 15px;
             font-size: 24px;
         }
@@ -223,67 +225,18 @@
             margin-top: 20px;
         }
 
-        /* Flip Card Styles */
         .service-card {
-            background: transparent;
-            padding: 0;
-            box-shadow: none;
-            border: none;
-            perspective: 1000px;
-            overflow: visible;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid transparent;
         }
 
         .service-card::before {
-            display: none;
-        }
-
-        .service-card:hover {
-            transform: none;
-            box-shadow: none;
-            border-color: transparent;
-        }
-
-        .service-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: left;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            display: flex;
-        }
-
-        .service-card:hover .service-card-inner {
-            transform: rotateY(180deg);
-        }
-
-        .service-card-front,
-        .service-card-back {
-            width: 100%;
-            min-height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            border-radius: 20px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-            border: 2px solid transparent;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .service-card-front {
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px 30px;
-            z-index: 2;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .service-card-front::before {
             content: '';
             position: absolute;
             top: 0;
@@ -296,28 +249,14 @@
             transition: transform 0.4s ease;
         }
 
-        .service-card:hover .service-card-front::before {
+        .service-card:hover::before {
             transform: scaleX(1);
         }
 
-        .service-card-back {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: rotateY(180deg);
-            padding: 40px 30px;
-            background: #fff;
-            color: #333;
-            justify-content: center;
-        }
-
-        .service-card-back h4 {
-            color: #1a1a1a;
-            margin-bottom: 10px;
-        }
-
-        .service-card-back p {
-            color: #666;
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(208, 204, 55, 0.2);
+            border-color: #d0cc37;
         }
 
         .service-icon {
@@ -331,6 +270,19 @@
             font-size: 32px;
             margin-bottom: 25px;
             color: #000;
+        }
+
+        .service-card h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.7;
+            margin: 0;
         }
 
 
@@ -385,7 +337,7 @@
         }
 
         .trust-item::before {
-            content: '';
+            content: '✓';
             color: #d0cc37;
             font-size: 24px;
             font-weight: 700;
@@ -398,7 +350,6 @@
             font-size: 16px;
             line-height: 1.6;
         }
-
 
         .final-cta {
             background: #212121;
@@ -491,297 +442,6 @@
         }
 
 
-        .testimonials-section {
-            background: #212121;
-            padding: 30px 0;
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 20px;
-        }
-
-        .testimonial-card {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 35px;
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
-        }
-
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            border-color: #d0cc37;
-            background: rgba(255, 255, 255, 0.08);
-        }
-
-        .testimonial-stars {
-            color: #d0cc37;
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-
-        .testimonial-text {
-            color: #fff;
-            font-size: 16px;
-            line-height: 1.7;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-
-        .testimonial-author {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .testimonial-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #d0cc37;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            font-weight: 700;
-            color: #000;
-        }
-
-        .testimonial-info h5 {
-            color: #fff;
-            font-size: 16px;
-            font-weight: 700;
-            margin: 0 0 5px 0;
-        }
-
-        .testimonial-info p {
-            color: #aaa;
-            font-size: 14px;
-            margin: 0;
-        }
-
-
-        .pricing-section {
-            background: #f9f9f9;
-            padding: 30px 0;
-        }
-
-        .pricing-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 20px;
-        }
-
-        .pricing-card {
-            background: #fff;
-            padding: 40px 30px;
-            border-radius: 20px;
-            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
-            border: 3px solid transparent;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .pricing-card.featured {
-            border-color: #d0cc37;
-            transform: scale(1.05);
-        }
-
-        .pricing-badge {
-            position: absolute;
-            top: -15px;
-            right: 30px;
-            background: #d0cc37;
-            color: #000;
-            padding: 8px 20px;
-            border-radius: 50px;
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        .pricing-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
-        }
-
-        .pricing-card.featured:hover {
-            transform: scale(1.05) translateY(-10px);
-        }
-
-        .pricing-card h3 {
-            font-size: 28px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin-bottom: 10px;
-        }
-
-        .pricing-price {
-            font-size: 42px;
-            font-weight: 900;
-            color: #d0cc37;
-            margin: 20px 0;
-        }
-
-        .pricing-price span {
-            font-size: 18px;
-            color: #666;
-            font-weight: 400;
-        }
-
-        .pricing-features {
-            list-style: none;
-            padding: 0;
-            margin: 30px 0;
-        }
-
-        .pricing-features li {
-            padding: 12px 0;
-            color: #444;
-            font-size: 15px;
-            border-bottom: 1px solid #f0f0f0;
-            display: flex;
-            align-items: center;
-        }
-
-        .pricing-features li::before {
-            content: '';
-            color: #d0cc37;
-            font-weight: 700;
-            margin-right: 10px;
-            font-size: 18px;
-        }
-
-
-        .faq-section {
-            background: #212121;
-            padding: 30px 0;
-        }
-
-        .faq-container {
-            max-width: 900px;
-            margin: 20px auto 0;
-        }
-
-        .faq-item {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            margin-bottom: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .faq-item:hover {
-            border-color: #d0cc37;
-        }
-
-        .faq-question {
-            padding: 25px 30px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #fff;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .faq-question:hover {
-            color: #d0cc37;
-        }
-
-        .faq-icon {
-            font-size: 24px;
-            color: #d0cc37;
-            transition: transform 0.3s ease;
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(45deg);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-
-        .faq-item.active .faq-answer {
-            max-height: 500px;
-        }
-
-        .faq-answer-content {
-            padding: 0 30px 25px;
-            color: #ccc;
-            font-size: 16px;
-            line-height: 1.7;
-        }
-
-
-        .portfolio-section {
-            background: #fff;
-            padding: 30px 0;
-        }
-
-        .portfolio-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-        }
-
-        .portfolio-item {
-            position: relative;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            background: #f5f5f5;
-            aspect-ratio: 16/10;
-        }
-
-        .portfolio-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .portfolio-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .portfolio-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-        }
-
-        .portfolio-info h4 {
-            color: #fff;
-            font-size: 18px;
-            font-weight: 700;
-            margin: 0 0 5px 0;
-        }
-
-        .portfolio-info p {
-            color: #d0cc37;
-            font-size: 14px;
-            margin: 0;
-        }
-
-
         .process-section {
             background: #212121;
             padding: 30px 0;
@@ -841,9 +501,75 @@
         }
 
 
+        .faq-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 50px auto 0;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: #d0cc37;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .faq-question:hover {
+            color: #d0cc37;
+        }
+
+        .faq-icon {
+            font-size: 24px;
+            color: #d0cc37;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 30px 25px;
+            color: #ccc;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+
         .guarantee-section {
             background: #fff;
-            padding: 40px 0;
+            padding: 60px 0;
         }
 
         .guarantee-grid {
@@ -1019,14 +745,6 @@
                 grid-template-columns: 1fr;
             }
 
-            .pricing-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .pricing-card.featured {
-                transform: scale(1);
-            }
-
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 30px;
@@ -1111,18 +829,14 @@
         }
 
         .growth-btn {
-            background-color: #007bff;
-
-            background-color: #2f80ed;
-
             background-color: #d0cc37;
             color: #000;
             padding: 15px 30px;
-            text-wrap: auto;
             border: none;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
             font-size: 16px;
+            text-wrap: auto;
             cursor: pointer;
             transition: all 0.3s ease;
             white-space: nowrap;
@@ -1130,7 +844,6 @@
 
         .growth-btn:hover {
             opacity: 0.9;
-            background-color: #b8b731;
         }
 
         .growth-image-container {
@@ -1155,8 +868,8 @@
             .growth-input,
             .growth-btn {
                 width: 100%;
-                text-wrap: auto;
                 border-radius: 4px;
+                text-wrap: auto;
             }
 
             .growth-input {
@@ -1172,8 +885,64 @@
                 text-align: center;
             }
         }
-    </style>
 
+
+        @media (max-width: 480px) {
+            .seo-hero h1 {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .hero-form {
+                padding: 25px 20px;
+            }
+
+            .why-choose-card,
+            .service-card {
+                padding: 25px 20px;
+            }
+
+            .service-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+            }
+
+            .process-grid,
+            .stats-grid,
+            .trust-list,
+            .guarantee-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .industry-tag {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .btn-brand,
+            .btn-final-cta {
+                padding: 15px 30px;
+                font-size: 14px;
+            }
+
+            .faq-question {
+                font-size: 16px;
+                padding: 20px 20px;
+            }
+
+            .faq-answer-content {
+                padding: 0 20px 20px;
+                font-size: 15px;
+            }
+        }
+    </style>
+    <style>
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
 </head>
@@ -1182,26 +951,27 @@
     <div id="header-include"></div>
 
 
-
     <section class="seo-hero">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>Rankmator - Premium Website Development Agency for Brands That Demand Excellence
+                    <h1>Scale Your Online Store Revenue with Data-Driven Ecommerce Marketing
                     </h1>
-                    <p>Your website is your digital headquarters. If it doesn't impress, you lose business.</p>
-                    <p>At Rankmator, we build high-performance, visually stunning, and conversion-optimized websites
-                        that define your brand and drive growth. From custom code to CMS mastery, we deliver digital
-                        experiences that matter.</p>
+                    <p>Stop relying on guesswork. We combine <strong>high-performance PPC, Social Ads, and Retention
+                            strategies</strong> to turn your traffic into loyal customers and measurable profit.</p>
+                    <p>At Rankmator, we help D2C brands and online retailers move beyond vanity metrics. We focus on
+                        what matters: <strong>Return on Ad Spend (ROAS), Customer Lifetime Value (LTV), and Sustainable
+                            Growth.</strong></p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Get Free Website Consultation</h3>
-                        <form action="mail.php" method="POST" name="seoContactForm" id="seoContactForm" novalidate>
+                        <h3>Get Free AI Strategy</h3>
+                        <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm"
+                            novalidate>
                             <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
                                 required>
                             <input name="email" type="email" class="form-control" placeholder="Your Email *"
@@ -1210,7 +980,8 @@
                                 id="hero-phone" required>
                             <textarea class="form-control" name="message" placeholder="Tell us about your business *"
                                 id="hero-message" required></textarea>
-                            <button type="submit" class="btn btn-brand btn-lg btn-block">Get Your Consultation</button>
+                            <button type="submit" class="btn btn-brand btn-lg btn-block">Book Your FREE
+                                Consultation</button>
                         </form>
                     </div>
                 </div>
@@ -1223,27 +994,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #1a1a1a;">Proven Results That Speak for Themselves</h2>
-                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them.
-                        Here's what we've achieved for businesses like yours.</p>
+                    <h2 class="section-title" style="color: #1a1a1a;">E-commerce Results That Speak for Themselves</h2>
+                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them
+                        with AI precision.</p>
                 </div>
             </div>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Keywords Ranked</div>
+                    <div class="stat-number">8X</div>
+                    <div class="stat-label">Average ROAS</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">200+</div>
-                    <div class="stat-label">Happy Clients</div>
+                    <div class="stat-label">Stores Scaled</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">85%</div>
-                    <div class="stat-label">Avg. Traffic Increase</div>
+                    <div class="stat-number">35%</div>
+                    <div class="stat-label">Conversion Rate Uplift</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">3X</div>
-                    <div class="stat-label">ROI on Average</div>
+                    <div class="stat-number">$10M+</div>
+                    <div class="stat-label">Revenue Generated</div>
                 </div>
             </div>
         </div>
@@ -1254,93 +1025,91 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Why Choose Rankmator for Website Development?</h2>
-                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">A website is not just code;
-                        it's your brand's digital soul. We blend creativity, technology, and psychology to build sites
-                        that engage and convert.</p>
+                    <h2 class="section-title" style="color: #fff;">Why Leading Brands Choose Rankmator
+                    </h2>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We don't just drive traffic;
+                        we build profitable e-commerce businesses.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Performance-First Architecture</h4>
-                        <p>We build lightweight, high-speed websites using modern frameworks that ensure instant load
-                            times and superior user experience.</p>
+                        <h4>Sales-First Approach</h4>
+                        <p>We don't optimize for clicks; we optimize for profit. Every campaign is measured against your
+                            bottom line and net margins.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Scalable Solutions</h4>
-                        <p>Startups grow fast, and so should your website. We design scalable architectures that can
-                            handle millions of users without breaking a sweat.</p>
+                        <h4>Multi-Channel Integration</h4>
+                        <p>Your customers are everywhere. We synchronize Google, Social, and Email to create a seamless,
+                            high-converting buying journey.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Conversion-Centric Design</h4>
-                        <p>A beautiful site is useless if it doesn't sell. We strategically place CTAs and optimize
-                            navigation to turn visitors into paying customers.</p>
+                        <h4>CRO Expertise</h4>
+                        <p>Traffic is useless if it doesn't convert. We audit and improve your store's user experience
+                            to maximize the value of every visitor.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>Design That Converts</h4>
-                        <p>We don't just design pretty websites; we design high-converting user journeys that turn
-                            visitors into loyal customers.</p>
+                        <h4>Retention Focus</h4>
+                        <p>Acquisition is just the start. We build automated retention systems to turn one-time buyers
+                            into lifetime customers.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>Cutting-Edge Tech Stack</h4>
-                        <p>We use the latest technologies like React, Next.js, Node.js, and modern CMS platforms to
-                            ensure your site is fast, secure, and scalable.</p>
+                        <h4>Platform Specialists</h4>
+                        <p>Deep expertise in the Shopify, WooCommerce, and Magento ecosystems, ensuring your tech stack
+                            supports your growth.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
     <section class="process-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our Web Development Process</h2>
-                    <p class="section-subtitle" style="color: #ccc;">A seamless workflow designed to take you from
-                        concept to launch in record time.</p>
+                    <h2 class="section-title" style="color: #fff;">Our E-commerce Marketing Process</h2>
+                    <p class="section-subtitle" style="color: #ccc;">A systematic approach powered by artificial
+                        intelligence</p>
                 </div>
             </div>
             <div class="process-grid">
 
                 <div class="process-step">
                     <div class="process-number">1</div>
-                    <h4>Discovery & Planning</h4>
-                    <p>We analyze your business goals, target audience, and competitors to blueprint the perfect site.
-                    </p>
+                    <h4>AI Audit & Analysis</h4>
+                    <p>Analyze your current marketing performance using AI tools and identify opportunities</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">2</div>
-                    <h4>UI/UX Design</h4>
-                    <p>We create stunning, user-centric designs that align with your brand identity.</p>
+                    <h4>Strategy Development</h4>
+                    <p>Create E-commerce marketing roadmap tailored to your business goals</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">3</div>
-
-                    <h4>Development</h4>
-                    <p>Our devs bring designs to life with clean, bug-free, and high-performance code.</p>
+                    <h4>Implementation</h4>
+                    <p>Deploy AI tools, automation systems, and intelligent campaigns</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">4</div>
-
-                    <h4>Launch & Support</h4>
-                    <p>We deploy your site, ensure everything runs smoothly, and provide ongoing support.</p>
+                    <h4>Optimize & Scale</h4>
+                    <p>Continuously improve with machine learning and predictive analytics</p>
                 </div>
             </div>
         </div>
@@ -1354,22 +1123,23 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="startup-usp-box text-center">
                         <div class="startup-badge">STARTUP SPECIAL</div>
-                        <h2>We Understand Startups - And That's Our Superpower</h2>
-                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Starting a business from zero is
-                            not easy. A small idea -> a business model -> first clients -> market growth... this
-                            journey is
-                            emotional, challenging, and full of uncertainty.</p>
+                        <h2>Future-Proof Your Marketing with AI</h2>
+                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Early adopters of E-commerce
+                            Marketing
+                            gain an unfair advantage. Join the revolution and transform your marketing from guesswork to
+                            precision.</p>
 
                         <div class="discount">20% OFF</div>
-                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all Website Development
-                            packages</p>
+                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all E-commerce Marketing plans
+                            for
+                            startups</p>
 
 
-                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We know the
-                            struggle of building something from scratch-that's why we stand with you."</p>
+                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We help you
+                            harness AI before your competitors do."</p>
 
                         <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
-                            Startup Offer -></a>
+                            Startup Offer ?</a>
                     </div>
                 </div>
             </div>
@@ -1381,106 +1151,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Custom Website Development Services</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Tailored digital solutions for startups and
-                        enterprises.</p>
+                    <h2 class="section-title" style="color: #fff;">Full-Stack E-commerce Marketing Services</h2>
+                    <p class="section-subtitle" style="color: #ccc;">Everything you need to grow your online store</p>
                 </div>
             </div>
 
             <div class="services-grid">
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Custom-Web-Development.webp');">
-                            <h4>1. Custom Website Design</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Custom Website Design</h4>
-                            <p>Unique, hand-crafted designs that reflect your brand identity. No templates, just pure
-                                creativity
-                                tailored to your audience.</p>
-                        </div>
-                    </div>
+                    <h4>1. Google Shopping & Search</h4>
+                    <p>Capture high-intent buyers exactly when they are searching for your products with optimized
+                        Shopping and Search campaigns.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/eCommerce-Website-Development.webp');">
-                            <h4>2. E-Commerce Solutions</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>E-Commerce Solutions</h4>
-                            <p>Robust online stores built on Shopify, WooCommerce, or custom stacks. We ensure smooth
-                                checkout
-                                experiences and inventory management.</p>
-                        </div>
-                    </div>
+                    <h4>2. Social Commerce Ads</h4>
+                    <p>Stop the scroll on Instagram, Facebook, and TikTok with high-converting creative strategies and
+                        precise audience targeting.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Corporate-Website-Design.webp');">
-                            <h4>3. Corporate Websites</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Corporate Websites</h4>
-                            <p>Professional, secure, and scalable websites for enterprises. Establish credibility and
-                                communicate your value proposition effectively.</p>
-                        </div>
-                    </div>
+                    <h4>3. Email & SMS Automation</h4>
+                    <p>Recover abandoned carts and drive repeat purchases with personalized flows (Welcome,
+                        Post-Purchase, Win-back) that run on autopilot.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Web-App-UIUX-Design.webp');">
-                            <h4>4. Web Application Development</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Web Application Development</h4>
-                            <p>Complex web apps (SAAS, Portals, Dashboards) built with React, Angular, or Vue.js for
-                                seamless
-                                user interaction and performance.</p>
-                        </div>
-                    </div>
+                    <h4>4. Conversion Rate Optimization (CRO)</h4>
+                    <p>We analyze user behavior to remove friction points, creating a smoother path to purchase and
+                        instantly boosting your revenue.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Website.webp');">
-                            <h4>5. CMS Development</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>CMS Development</h4>
-                            <p>Easy-to-manage websites using WordPress, Webflow, or custom CMS solutions, giving you
-                                full
-                                control over your content.</p>
-                        </div>
-                    </div>
+                    <h4>5. Marketplace Management</h4>
+                    <p>Expand your reach by optimizing your presence on Amazon, Flipkart, and other marketplaces to
+                        capture additional market share.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Web-Maintenance.webp');">
-                            <h4>6. Maintenance & Support</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Maintenance & Support</h4>
-                            <p>We don't just build and leave. We provide ongoing support, security updates, and
-                                performance
-                                optimization to keep your site running smooth.</p>
-                        </div>
-                    </div>
+                    <h4>6. Advanced Analytics</h4>
+                    <p>Move beyond basic platform reporting. We set up comprehensive tracking to show you the true LTV
+                        and profitability of your channels.</p>
                 </div>
             </div>
         </div>
@@ -1491,27 +1207,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Empower with Digital Solutions</h2>
-                    <p class="section-subtitle">Rankmator builds custom websites across 15+ industries tailored to
-                        specific business needs.</p>
+                    <h2 class="section-title">Industries We Transform with E-commerce Marketing</h2>
+                    <p class="section-subtitle">E-commerce marketing solutions across diverse industries</p>
 
                     <div class="industries-grid">
-                        <div class="industry-tag">Healthcare Website Design</div>
-                        <div class="industry-tag">Fintech Portals</div>
-                        <div class="industry-tag">Dental Websites</div>
-                        <div class="industry-tag">Dermatology Clinics</div>
-                        <div class="industry-tag">Nutritionist Sites</div>
-                        <div class="industry-tag">Real Estate Portals</div>
-                        <div class="industry-tag">Luxury Villas</div>
-                        <div class="industry-tag">Home Decor E-commerce</div>
-                        <div class="industry-tag">Resort Websites</div>
-                        <div class="industry-tag">Yacht Rental Booking</div>
-                        <div class="industry-tag">Education Platforms</div>
-                        <div class="industry-tag">Service Businesses</div>
+                        <div class="industry-tag">E-commerce & Retail</div>
+                        <div class="industry-tag">SaaS & Technology</div>
+                        <div class="industry-tag">Healthcare & Wellness</div>
+                        <div class="industry-tag">Finance & Fintech</div>
+                        <div class="industry-tag">Real Estate</div>
+                        <div class="industry-tag">Education & E-learning</div>
+                        <div class="industry-tag">B2B Services</div>
                         <div class="industry-tag">Manufacturing</div>
-                        <div class="industry-tag">Fitness & Gyms</div>
-                        <div class="industry-tag">Yoga Studios</div>
-                        <div class="industry-tag">Law Firm Websites</div>
+                        <div class="industry-tag">Hospitality & Tourism</div>
+                        <div class="industry-tag">Professional Services</div>
                     </div>
                 </div>
             </div>
@@ -1524,21 +1233,21 @@
             <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
                 <div class="col-md-7">
                     <div class="growth-cta-content">
-                        <h2>Ready to Build a Website That Drives Business?</h2>
-                        <p class="subheadline">Get a personalized consultation on how our dev experts can <span
-                                class="highlight-text">transform your digital presence.</span></p>
+                        <h2>Ready to Transform Your Marketing with AI?</h2>
+                        <p class="subheadline">Get a personalized look at how our AI experts can <span
+                                class="highlight-text">accelerate your growth.</span></p>
 
                         <form action="mail.php" method="POST" class="growth-form">
                             <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
-                            <input name="website" type="text" class="growth-input" style="border-radius: 0;"
-                                placeholder="Enter your current website (if any)" required>
-                            <button type="submit" class="growth-btn">Get My Free Consultation</button>
+                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
+                                required>
+                            <button type="submit" class="growth-btn">Get My E-commerce Marketing Plan</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="Team" class="growth-image">
+                        <img src="img/about-us.png" alt="E-commerce Marketing Team" class="growth-image">
                     </div>
                 </div>
             </div>
@@ -1551,29 +1260,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is The Top Choice for Web Development</h2>
-                    <p class="section-subtitle">Rankmator is the development partner you choose when you want
-                        performance,
-                        scalability, and award-winning design.</p>
+                    <h2 class="section-title">Why Rankmator Is Trusted for E-commerce Marketing in India</h2>
+                    <p class="section-subtitle">The E-commerce Marketing partner you choose when you want innovation and
+                        results
+                    </p>
 
                     <div class="trust-list">
                         <div class="trust-item">
-                            <span>Focus on user experience, not just code</span>
+                            <span>Cutting-edge AI technology stack</span>
                         </div>
                         <div class="trust-item">
-                            <span>Websites built for conversion & sales</span>
+                            <span>Expert team with AI & marketing expertise</span>
                         </div>
                         <div class="trust-item">
-                            <span>Transparent project timelines and milestones</span>
+                            <span>Transparent reporting & analytics</span>
                         </div>
                         <div class="trust-item">
-                            <span>Mobile-first & responsive architecture</span>
+                            <span>Ethical AI practices & data privacy</span>
                         </div>
                         <div class="trust-item">
-                            <span>Clean, secure, and maintainable code</span>
+                            <span>Proven ROI across industries</span>
                         </div>
                         <div class="trust-item">
-                            <span>Specialized in E-commerce & Corporate Webs</span>
+                            <span>Continuous innovation & learning</span>
                         </div>
                     </div>
                 </div>
@@ -1587,80 +1296,76 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers. Here's everything
-                        you need to know about our development services.</p>
+                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers about E-commerce
+                        Marketing
+                    </p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How long does it take to build a website?</span>
+                        <span>Which e-commerce platforms do you support?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            A standard corporate website takes 2-4 weeks, while complex e-commerce or custom web apps
-                            may take 6-10 weeks. We provide a detailed timeline during our initial consultation.
+                            We specialize in Shopify, WooCommerce, Magento, and BigCommerce. Our team includes
+                            developers and marketers who know these ecosystems inside out.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Will my website be mobile-friendly?</span>
+                        <span>How do you measure campaign success?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Absolutely! We follow a "Mobile-First" approach. Your website will look and function
-                            perfectly on smartphones, tablets, and desktops alike.
+                            We look beyond vanity metrics like clicks. Our primary KPIs are Return on Ad Spend (ROAS),
+                            Marketing Efficiency Ratio (MER), and Net Profit.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you provide website maintenance services?</span>
+                        <span>Do you help with ad creatives?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes, we offer ongoing maintenance packages. We handle security updates, backups, content
-                            updates, and server monitoring so you can focus on your business.
+                            Yes! Creative is the biggest lever in performance marketing. We provide strategy, design,
+                            and video editing to ensure your ads stand it.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Will I be able to update specific content myself?</span>
+                        <span>What budgets do you work with?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes! We build websites on user-friendly CMS platforms (like WordPress, Webflow, or custom
-                            admin panels) that allow you to easily update text and images.
+                            We work with brands at various stages, but typically we require a minimum ad spend to create
+                            statistically significant results. Book a call to discuss if we're a good fit.
                         </div>
                     </div>
                 </div>
-
-
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What industries do you work with?</span>
+                        <span>How long does it take to see results?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We work with 15+ industries including healthcare, fintech, real estate, e-commerce,
-                            coaching, dental, legal, and more. Each strategy is customized to your specific industry and
-                            target audience.
+                            With paid ads (Google/Social), you can see traffic immediately and conversions within days.
+                            Optimization for peak ROAS typically takes 4-8 weeks of data collection and refinement.
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -1671,29 +1376,29 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title">Our Guarantees to You</h2>
-                    <p class="section-subtitle">We stand behind our work with these promises</p>
+                    <p class="section-subtitle">We stand behind our E-commerce Marketing services</p>
                 </div>
             </div>
             <div class="guarantee-grid">
                 <div class="guarantee-item">
-                    <div class="guarantee-icon"></div>
-                    <h4>Bug-Free Code Guarantee</h4>
-                    <p>Rigorous testing to ensure a flawless user experience</p>
+
+                    <h4>Data Security</h4>
+                    <p>Your data is protected with enterprise-grade security and privacy measures</p>
                 </div>
                 <div class="guarantee-item">
-                    <div class="guarantee-icon"></div>
-                    <h4>Transparent Process</h4>
-                    <p>Know exactly what we're building with regular updates</p>
+
+                    <h4>Transparent Reporting</h4>
+                    <p>You'll always know your true CPA, ROAS, and Profit margins.</p>
                 </div>
                 <div class="guarantee-item">
-                    <div class="guarantee-icon"></div>
-                    <h4>On-Time Delivery</h4>
-                    <p>We respect deadlines. If we delay, we compensate.</p>
+
+                    <h4>ROI Focused</h4>
+                    <p>We prioritize revenue impact over vanity metrics</p>
                 </div>
                 <div class="guarantee-item">
-                    <div class="guarantee-icon"></div>
-                    <h4>Dedicated Support</h4>
-                    <p>Your success is our success - we're with you all the way</p>
+
+                    <h4>Partnership Approach</h4>
+                    <p>We work as an extension of your team, dedicated to your success</p>
                 </div>
             </div>
         </div>
@@ -1706,31 +1411,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Build Your Dream Website?</h2>
-                    <p>Your competitors are innovating digitally.</p>
-                    <p>Your customers expect a seamless online experience.</p>
-                    <p>Don't let an outdated website hold you back.</p>
+                    <h2>Ready to Revolutionize Your Marketing with AI?</h2>
+                    <p>Your competitors are leveraging AI.</p>
+                    <p>Your customers expect personalized experiences.</p>
+                    <p>And every day you wait - you fall further behind.</p>
 
-                    <p class="cta-highlight">It's time to elevate your brand presence.<br>
+                    <p class="cta-highlight">It's time to embrace the future of marketing.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                    <a href="contact.php" class="btn btn-final-cta">Book Your Strategy Call Today</a>
                 </div>
             </div>
         </div>
     </section>
+
     <div class="sticky-cta" id="stickyCTA">
         <div class="container">
             <div class="sticky-cta-content">
-                <p class="sticky-cta-text">Ready for a New Website? Let's build it today!</p>
+                <p class="sticky-cta-text">Ready to Transform Your Marketing with AI?</p>
                 <div class="sticky-cta-buttons">
                     <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Website Development services"
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in E-commerce Marketing services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
         </div>
     </div>
+
 
     <?php include('footer-link.php'); ?>
 

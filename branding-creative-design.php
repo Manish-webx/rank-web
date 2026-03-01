@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="Branding & Creative Design agency, Creative Branding marketing, best Branding & Creative Design company, Branding & Creative Design services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">   
-    <link rel="canonical" href="ai-marketing.php" />
+    <link rel="canonical" href="ai-marketing-agency.php" />
 
 
     <?php include('header-link.php'); ?>

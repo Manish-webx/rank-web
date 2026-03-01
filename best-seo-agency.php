@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best E-commerce Marketing Agency in India | Rankmator - E-commerce Marketing Services</title>
+    <title>Best SEO Agency in India | Rankmator - SEO Services for Startups & Businesses</title>
 
 
     <meta name="description"
-        content="Rankmator is the Best E-commerce Marketing Agency in India offering cutting-edge E-commerce marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
+        content="Rankmator is the best SEO agency in India offering professional SEO services for startups, service-based businesses, and growing brands. Get 20% off for startups. Expert SEO solutions for Healthcare, Fintech, Real Estate & more.">
     <meta name="keywords"
-        content="E-commerce Marketing agency, E-commerce marketing, best E-commerce Marketing company, E-commerce Marketing services India, marketing automation, AI content creation, predictive analytics">
+        content="SEO agency in India, best SEO company, professional SEO services, top SEO experts India, SEO for startups, affordable SEO services, healthcare SEO, fintech SEO, dental SEO agency">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing.php" />
+    <link rel="canonical" href="best-seo-agency.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -120,6 +120,16 @@
         }
 
 
+        .seo-section .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .seo-section .row>[class*='col-'] {
+            display: flex;
+            flex-direction: column;
+        }
+
         .why-choose-card {
             background: #fff;
             padding: 40px 30px;
@@ -151,6 +161,7 @@
             color: #666;
             line-height: 1.7;
             margin: 0;
+            flex-grow: 1;
         }
 
 
@@ -212,7 +223,7 @@
         }
 
         .startup-feature::before {
-            content: '??';
+            content: '';
             margin-right: 15px;
             font-size: 24px;
         }
@@ -275,7 +286,7 @@
         .service-card h4 {
             font-size: 22px;
             font-weight: 700;
-            color: #1a1a1a;
+            color: #fff;
             margin-bottom: 15px;
         }
 
@@ -337,7 +348,7 @@
         }
 
         .trust-item::before {
-            content: '✓';
+            content: '';
             color: #d0cc37;
             font-size: 24px;
             font-weight: 700;
@@ -351,6 +362,7 @@
             line-height: 1.6;
         }
 
+
         .final-cta {
             background: #212121;
             padding: 30px 0;
@@ -358,8 +370,6 @@
             text-align: center;
             position: relative;
         }
-
-
 
         .final-cta h2 {
             font-size: 42px;
@@ -442,6 +452,297 @@
         }
 
 
+        .testimonials-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 35px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            border-color: #d0cc37;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .testimonial-stars {
+            color: #d0cc37;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #d0cc37;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .testimonial-info h5 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .testimonial-info p {
+            color: #aaa;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+        .pricing-section {
+            background: #f9f9f9;
+            padding: 30px 0;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .pricing-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: #d0cc37;
+            transform: scale(1.05);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -15px;
+            right: 30px;
+            background: #d0cc37;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+
+        .pricing-card h3 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .pricing-price {
+            font-size: 42px;
+            font-weight: 900;
+            color: #d0cc37;
+            margin: 20px 0;
+        }
+
+        .pricing-price span {
+            font-size: 18px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            color: #444;
+            font-size: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+
+        .pricing-features li::before {
+            content: '';
+            color: #d0cc37;
+            font-weight: 700;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+
+
+        .faq-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 20px auto 0;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: #d0cc37;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .faq-question:hover {
+            color: #d0cc37;
+        }
+
+        .faq-icon {
+            font-size: 24px;
+            color: #d0cc37;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 30px 25px;
+            color: #ccc;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+
+        .portfolio-section {
+            background: #fff;
+            padding: 30px 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            background: #f5f5f5;
+            aspect-ratio: 16/10;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .portfolio-info h4 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .portfolio-info p {
+            color: #d0cc37;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
         .process-section {
             background: #212121;
             padding: 30px 0;
@@ -501,75 +802,9 @@
         }
 
 
-        .faq-section {
-            background: #212121;
-            padding: 30px 0;
-        }
-
-        .faq-container {
-            max-width: 900px;
-            margin: 50px auto 0;
-        }
-
-        .faq-item {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            margin-bottom: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .faq-item:hover {
-            border-color: #d0cc37;
-        }
-
-        .faq-question {
-            padding: 25px 30px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #fff;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .faq-question:hover {
-            color: #d0cc37;
-        }
-
-        .faq-icon {
-            font-size: 24px;
-            color: #d0cc37;
-            transition: transform 0.3s ease;
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(45deg);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
-        }
-
-        .faq-item.active .faq-answer {
-            max-height: 500px;
-        }
-
-        .faq-answer-content {
-            padding: 0 30px 25px;
-            color: #ccc;
-            font-size: 16px;
-            line-height: 1.7;
-        }
-
-
         .guarantee-section {
             background: #fff;
-            padding: 60px 0;
+            padding: 40px 0;
         }
 
         .guarantee-grid {
@@ -745,6 +980,14 @@
                 grid-template-columns: 1fr;
             }
 
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 30px;
@@ -766,6 +1009,61 @@
             .btn-sticky {
                 padding: 10px 20px;
                 font-size: 14px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .seo-hero h1 {
+                font-size: 24px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .hero-form {
+                padding: 25px 20px;
+            }
+
+            .why-choose-card,
+            .service-card {
+                padding: 20px 15px;
+            }
+
+            .service-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+            }
+
+            .process-grid,
+            .stats-grid,
+            .trust-list,
+            .guarantee-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .industry-tag {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .btn-brand,
+            .btn-final-cta {
+                padding: 15px 30px;
+                font-size: 14px;
+            }
+
+            .faq-question {
+                font-size: 16px;
+                padding: 20px 20px;
+            }
+
+            .faq-answer-content {
+                padding: 0 20px 20px;
+                font-size: 15px;
             }
         }
 
@@ -829,14 +1127,18 @@
         }
 
         .growth-btn {
+            background-color: #007bff;
+
+            background-color: #2f80ed;
+
             background-color: #d0cc37;
             color: #000;
             padding: 15px 30px;
             border: none;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
-            font-size: 16px;
             text-wrap: auto;
+            font-size: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
             white-space: nowrap;
@@ -844,6 +1146,7 @@
 
         .growth-btn:hover {
             opacity: 0.9;
+            background-color: #b8b731;
         }
 
         .growth-image-container {
@@ -886,63 +1189,104 @@
             }
         }
 
+        /* Flip Card Styles */
+        .service-card {
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            border: none;
+            perspective: 1000px;
+            overflow: visible;
+        }
 
-        @media (max-width: 480px) {
-            .seo-hero h1 {
-                font-size: 24px;
-            }
+        .service-card::before {
+            display: none;
+        }
 
-            .section-title {
-                font-size: 24px;
-            }
+        .service-card:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: transparent;
+        }
 
-            .hero-form {
-                padding: 25px 20px;
-            }
+        .service-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            display: flex;
+        }
 
-            .why-choose-card,
-            .service-card {
-                padding: 25px 20px;
-            }
+        .service-card:hover .service-card-inner {
+            transform: rotateY(180deg);
+        }
 
-            .service-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 24px;
-            }
+        .service-card-front,
+        .service-card-back {
+            width: 100%;
+            min-height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+        }
 
-            .process-grid,
-            .stats-grid,
-            .trust-list,
-            .guarantee-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
+        .service-card-front {
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 30px;
+            z-index: 2;
+            position: relative;
+            overflow: hidden;
+        }
 
-            .industry-tag {
-                padding: 12px 20px;
-                font-size: 14px;
-            }
+        .service-card-front::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: #d0cc37;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
 
-            .btn-brand,
-            .btn-final-cta {
-                padding: 15px 30px;
-                font-size: 14px;
-            }
+        .service-card:hover .service-card-front::before {
+            transform: scaleX(1);
+        }
 
-            .faq-question {
-                font-size: 16px;
-                padding: 20px 20px;
-            }
+        .service-card-back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateY(180deg);
+            padding: 40px 30px;
+            background: #fff;
+            color: #333;
+            justify-content: center;
+        }
 
-            .faq-answer-content {
-                padding: 0 20px 20px;
-                font-size: 15px;
-            }
+        .service-card-back h4 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .service-card-back p {
+            color: #666;
         }
     </style>
-    <style>
-    </style>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
 </head>
@@ -951,27 +1295,27 @@
     <div id="header-include"></div>
 
 
+
     <section class="seo-hero">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>Scale Your Online Store Revenue with Data-Driven Ecommerce Marketing
+                    <h1>Rankmator - Best SEO Agency in India for Startups, Service-Based Businesses & Growing Brands
                     </h1>
-                    <p>Stop relying on guesswork. We combine <strong>high-performance PPC, Social Ads, and Retention
-                            strategies</strong> to turn your traffic into loyal customers and measurable profit.</p>
-                    <p>At Rankmator, we help D2C brands and online retailers move beyond vanity metrics. We focus on
-                        what matters: <strong>Return on Ad Spend (ROAS), Customer Lifetime Value (LTV), and Sustainable
-                            Growth.</strong></p>
+                    <p>If you are searching for the <strong>Best SEO Agency in India</strong> that truly understands
+                        your business, then you're in the right place.</p>
+                    <p>At Rankmator, we help startups, service-based businesses, and ambitious brands unlock predictable
+                        organic growth with result-driven SEO strategies that increase visibility, traffic, leads, and
+                        long-term business authority.</p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Get Free AI Strategy</h3>
-                        <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm"
-                            novalidate>
+                        <h3>Get Free SEO Strategy</h3>
+                        <form action="mail.php" method="POST" name="seoContactForm" id="seoContactForm" novalidate>
                             <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
                                 required>
                             <input name="email" type="email" class="form-control" placeholder="Your Email *"
@@ -994,27 +1338,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #1a1a1a;">E-commerce Results That Speak for Themselves</h2>
-                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them
-                        with AI precision.</p>
+                    <h2 class="section-title" style="color: #1a1a1a;">Proven Results That Speak for Themselves</h2>
+                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them.
+                        Here's what we've achieved for businesses like yours.</p>
                 </div>
             </div>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-number">8X</div>
-                    <div class="stat-label">Average ROAS</div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Keywords Ranked</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">200+</div>
-                    <div class="stat-label">Stores Scaled</div>
+                    <div class="stat-label">Happy Clients</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">35%</div>
-                    <div class="stat-label">Conversion Rate Uplift</div>
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Avg. Traffic Increase</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">$10M+</div>
-                    <div class="stat-label">Revenue Generated</div>
+                    <div class="stat-number">3X</div>
+                    <div class="stat-label">ROI on Average</div>
                 </div>
             </div>
         </div>
@@ -1025,49 +1369,111 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Why Leading Brands Choose Rankmator
-                    </h2>
-                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We don't just drive traffic;
-                        we build profitable e-commerce businesses.</p>
+                    <h2 class="section-title" style="color: #fff;">Why Choose Rankmator as Your SEO Agency?</h2>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">SEO is not just about
+                        keywords. It's about
+                        understanding the psychology
+                        of search, user journey, and how your business solves problems better than your competitors.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Sales-First Approach</h4>
-                        <p>We don't optimize for clicks; we optimize for profit. Every campaign is measured against your
-                            bottom line and net margins.</p>
+                        <h4>Result-Driven Approach</h4>
+                        <p>Rankmator combines advanced analytics, deep keyword research, cutting-edge SEO frameworks,
+                            and optimized content strategies to boost your organic presence.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Multi-Channel Integration</h4>
-                        <p>Your customers are everywhere. We synchronize Google, Social, and Email to create a seamless,
-                            high-converting buying journey.</p>
+                        <h4>Rank Faster</h4>
+                        <p>Our mission is simple: Rank your business faster while maintaining a natural, human tone in
+                            every piece of content we produce.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>CRO Expertise</h4>
-                        <p>Traffic is useless if it doesn't convert. We audit and improve your store's user experience
-                            to maximize the value of every visitor.</p>
+                        <h4>Improve Conversions</h4>
+                        <p>We don't just drive traffic-we focus on converting visitors into paying customers with
+                            strategic content and user experience optimization.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Retention Focus</h4>
-                        <p>Acquisition is just the start. We build automated retention systems to turn one-time buyers
-                            into lifetime customers.</p>
+                        <h4>Build Long-Term Authority</h4>
+                        <p>We help you establish your brand as a trusted authority in your industry through consistent,
+                            high-quality SEO practices.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Platform Specialists</h4>
-                        <p>Deep expertise in the Shopify, WooCommerce, and Magento ecosystems, ensuring your tech stack
-                            supports your growth.</p>
+                        <h4>Expert Team</h4>
+                        <p>Our strategies are inspired by industry leaders like Brian Dean, Matt Diggity, Aleyda Solis,
+                            Neil Patel, and SEMrush Academy.</p>
                     </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>AI-Powered Tracking & Performance Monitoring</h4>
+                        <p>AI-powered tracking with data-driven insights to monitor performance, optimize strategies,
+                            and ensure continuous growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title">Real Results We've Delivered</h2>
+                    <p class="section-subtitle">See the tangible impact our SEO strategies have created for businesses
+                        across India</p>
+                </div>
+            </div>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item">
+                    <img src="img/Traffic-growth1.webp" alt="Traffic Growth Results" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>400% Traffic Increase</h4>
+                            <p>Healthcare Clinic - 6 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item">
+                    <img src="img/Local-seo.webp" alt="Keyword Rankings" class="portfolio-image">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>50+ Keywords on Page 1</h4>
+                            <p>Real Estate Business - 4 Months</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item">
+                    <img src="img/Traffic-growth2.webp">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h4>10X Local Lead Generation</h4>
+                            <p>Dental Clinic - 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-12 text-center">
+                    <p style="font-size: 16px; color: #666;">These are just a few examples. Your business could be next!
+                    </p>
+                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free SEO Strategy -></a>
                 </div>
             </div>
         </div>
@@ -1078,38 +1484,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our E-commerce Marketing Process</h2>
-                    <p class="section-subtitle" style="color: #ccc;">A systematic approach powered by artificial
-                        intelligence</p>
+                    <h2 class="section-title" style="color: #fff;">Our Proven SEO Process</h2>
+                    <p class="section-subtitle" style="color: #ccc;">A systematic approach that delivers consistent,
+                        measurable results</p>
                 </div>
             </div>
             <div class="process-grid">
 
                 <div class="process-step">
                     <div class="process-number">1</div>
-                    <h4>AI Audit & Analysis</h4>
-                    <p>Analyze your current marketing performance using AI tools and identify opportunities</p>
+                    <h4>Research & Audit</h4>
+                    <p>Deep dive into your business, competitors, and current SEO status</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">2</div>
                     <h4>Strategy Development</h4>
-                    <p>Create E-commerce marketing roadmap tailored to your business goals</p>
+                    <p>Create customized SEO roadmap tailored to your goals and industry</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">3</div>
+
                     <h4>Implementation</h4>
-                    <p>Deploy AI tools, automation systems, and intelligent campaigns</p>
+                    <p>Execute on-page, off-page, technical SEO with precision</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">4</div>
-                    <h4>Optimize & Scale</h4>
-                    <p>Continuously improve with machine learning and predictive analytics</p>
+
+                    <h4>Monitor & Optimize</h4>
+                    <p>Track rankings, analyze data, and continuously improve performance</p>
                 </div>
             </div>
         </div>
@@ -1123,23 +1531,21 @@
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="startup-usp-box text-center">
                         <div class="startup-badge">STARTUP SPECIAL</div>
-                        <h2>Future-Proof Your Marketing with AI</h2>
-                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Early adopters of E-commerce
-                            Marketing
-                            gain an unfair advantage. Join the revolution and transform your marketing from guesswork to
-                            precision.</p>
+                        <h2>We Understand Startups - And That's Our Superpower</h2>
+                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Starting a business from zero is
+                            not easy. A small idea -> a business model -> first clients -> market growth... this
+                            journey is
+                            emotional, challenging, and full of uncertainty.</p>
 
                         <div class="discount">20% OFF</div>
-                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all E-commerce Marketing plans
-                            for
-                            startups</p>
+                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all SEO plans for startups</p>
 
 
-                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We help you
-                            harness AI before your competitors do."</p>
+                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We know the
+                            struggle of building something from scratch-that's why we stand with you."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
-                            Startup Offer ?</a>
+                        <a href="#contact-section" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                            Startup Offer -></a>
                     </div>
                 </div>
             </div>
@@ -1151,52 +1557,112 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Full-Stack E-commerce Marketing Services</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Everything you need to grow your online store</p>
+                    <h2 class="section-title" style="color: #fff;">Our SEO Services - Designed for High-Growth
+                        Businesses</h2>
+                    <p class="section-subtitle" style="color: #ccc;">We follow a data-driven and ROI-focused SEO
+                        approach inspired by
+                        industry leaders.</p>
                 </div>
             </div>
 
             <div class="services-grid">
 
                 <div class="service-card">
-                    <h4>1. Google Shopping & Search</h4>
-                    <p>Capture high-intent buyers exactly when they are searching for your products with optimized
-                        Shopping and Search campaigns.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Technical-SEO.webp');">
+                            <h4>1. Technical SEO Optimization</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Technical SEO Optimization</h4>
+                            <p>A strong website architecture ensures that Google can crawl, index, and rank your content
+                                effortlessly. We fix technical issues, improve site speed, mobile-friendliness, and core
+                                web
+                                vitals.</p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="service-card">
-                    <h4>2. Social Commerce Ads</h4>
-                    <p>Stop the scroll on Instagram, Facebook, and TikTok with high-converting creative strategies and
-                        precise audience targeting.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Keyword-Research.webp');">
+                            <h4>2. Keyword Research & Competitor Analysis</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Keyword Research & Strategy</h4>
+                            <p>Using advanced tools like Ahrefs, SEMrush, and Google Keyword Planner, we build an
+                                optimized
+                                keyword map that includes primary keywords, LSI keywords, long tail, and competitor gap
+                                keywords.</p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="service-card">
-                    <h4>3. Email & SMS Automation</h4>
-                    <p>Recover abandoned carts and drive repeat purchases with personalized flows (Welcome,
-                        Post-Purchase, Win-back) that run on autopilot.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/On-Page-SEO.webp');">
+                            <h4>3. On-Page SEO</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>On-Page SEO</h4>
+                            <p>We optimize every ranking factor Google looks at: meta tags, headings, content, internal
+                                links,
+                                and image alt tags. Our goal is to create pages that Google trusts and users love.</p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="service-card">
-                    <h4>4. Conversion Rate Optimization (CRO)</h4>
-                    <p>We analyze user behavior to remove friction points, creating a smoother path to purchase and
-                        instantly boosting your revenue.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Content-Strategy.webp');">
+                            <h4>4. Content Strategy & SEO Copywriting</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Content Strategy & SEO Copywriting</h4>
+                            <p>Content that ranks AND converts. We produce SEO-optimized service pages, blog posts, and
+                                landing
+                                pages designed to attract your ideal customers and drive actionable results.</p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="service-card">
-                    <h4>5. Marketplace Management</h4>
-                    <p>Expand your reach by optimizing your presence on Amazon, Flipkart, and other marketplaces to
-                        capture additional market share.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Off-Page-SEO.webp');">
+                            <h4>5. Off-Page SEO & Authority Building</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Off-Page SEO & Authority Building</h4>
+                            <p>We focus on quality, not quantity. Build high-authority backlinks from trusted websites.
+                                Better
+                                trust, higher rankings, and long-lasting organic growth.</p>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="service-card">
-                    <h4>6. Advanced Analytics</h4>
-                    <p>Move beyond basic platform reporting. We set up comprehensive tracking to show you the true LTV
-                        and profitability of your channels.</p>
+                    <div class="service-card-inner">
+                        <div class="service-card-front"
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Local-SEO-1.webp');">
+                            <h4>6. Local SEO for Indian Businesses</h4>
+                        </div>
+                        <div class="service-card-back">
+                            <h4>Local SEO for Indian Businesses</h4>
+                            <p>Perfect for service-based businesses, gyms, dental clinics, lawyers, and more. We
+                                optimize your
+                                Google My Business, local citations, and location-based keywords to dominate local
+                                search.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1207,20 +1673,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Transform with E-commerce Marketing</h2>
-                    <p class="section-subtitle">E-commerce marketing solutions across diverse industries</p>
+                    <h2 class="section-title">Industries We Serve with Targeted SEO Solutions</h2>
+                    <p class="section-subtitle">Rankmator provides SEO services across 15+ industries with customized,
+                        high-ROI strategies.</p>
 
                     <div class="industries-grid">
-                        <div class="industry-tag">E-commerce & Retail</div>
-                        <div class="industry-tag">SaaS & Technology</div>
-                        <div class="industry-tag">Healthcare & Wellness</div>
-                        <div class="industry-tag">Finance & Fintech</div>
-                        <div class="industry-tag">Real Estate</div>
-                        <div class="industry-tag">Education & E-learning</div>
-                        <div class="industry-tag">B2B Services</div>
-                        <div class="industry-tag">Manufacturing</div>
-                        <div class="industry-tag">Hospitality & Tourism</div>
-                        <div class="industry-tag">Professional Services</div>
+                        <div class="industry-tag">Healthcare SEO Agency</div>
+                        <div class="industry-tag">Fintech SEO</div>
+                        <div class="industry-tag">Dental SEO Agency</div>
+                        <div class="industry-tag">Dermatologists SEO</div>
+                        <div class="industry-tag">Nutritionists SEO</div>
+                        <div class="industry-tag">Property Developers SEO</div>
+                        <div class="industry-tag">Luxury Villas SEO</div>
+                        <div class="industry-tag">Home Decor SEO</div>
+                        <div class="industry-tag">Resorts SEO</div>
+                        <div class="industry-tag">Dubai Yacht Rentals SEO</div>
+                        <div class="industry-tag">Coaching Institutes SEO</div>
+                        <div class="industry-tag">Pest Control SEO</div>
+                        <div class="industry-tag">Plumbing SEO</div>
+                        <div class="industry-tag">Gyms SEO</div>
+                        <div class="industry-tag">Yoga Studios SEO</div>
+                        <div class="industry-tag">Lawyers SEO</div>
                     </div>
                 </div>
             </div>
@@ -1233,21 +1706,21 @@
             <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
                 <div class="col-md-7">
                     <div class="growth-cta-content">
-                        <h2>Ready to Transform Your Marketing with AI?</h2>
-                        <p class="subheadline">Get a personalized look at how our AI experts can <span
+                        <h2>Ready to Stay Visible and Grow Revenue With SEO?</h2>
+                        <p class="subheadline">Get a personalized look at how our AI + SEO experts can <span
                                 class="highlight-text">accelerate your growth.</span></p>
 
                         <form action="mail.php" method="POST" class="growth-form">
                             <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
                             <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
                                 required>
-                            <button type="submit" class="growth-btn">Get My E-commerce Marketing Plan</button>
+                            <button type="submit" class="growth-btn">Get My SEO Growth Plan</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="E-commerce Marketing Team" class="growth-image">
+                        <img src="img/about-us.png" alt="SEO Team" class="growth-image">
                     </div>
                 </div>
             </div>
@@ -1260,29 +1733,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is Trusted for E-commerce Marketing in India</h2>
-                    <p class="section-subtitle">The E-commerce Marketing partner you choose when you want innovation and
-                        results
-                    </p>
+                    <h2 class="section-title">Why Rankmator Is Trusted by Startups & Service Providers in India</h2>
+                    <p class="section-subtitle">Rankmator is the SEO partner you choose when you want performance,
+                        professionalism, and predictable results.</p>
 
                     <div class="trust-list">
                         <div class="trust-item">
-                            <span>Cutting-edge AI technology stack</span>
+                            <span>Focus on business revenue, not vanity metrics</span>
                         </div>
                         <div class="trust-item">
-                            <span>Expert team with AI & marketing expertise</span>
+                            <span>SEO built around buyer intent</span>
                         </div>
                         <div class="trust-item">
-                            <span>Transparent reporting & analytics</span>
+                            <span>Transparent communication and reporting</span>
                         </div>
                         <div class="trust-item">
-                            <span>Ethical AI practices & data privacy</span>
+                            <span>Fast implementation & monthly growth tracking</span>
                         </div>
                         <div class="trust-item">
-                            <span>Proven ROI across industries</span>
+                            <span>100% ethical and white-hat SEO</span>
                         </div>
                         <div class="trust-item">
-                            <span>Continuous innovation & learning</span>
+                            <span>Specialized in local + national + global SEO</span>
                         </div>
                     </div>
                 </div>
@@ -1296,73 +1768,116 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers about E-commerce
-                        Marketing
-                    </p>
+                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers. Here's everything
+                        you need to know about our SEO services.</p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Which e-commerce platforms do you support?</span>
+                        <span>How long does it take to see SEO results?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We specialize in Shopify, WooCommerce, Magento, and BigCommerce. Our team includes
-                            developers and marketers who know these ecosystems inside out.
+                            Typically, you'll start seeing initial improvements in 2-3 months, with significant results
+                            in 4-6 months. SEO is a long-term strategy, but we provide monthly reports so you can track
+                            progress every step of the way.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How do you measure campaign success?</span>
+                        <span>What if I don't rank on the first page?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We look beyond vanity metrics like clicks. Our primary KPIs are Return on Ad Spend (ROAS),
-                            Marketing Efficiency Ratio (MER), and Net Profit.
+                            We work with a data-driven approach and have a proven track record. While we can't guarantee
+                            specific rankings (no ethical SEO agency can), we guarantee consistent improvement,
+                            increased traffic, and measurable ROI.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you help with ad creatives?</span>
+                        <span>Do you use ethical (white-hat) SEO practices?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes! Creative is the biggest lever in performance marketing. We provide strategy, design,
-                            and video editing to ensure your ads stand it.
+                            Absolutely! We follow 100% white-hat SEO practices that comply with Google's guidelines. We
+                            never use black-hat tactics that could risk your website's reputation or rankings.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What budgets do you work with?</span>
+                        <span>How is Rankmator different from other SEO agencies?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We work with brands at various stages, but typically we require a minimum ad spend to create
-                            statistically significant results. Book a call to discuss if we're a good fit.
+                            We focus on business outcomes, not just rankings. Our approach combines data, creativity,
+                            and transparency. Plus, we specialize in helping startups and service-based businesses with
+                            affordable yet effective SEO strategies.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How long does it take to see results?</span>
+                        <span>Can you help with local SEO for my business?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            With paid ads (Google/Social), you can see traffic immediately and conversions within days.
-                            Optimization for peak ROAS typically takes 4-8 weeks of data collection and refinement.
+                            Yes! We offer specialized local SEO services to help you dominate your neighborhood
+                            searches. This includes Google My Business optimization, local citations, and location-based
+                            keyword targeting.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What industries do you work with?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We work with 15+ industries including healthcare, fintech, real estate, e-commerce,
+                            coaching, dental, legal, and more. Each strategy is customized to your specific industry and
+                            target audience.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need to sign a long-term contract?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            We offer flexible plans. While we recommend at least 6 months for best results (SEO takes
+                            time), we don't lock you into long contracts. You're free to cancel with 30 days' notice.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Will I get monthly reports and updates?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Yes! Transparency is a core value at Rankmator. You'll receive detailed monthly reports
+                            showing traffic growth, keyword rankings, conversions, and actionable insights.
                         </div>
                     </div>
                 </div>
@@ -1376,29 +1891,25 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title">Our Guarantees to You</h2>
-                    <p class="section-subtitle">We stand behind our E-commerce Marketing services</p>
+                    <p class="section-subtitle">We stand behind our work with these promises</p>
                 </div>
             </div>
             <div class="guarantee-grid">
                 <div class="guarantee-item">
-
-                    <h4>Data Security</h4>
-                    <p>Your data is protected with enterprise-grade security and privacy measures</p>
+                    <h4>100% White-Hat SEO</h4>
+                    <p>Only ethical practices that comply with Google guidelines</p>
                 </div>
                 <div class="guarantee-item">
-
                     <h4>Transparent Reporting</h4>
-                    <p>You'll always know your true CPA, ROAS, and Profit margins.</p>
+                    <p>Know exactly what we're doing and the results we're achieving</p>
                 </div>
                 <div class="guarantee-item">
-
-                    <h4>ROI Focused</h4>
-                    <p>We prioritize revenue impact over vanity metrics</p>
+                    <h4>Money-Back Promise</h4>
+                    <p>If we don't meet agreed targets in 6 months, we'll refund you</p>
                 </div>
                 <div class="guarantee-item">
-
-                    <h4>Partnership Approach</h4>
-                    <p>We work as an extension of your team, dedicated to your success</p>
+                    <h4>Dedicated Support</h4>
+                    <p>Your success is our success - we're with you all the way</p>
                 </div>
             </div>
         </div>
@@ -1411,15 +1922,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Revolutionize Your Marketing with AI?</h2>
-                    <p>Your competitors are leveraging AI.</p>
-                    <p>Your customers expect personalized experiences.</p>
-                    <p>And every day you wait - you fall further behind.</p>
+                    <h2>Ready to Grow Your Business with SEO That Actually Delivers Results?</h2>
+                    <p>Your competitors are ranking on Google.</p>
+                    <p>Your customers are searching every day.</p>
+                    <p>And every minute you wait... you lose potential business.</p>
 
-                    <p class="cta-highlight">It's time to embrace the future of marketing.<br>
+                    <p class="cta-highlight">It's time to turn your website into a revenue machine.<br>
                         It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your Strategy Call Today</a>
+                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
                 </div>
             </div>
         </div>
@@ -1428,10 +1939,10 @@
     <div class="sticky-cta" id="stickyCTA">
         <div class="container">
             <div class="sticky-cta-content">
-                <p class="sticky-cta-text">Ready to Transform Your Marketing with AI?</p>
+                <p class="sticky-cta-text">Ready to Get More Leads? Let's boost your SEO today!</p>
                 <div class="sticky-cta-buttons">
                     <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in E-commerce Marketing services"
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in SEO services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
@@ -1439,7 +1950,18 @@
     </div>
 
 
+
+
     <?php include('footer-link.php'); ?>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/device.min.js"></script>
+    <script src="js/form.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/jquery.parallax.min.js"></script>
+    <script src="js/jquery.circle-progress.min.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script src="js/wow.min.js"></script>
 
     <script>
         // Smooth scrolling for anchor links

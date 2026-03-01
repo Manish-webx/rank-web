@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best AI Marketing Agency in India | Rankmator - AI-Powered Marketing Services</title>
+    <title>Best Local SEO Services in India | Rankmator - Dominate Local Search</title>
 
 
     <meta name="description"
-        content="Rankmator is the best AI Marketing agency in India offering cutting-edge AI-powered marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
+        content="Rankmator offers affordable local SEO services for small businesses and startups. Get found on Google Maps, increase local traffic, and drive more calls & visits.">
     <meta name="keywords"
-        content="AI marketing agency, AI-powered marketing, best AI marketing company, AI marketing services India, marketing automation, AI content creation, predictive analytics">
+        content="Local seo services, affordable local seo services, Best local seo services in India, local seo services for small business">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing.php" />
+    <link rel="canonical" href="website-design-development-services.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -28,14 +28,6 @@
         body {
             font-family: 'Inter', sans-serif;
             overflow-x: hidden;
-        }
-
-
-        .navbar-custom {
-            background-color: rgba(33, 33, 33, 0.95) !important;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
         }
 
 
@@ -220,7 +212,7 @@
         }
 
         .startup-feature::before {
-            content: '🌟';
+            content: '';
             margin-right: 15px;
             font-size: 24px;
         }
@@ -345,7 +337,7 @@
         }
 
         .trust-item::before {
-            content: '\2714';
+            content: '';
             color: #d0cc37;
             font-size: 24px;
             font-weight: 700;
@@ -429,7 +421,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 40px;
-            margin-top: 50px;
+            margin-top: 20px;
         }
 
         .stat-item {
@@ -451,62 +443,169 @@
         }
 
 
-        .process-section {
+        .testimonials-section {
             background: #212121;
             padding: 30px 0;
         }
 
-        .process-grid {
+        .testimonials-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
             margin-top: 20px;
         }
 
-        .process-step {
-            text-align: center;
-            padding: 30px 20px;
+        .testimonial-card {
             background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
+            padding: 35px;
+            border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
-            position: relative;
         }
 
-        .process-step:hover {
-            background: rgba(255, 255, 255, 0.08);
-            border-color: #d0cc37;
+        .testimonial-card:hover {
             transform: translateY(-5px);
+            border-color: #d0cc37;
+            background: rgba(255, 255, 255, 0.08);
         }
 
-        .process-number {
-            width: 60px;
-            height: 60px;
-            background: #d0cc37;
-            color: #000;
+        .testimonial-stars {
+            color: #d0cc37;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
+            background: #d0cc37;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 24px;
-            font-weight: 900;
-            margin: 0 auto 20px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .testimonial-info h5 {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .testimonial-info p {
+            color: #aaa;
+            font-size: 14px;
+            margin: 0;
         }
 
 
+        .pricing-section {
+            background: #f9f9f9;
+            padding: 30px 0;
+        }
 
-        .process-step h4 {
-            color: #fff;
-            font-size: 20px;
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .pricing-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .pricing-card.featured {
+            border-color: #d0cc37;
+            transform: scale(1.05);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -15px;
+            right: 30px;
+            background: #d0cc37;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 12px;
             font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+
+        .pricing-card h3 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
             margin-bottom: 10px;
         }
 
-        .process-step p {
-            color: #ccc;
+        .pricing-price {
+            font-size: 42px;
+            font-weight: 900;
+            color: #d0cc37;
+            margin: 20px 0;
+        }
+
+        .pricing-price span {
+            font-size: 18px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            color: #444;
             font-size: 15px;
-            line-height: 1.6;
-            margin: 0;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+
+        .pricing-features li::before {
+            content: '';
+            color: #d0cc37;
+            font-weight: 700;
+            margin-right: 10px;
+            font-size: 18px;
         }
 
 
@@ -576,9 +675,127 @@
         }
 
 
+        .portfolio-section {
+            background: #fff;
+            padding: 30px 0;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            background: #f5f5f5;
+            aspect-ratio: 16/10;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            display: flex;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .portfolio-info h4 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0 0 5px 0;
+        }
+
+        .portfolio-info p {
+            color: #d0cc37;
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+        .process-section {
+            background: #212121;
+            padding: 30px 0;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .process-step {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .process-step:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #d0cc37;
+            transform: translateY(-5px);
+        }
+
+        .process-number {
+            width: 60px;
+            height: 60px;
+            background: #d0cc37;
+            color: #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 900;
+            margin: 0 auto 20px;
+        }
+
+
+
+        .process-step h4 {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .process-step p {
+            color: #ccc;
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+
         .guarantee-section {
             background: #fff;
-            padding: 60px 0;
+            padding: 40px 0;
         }
 
         .guarantee-grid {
@@ -754,6 +971,14 @@
                 grid-template-columns: 1fr;
             }
 
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-card.featured {
+                transform: scale(1);
+            }
+
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 30px;
@@ -781,7 +1006,7 @@
 
         .growth-cta-section {
             background-color: #212121;
-            padding: 80px 0;
+            padding: 40px 0;
             color: #fff;
             position: relative;
         }
@@ -838,21 +1063,26 @@
         }
 
         .growth-btn {
+            background-color: #007bff;
+
+            background-color: #2f80ed;
+
             background-color: #d0cc37;
             color: #000;
             padding: 15px 30px;
+            text-wrap: auto;
             border: none;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
             font-size: 16px;
             cursor: pointer;
-            text-wrap: auto;
             transition: all 0.3s ease;
             white-space: nowrap;
         }
 
         .growth-btn:hover {
             opacity: 0.9;
+            background-color: #b8b731;
         }
 
         .growth-image-container {
@@ -877,8 +1107,8 @@
             .growth-input,
             .growth-btn {
                 width: 100%;
-                border-radius: 4px;
                 text-wrap: auto;
+                border-radius: 4px;
             }
 
             .growth-input {
@@ -894,76 +1124,8 @@
                 text-align: center;
             }
         }
-
-
-        @media (max-width: 480px) {
-            .seo-hero h1 {
-                font-size: 24px;
-            }
-
-            .section-title {
-                font-size: 24px;
-            }
-
-            .hero-form {
-                padding: 25px 20px;
-            }
-
-            .why-choose-card,
-            .service-card {
-                padding: 25px 20px;
-            }
-
-            .service-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 24px;
-            }
-
-            .process-grid,
-            .stats-grid,
-            .trust-list,
-            .guarantee-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-
-            .industry-tag {
-                padding: 12px 20px;
-                font-size: 14px;
-            }
-
-            .btn-brand,
-            .btn-final-cta {
-                padding: 15px 30px;
-                font-size: 14px;
-            }
-
-            .faq-question {
-                font-size: 16px;
-                padding: 20px 20px;
-            }
-
-            .faq-answer-content {
-                padding: 0 20px 20px;
-                font-size: 15px;
-            }
-        }
-    </style>
     </style>
     <style>
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 768px) {
-            .stats-grid {
-                grid-template-columns: 1fr;
-            }
-        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
@@ -978,22 +1140,25 @@
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>Future-Proof Your Growth with AI-Powered Marketing Solutions
-                    </h1>
-                    <p>Traditional marketing is reactive. AI Marketing is predictive. We help you <strong>anticipate
-                            customer needs, automate complex workflows, and personalize experiences</strong> at a scale
-                        impossible for humans alone.</p>
-                    <p>Rankmator combines <strong>generative AI, predictive analytics, and machine learning</strong> to
-                        give your business an unfair advantage in a data-driven world.</p>
+                    <h1>Local SEO Services That Help Your Business Get Found & Chosen Locally</h1>
+                    <p>If your business depends on local customers, visibility on Google is no longer optional - its
+                        critical. When people search for near me, best service in my area, or local business nearby,
+                        Google shows only a handful of results. If your business isn't there, those customers go
+                        straight to your competitors.</p>
+                    <p>At Rankmator, we provide Local SEO services designed to help businesses dominate local search
+                        results, generate real inquiries, and turn nearby searches into paying customers.</p>
+                    <p style="margin-top: 20px; font-size: 20px; font-weight: 700; color: #d0cc37;">We don't just help
+                        you rank — we help you get chosen.</p>
+                    <p style="font-size: 18px; font-weight: 600; color: #1a1a1a; margin-top: 10px;">👉 <strong>Because
+                            Dikhega Tabhi To Bikega.</strong></p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Get Free AI Strategy</h3>
-                        <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm"
-                            novalidate>
+                        <h3>Get Free Local SEO Audit</h3>
+                        <form action="mail.php" method="POST" name="seoContactForm" id="seoContactForm" novalidate>
                             <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
                                 required>
                             <input name="email" type="email" class="form-control" placeholder="Your Email *"
@@ -1002,8 +1167,7 @@
                                 id="hero-phone" required>
                             <textarea class="form-control" name="message" placeholder="Tell us about your business *"
                                 id="hero-message" required></textarea>
-                            <button type="submit" class="btn btn-brand btn-lg btn-block">Book Your FREE
-                                Consultation</button>
+                            <button type="submit" class="btn btn-brand btn-lg btn-block">Get Your Consultation</button>
                         </form>
                     </div>
                 </div>
@@ -1016,27 +1180,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #1a1a1a;">AI-Powered Results That Speak for Themselves</h2>
-                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them
-                        with AI precision.</p>
+                    <h2 class="section-title" style="color: #1a1a1a;">Why Local SEO Is a Game-Changer</h2>
+                    <p class="section-subtitle" style="color: #666;">Local search has completely changed how customers
+                        discover businesses. Today, people don't browse directories; they search with intent.</p>
                 </div>
             </div>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">40%</div>
-                    <div class="stat-label">Efficiency Gain</div>
+            <div class="row text-center" style="margin-top: 40px;">
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-image-wrapper" style="margin-bottom: 20px;">
+                        <img src="img/Google-Search.webp" alt="Google Search" class="img-responsive center-block"
+                            style="border-radius: 10px; max-height: 150px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    </div>
+                    <h4 style="font-weight: 700; color: #1a1a1a;">Google Search</h4>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">95%</div>
-                    <div class="stat-label">Lead Scoring Accuracy</div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-image-wrapper" style="margin-bottom: 20px;">
+                        <img src="img/Google-Maps.webp" alt="Google Maps" class="img-responsive center-block"
+                            style="border-radius: 10px; max-height: 150px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    </div>
+                    <h4 style="font-weight: 700; color: #1a1a1a;">Google Maps</h4>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">30%</div>
-                    <div class="stat-label">Cost Reduction</div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-image-wrapper" style="margin-bottom: 20px;">
+                        <img src="img/Reviews-Ratings.webp" alt="Reviews & Ratings" class="img-responsive center-block"
+                            style="border-radius: 10px; max-height: 150px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    </div>
+                    <h4 style="font-weight: 700; color: #1a1a1a;">Reviews & Ratings</h4>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">10X</div>
-                    <div class="stat-label">Faster Execution</div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="stat-image-wrapper" style="margin-bottom: 20px;">
+                        <img src="img/Proximity-Trust.webp" alt="Proximity & Trust" class="img-responsive center-block"
+                            style="border-radius: 10px; max-height: 150px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    </div>
+                    <h4 style="font-weight: 700; color: #1a1a1a;">Proximity & Trust</h4>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px; text-align: center;">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <p style="font-size: 18px; color: #1a1a1a; font-weight: 600;">If your business doesn't appear in
+                        these places, you're invisible to high-intent customers.</p>
+                    <p style="font-size: 16px; color: #666; margin-top: 10px;">Our Local SEO services for small
+                        businesses ensure your brand appears exactly when customers are ready to take action, call,
+                        visit, or enquire.</p>
                 </div>
             </div>
         </div>
@@ -1046,47 +1231,59 @@
     <section class="seo-section" style="background: #212121;">
         <div class="container">
             <div class="row">
-                <h2 class="section-title" style="color: #fff;">Why Forward-Thinking Companies Choose Rankmator
-                </h2>
-                <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We bridge the gap between
-                    complex AI technology and practical business results.</p>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-title" style="color: #fff;">Rankmator - A Local SEO Agency That Understands Local
+                        Markets</h2>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We understand local search
+                        behavior, regional competition, and how Google evaluates local relevance and trust. From
+                        startups to established brands, our affordable local SEO services help businesses build a strong
+                        local presence, increase footfall and inquiries, and compete with bigger brands without
+                        overspending.</p>
+                </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Predictive Power</h4>
-                        <p>Stop guessing what will work. Our predictive models analyze historical data to forecast
-                            trends and campaign performance before you spend a dime.</p>
+                        <h4>Local Keyword & Intent Research</h4>
+                        <p>We identify how real customers search locally, including location-based, service-based, and
+                            near me keywords that drive conversions, not just traffic.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Efficiency at Scale</h4>
-                        <p>Do more with less. We automate routine tasks like reporting, bid adjustments, and basic
-                            content creation, freeing your team for strategy.</p>
+                        <h4>Google Business Profile Optimization</h4>
+                        <p>Your Google Business Profile is the backbone of Local SEO. We optimize and improve visibility
+                            on Google Maps and Local Pack results.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Personalization Engine</h4>
-                        <p>Deliver unique experiences to thousands of customers simultaneously. AI allows for 1:1
-                            personalization that feels human and relevant.</p>
+                        <h4>Local On-Page SEO Optimization</h4>
+                        <p>We optimize your website pages to align with local intent by location-based content, schema
+                            implementation, and service + city page optimization.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Tech-Stack Agnostic</h4>
-                        <p>We aren't tied to one tool. We integrate the best-in-class AI tools (OpenAI, Jasper,
-                            Midjourney, various CRMs) into your workflow.</p>
+                        <h4>Local Citations & Listings</h4>
+                        <p>We build and manage accurate listings across trusted local directories to strengthen your
+                            business credibility and local authority.</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Ethical AI Use</h4>
-                        <p>We prioritize data privacy and transparency, ensuring your use of AI complies with
-                            regulations and builds trust with your customers.</p>
+                        <h4>Reviews & Reputation</h4>
+                        <p>Reviews directly impact local rankings. We help improve review acquisition, strengthen brand
+                            reputation, and build trust signals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="why-choose-card">
+                        <h4>AI-Powered Tracking & Performance Monitoring</h4>
+                        <p>We track local keyword rankings, Google Maps visibility, calls, directions & inquiries, and
+                            conversion behavior.</p>
                     </div>
                 </div>
             </div>
@@ -1094,42 +1291,43 @@
     </section>
 
 
-    <section class="process-section">
+
+    <section class="portfolio-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our AI Marketing Process</h2>
-                    <p class="section-subtitle" style="color: #ccc;">A systematic approach powered by artificial
-                        intelligence</p>
+                    <h2 class="section-title">What Makes Rankmator One of the Best?</h2>
+                    <p class="section-subtitle">We focuses on leads, calls & visits, not vanity metrics.</p>
                 </div>
             </div>
-            <div class="process-grid">
-
-                <div class="process-step">
-                    <div class="process-number">1</div>
-                    <h4>AI Audit & Analysis</h4>
-                    <p>Analyze your current marketing performance using AI tools and identify opportunities</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h4>AI-focused Local SEO</h4>
+                    <p>Advanced AI and machine learning analyze local search patterns and competitor strategies to
+                        ensure your business ranks for keywords that convert into customers, not just traffic.</p>
                 </div>
-
-
-                <div class="process-step">
-                    <div class="process-number">2</div>
-                    <h4>Strategy Development</h4>
-                    <p>Create AI-powered marketing roadmap tailored to your business goals</p>
+                <div class="service-card">
+                    <h4>Affordable Plans</h4>
+                    <p>Flexible pricing tailored for startups and small businesses. Enterprise-level SEO strategies
+                        without the enterprise price tag. No hidden fees, just transparent, results-focused pricing.</p>
                 </div>
-
-
-                <div class="process-step">
-                    <div class="process-number">3</div>
-                    <h4>Implementation</h4>
-                    <p>Deploy AI tools, automation systems, and intelligent campaigns</p>
+                <div class="service-card">
+                    <h4>Transparent Reporting</h4>
+                    <p>Detailed monthly reports showing exactly what we're doing and the results we're achieving.
+                        Monitor rankings, traffic, calls, and conversions in real-time with clear, actionable insights.
+                    </p>
                 </div>
-
-
-                <div class="process-step">
-                    <div class="process-number">4</div>
-                    <h4>Optimize & Scale</h4>
-                    <p>Continuously improve with machine learning and predictive analytics</p>
+                <div class="service-card">
+                    <h4>Ethical Practices</h4>
+                    <p>100% Google-compliant white-hat SEO techniques. We build sustainable, long-term visibility that
+                        protects your brand reputation and ensures stable rankings without risky shortcuts.</p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-12 text-center">
+                    <p style="font-size: 16px; color: #666;">We don't lock clients into long contracts. We focus on
+                        performance, trust, and long-term partnerships.</p>
+                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free Local SEO Audit ?</a>
                 </div>
             </div>
         </div>
@@ -1140,111 +1338,24 @@
     <section class="startup-usp-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="startup-usp-box text-center">
-                        <div class="startup-badge">STARTUP SPECIAL</div>
-                        <h2>Future-Proof Your Marketing with AI</h2>
-                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Early adopters of AI marketing
-                            gain an unfair advantage. Join the revolution and transform your marketing from guesswork to
-                            precision.</p>
-
-                        <div class="discount">20% OFF</div>
-                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all AI Marketing plans for
-                            startups</p>
-
-
-                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We help you
-                            harness AI before your competitors do."</p>
-
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
-                            Startup Offer -></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="seo-section" style="background: #212121;">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our AI Marketing Services</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Cutting-edge solutions for the intelligent
-                        enterprise</p>
+                    <h2 class="section-title" style="color: #1a1a1a;">Local SEO Services for Small Businesses & Growing
+                        Brands</h2>
+                    <p class="section-subtitle" style="color: #666;">Whether you operate in one area or multiple cities,
+                        our strategies are built to scale with your growth.</p>
                 </div>
             </div>
-
-            <div class="services-grid">
-
-                <div class="service-card">
-                    <h4>1. Predictive Analytics</h4>
-                    <p>Use historical data to forecast sales trends, customer churn, and lifetime value, allowing for
-                        proactive strategy adjustments.</p>
-                </div>
-
-
-                <div class="service-card">
-                    <h4>2. AI Chatbots & Support</h4>
-                    <p>Deploy intelligent, conversational agents that handle customer queries 24/7, qualify leads, and
-                        book appointments automatically.</p>
-                </div>
-
-
-                <div class="service-card">
-                    <h4>3. Programmatic Advertising</h4>
-                    <p>Automated ad buying using AI to target the right audience at the right time for the best possible
-                        price across the web.</p>
-                </div>
-
-
-                <div class="service-card">
-                    <h4>4. Dynamic Personalization</h4>
-                    <p>Modify website content, offers, and imagery in real-time based on visitor behavior and
-                        demographics.</p>
-                </div>
-
-
-                <div class="service-card">
-                    <h4>5. Competitor Intelligence</h4>
-                    <p>AI tools that monitor your competitors' pricing, ads, and content strategies 24/7, alerting you
-                        to threats and opportunities.</p>
-                </div>
-
-
-                <div class="service-card">
-                    <h4>6. Intelligent Automation</h4>
-                    <p>Connect your CRM, Ads, and Email tools with AI logic to trigger complex, multi-channel workflows
-                        without manual input.</p>
-                </div>
+            <div class="industries-grid">
+                <div class="industry-tag">Small & Medium Businesses</div>
+                <div class="industry-tag">Startups & Local Service Providers</div>
+                <div class="industry-tag">Multi-location Businesses</div>
+                <div class="industry-tag">Professionals & Consultants</div>
             </div>
         </div>
     </section>
 
 
-    <section class="seo-section bg-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Transform with AI Marketing</h2>
-                    <p class="section-subtitle">AI-powered marketing solutions across diverse industries</p>
 
-                    <div class="industries-grid">
-                        <div class="industry-tag">E-commerce & Retail</div>
-                        <div class="industry-tag">SaaS & Technology</div>
-                        <div class="industry-tag">Healthcare & Wellness</div>
-                        <div class="industry-tag">Finance & Fintech</div>
-                        <div class="industry-tag">Real Estate</div>
-                        <div class="industry-tag">Education & E-learning</div>
-                        <div class="industry-tag">B2B Services</div>
-                        <div class="industry-tag">Manufacturing</div>
-                        <div class="industry-tag">Hospitality & Tourism</div>
-                        <div class="industry-tag">Professional Services</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <section class="growth-cta-section">
@@ -1252,171 +1363,163 @@
             <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
                 <div class="col-md-7">
                     <div class="growth-cta-content">
-                        <h2>Ready to Transform Your Marketing with AI?</h2>
-                        <p class="subheadline">Get a personalized look at how our AI experts can <span
-                                class="highlight-text">accelerate your growth.</span></p>
+                        <h2>Ready to Grow Locally? Let's Get Started</h2>
+                        <p class="subheadline">If you want your business to appear where local customers are searching,
+                            <span class="highlight-text">Rankmator is here to help.</span>
+                        </p>
 
                         <form action="mail.php" method="POST" class="growth-form">
-                            <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number"
-                                style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
-                            <input type="text" name="website" class="growth-input" placeholder="Enter your website"
-                                style="border-radius: 0;" required>
-                            <button type="submit" class="growth-btn">Get My AI Marketing Plan</button>
+                            <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
+                            <input name="website" type="text" class="growth-input" style="border-radius: 0;"
+                                placeholder="Enter your business website" required>
+                            <button type="submit" class="growth-btn">Get a Free Local SEO Audit</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="AI Marketing Team" class="growth-image">
+                        <img src="img/about-us.png" alt="Team" class="growth-image">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <style>
+        /* FAQ Section Styles */
+        .faq-section {
+            padding: 60px 0;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 40px auto 0;
+        }
+
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #e0e0e0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .faq-item:hover {
+            border-color: #d0cc37;
+            box-shadow: 0 4px 12px rgba(208, 204, 55, 0.15);
+        }
+
+        .faq-question {
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1a1a1a;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            color: #d0cc37;
+            background: #fafafa;
+        }
+
+        .faq-icon {
+            font-size: 24px;
+            color: #d0cc37;
+            font-weight: 700;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+
+        .faq-answer-content {
+            padding: 0 25px 25px 25px;
+            color: #666;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .faq-question {
+                font-size: 16px;
+                padding: 18px 20px;
+            }
+
+            .faq-answer-content {
+                padding: 0 20px 20px 20px;
+                font-size: 15px;
+            }
+        }
+    </style>
 
 
-    <section class="seo-section bg-light-gray">
+    <section class="faq-section" style="background: #f9f9f9;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is Trusted for AI Marketing in India</h2>
-                    <p class="section-subtitle">The AI marketing partner you choose when you want innovation and results
-                    </p>
-
-                    <div class="trust-list">
-                        <div class="trust-item">
-                            <span>Cutting-edge AI technology stack</span>
-                        </div>
-                        <div class="trust-item">
-                            <span>Expert team with AI & marketing expertise</span>
-                        </div>
-                        <div class="trust-item">
-                            <span>Transparent reporting & analytics</span>
-                        </div>
-                        <div class="trust-item">
-                            <span>Ethical AI practices & data privacy</span>
-                        </div>
-                        <div class="trust-item">
-                            <span>Proven ROI across industries</span>
-                        </div>
-                        <div class="trust-item">
-                            <span>Continuous innovation & learning</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="faq-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers about AI Marketing
-                    </p>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Everything you need to know about Local SEO
+                        services</p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Is this just using ChatGPT?</span>
+                        <span>What are Local SEO services?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            No. While we use LLMs like ChatGPT for content, our AI marketing stack includes predictive
-                            analytics tools, programmatic ad platforms, and custom automation scripts.
+                            Local SEO services focus on optimizing your online presence to attract customers from
+                            specific geographic locations through Google Search and Google Maps.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Will AI replace my marketing team?</span>
+                        <span>How long does Local SEO take to show results?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Not at all. AI is a force multiplier. It removes the drudgery of manual tasks so your team
-                            can focus on creative strategy and human connection.
+                            Most businesses start seeing improvements within 2 -4 months, depending on competition,
+                            location, and current online presence.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do I need a lot of data to start?</span>
+                        <span>Are Local SEO services affordable for small businesses?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Ideally, yes. AI works best with data. However, there are many "cold start" AI tools that
-                            can provide value even if you are just starting out.
+                            Yes. At Rankmator, we offer affordable Local SEO services specifically designed for small
+                            businesses and startups.
                         </div>
                     </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span>Is AI marketing expensive?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-content">
-                            It can actually reduce costs by improving efficiency and reducing waste. We tailor our tech
-                            stack to fit your budget and goals.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span>What industries benefit most?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-content">
-                            E-commerce, SaaS, Finance, and Healthcare see huge benefits due to the volume of data they
-                            generate, but almost any business can improve efficiency with AI.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="guarantee-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Our Guarantees to You</h2>
-                    <p class="section-subtitle">We stand behind our AI marketing services</p>
-                </div>
-            </div>
-            <div class="guarantee-grid">
-                <div class="guarantee-item">
-                    <div class="guarantee-icon"></div>
-                    <h4>Data Security</h4>
-                    <p>Your data is protected with enterprise-grade security and privacy measures</p>
-                </div>
-                <div class="guarantee-item">
-
-                    <h4>Data Prvacy</h4>
-                    <p>We ensure your customer data is used ethically and securely.</p>
-                </div>
-                <div class="guarantee-item">
-
-                    <h4>ROI Focused</h4>
-                    <p>We prioritize revenue impact over vanity metrics</p>
-                </div>
-                <div class="guarantee-item">
-
-                    <h4>Partnership Approach</h4>
-                    <p>We work as an extension of your team, dedicated to your success</p>
                 </div>
             </div>
         </div>
@@ -1429,15 +1532,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Revolutionize Your Marketing with AI?</h2>
-                    <p>Your competitors are leveraging AI.</p>
-                    <p>Your customers expect personalized experiences.</p>
-                    <p>And every day you wait... you fall further behind.</p>
+                    <h2>Ready to Grow Locally? Let -s Get Started</h2>
+                    <p>If you want your business to appear where local customers are searching, Rankmator is here to
+                        help.</p>
+                    <p>Partner with a trusted agency offering Local SEO services for small businesses that actually
+                        drive growth.</p>
 
-                    <p class="cta-highlight">It's time to embrace the future of marketing.<br>
-                        It's time to partner with Rankmator.</p>
-
-                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
+                    <a href="contact.php" class="btn btn-final-cta">Get a Free Local SEO Audit</a>
                 </div>
             </div>
         </div>
@@ -1446,23 +1547,17 @@
     <div class="sticky-cta" id="stickyCTA">
         <div class="container">
             <div class="sticky-cta-content">
-                <p class="sticky-cta-text">Ready to Transform Your Marketing with AI?</p>
+                <p class="sticky-cta-text">Ready for a New Website? Let's build it today!</p>
                 <div class="sticky-cta-buttons">
-                    <a href="tel:+919999767666" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919999767666&text=I'm interested in AI Marketing services"
+                    <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Local SEO services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/smoothscroll.min.js"></script>
-    <script src="js/jquery.smartmenus.js"></script>
-    <script src="js/universal.js"></script>
+    <?php include('footer-link.php'); ?>
 
     <script>
         // Smooth scrolling for anchor links
@@ -1518,3 +1613,6 @@
 </body>
 
 </html>
+
+
+

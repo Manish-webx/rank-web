@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Performance Marketing Agency in India | Rankmator - Performance Marketing Services</title>
+    <title>Best AI Marketing Agency in India | Rankmator - AI-Powered Marketing Services</title>
 
 
     <meta name="description"
-        content="Rankmator is the Best Performance Marketing Agency in India offering cutting-edge Performance marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
+        content="Rankmator is the best AI Marketing agency in India offering cutting-edge AI-powered marketing services for startups, businesses, and growing brands. Harness the power of AI for predictable growth and ROI.">
     <meta name="keywords"
-        content="Performance Marketing agency, Performance marketing, best Performance Marketing company, Performance Marketing services India, marketing automation, AI content creation, predictive analytics">
+        content="AI marketing agency, AI-powered marketing, best AI marketing company, AI marketing services India, marketing automation, AI content creation, predictive analytics">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="ai-marketing.php" />
+    <link rel="canonical" href="ai-marketing-agency.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -28,6 +28,14 @@
         body {
             font-family: 'Inter', sans-serif;
             overflow-x: hidden;
+        }
+
+
+        .navbar-custom {
+            background-color: rgba(33, 33, 33, 0.95) !important;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
         }
 
 
@@ -212,7 +220,7 @@
         }
 
         .startup-feature::before {
-            content: '??';
+            content: '🌟';
             margin-right: 15px;
             font-size: 24px;
         }
@@ -225,67 +233,18 @@
             margin-top: 20px;
         }
 
-        /* Flip Card Styles */
         .service-card {
-            background: transparent;
-            padding: 0;
-            box-shadow: none;
-            border: none;
-            perspective: 1000px;
-            overflow: visible;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid transparent;
         }
 
         .service-card::before {
-            display: none;
-        }
-
-        .service-card:hover {
-            transform: none;
-            box-shadow: none;
-            border-color: transparent;
-        }
-
-        .service-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: left;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            display: flex;
-        }
-
-        .service-card:hover .service-card-inner {
-            transform: rotateY(180deg);
-        }
-
-        .service-card-front,
-        .service-card-back {
-            width: 100%;
-            min-height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            border-radius: 20px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-            border: 2px solid transparent;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .service-card-front {
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px 30px;
-            z-index: 2;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .service-card-front::before {
             content: '';
             position: absolute;
             top: 0;
@@ -298,28 +257,14 @@
             transition: transform 0.4s ease;
         }
 
-        .service-card:hover .service-card-front::before {
+        .service-card:hover::before {
             transform: scaleX(1);
         }
 
-        .service-card-back {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: rotateY(180deg);
-            padding: 40px 30px;
-            background: #fff;
-            color: #333;
-            justify-content: center;
-        }
-
-        .service-card-back h4 {
-            color: #1a1a1a;
-            margin-bottom: 10px;
-        }
-
-        .service-card-back p {
-            color: #666;
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 50px rgba(208, 204, 55, 0.2);
+            border-color: #d0cc37;
         }
 
         .service-icon {
@@ -333,6 +278,19 @@
             font-size: 32px;
             margin-bottom: 25px;
             color: #000;
+        }
+
+        .service-card h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.7;
+            margin: 0;
         }
 
 
@@ -387,7 +345,7 @@
         }
 
         .trust-item::before {
-            content: '✓';
+            content: '\2714';
             color: #d0cc37;
             font-size: 24px;
             font-weight: 700;
@@ -400,6 +358,7 @@
             font-size: 16px;
             line-height: 1.6;
         }
+
 
         .final-cta {
             background: #212121;
@@ -470,7 +429,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 40px;
-            margin-top: 20px;
+            margin-top: 50px;
         }
 
         .stat-item {
@@ -619,7 +578,7 @@
 
         .guarantee-section {
             background: #fff;
-            padding: 40px 0;
+            padding: 60px 0;
         }
 
         .guarantee-grid {
@@ -822,7 +781,7 @@
 
         .growth-cta-section {
             background-color: #212121;
-            padding: 40px 0;
+            padding: 80px 0;
             color: #fff;
             position: relative;
         }
@@ -883,11 +842,11 @@
             color: #000;
             padding: 15px 30px;
             border: none;
-            text-wrap: auto;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
             font-size: 16px;
             cursor: pointer;
+            text-wrap: auto;
             transition: all 0.3s ease;
             white-space: nowrap;
         }
@@ -991,7 +950,21 @@
             }
         }
     </style>
+    </style>
+    <style>
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
 
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/header-loader.js"></script>
 </head>
@@ -1000,27 +973,25 @@
     <div id="header-include"></div>
 
 
-
     <section class="seo-hero">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>A Performance-Driven Advertising Agency for Businesses That Want Real Growth</h1>
-                    <p>Your market is competitive. Your customers have choices. <strong>To win, your brand must be
-                            visible, trusted, and positioned in front of the right audience at the right time.</strong>
-                    </p>
-                    <p>Rankmator helps businesses achieve measurable growth through strategic advertising that delivers
-                        qualified leads, higher conversions, and predictable revenue.</p>
-                    <p style="margin-top: 25px; font-size: 18px; font-weight: 600; color: #d0cc37;">Every ad campaign.
-                        Every rupee. Justified with measurable ROI.</p>
+                    <h1>Future-Proof Your Growth with AI-Powered Marketing Solutions
+                    </h1>
+                    <p>Traditional marketing is reactive. AI Marketing is predictive. We help you <strong>anticipate
+                            customer needs, automate complex workflows, and personalize experiences</strong> at a scale
+                        impossible for humans alone.</p>
+                    <p>Rankmator combines <strong>generative AI, predictive analytics, and machine learning</strong> to
+                        give your business an unfair advantage in a data-driven world.</p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Book Your Advertising Strategy Call</h3>
+                        <h3>Get Free AI Strategy</h3>
                         <form action="mail.php" method="POST" name="aiMarketingContactForm" id="aiMarketingContactForm"
                             novalidate>
                             <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
@@ -1045,36 +1016,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #1a1a1a;">Ads Are an Investment, Not a Guessing Game
-                    </h2>
-                    <p class="section-subtitle" style="color: #666; margin-bottom: 30px;">Most companies run ads without
-                        a strategy or direction, resulting in:</p>
+                    <h2 class="section-title" style="color: #1a1a1a;">AI-Powered Results That Speak for Themselves</h2>
+                    <p class="section-subtitle" style="color: #666;">We don't just promise results - we deliver them
+                        with AI precision.</p>
                 </div>
             </div>
             <div class="stats-grid">
                 <div class="stat-item">
-                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Wasted Budget
-                    </div>
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">Efficiency Gain</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Poor Targeting
-                    </div>
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Lead Scoring Accuracy</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">Low-Quality Leads
-                    </div>
+                    <div class="stat-number">30%</div>
+                    <div class="stat-label">Cost Reduction</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-label" style="color: #e74c3c; font-size: 18px; font-weight: 600;">No Measurable ROI
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <p style="font-size: 18px; color: #1a1a1a; font-weight: 600;">If your current advertising isn't
-                        generating revenue, the problem isn't the platform — it's the execution.</p>
-                    <p style="font-size: 16px; color: #666; margin-top: 10px;">At Rankmator, every campaign is built to
-                        justify every rupee you spend.</p>
+                    <div class="stat-number">10X</div>
+                    <div class="stat-label">Faster Execution</div>
                 </div>
             </div>
         </div>
@@ -1084,50 +1046,47 @@
     <section class="seo-section" style="background: #212121;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Why Brands Choose Rankmator as Their Advertising
-                        Partner
-                    </h2>
-                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">Professional execution.
-                        Corporate discipline. Sales-focused outcomes.</p>
-                </div>
+                <h2 class="section-title" style="color: #fff;">Why Forward-Thinking Companies Choose Rankmator
+                </h2>
+                <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">We bridge the gap between
+                    complex AI technology and practical business results.</p>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ Strategic Media Planning</h4>
-                        <p>Every ad campaign begins with market research, audience mapping, and clear objectives. No
-                            guesswork — only strategic execution.</p>
+                        <h4>Predictive Power</h4>
+                        <p>Stop guessing what will work. Our predictive models analyze historical data to forecast
+                            trends and campaign performance before you spend a dime.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ Precision Targeting & Smart Optimization</h4>
-                        <p>We make decisions based on data, not assumptions. Every campaign is continuously optimized
-                            for maximum performance.</p>
+                        <h4>Efficiency at Scale</h4>
+                        <p>Do more with less. We automate routine tasks like reporting, bid adjustments, and basic
+                            content creation, freeing your team for strategy.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>✔ High-Conversion Creatives</h4>
-                        <p>Ad copy, visuals, and messaging crafted to generate action — not just impressions. Every
-                            element is designed to convert.</p>
+                        <h4>Personalization Engine</h4>
+                        <p>Deliver unique experiences to thousands of customers simultaneously. AI allows for 1:1
+                            personalization that feels human and relevant.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>✔ Multi-Platform Expertise</h4>
-                        <p>Google, Meta, LinkedIn, YouTube, Display, Programmatic — we manage and optimize across all
-                            platforms that matter to your business.</p>
+                        <h4>Tech-Stack Agnostic</h4>
+                        <p>We aren't tied to one tool. We integrate the best-in-class AI tools (OpenAI, Jasper,
+                            Midjourney, various CRMs) into your workflow.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>✔ Transparent Reporting</h4>
-                        <p>You receive performance dashboards, weekly updates, and ROI-driven insights. Always know
-                            where your money is going and what it's delivering.</p>
+                        <h4>Ethical AI Use</h4>
+                        <p>We prioritize data privacy and transparency, ensuring your use of AI complies with
+                            regulations and builds trust with your customers.</p>
                     </div>
                 </div>
             </div>
@@ -1139,46 +1098,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our Process — Built for Accuracy and Accountability
-                    </h2>
-                    <p class="section-subtitle" style="color: #ccc;">A proven framework that delivers consistent,
-                        measurable results</p>
+                    <h2 class="section-title" style="color: #fff;">Our AI Marketing Process</h2>
+                    <p class="section-subtitle" style="color: #ccc;">A systematic approach powered by artificial
+                        intelligence</p>
                 </div>
             </div>
-            <div class="process-grid" style="grid-template-columns: repeat(5, 1fr);">
+            <div class="process-grid">
 
                 <div class="process-step">
                     <div class="process-number">1</div>
-                    <h4>Discovery & Audit</h4>
-                    <p>We evaluate your goals, audience, previous campaigns, and competitive landscape</p>
+                    <h4>AI Audit & Analysis</h4>
+                    <p>Analyze your current marketing performance using AI tools and identify opportunities</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">2</div>
-                    <h4>Strategic Planning</h4>
-                    <p>We develop a comprehensive ad strategy and budget plan aligned with your business objectives</p>
+                    <h4>Strategy Development</h4>
+                    <p>Create AI-powered marketing roadmap tailored to your business goals</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">3</div>
-                    <h4>Campaign Execution</h4>
-                    <p>Our team handles setup, creative development, and multi-platform deployment</p>
+                    <h4>Implementation</h4>
+                    <p>Deploy AI tools, automation systems, and intelligent campaigns</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">4</div>
-                    <h4>Monitoring & Optimization</h4>
-                    <p>Daily optimization to improve performance, reduce costs, and increase conversions</p>
-                </div>
-
-
-                <div class="process-step">
-                    <div class="process-number">5</div>
-                    <h4>Reporting & Scaling</h4>
-                    <p>Structured reporting with clear KPIs and scale recommendations</p>
+                    <h4>Optimize & Scale</h4>
+                    <p>Continuously improve with machine learning and predictive analytics</p>
                 </div>
             </div>
         </div>
@@ -1191,39 +1142,22 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="startup-usp-box text-center">
-                        <div class="startup-badge">PERFORMANCE HIGHLIGHTS</div>
-                        <h2>Rankmator's Framework Ensures Consistency, Accountability & Measurable Growth</h2>
-                        <p style="font-size: 18px; color: #666; margin-bottom: 30px;">These are real results from real
-                            campaigns. No projections. No promises. Just performance.</p>
+                        <div class="startup-badge">STARTUP SPECIAL</div>
+                        <h2>Future-Proof Your Marketing with AI</h2>
+                        <p style="font-size: 18px; color: #666; margin-bottom: 20px;">Early adopters of AI marketing
+                            gain an unfair advantage. Join the revolution and transform your marketing from guesswork to
+                            precision.</p>
 
-                        <div class="row" style="margin-top: 40px;">
-                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
-                                <div class="stat-number" style="color: #d0cc37;">4X</div>
-                                <div class="stat-label" style="color: #666;">ROAS across ecommerce</div>
-                            </div>
-                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
-                                <div class="stat-number" style="color: #d0cc37;">60%</div>
-                                <div class="stat-label" style="color: #666;">reduction in CPL</div>
-                            </div>
-                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
-                                <div class="stat-number" style="color: #d0cc37;">3X</div>
-                                <div class="stat-label" style="color: #666;">qualified leads for B2B</div>
-                            </div>
-                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
-                                <div class="stat-number" style="color: #d0cc37;">₹10L+</div>
-                                <div class="stat-label" style="color: #666;">monthly ad spend scaled</div>
-                            </div>
-                            <div class="col-md-20perc col-sm-6" style="width: 20%; float: left;">
-                                <div class="stat-number" style="color: #d0cc37;">1M+</div>
-                                <div class="stat-label" style="color: #666;">brand impressions</div>
-                            </div>
-                        </div>
+                        <div class="discount">20% OFF</div>
+                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all AI Marketing plans for
+                            startups</p>
 
-                        <p style="font-style: italic; margin-top: 40px; font-size: 18px; color: #444;">"Strategic
-                            advertising is no longer optional — it's essential for business survival."</p>
 
-                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Book Your Free
-                            Ad Strategy Call</a>
+                        <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We help you
+                            harness AI before your competitors do."</p>
+
+                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                            Startup Offer -></a>
                     </div>
                 </div>
             </div>
@@ -1235,106 +1169,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our Advertising Services
-                    </h2>
-                    <p class="section-subtitle" style="color: #ccc;">Full-service advertising solutions across all major
-                        platforms</p>
+                    <h2 class="section-title" style="color: #fff;">Our AI Marketing Services</h2>
+                    <p class="section-subtitle" style="color: #ccc;">Cutting-edge solutions for the intelligent
+                        enterprise</p>
                 </div>
             </div>
 
             <div class="services-grid">
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/PPC-Advertising.webp');">
-                            <h4>1. PPC Advertising (Google & Bing Ads)</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>PPC Advertising (Google & Bing Ads)</h4>
-                            <p>Strategic search advertising campaigns that capture high-intent buyers at the moment
-                                they're
-                                ready to purchase.</p>
-                        </div>
-                    </div>
+                    <h4>1. Predictive Analytics</h4>
+                    <p>Use historical data to forecast sales trends, customer churn, and lifetime value, allowing for
+                        proactive strategy adjustments.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/Social-Media-Advertising.webp');">
-                            <h4>2. Social Media Advertising</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Social Media Advertising</h4>
-                            <p>Facebook, Instagram, LinkedIn, Twitter ads designed to target, engage, and convert your
-                                ideal
-                                customers.</p>
-                        </div>
-                    </div>
+                    <h4>2. AI Chatbots & Support</h4>
+                    <p>Deploy intelligent, conversational agents that handle customer queries 24/7, qualify leads, and
+                        book appointments automatically.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Performance-Marketing-Solutions.webp');">
-                            <h4>3. Performance Marketing Solutions</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Performance Marketing Solutions</h4>
-                            <p>Data-driven campaigns optimized for measurable outcomes: leads, sales, ROAS, and customer
-                                acquisition cost.</p>
-                        </div>
-                    </div>
+                    <h4>3. Programmatic Advertising</h4>
+                    <p>Automated ad buying using AI to target the right audience at the right time for the best possible
+                        price across the web.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Creative-Production.webp');">
-                            <h4>4. Creative Production for Ads</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Creative Production for Ads</h4>
-                            <p>High-converting ad creatives, landing pages, and copy that drive action and maximize your
-                                advertising ROI.</p>
-                        </div>
-                    </div>
+                    <h4>4. Dynamic Personalization</h4>
+                    <p>Modify website content, offers, and imagery in real-time based on visitor behavior and
+                        demographics.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Programmatic-Media-Buying.webp');">
-                            <h4>5. Programmatic & Media Buying</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Programmatic & Media Buying</h4>
-                            <p>Automated ad buying across display networks, video platforms, and premium publishers for
-                                maximum
-                                reach efficiency.</p>
-                        </div>
-                    </div>
+                    <h4>5. Competitor Intelligence</h4>
+                    <p>AI tools that monitor your competitors' pricing, ads, and content strategies 24/7, alerting you
+                        to threats and opportunities.</p>
                 </div>
 
 
                 <div class="service-card">
-                    <div class="service-card-inner">
-                        <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Funnel-Optimization.webp');">
-                            <h4>6. Funnel Optimization & Reporting</h4>
-                        </div>
-                        <div class="service-card-back">
-                            <h4>Funnel Optimization & Reporting</h4>
-                            <p>End-to-end tracking, attribution modeling, and continuous optimization to improve every
-                                stage of
-                                your funnel.</p>
-                        </div>
-                    </div>
+                    <h4>6. Intelligent Automation</h4>
+                    <p>Connect your CRM, Ads, and Email tools with AI logic to trigger complex, multi-channel workflows
+                        without manual input.</p>
                 </div>
             </div>
         </div>
@@ -1345,23 +1226,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Deliver Results For</h2>
-                    <p class="section-subtitle">Designed for business verticals that require structured advertising</p>
+                    <h2 class="section-title">Industries We Transform with AI Marketing</h2>
+                    <p class="section-subtitle">AI-powered marketing solutions across diverse industries</p>
 
                     <div class="industries-grid">
-                        <div class="industry-tag">Ecommerce</div>
-                        <div class="industry-tag">Real Estate</div>
-                        <div class="industry-tag">Healthcare</div>
-                        <div class="industry-tag">Education & EdTech</div>
-                        <div class="industry-tag">Finance & Fintech</div>
-                        <div class="industry-tag">Beauty & Personal Care</div>
-                        <div class="industry-tag">Hospitality</div>
-                        <div class="industry-tag">Restaurants</div>
+                        <div class="industry-tag">E-commerce & Retail</div>
                         <div class="industry-tag">SaaS & Technology</div>
-                        <div class="industry-tag">Corporate & B2B Service Providers</div>
+                        <div class="industry-tag">Healthcare & Wellness</div>
+                        <div class="industry-tag">Finance & Fintech</div>
+                        <div class="industry-tag">Real Estate</div>
+                        <div class="industry-tag">Education & E-learning</div>
+                        <div class="industry-tag">B2B Services</div>
+                        <div class="industry-tag">Manufacturing</div>
+                        <div class="industry-tag">Hospitality & Tourism</div>
+                        <div class="industry-tag">Professional Services</div>
                     </div>
-                    <p style="margin-top: 30px; font-size: 16px; color: #666; font-style: italic;">Each industry
-                        requires a unique advertising approach — we tailor strategies for maximum impact.</p>
                 </div>
             </div>
         </div>
@@ -1378,16 +1257,17 @@
                                 class="highlight-text">accelerate your growth.</span></p>
 
                         <form action="mail.php" method="POST" class="growth-form">
-                            <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
-                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
-                                required>
-                            <button type="submit" class="growth-btn">Get My Performance Marketing Plan</button>
+                            <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number"
+                                style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
+                            <input type="text" name="website" class="growth-input" placeholder="Enter your website"
+                                style="border-radius: 0;" required>
+                            <button type="submit" class="growth-btn">Get My AI Marketing Plan</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="Performance Marketing Team" class="growth-image">
+                        <img src="img/about-us.png" alt="AI Marketing Team" class="growth-image">
                     </div>
                 </div>
             </div>
@@ -1400,9 +1280,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is Trusted for Performance Marketing in India</h2>
-                    <p class="section-subtitle">The Performance Marketing partner you choose when you want innovation
-                        and results
+                    <h2 class="section-title">Why Rankmator Is Trusted for AI Marketing in India</h2>
+                    <p class="section-subtitle">The AI marketing partner you choose when you want innovation and results
                     </p>
 
                     <div class="trust-list">
@@ -1436,64 +1315,72 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
-                    <p class="section-subtitle" style="color: #ccc;">Business-focused answers to help you make informed
-                        decisions
+                    <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers about AI Marketing
                     </p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What is the ideal advertising budget to start?</span>
+                        <span>Is this just using ChatGPT?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Budgets vary by industry, platform, and goals. We recommend a budget that supports
-                            measurable results. During our strategy call, we'll assess your market and recommend an
-                            appropriate starting budget based on your objectives.
+                            No. While we use LLMs like ChatGPT for content, our AI marketing stack includes predictive
+                            analytics tools, programmatic ad platforms, and custom automation scripts.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How soon will I see results?</span>
+                        <span>Will AI replace my marketing team?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Early performance improvements appear within 7–15 days as campaigns begin delivering
-                            impressions and clicks. Strong conversions typically develop within 30–60 days as
-                            optimization cycles refine targeting and messaging.
+                            Not at all. AI is a force multiplier. It removes the drudgery of manual tasks so your team
+                            can focus on creative strategy and human connection.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you manage both B2B and B2C advertising?</span>
+                        <span>Do I need a lot of data to start?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Yes. Our strategies are customized for both markets. B2B campaigns focus on lead quality,
-                            longer sales cycles, and LinkedIn/Google targeting. B2C campaigns prioritize volume,
-                            conversion rate, and social platform performance.
+                            Ideally, yes. AI works best with data. However, there are many "cold start" AI tools that
+                            can provide value even if you are just starting out.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What makes Rankmator different from other ad agencies?</span>
+                        <span>Is AI marketing expensive?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Our focus is on strategy, data accuracy, measurable ROI, and transparent reporting. We don't
-                            rely on vanity metrics or fluff. Every campaign is built with clear KPIs, and you receive
-                            weekly performance updates with actionable insights.
+                            It can actually reduce costs by improving efficiency and reducing waste. We tailor our tech
+                            stack to fit your budget and goals.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What industries benefit most?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            E-commerce, SaaS, Finance, and Healthcare see huge benefits due to the volume of data they
+                            generate, but almost any business can improve efficiency with AI.
                         </div>
                     </div>
                 </div>
@@ -1507,19 +1394,19 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title">Our Guarantees to You</h2>
-                    <p class="section-subtitle">We stand behind our Performance Marketing services</p>
+                    <p class="section-subtitle">We stand behind our AI marketing services</p>
                 </div>
             </div>
             <div class="guarantee-grid">
                 <div class="guarantee-item">
-
+                    <div class="guarantee-icon"></div>
                     <h4>Data Security</h4>
                     <p>Your data is protected with enterprise-grade security and privacy measures</p>
                 </div>
                 <div class="guarantee-item">
 
-                    <h4>Transparent AI</h4>
-                    <p>Understand exactly how our AI systems work and make decisions</p>
+                    <h4>Data Prvacy</h4>
+                    <p>We ensure your customer data is used ethically and securely.</p>
                 </div>
                 <div class="guarantee-item">
 
@@ -1542,14 +1429,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Improve Your Lead Quality, Reduce Ad Costs & Increase Revenue?</h2>
-                    <p>Your competitors are advertising. Your customers are taking action.</p>
-                    <p><strong>The question is—are they choosing you or someone else?</strong></p>
+                    <h2>Ready to Revolutionize Your Marketing with AI?</h2>
+                    <p>Your competitors are leveraging AI.</p>
+                    <p>Your customers expect personalized experiences.</p>
+                    <p>And every day you wait... you fall further behind.</p>
 
-                    <p class="cta-highlight">Strategic advertising is no longer optional —<br>
-                        it's essential for business survival.</p>
+                    <p class="cta-highlight">It's time to embrace the future of marketing.<br>
+                        It's time to partner with Rankmator.</p>
 
-                    <a href="contact.php" class="btn btn-final-cta">Book Your Free Ad Strategy Call</a>
+                    <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
                 </div>
             </div>
         </div>
@@ -1560,15 +1448,21 @@
             <div class="sticky-cta-content">
                 <p class="sticky-cta-text">Ready to Transform Your Marketing with AI?</p>
                 <div class="sticky-cta-buttons">
-                    <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Performance Marketing services"
+                    <a href="tel:+919999767666" class="btn-sticky">Call Now</a>
+                    <a href="https://api.whatsapp.com/send?phone=919999767666&text=I'm interested in AI Marketing services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <?php include('footer-link.php'); ?>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/smoothscroll.min.js"></script>
+    <script src="js/jquery.smartmenus.js"></script>
+    <script src="js/universal.js"></script>
 
     <script>
         // Smooth scrolling for anchor links
@@ -1624,6 +1518,3 @@
 </body>
 
 </html>
-
-
-

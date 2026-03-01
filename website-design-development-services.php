@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best SEO Agency in India | Rankmator - SEO Services for Startups & Businesses</title>
-
-
+    <title>Best Website Development Company in India | Rankmator - Custom Web Solutions</title>
     <meta name="description"
-        content="Rankmator is the best SEO agency in India offering professional SEO services for startups, service-based businesses, and growing brands. Get 20% off for startups. Expert SEO solutions for Healthcare, Fintech, Real Estate & more.">
+        content="Rankmator is the best website development company in India offering custom website design, e-commerce solutions, and web applications. Expert web developers for Startups, Healthcare, Fintech & more.">
     <meta name="keywords"
-        content="SEO agency in India, best SEO company, professional SEO services, top SEO experts India, SEO for startups, affordable SEO services, healthcare SEO, fintech SEO, dental SEO agency">
+        content="Website development company India, web design agency, custom website development, e-commerce website development, WordPress developers, Shopify experts, web application development">
     <meta name="author" content="Rankmator">
-    <link rel="canonical" href="seo.php" />
+    <link rel="canonical" href="website-design-development-services.php" />
 
 
     <?php include('header-link.php'); ?>
@@ -120,16 +118,6 @@
         }
 
 
-        .seo-section .row {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .seo-section .row>[class*='col-'] {
-            display: flex;
-            flex-direction: column;
-        }
-
         .why-choose-card {
             background: #fff;
             padding: 40px 30px;
@@ -161,7 +149,6 @@
             color: #666;
             line-height: 1.7;
             margin: 0;
-            flex-grow: 1;
         }
 
 
@@ -236,18 +223,67 @@
             margin-top: 20px;
         }
 
+        /* Flip Card Styles */
         .service-card {
-            background: #fff;
-            padding: 40px 30px;
-            border-radius: 20px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-            transition: all 0.4s ease;
-            position: relative;
-            overflow: hidden;
-            border: 2px solid transparent;
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            border: none;
+            perspective: 1000px;
+            overflow: visible;
         }
 
         .service-card::before {
+            display: none;
+        }
+
+        .service-card:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        .service-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            display: flex;
+        }
+
+        .service-card:hover .service-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .service-card-front,
+        .service-card-back {
+            width: 100%;
+            min-height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 20px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card-front {
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 30px;
+            z-index: 2;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card-front::before {
             content: '';
             position: absolute;
             top: 0;
@@ -260,14 +296,28 @@
             transition: transform 0.4s ease;
         }
 
-        .service-card:hover::before {
+        .service-card:hover .service-card-front::before {
             transform: scaleX(1);
         }
 
-        .service-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 50px rgba(208, 204, 55, 0.2);
-            border-color: #d0cc37;
+        .service-card-back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotateY(180deg);
+            padding: 40px 30px;
+            background: #fff;
+            color: #333;
+            justify-content: center;
+        }
+
+        .service-card-back h4 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .service-card-back p {
+            color: #666;
         }
 
         .service-icon {
@@ -281,19 +331,6 @@
             font-size: 32px;
             margin-bottom: 25px;
             color: #000;
-        }
-
-        .service-card h4 {
-            font-size: 22px;
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 15px;
-        }
-
-        .service-card p {
-            color: #666;
-            line-height: 1.7;
-            margin: 0;
         }
 
 
@@ -370,6 +407,8 @@
             text-align: center;
             position: relative;
         }
+
+
 
         .final-cta h2 {
             font-size: 42px;
@@ -1013,61 +1052,6 @@
         }
 
 
-        @media (max-width: 480px) {
-            .seo-hero h1 {
-                font-size: 24px;
-            }
-
-            .section-title {
-                font-size: 24px;
-            }
-
-            .hero-form {
-                padding: 25px 20px;
-            }
-
-            .why-choose-card,
-            .service-card {
-                padding: 20px 15px;
-            }
-
-            .service-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 24px;
-            }
-
-            .process-grid,
-            .stats-grid,
-            .trust-list,
-            .guarantee-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-
-            .industry-tag {
-                padding: 12px 20px;
-                font-size: 14px;
-            }
-
-            .btn-brand,
-            .btn-final-cta {
-                padding: 15px 30px;
-                font-size: 14px;
-            }
-
-            .faq-question {
-                font-size: 16px;
-                padding: 20px 20px;
-            }
-
-            .faq-answer-content {
-                padding: 0 20px 20px;
-                font-size: 15px;
-            }
-        }
-
-
         .growth-cta-section {
             background-color: #212121;
             padding: 40px 0;
@@ -1134,10 +1118,10 @@
             background-color: #d0cc37;
             color: #000;
             padding: 15px 30px;
+            text-wrap: auto;
             border: none;
             border-radius: 0 4px 4px 0;
             font-weight: 700;
-            text-wrap: auto;
             font-size: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -1171,8 +1155,8 @@
             .growth-input,
             .growth-btn {
                 width: 100%;
-                border-radius: 4px;
                 text-wrap: auto;
+                border-radius: 4px;
             }
 
             .growth-input {
@@ -1187,103 +1171,6 @@
             .growth-cta-content p.subheadline {
                 text-align: center;
             }
-        }
-
-        /* Flip Card Styles */
-        .service-card {
-            background: transparent;
-            padding: 0;
-            box-shadow: none;
-            border: none;
-            perspective: 1000px;
-            overflow: visible;
-        }
-
-        .service-card::before {
-            display: none;
-        }
-
-        .service-card:hover {
-            transform: none;
-            box-shadow: none;
-            border-color: transparent;
-        }
-
-        .service-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: left;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-            display: flex;
-        }
-
-        .service-card:hover .service-card-inner {
-            transform: rotateY(180deg);
-        }
-
-        .service-card-front,
-        .service-card-back {
-            width: 100%;
-            min-height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-            border-radius: 20px;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-            border: 2px solid transparent;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .service-card-front {
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px 30px;
-            z-index: 2;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .service-card-front::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: #d0cc37;
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform 0.4s ease;
-        }
-
-        .service-card:hover .service-card-front::before {
-            transform: scaleX(1);
-        }
-
-        .service-card-back {
-            position: absolute;
-            top: 0;
-            left: 0;
-            transform: rotateY(180deg);
-            padding: 40px 30px;
-            background: #fff;
-            color: #333;
-            justify-content: center;
-        }
-
-        .service-card-back h4 {
-            color: #1a1a1a;
-            margin-bottom: 10px;
-        }
-
-        .service-card-back p {
-            color: #666;
         }
     </style>
 
@@ -1301,20 +1188,19 @@
             <div class="row">
 
                 <div class="col-md-7">
-                    <h1>Rankmator - Best SEO Agency in India for Startups, Service-Based Businesses & Growing Brands
+                    <h1>Rankmator - Premium Website Development Agency for Brands That Demand Excellence
                     </h1>
-                    <p>If you are searching for the <strong>Best SEO Agency in India</strong> that truly understands
-                        your business, then you're in the right place.</p>
-                    <p>At Rankmator, we help startups, service-based businesses, and ambitious brands unlock predictable
-                        organic growth with result-driven SEO strategies that increase visibility, traffic, leads, and
-                        long-term business authority.</p>
+                    <p>Your website is your digital headquarters. If it doesn't impress, you lose business.</p>
+                    <p>At Rankmator, we build high-performance, visually stunning, and conversion-optimized websites
+                        that define your brand and drive growth. From custom code to CMS mastery, we deliver digital
+                        experiences that matter.</p>
 
                 </div>
 
 
                 <div class="col-md-5">
                     <div class="hero-form">
-                        <h3>Get Free SEO Strategy</h3>
+                        <h3>Get Free Website Consultation</h3>
                         <form action="mail.php" method="POST" name="seoContactForm" id="seoContactForm" novalidate>
                             <input name="name" type="text" class="form-control" placeholder="Your Name *" id="hero-name"
                                 required>
@@ -1324,8 +1210,7 @@
                                 id="hero-phone" required>
                             <textarea class="form-control" name="message" placeholder="Tell us about your business *"
                                 id="hero-message" required></textarea>
-                            <button type="submit" class="btn btn-brand btn-lg btn-block">Book Your FREE
-                                Consultation</button>
+                            <button type="submit" class="btn btn-brand btn-lg btn-block">Get Your Consultation</button>
                         </form>
                     </div>
                 </div>
@@ -1369,155 +1254,93 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Why Choose Rankmator as Your SEO Agency?</h2>
-                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">SEO is not just about
-                        keywords. It's about
-                        understanding the psychology
-                        of search, user journey, and how your business solves problems better than your competitors.</p>
+                    <h2 class="section-title" style="color: #fff;">Why Choose Rankmator for Website Development?</h2>
+                    <p class="section-subtitle mb-4" style="color: #ccc;margin-bottom:20px">A website is not just code;
+                        it's your brand's digital soul. We blend creativity, technology, and psychology to build sites
+                        that engage and convert.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Result-Driven Approach</h4>
-                        <p>Rankmator combines advanced analytics, deep keyword research, cutting-edge SEO frameworks,
-                            and optimized content strategies to boost your organic presence.</p>
+                        <h4>Performance-First Architecture</h4>
+                        <p>We build lightweight, high-speed websites using modern frameworks that ensure instant load
+                            times and superior user experience.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Rank Faster</h4>
-                        <p>Our mission is simple: Rank your business faster while maintaining a natural, human tone in
-                            every piece of content we produce.</p>
+                        <h4>Scalable Solutions</h4>
+                        <p>Startups grow fast, and so should your website. We design scalable architectures that can
+                            handle millions of users without breaking a sweat.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="why-choose-card">
-                        <h4>Improve Conversions</h4>
-                        <p>We don't just drive traffic-we focus on converting visitors into paying customers with
-                            strategic content and user experience optimization.</p>
+                        <h4>Conversion-Centric Design</h4>
+                        <p>A beautiful site is useless if it doesn't sell. We strategically place CTAs and optimize
+                            navigation to turn visitors into paying customers.</p>
                     </div>
                 </div>
             </div>
             <div class="row" style="margin-top: 30px;">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>Build Long-Term Authority</h4>
-                        <p>We help you establish your brand as a trusted authority in your industry through consistent,
-                            high-quality SEO practices.</p>
+                        <h4>Design That Converts</h4>
+                        <p>We don't just design pretty websites; we design high-converting user journeys that turn
+                            visitors into loyal customers.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="why-choose-card">
-                        <h4>Expert Team</h4>
-                        <p>Our strategies are inspired by industry leaders like Brian Dean, Matt Diggity, Aleyda Solis,
-                            Neil Patel, and SEMrush Academy.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <h4>AI-Powered Tracking & Performance Monitoring</h4>
-                        <p>AI-powered tracking with data-driven insights to monitor performance, optimize strategies,
-                            and ensure continuous growth.</p>
+                        <h4>Cutting-Edge Tech Stack</h4>
+                        <p>We use the latest technologies like React, Next.js, Node.js, and modern CMS platforms to
+                            ensure your site is fast, secure, and scalable.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class="portfolio-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Real Results We've Delivered</h2>
-                    <p class="section-subtitle">See the tangible impact our SEO strategies have created for businesses
-                        across India</p>
-                </div>
-            </div>
-            <div class="portfolio-grid">
-
-                <div class="portfolio-item">
-                    <img src="img/Traffic-growth1.webp" alt="Traffic Growth Results" class="portfolio-image">
-                    <div class="portfolio-overlay">
-                        <div class="portfolio-info">
-                            <h4>400% Traffic Increase</h4>
-                            <p>Healthcare Clinic - 6 Months</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="portfolio-item">
-                    <img src="img/Local-seo.webp" alt="Keyword Rankings" class="portfolio-image">
-                    <div class="portfolio-overlay">
-                        <div class="portfolio-info">
-                            <h4>50+ Keywords on Page 1</h4>
-                            <p>Real Estate Business - 4 Months</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="portfolio-item">
-                    <img src="img/Traffic-growth2.webp">
-                    <div class="portfolio-overlay">
-                        <div class="portfolio-info">
-                            <h4>10X Local Lead Generation</h4>
-                            <p>Dental Clinic - 3 Months</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 30px;">
-                <div class="col-lg-12 text-center">
-                    <p style="font-size: 16px; color: #666;">These are just a few examples. Your business could be next!
-                    </p>
-                    <a href="contact.php" class="btn btn-brand btn-lg">Get Your Free SEO Strategy -></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="process-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our Proven SEO Process</h2>
-                    <p class="section-subtitle" style="color: #ccc;">A systematic approach that delivers consistent,
-                        measurable results</p>
+                    <h2 class="section-title" style="color: #fff;">Our Web Development Process</h2>
+                    <p class="section-subtitle" style="color: #ccc;">A seamless workflow designed to take you from
+                        concept to launch in record time.</p>
                 </div>
             </div>
             <div class="process-grid">
 
                 <div class="process-step">
                     <div class="process-number">1</div>
-                    <h4>Research & Audit</h4>
-                    <p>Deep dive into your business, competitors, and current SEO status</p>
+                    <h4>Discovery & Planning</h4>
+                    <p>We analyze your business goals, target audience, and competitors to blueprint the perfect site.
+                    </p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">2</div>
-                    <h4>Strategy Development</h4>
-                    <p>Create customized SEO roadmap tailored to your goals and industry</p>
+                    <h4>UI/UX Design</h4>
+                    <p>We create stunning, user-centric designs that align with your brand identity.</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">3</div>
 
-                    <h4>Implementation</h4>
-                    <p>Execute on-page, off-page, technical SEO with precision</p>
+                    <h4>Development</h4>
+                    <p>Our devs bring designs to life with clean, bug-free, and high-performance code.</p>
                 </div>
 
 
                 <div class="process-step">
                     <div class="process-number">4</div>
 
-                    <h4>Monitor & Optimize</h4>
-                    <p>Track rankings, analyze data, and continuously improve performance</p>
+                    <h4>Launch & Support</h4>
+                    <p>We deploy your site, ensure everything runs smoothly, and provide ongoing support.</p>
                 </div>
             </div>
         </div>
@@ -1538,13 +1361,14 @@
                             emotional, challenging, and full of uncertainty.</p>
 
                         <div class="discount">20% OFF</div>
-                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all SEO plans for startups</p>
+                        <p style="font-size: 20px; font-weight: 600; color: #1a1a1a;">on all Website Development
+                            packages</p>
 
 
                         <p style="font-style: italic; margin-top: 30px; font-size: 18px; color: #444;">"We know the
                             struggle of building something from scratch-that's why we stand with you."</p>
 
-                        <a href="#contact-section" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
+                        <a href="contact.php" class="btn btn-brand btn-lg" style="margin-top: 30px;">Get Your
                             Startup Offer -></a>
                     </div>
                 </div>
@@ -1557,11 +1381,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title" style="color: #fff;">Our SEO Services - Designed for High-Growth
-                        Businesses</h2>
-                    <p class="section-subtitle" style="color: #ccc;">We follow a data-driven and ROI-focused SEO
-                        approach inspired by
-                        industry leaders.</p>
+                    <h2 class="section-title" style="color: #fff;">Custom Website Development Services</h2>
+                    <p class="section-subtitle" style="color: #ccc;">Tailored digital solutions for startups and
+                        enterprises.</p>
                 </div>
             </div>
 
@@ -1570,15 +1392,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Technical-SEO.webp');">
-                            <h4>1. Technical SEO Optimization</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Custom-Web-Development.webp');">
+                            <h4>1. Custom Website Design</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Technical SEO Optimization</h4>
-                            <p>A strong website architecture ensures that Google can crawl, index, and rank your content
-                                effortlessly. We fix technical issues, improve site speed, mobile-friendliness, and core
-                                web
-                                vitals.</p>
+                            <h4>Custom Website Design</h4>
+                            <p>Unique, hand-crafted designs that reflect your brand identity. No templates, just pure
+                                creativity
+                                tailored to your audience.</p>
                         </div>
                     </div>
                 </div>
@@ -1587,15 +1408,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Keyword-Research.webp');">
-                            <h4>2. Keyword Research & Competitor Analysis</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/eCommerce-Website-Development.webp');">
+                            <h4>2. E-Commerce Solutions</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Keyword Research & Strategy</h4>
-                            <p>Using advanced tools like Ahrefs, SEMrush, and Google Keyword Planner, we build an
-                                optimized
-                                keyword map that includes primary keywords, LSI keywords, long tail, and competitor gap
-                                keywords.</p>
+                            <h4>E-Commerce Solutions</h4>
+                            <p>Robust online stores built on Shopify, WooCommerce, or custom stacks. We ensure smooth
+                                checkout
+                                experiences and inventory management.</p>
                         </div>
                     </div>
                 </div>
@@ -1604,14 +1424,13 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/On-Page-SEO.webp');">
-                            <h4>3. On-Page SEO</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Corporate-Website-Design.webp');">
+                            <h4>3. Corporate Websites</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>On-Page SEO</h4>
-                            <p>We optimize every ranking factor Google looks at: meta tags, headings, content, internal
-                                links,
-                                and image alt tags. Our goal is to create pages that Google trusts and users love.</p>
+                            <h4>Corporate Websites</h4>
+                            <p>Professional, secure, and scalable websites for enterprises. Establish credibility and
+                                communicate your value proposition effectively.</p>
                         </div>
                     </div>
                 </div>
@@ -1620,14 +1439,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Content-Strategy.webp');">
-                            <h4>4. Content Strategy & SEO Copywriting</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Web-App-UIUX-Design.webp');">
+                            <h4>4. Web Application Development</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Content Strategy & SEO Copywriting</h4>
-                            <p>Content that ranks AND converts. We produce SEO-optimized service pages, blog posts, and
-                                landing
-                                pages designed to attract your ideal customers and drive actionable results.</p>
+                            <h4>Web Application Development</h4>
+                            <p>Complex web apps (SAAS, Portals, Dashboards) built with React, Angular, or Vue.js for
+                                seamless
+                                user interaction and performance.</p>
                         </div>
                     </div>
                 </div>
@@ -1636,14 +1455,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Off-Page-SEO.webp');">
-                            <h4>5. Off-Page SEO & Authority Building</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Website.webp');">
+                            <h4>5. CMS Development</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Off-Page SEO & Authority Building</h4>
-                            <p>We focus on quality, not quantity. Build high-authority backlinks from trusted websites.
-                                Better
-                                trust, higher rankings, and long-lasting organic growth.</p>
+                            <h4>CMS Development</h4>
+                            <p>Easy-to-manage websites using WordPress, Webflow, or custom CMS solutions, giving you
+                                full
+                                control over your content.</p>
                         </div>
                     </div>
                 </div>
@@ -1652,15 +1471,14 @@
                 <div class="service-card">
                     <div class="service-card-inner">
                         <div class="service-card-front"
-                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Local-SEO-1.webp');">
-                            <h4>6. Local SEO for Indian Businesses</h4>
+                            style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/Web-Maintenance.webp');">
+                            <h4>6. Maintenance & Support</h4>
                         </div>
                         <div class="service-card-back">
-                            <h4>Local SEO for Indian Businesses</h4>
-                            <p>Perfect for service-based businesses, gyms, dental clinics, lawyers, and more. We
-                                optimize your
-                                Google My Business, local citations, and location-based keywords to dominate local
-                                search.</p>
+                            <h4>Maintenance & Support</h4>
+                            <p>We don't just build and leave. We provide ongoing support, security updates, and
+                                performance
+                                optimization to keep your site running smooth.</p>
                         </div>
                     </div>
                 </div>
@@ -1673,27 +1491,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Industries We Serve with Targeted SEO Solutions</h2>
-                    <p class="section-subtitle">Rankmator provides SEO services across 15+ industries with customized,
-                        high-ROI strategies.</p>
+                    <h2 class="section-title">Industries We Empower with Digital Solutions</h2>
+                    <p class="section-subtitle">Rankmator builds custom websites across 15+ industries tailored to
+                        specific business needs.</p>
 
                     <div class="industries-grid">
-                        <div class="industry-tag">Healthcare SEO Agency</div>
-                        <div class="industry-tag">Fintech SEO</div>
-                        <div class="industry-tag">Dental SEO Agency</div>
-                        <div class="industry-tag">Dermatologists SEO</div>
-                        <div class="industry-tag">Nutritionists SEO</div>
-                        <div class="industry-tag">Property Developers SEO</div>
-                        <div class="industry-tag">Luxury Villas SEO</div>
-                        <div class="industry-tag">Home Decor SEO</div>
-                        <div class="industry-tag">Resorts SEO</div>
-                        <div class="industry-tag">Dubai Yacht Rentals SEO</div>
-                        <div class="industry-tag">Coaching Institutes SEO</div>
-                        <div class="industry-tag">Pest Control SEO</div>
-                        <div class="industry-tag">Plumbing SEO</div>
-                        <div class="industry-tag">Gyms SEO</div>
-                        <div class="industry-tag">Yoga Studios SEO</div>
-                        <div class="industry-tag">Lawyers SEO</div>
+                        <div class="industry-tag">Healthcare Website Design</div>
+                        <div class="industry-tag">Fintech Portals</div>
+                        <div class="industry-tag">Dental Websites</div>
+                        <div class="industry-tag">Dermatology Clinics</div>
+                        <div class="industry-tag">Nutritionist Sites</div>
+                        <div class="industry-tag">Real Estate Portals</div>
+                        <div class="industry-tag">Luxury Villas</div>
+                        <div class="industry-tag">Home Decor E-commerce</div>
+                        <div class="industry-tag">Resort Websites</div>
+                        <div class="industry-tag">Yacht Rental Booking</div>
+                        <div class="industry-tag">Education Platforms</div>
+                        <div class="industry-tag">Service Businesses</div>
+                        <div class="industry-tag">Manufacturing</div>
+                        <div class="industry-tag">Fitness & Gyms</div>
+                        <div class="industry-tag">Yoga Studios</div>
+                        <div class="industry-tag">Law Firm Websites</div>
                     </div>
                 </div>
             </div>
@@ -1706,21 +1524,21 @@
             <div class="row" style="display: flex; align-items: center; flex-wrap: wrap;">
                 <div class="col-md-7">
                     <div class="growth-cta-content">
-                        <h2>Ready to Stay Visible and Grow Revenue With SEO?</h2>
-                        <p class="subheadline">Get a personalized look at how our AI + SEO experts can <span
-                                class="highlight-text">accelerate your growth.</span></p>
+                        <h2>Ready to Build a Website That Drives Business?</h2>
+                        <p class="subheadline">Get a personalized consultation on how our dev experts can <span
+                                class="highlight-text">transform your digital presence.</span></p>
 
                         <form action="mail.php" method="POST" class="growth-form">
                             <input type="tel" name="phone" class="growth-input" placeholder="Enter your phone number" style="border-radius: 4px 0 0 4px; border-right: 1px solid #ddd;" required>
-                            <input name="website" type="text" class="growth-input" style="border-radius: 0;" placeholder="Enter your website"
-                                required>
-                            <button type="submit" class="growth-btn">Get My SEO Growth Plan</button>
+                            <input name="website" type="text" class="growth-input" style="border-radius: 0;"
+                                placeholder="Enter your current website (if any)" required>
+                            <button type="submit" class="growth-btn">Get My Free Consultation</button>
                         </form>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="growth-image-container">
-                        <img src="img/about-us.png" alt="SEO Team" class="growth-image">
+                        <img src="img/about-us.png" alt="Team" class="growth-image">
                     </div>
                 </div>
             </div>
@@ -1733,28 +1551,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2 class="section-title">Why Rankmator Is Trusted by Startups & Service Providers in India</h2>
-                    <p class="section-subtitle">Rankmator is the SEO partner you choose when you want performance,
-                        professionalism, and predictable results.</p>
+                    <h2 class="section-title">Why Rankmator Is The Top Choice for Web Development</h2>
+                    <p class="section-subtitle">Rankmator is the development partner you choose when you want
+                        performance,
+                        scalability, and award-winning design.</p>
 
                     <div class="trust-list">
                         <div class="trust-item">
-                            <span>Focus on business revenue, not vanity metrics</span>
+                            <span>Focus on user experience, not just code</span>
                         </div>
                         <div class="trust-item">
-                            <span>SEO built around buyer intent</span>
+                            <span>Websites built for conversion & sales</span>
                         </div>
                         <div class="trust-item">
-                            <span>Transparent communication and reporting</span>
+                            <span>Transparent project timelines and milestones</span>
                         </div>
                         <div class="trust-item">
-                            <span>Fast implementation & monthly growth tracking</span>
+                            <span>Mobile-first & responsive architecture</span>
                         </div>
                         <div class="trust-item">
-                            <span>100% ethical and white-hat SEO</span>
+                            <span>Clean, secure, and maintainable code</span>
                         </div>
                         <div class="trust-item">
-                            <span>Specialized in local + national + global SEO</span>
+                            <span>Specialized in E-commerce & Corporate Webs</span>
                         </div>
                     </div>
                 </div>
@@ -1769,78 +1588,63 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="section-title" style="color: #fff;">Frequently Asked Questions</h2>
                     <p class="section-subtitle" style="color: #ccc;">Got questions? We've got answers. Here's everything
-                        you need to know about our SEO services.</p>
+                        you need to know about our development services.</p>
                 </div>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How long does it take to see SEO results?</span>
+                        <span>How long does it take to build a website?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Typically, you'll start seeing initial improvements in 2-3 months, with significant results
-                            in 4-6 months. SEO is a long-term strategy, but we provide monthly reports so you can track
-                            progress every step of the way.
+                            A standard corporate website takes 2-4 weeks, while complex e-commerce or custom web apps
+                            may take 6-10 weeks. We provide a detailed timeline during our initial consultation.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>What if I don't rank on the first page?</span>
+                        <span>Will my website be mobile-friendly?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We work with a data-driven approach and have a proven track record. While we can't guarantee
-                            specific rankings (no ethical SEO agency can), we guarantee consistent improvement,
-                            increased traffic, and measurable ROI.
+                            Absolutely! We follow a "Mobile-First" approach. Your website will look and function
+                            perfectly on smartphones, tablets, and desktops alike.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>Do you use ethical (white-hat) SEO practices?</span>
+                        <span>Do you provide website maintenance services?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            Absolutely! We follow 100% white-hat SEO practices that comply with Google's guidelines. We
-                            never use black-hat tactics that could risk your website's reputation or rankings.
+                            Yes, we offer ongoing maintenance packages. We handle security updates, backups, content
+                            updates, and server monitoring so you can focus on your business.
                         </div>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <span>How is Rankmator different from other SEO agencies?</span>
+                        <span>Will I be able to update specific content myself?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
                         <div class="faq-answer-content">
-                            We focus on business outcomes, not just rankings. Our approach combines data, creativity,
-                            and transparency. Plus, we specialize in helping startups and service-based businesses with
-                            affordable yet effective SEO strategies.
+                            Yes! We build websites on user-friendly CMS platforms (like WordPress, Webflow, or custom
+                            admin panels) that allow you to easily update text and images.
                         </div>
                     </div>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span>Can you help with local SEO for my business?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-content">
-                            Yes! We offer specialized local SEO services to help you dominate your neighborhood
-                            searches. This includes Google My Business optimization, local citations, and location-based
-                            keyword targeting.
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="faq-item">
                     <div class="faq-question">
@@ -1856,31 +1660,7 @@
                     </div>
                 </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span>Do I need to sign a long-term contract?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-content">
-                            We offer flexible plans. While we recommend at least 6 months for best results (SEO takes
-                            time), we don't lock you into long contracts. You're free to cancel with 30 days' notice.
-                        </div>
-                    </div>
-                </div>
 
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span>Will I get monthly reports and updates?</span>
-                        <span class="faq-icon">+</span>
-                    </div>
-                    <div class="faq-answer">
-                        <div class="faq-answer-content">
-                            Yes! Transparency is a core value at Rankmator. You'll receive detailed monthly reports
-                            showing traffic growth, keyword rankings, conversions, and actionable insights.
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -1896,18 +1676,22 @@
             </div>
             <div class="guarantee-grid">
                 <div class="guarantee-item">
-                    <h4>100% White-Hat SEO</h4>
-                    <p>Only ethical practices that comply with Google guidelines</p>
+                    <div class="guarantee-icon"></div>
+                    <h4>Bug-Free Code Guarantee</h4>
+                    <p>Rigorous testing to ensure a flawless user experience</p>
                 </div>
                 <div class="guarantee-item">
-                    <h4>Transparent Reporting</h4>
-                    <p>Know exactly what we're doing and the results we're achieving</p>
+                    <div class="guarantee-icon"></div>
+                    <h4>Transparent Process</h4>
+                    <p>Know exactly what we're building with regular updates</p>
                 </div>
                 <div class="guarantee-item">
-                    <h4>Money-Back Promise</h4>
-                    <p>If we don't meet agreed targets in 6 months, we'll refund you</p>
+                    <div class="guarantee-icon"></div>
+                    <h4>On-Time Delivery</h4>
+                    <p>We respect deadlines. If we delay, we compensate.</p>
                 </div>
                 <div class="guarantee-item">
+                    <div class="guarantee-icon"></div>
                     <h4>Dedicated Support</h4>
                     <p>Your success is our success - we're with you all the way</p>
                 </div>
@@ -1922,12 +1706,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center" style="position: relative; z-index: 2;">
-                    <h2>Ready to Grow Your Business with SEO That Actually Delivers Results?</h2>
-                    <p>Your competitors are ranking on Google.</p>
-                    <p>Your customers are searching every day.</p>
-                    <p>And every minute you wait... you lose potential business.</p>
+                    <h2>Ready to Build Your Dream Website?</h2>
+                    <p>Your competitors are innovating digitally.</p>
+                    <p>Your customers expect a seamless online experience.</p>
+                    <p>Don't let an outdated website hold you back.</p>
 
-                    <p class="cta-highlight">It's time to turn your website into a revenue machine.<br>
+                    <p class="cta-highlight">It's time to elevate your brand presence.<br>
                         It's time to partner with Rankmator.</p>
 
                     <a href="contact.php" class="btn btn-final-cta">Book Your FREE Call Today</a>
@@ -1935,33 +1719,20 @@
             </div>
         </div>
     </section>
-
     <div class="sticky-cta" id="stickyCTA">
         <div class="container">
             <div class="sticky-cta-content">
-                <p class="sticky-cta-text">Ready to Get More Leads? Let's boost your SEO today!</p>
+                <p class="sticky-cta-text">Ready for a New Website? Let's build it today!</p>
                 <div class="sticky-cta-buttons">
                     <a href="tel:+919560864432" class="btn-sticky">Call Now</a>
-                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in SEO services"
+                    <a href="https://api.whatsapp.com/send?phone=919560864432&text=I'm interested in Website Development services"
                         target="_blank" class="btn-sticky">WhatsApp</a>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
     <?php include('footer-link.php'); ?>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/device.min.js"></script>
-    <script src="js/form.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
-    <script src="js/jquery.circle-progress.min.js"></script>
-    <script src="js/jquery.swipebox.min.js"></script>
-    <script src="js/wow.min.js"></script>
 
     <script>
         // Smooth scrolling for anchor links
