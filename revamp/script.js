@@ -11,27 +11,32 @@
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 60) {
-      navbar.classList.add('scrolled');
-      scrollTopBtn.classList.add('visible');
+      if (navbar) navbar.classList.add('scrolled');
+      if (scrollTopBtn) scrollTopBtn.classList.add('visible');
     } else {
-      navbar.classList.remove('scrolled');
-      scrollTopBtn.classList.remove('visible');
+      if (navbar) navbar.classList.remove('scrolled');
+      if (scrollTopBtn) scrollTopBtn.classList.remove('visible');
     }
   });
 
-  scrollTopBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   /* ─── Hamburger / Mobile Nav ─────────────────────── */
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.querySelector('.nav-links');
   const navActions = document.querySelector('.nav-actions');
-  hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navLinks.classList.toggle('active');
-    if (navActions) navActions.classList.toggle('active');
-  });
+  
+  if (hamburger) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      if (navLinks) navLinks.classList.toggle('active');
+      if (navActions) navActions.classList.toggle('active');
+    });
+  }
 
   /* ─── Services Tab Switching (main section) ──────── */
   const tabBtns = document.querySelectorAll('#services-tabs-nav .tab-btn');
