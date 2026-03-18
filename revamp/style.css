@@ -1,5 +1,5 @@
 /* =====================================================
-   TECHMAGNATE REVAMP — Light Theme Design System
+   RANKMATOR REVAMP — Light Theme Design System
    Primary: #0868A0 | Secondary: #6BAB44
    ===================================================== */
 
@@ -72,6 +72,8 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -824,6 +826,7 @@ textarea {
   align-items: center;
   gap: 14px;
   padding-top: 8px;
+  flex-wrap: wrap;
 }
 
 .trust-avatars {
@@ -1440,7 +1443,7 @@ textarea {
 
 .service-feat {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   font-size: 14px;
   color: var(--text-secondary);
@@ -2503,7 +2506,7 @@ textarea {
 }
 
 .faq-item.active .faq-answer {
-  max-height: 500px;
+  max-height: 2000px;
   padding-bottom: 24px;
 }
 
@@ -3056,22 +3059,38 @@ textarea.form-field {
   }
 
   .services-tabs-nav {
-    flex-wrap: wrap;
-    border-bottom: none;
-    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--border-grey);
+    gap: 10px;
+  }
+
+  .services-tabs-nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .services-tabs-nav::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  .services-tabs-nav::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 4px;
   }
 
   .tab-btn {
-    flex: 0 0 calc(50% - 5px);
-    border: 1px solid var(--border-grey);
-    border-radius: var(--radius-sm);
-    margin: 0;
-    padding: 10px 5px;
-    font-size: 12px;
+    flex: 0 0 auto;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+    margin: 0 0 -2px 0;
+    padding: 10px 16px;
+    font-size: 13px;
   }
 
   .tab-btn.active {
-    border-color: var(--primary);
+    border-bottom-color: var(--primary);
   }
 
   .footer-top {
@@ -3108,8 +3127,10 @@ textarea.form-field {
   .service-grid-premium,
   .process-grid,
   .benefits-grid,
+  .slider-panel, /* FIX: Add missing panel */
+  .contact-grid,
   .tech-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
   }
   
   .diff-table {
@@ -3136,8 +3157,10 @@ textarea.form-field {
   .process-grid,
   .benefits-grid,
   .tech-grid,
+  .slider-panel, /* FIX: Add missing panel */
+  .contact-grid,
   .pricing-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 
   .vstat-card {
