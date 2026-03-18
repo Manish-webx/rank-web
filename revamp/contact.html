@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Rankmator — Digital Marketing Agency</title>
+  <meta name="description" content="Get in touch with Rankmator's digital marketing experts. We're here to help you grow your business with SEO, Google Ads, Social Media, and Performance Marketing services." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    /* ── Contact Page Styles ── */
+    .contact-hero {
+      background: var(--gradient-hero);
+      padding: 80px 0 100px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .contact-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+      opacity: 0.1;
+    }
+    .contact-hero-badge {
+      background: rgba(107,171,68,0.12);
+      border: 1px solid rgba(107,171,68,0.35);
+      color: var(--secondary);
+      padding: 8px 20px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .contact-hero-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--secondary);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--secondary);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{transform:scale(1);opacity:1;} 50%{transform:scale(1.5);opacity:0.5;} }
+
+    .contact-hero h1 {
+      font-size: clamp(36px, 5vw, 62px);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 20px;
+      line-height: 1.15;
+    }
+    .contact-hero p {
+      font-size: 20px;
+      color: rgba(255,255,255,0.85);
+      max-width: 650px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
+    }
+
+    /* ── Quick Contact Pillars ── */
+    .contact-pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: -60px;
+      position: relative;
+      z-index: 10;
+      margin-bottom: 60px;
+    }
+    .pillar-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      border: 1px solid #f0f0f0;
+      transition: all 0.3s;
+    }
+    .pillar-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(107,171,68,0.12);
+      border-color: var(--secondary);
+    }
+    .pillar-icon {
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      color: #fff;
+      margin: 0 auto 20px;
+    }
+    .pillar-card h3 { font-size: 16px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+    .pillar-card a, .pillar-card p { font-size: 17px; font-weight: 600; color: var(--text-primary); text-decoration: none; display: block; margin: 4px 0; }
+    .pillar-card a:hover { color: var(--secondary); }
+
+    /* ── Main Contact Layout ── */
+    .main-contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 50px;
+      align-items: start;
+    }
+    @media (max-width: 900px) { .main-contact-layout { grid-template-columns: 1fr; } }
+
+    /* ── Left Info Panel ── */
+    .contact-left-panel { display: flex; flex-direction: column; gap: 28px; }
+    .info-panel-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    }
+    .info-panel-card h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .info-panel-card h3 i { color: var(--secondary); }
+    .info-row { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 16px; }
+    .info-row:last-child { margin-bottom: 0; }
+    .info-row-icon { width: 42px; height: 42px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 16px; color: var(--primary); flex-shrink: 0; }
+    .info-row-text { flex: 1; }
+    .info-row-text span { display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #94a3b8; margin-bottom: 3px; }
+    .info-row-text a, .info-row-text p { font-size: 15px; font-weight: 600; color: var(--text-primary); text-decoration: none; margin: 0; line-height: 1.5; }
+    .info-row-text a:hover { color: var(--secondary); }
+
+    /* Social Links */
+    .social-follow { display: flex; gap: 12px; flex-wrap: wrap; }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.3s;
+      border: 1px solid transparent;
+    }
+    .social-btn.fb { background: #1877F2; color: #fff; }
+    .social-btn.fb:hover { background: #0d65d8; }
+    .social-btn.ln { background: #0A66C2; color: #fff; }
+    .social-btn.ln:hover { background: #0558a9; }
+    .social-btn.ig { background: linear-gradient(135deg, #f09433,#e6683c,#dc2743,#cc2366,#bc1888); color: #fff; }
+    .social-btn.yt { background: #FF0000; color: #fff; }
+    .social-btn.yt:hover { background: #cc0000; }
+
+    /* Working Hours */
+    .hours-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .hours-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: #f8fafc; border-radius: 10px; font-size: 14px; }
+    .hours-row .day { font-weight: 600; color: var(--text-primary); }
+    .hours-row .time { color: #64748b; font-weight: 500; }
+    .hours-row.open .time { color: #22c55e; font-weight: 700; }
+
+    /* ── Right Form Panel ── */
+    .contact-form-panel {
+      background: #fff;
+      border-radius: 30px;
+      padding: 50px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.07);
+      border: 1px solid #e2e8f0;
+      position: sticky;
+      top: 100px;
+    }
+    .contact-form-panel h2 { font-size: 32px; font-weight: 900; color: var(--text-primary); margin-bottom: 8px; }
+    .contact-form-panel > p { font-size: 16px; color: #64748b; margin-bottom: 36px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
+    .form-group-contact { margin-bottom: 18px; }
+    .form-label { display: block; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #64748b; margin-bottom: 8px; }
+    .form-input {
+      width: 100%;
+      padding: 14px 18px;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      font-size: 15px;
+      font-family: inherit;
+      transition: border-color 0.3s, box-shadow 0.3s;
+      background: #fcfcfc;
+      color: var(--text-primary);
+      box-sizing: border-box;
+    }
+    .form-input:focus { outline: none; border-color: var(--secondary); box-shadow: 0 0 0 4px rgba(107,171,68,0.1); background: #fff; }
+    .form-input::placeholder { color: #94a3b8; }
+    .form-submit-btn {
+      width: 100%;
+      padding: 18px;
+      background: var(--secondary);
+      color: #fff;
+      border: none;
+      border-radius: 14px;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .form-submit-btn:hover { background: #5da83a; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(107,171,68,0.3); }
+
+    /* ── Map Section ── */
+    .map-section {
+      background: #f8fafc;
+      border-radius: 30px;
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+      margin-top: 60px;
+    }
+    .map-header { padding: 40px; display: flex; justify-content: space-between; align-items: center; }
+    .map-placeholder {
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      color: #fff;
+    }
+    .map-placeholder i { font-size: 60px; opacity: 0.6; }
+    .map-placeholder p { font-size: 18px; font-weight: 600; opacity: 0.8; text-align: center; }
+    .map-placeholder a { color: var(--secondary); font-weight: 700; font-size: 16px; text-decoration: none; padding: 12px 30px; background: rgba(255,255,255,0.1); border-radius: 50px; border: 1px solid rgba(255,255,255,0.3); transition: all 0.3s; }
+    .map-placeholder a:hover { background: var(--secondary); color: #fff; }
+
+    /* ── Trust Strip ── */
+    .trust-strip {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 50px 0;
+      border-top: 1px solid #e2e8f0;
+      border-bottom: 1px solid #e2e8f0;
+      margin: 60px 0;
+    }
+    .trust-strip-item { display: flex; align-items: center; gap: 14px; }
+    .trust-strip-icon { font-size: 36px; color: var(--primary); }
+    .trust-strip-text strong { display: block; font-size: 22px; font-weight: 900; color: var(--text-primary); }
+    .trust-strip-text span { font-size: 13px; color: #64748b; font-weight: 500; }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <a href="tel:+919910308266" class="top-bar-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        +91-9910308266
+      </a>
+      <a href="mailto:enquiry@rankmator.com" class="top-bar-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        enquiry@rankmator.com
+      </a>
+      <div class="top-bar-socials" style="display:flex;align-items:center;gap:14px;">
+        <a href="#" style="color:rgba(255,255,255,0.8);font-size:14px;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" style="color:rgba(255,255,255,0.8);font-size:14px;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" style="color:rgba(255,255,255,0.8);font-size:14px;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" style="color:rgba(255,255,255,0.8);font-size:14px;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.8)'"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header id="navbar">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="index.html" class="nav-logo">
+          <div class="nav-logo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div>
+            <div class="nav-logo-text">RANK<span>MATOR</span></div>
+            <span class="nav-tagline">Digital Excellence</span>
+          </div>
+        </a>
+        <ul class="nav-links">
+          <!-- Company -->
+
+          <!-- Services MEGA MENU -->
+          <li class="nav-item mega-item">
+            <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
+            <div class="mega-menu">
+              <!-- Col 1: SEO & Organic -->
+              <div class="mega-col">
+                <div class="mega-col-title">SEO &amp; Organic</div>
+                <a href="index.html#panel-seo" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div class="mega-link-text"><strong>Search Engine Optimization</strong><span>Rank #1 on Google organically</span></div>
+                </a>
+                <a href="local-seo-services.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                  <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
+                </a>
+                <a href="ecommerce-seo-services.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span></div>
+                </a>
+                <a href="web-development-services.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
+                  <div class="mega-link-text"><strong>Web Design &amp; Development</strong><span>High-converting websites</span></div>
+                </a>
+              </div>
+              <!-- Col 2: Paid Advertising -->
+              <div class="mega-col">
+                <div class="mega-col-title">Paid Advertising</div>
+                <a href="performance-marketing.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
+                  <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media ROI</span></div>
+                </a>
+                <a href="google-ads.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
+                  <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed campaigns</span></div>
+                </a>
+                <a href="facebook-ads.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-facebook"></i></div>
+                  <div class="mega-link-text"><strong>Facebook &amp; Meta Ads</strong><span>Precision audience targeting</span></div>
+                </a>
+              </div>
+              <!-- Col 3: Social & Content -->
+              <div class="mega-col">
+                <div class="mega-col-title">Social &amp; Content</div>
+                <a href="social-media-marketing.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                  <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand communities</span></div>
+                </a>
+                <a href="youtube-marketing.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
+                  <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span></div>
+                </a>
+                <a href="email-marketing.html" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span></div>
+                </a>
+              </div>
+              <!-- Col 4: Promo -->
+              <div class="mega-col-promo">
+                <div>
+                  <div class="mega-promo-tag">&#9889; Google Premier Partner</div>
+                  <div class="mega-promo-title">India's #1<br/>Digital Marketing<br/>Agency</div>
+                  <div class="mega-promo-desc">18+ years of performance excellence. 300+ brands transformed.</div>
+                  <div class="mega-promo-stats">
+                    <div class="mega-stat"><strong>4x</strong><span>Avg ROAS</span></div>
+                    <div class="mega-stat"><strong>300+</strong><span>Clients</span></div>
+                    <div class="mega-stat"><strong>18+</strong><span>Years</span></div>
+                    <div class="mega-stat"><strong>50+</strong><span>Awards</span></div>
+                  </div>
+                </div>
+                <a href="contact.html" class="mega-promo-btn"><i class="fa-solid fa-paper-plane"></i> Get Free Consultation</a>
+              </div>
+            </div>
+          </li>
+          <!-- Industry -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
+            <div class="nav-dropdown">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
+              <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
+              <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
+              <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+              <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link" style="color:var(--secondary);">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#main-form" class="nav-cta">Request a Call</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="contact-hero">
+    <div class="hero-orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+    <div class="container" style="position:relative;z-index:2;">
+      <div class="contact-hero-badge">
+        <div class="contact-hero-dot"></div>
+        We Reply Within 24 Hours
+      </div>
+      <h1>Let's Build Something<br/><span class="highlight">Extraordinary Together</span></h1>
+      <p>Whether you're looking to grow organic traffic, scale your ad campaigns, or rebuild your entire digital presence — our experts are ready to craft your custom growth strategy.</p>
+      <a href="#main-form" class="btn btn-green" style="display:inline-flex;align-items:center;gap:10px;font-size:17px;padding:16px 40px;">
+        <i class="fa-solid fa-paper-plane"></i> Send Us a Message
+      </a>
+    </div>
+  </section>
+
+  <!-- QUICK CONTACT PILLARS -->
+  <section style="background:#f8fafc;padding:0 0 40px;">
+    <div class="container">
+      <div class="contact-pillars">
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-phone"></i></div>
+          <h3>Call Us</h3>
+          <a href="tel:+919910308266">+91-9910308266</a>
+          <a href="tel:+919910308266">+91-9910308266</a>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-envelope"></i></div>
+          <h3>Email Us</h3>
+          <a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a>
+          <a href="mailto:jobs@rankmator.com">jobs@rankmator.com</a>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/919910308266" target="_blank">Chat on WhatsApp</a>
+          <p style="color:#64748b;font-size:14px;font-weight:400;">Mon–Sat, 9 AM – 7 PM</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+          <h3>Visit Us</h3>
+          <p style="font-size:14px;font-weight:500;color:#64748b;line-height:1.5;">A-24/8, Rathi Tower, Mohan Cooperative, New Delhi 110044</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section style="background:#fff;">
+    <div class="container">
+      <div class="trust-strip">
+        <div class="trust-strip-item">
+          <div class="trust-strip-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="trust-strip-text">
+            <strong>18+ Years</strong>
+            <span>Digital Excellence</span>
+          </div>
+        </div>
+        <div class="trust-strip-item">
+          <div class="trust-strip-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="trust-strip-text">
+            <strong>300+</strong>
+            <span>Clients Transformed</span>
+          </div>
+        </div>
+        <div class="trust-strip-item">
+          <div class="trust-strip-icon"><i class="fa-brands fa-google" style="color:#4285F4;"></i></div>
+          <div class="trust-strip-text">
+            <strong>Premier Partner</strong>
+            <span>Google Certified 2025</span>
+          </div>
+        </div>
+        <div class="trust-strip-item">
+          <div class="trust-strip-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="trust-strip-text">
+            <strong>50+ Awards</strong>
+            <span>Industry Recognition</span>
+          </div>
+        </div>
+        <div class="trust-strip-item">
+          <div class="trust-strip-icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="trust-strip-text">
+            <strong>&lt; 24hr</strong>
+            <span>Response Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTACT SECTION -->
+  <section id="main-form" class="section-pad" style="background:#f8fafc;">
+    <div class="container">
+      <div class="main-contact-layout">
+
+        <!-- LEFT: Info -->
+        <div class="contact-left-panel">
+          <!-- Corporate Office -->
+          <div class="info-panel-card">
+            <h3><i class="fa-solid fa-building"></i> Corporate Office — Delhi</h3>
+            <div class="info-row">
+              <div class="info-row-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div class="info-row-text">
+                <span>Address</span>
+                <p>A-24/8, 1st Floor, Rathi Tower, NH-19, Mohan Cooperative Industrial Estate, New Delhi – 110044</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="info-row-text">
+                <span>Sales Enquiry</span>
+                <a href="tel:+919910308266">+91-9910308266</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="info-row-text">
+                <span>General Enquiry</span>
+                <a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-row-icon"><i class="fa-solid fa-user-tie"></i></div>
+              <div class="info-row-text">
+                <span>Careers / HR</span>
+                <a href="mailto:jobs@rankmator.com">jobs@rankmator.com</a>
+              </div>
+            </div>
+            <div style="margin-top:20px;">
+              <a href="#" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:10px;font-size:15px;text-decoration:none;">
+                <i class="fa-solid fa-map-location-dot"></i> Get Directions
+              </a>
+            </div>
+          </div>
+
+          <!-- Working Hours -->
+          <div class="info-panel-card">
+            <h3><i class="fa-solid fa-clock"></i> Working Hours</h3>
+            <div class="hours-grid">
+              <div class="hours-row open"><span class="day">Monday</span><span class="time">9 AM – 7 PM</span></div>
+              <div class="hours-row open"><span class="day">Tuesday</span><span class="time">9 AM – 7 PM</span></div>
+              <div class="hours-row open"><span class="day">Wednesday</span><span class="time">9 AM – 7 PM</span></div>
+              <div class="hours-row open"><span class="day">Thursday</span><span class="time">9 AM – 7 PM</span></div>
+              <div class="hours-row open"><span class="day">Friday</span><span class="time">9 AM – 7 PM</span></div>
+              <div class="hours-row open"><span class="day">Saturday</span><span class="time">10 AM – 5 PM</span></div>
+              <div class="hours-row"><span class="day">Sunday</span><span class="time" style="color:#ef4444;">Closed</span></div>
+            </div>
+          </div>
+
+          <!-- Follow Us -->
+          <div class="info-panel-card">
+            <h3><i class="fa-solid fa-share-nodes"></i> Follow Us</h3>
+            <p style="color:#64748b;font-size:15px;margin-bottom:20px;">Stay connected for the latest digital marketing insights, case studies, and industry news.</p>
+            <div class="social-follow">
+              <a href="#" class="social-btn fb"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a href="#" class="social-btn ln"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+              <a href="#" class="social-btn ig"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a href="#" class="social-btn yt"><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="contact-form-panel">
+          <h2>Send Us a Message</h2>
+          <p>Fill in the form below and one of our digital growth experts will get back to you within 24 hours — usually much sooner.</p>
+
+          <form onsubmit="event.preventDefault(); this.innerHTML='<div style=\'text-align:center;padding:40px 20px;\'><i class=\'fa-solid fa-circle-check\' style=\'font-size:60px;color:#22c55e;margin-bottom:20px;display:block;\'></i><h3 style=\'font-size:24px;margin-bottom:10px;\'>Message Sent!</h3><p style=\'color:#64748b;\'>Our team will contact you within 24 hours.</p></div>';">
+            <div class="form-row">
+              <div class="form-group-contact">
+                <label class="form-label" for="contact-name">Your Name *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Rahul Kapoor" required />
+              </div>
+              <div class="form-group-contact">
+                <label class="form-label" for="contact-company">Company Name</label>
+                <input type="text" id="contact-company" class="form-input" placeholder="e.g. Acme Corp" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group-contact">
+                <label class="form-label" for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="you@company.com" required />
+              </div>
+              <div class="form-group-contact">
+                <label class="form-label" for="contact-phone">Phone Number *</label>
+                <input type="tel" id="contact-phone" class="form-input" placeholder="+91 98765 43210" required />
+              </div>
+            </div>
+            <div class="form-group-contact">
+              <label class="form-label" for="contact-service">Service You're Interested In *</label>
+              <select id="contact-service" class="form-input" required>
+                <option value="" disabled selected>Choose a service...</option>
+                <optgroup label="SEO &amp; Organic">
+                  <option>Search Engine Optimization (SEO)</option>
+                  <option>Local SEO</option>
+                  <option>E-commerce SEO</option>
+                </optgroup>
+                <optgroup label="Paid Advertising">
+                  <option>Google Ads (PPC)</option>
+                  <option>Facebook &amp; Instagram Ads</option>
+                  <option>YouTube Ads</option>
+                  <option>Performance Marketing</option>
+                  <option>Programmatic Advertising</option>
+                </optgroup>
+                <optgroup label="Social &amp; Content">
+                  <option>Social Media Marketing</option>
+                  <option>YouTube Marketing</option>
+                  <option>Email Marketing</option>
+                  <option>Content Marketing</option>
+                  <option>Influencer Marketing</option>
+                </optgroup>
+                <optgroup label="Design &amp; Development">
+                  <option>Website Design &amp; Development</option>
+                  <option>Branding &amp; Creative Design</option>
+                </optgroup>
+                <option>Full Digital Marketing Strategy</option>
+                <option>Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group-contact">
+              <label class="form-label" for="contact-budget">Monthly Marketing Budget</label>
+              <select id="contact-budget" class="form-input">
+                <option value="" disabled selected>Select your budget range...</option>
+                <option>Below ₹50,000/month</option>
+                <option>₹50,000 – ₹1,00,000/month</option>
+                <option>₹1,00,000 – ₹5,00,000/month</option>
+                <option>₹5,00,000 – ₹20,00,000/month</option>
+                <option>₹20,00,000+/month</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+            <div class="form-group-contact">
+              <label class="form-label" for="contact-message">Your Message</label>
+              <textarea id="contact-message" class="form-input" rows="5" placeholder="Tell us about your business, goals, and any specific challenges you're facing..."></textarea>
+            </div>
+            <div class="form-group-contact">
+              <label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;font-size:14px;color:#64748b;line-height:1.5;">
+                <input type="checkbox" required style="width:18px;height:18px;margin-top:2px;flex-shrink:0;accent-color:var(--secondary);" />
+                <span>I agree to Rankmator's <a href="#" style="color:var(--secondary);font-weight:600;">Terms of Service</a> and <a href="#" style="color:var(--secondary);font-weight:600;">Privacy Policy</a>. I consent to receiving marketing communications.</span>
+              </label>
+            </div>
+            <button type="submit" class="form-submit-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              Send My Message — Get Free Consultation
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- MAP SECTION -->
+      <div class="map-section">
+        <div class="map-header">
+          <div>
+            <div class="section-tag" style="font-size:12px;margin-bottom:8px;">Find Us Here</div>
+            <h2 class="section-title" style="font-size:28px;margin:0;">Our Delhi Office</h2>
+          </div>
+          <a href="https://maps.google.com/?q=Mohan+Cooperative+Industrial+Estate+New+Delhi" target="_blank" class="btn btn-primary" style="text-decoration:none;display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:10px;">
+            <i class="fa-solid fa-map-location-dot"></i> Open in Google Maps
+          </a>
+        </div>
+        <div class="map-placeholder">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <p>A-24/8, 1st Floor, Rathi Tower, NH-19<br/>Mohan Cooperative Industrial Estate, New Delhi – 110044</p>
+          <a href="https://maps.google.com/?q=Mohan+Cooperative+Industrial+Estate+New+Delhi" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square" style="margin-right:6px;"></i> Get Directions
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section-pad" style="background:var(--primary-dark);color:#fff;">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag" style="color:var(--secondary);">Before You Reach Out</div>
+        <h2 class="section-title" style="color:#fff;">Frequently Asked Questions</h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.8);">Here are the most common questions we get from businesses looking to grow with Rankmator.</p>
+      </div>
+      <div class="faq-container">
+        <div class="faq-item"><div class="faq-question"><h4>How quickly will you respond to my enquiry?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>We guarantee a response within 24 business hours. In most cases, you'll hear from one of our growth strategists within a few hours during regular business hours (Monday–Saturday, 9 AM – 7 PM IST).</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>What happens after I submit the contact form?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>A dedicated growth strategist will review your enquiry and reach out to schedule a free 30-minute discovery call. On the call, we'll discuss your business goals, current marketing efforts, challenges, and rough budget range. We'll then prepare a customized proposal within 3-5 business days.</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>Do you work with small businesses or only large enterprises?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>We work with businesses of all sizes — from growing startups to Fortune 500 brands. Our service packages are flexible and scalable, designed to deliver maximum ROI regardless of your current marketing budget. We'll recommend the right engagement model based on your specific goals and resources.</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>Can I visit your office for a meeting?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>Absolutely. We welcome in-person meetings at our New Delhi corporate office. Please contact us to schedule an appointment. We also conduct virtual meetings via Google Meet or Zoom for clients across India and internationally.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CTA -->
+  <div class="footer-cta-wrapper">
+    <div class="container">
+      <div class="footer-cta-banner fade-in">
+        <div class="cta-left">
+          <h2>Are You Ready for Transformational Digital Growth?</h2>
+          <button class="cta-btn-alt" onclick="document.getElementById('main-form').scrollIntoView({behavior:'smooth'})">Send Us a Message</button>
+        </div>
+        <div class="cta-right">
+          <p class="cta-trust-text">Trusted by Google Premier Partner<br/>&amp; Top Rated Agency</p>
+          <div class="cta-trust-badges">
+            <div class="trust-badge-mini"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span>Google Partner<br/><small style="font-size:8px;opacity:0.6;">PREMIER 2025</small></span></div>
+            <div class="trust-badge-mini"><span style="font-size:14px;font-weight:900;">Clutch</span><span class="clutch-stars">4.5 ★★★★★</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo"><div class="footer-logo-text">RANK<span>MATOR</span><span class="footer-tagline">Digital Excellence</span></div></div>
+          <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational growth through SEO, paid media, and digital excellence.</p>
+          <div class="trust-badges-main">
+            <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span class="label">Certified Partner</span></div>
+            <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span class="label" style="color:#fff;">SEMRUSH<br/>Partner</span></div>
+            <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Our Services</h5>
+          <div class="footer-links">
+            <a href="social-media-marketing.html">Social Media Marketing</a>
+            <a href="performance-marketing.html">Performance Marketing</a>
+            <a href="google-ads.html">Google Ads</a>
+            <a href="facebook-ads.html">Facebook Ads</a>
+            <a href="youtube-marketing.html">YouTube Marketing</a>
+            <a href="email-marketing.html">Email Marketing</a>
+            <a href="web-development-services.html">Web Development</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <div class="footer-links">
+            <a href="#">About Us</a><a href="#">Press Releases</a><a href="#">Careers</a><a href="#">Awards and Recognition</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <div class="footer-links">
+            <a href="#">Blog</a><a href="#">Case Studies</a><a href="#">FAQs</a><a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <div class="bottom-socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="bottom-ratings">
+          <div class="rating-item"><div class="rating-icon google">G</div> 4.1/5 rating</div>
+          <div class="rating-item"><div class="rating-icon clutch">C</div> 4.5 rating</div>
+          <div class="rating-item"><div class="rating-icon facebook">F</div> 4.2/5 rating</div>
+          <div class="rating-item"><div class="dmca-badge">DMCA</div> PROTECTED</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
