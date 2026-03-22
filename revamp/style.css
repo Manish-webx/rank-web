@@ -466,7 +466,7 @@ textarea {
   border-bottom: 1px solid var(--border-grey);
   box-shadow: 0 20px 60px rgba(0,0,0,0.12);
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1.1fr;
+  grid-template-columns: 1fr 1fr 0.85fr 1.1fr 0.75fr;
   gap: 0;
   opacity: 0;
   visibility: hidden;
@@ -3149,7 +3149,16 @@ textarea.form-field {
   .hero-email,
   .hero-google,
   .hero-facebook,
-  .hero-youtube {
+  .hero-youtube,
+  .hero-seo,
+  .hero-meta,
+  .hero-uiux,
+  .hero-landing,
+  .hero-webdev,
+  .hero-ecom,
+  .hero-wp,
+  .hero-cm,
+  .hero-li {
     padding: 40px 0;
   }
 
@@ -3216,5 +3225,140 @@ textarea.form-field {
 
   .insights-banner h2 {
     font-size: 22px !important;
+  }
+}
+
+/* ─── SERVICE PAGE MOBILE FIXES ─────────────────────── */
+
+/* Fix: "What's Inside" slider panel – inline grid override */
+@media (max-width: 768px) {
+  /* Override inline style: display: grid; grid-template-columns: 1fr 1fr */
+  #slider-content-area .slider-panel,
+  #slider-content-area [style*="grid-template-columns"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  /* Hide the image panel on mobile – saves space & avoids overflow */
+  #slider-content-area .panel-right {
+    display: none !important;
+  }
+
+  /* Slider content area padding reduction */
+  #slider-content-area {
+    padding: 30px 20px !important;
+    border-radius: 20px !important;
+  }
+
+  /* "What's Inside" section title padding */
+  #slider-content-area .panel-left h3 {
+    font-size: 22px !important;
+  }
+
+  /* Fix: "Results / Why Choose" vstat 3-col grid inline style override */
+  .service-grid-premium[style*="grid-template-columns: repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Fix: diff-table — convert to stacked card layout on mobile */
+  .diff-table {
+    display: block !important;
+    overflow: visible !important;
+    white-space: normal !important;
+  }
+
+  .diff-table thead {
+    display: none !important;
+  }
+
+  .diff-table tbody {
+    display: block !important;
+  }
+
+  .diff-table tr {
+    display: block !important;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  }
+
+  .diff-table td {
+    display: block !important;
+    width: 100% !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    padding: 14px 18px !important;
+    white-space: normal !important;
+    font-size: 14px !important;
+  }
+
+  .diff-table td.point-label {
+    background: var(--primary) !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    border-radius: 0 !important;
+    border-bottom: none !important;
+  }
+
+  .diff-table td.others-cell::before {
+    content: "❌ Others: ";
+    font-weight: 700;
+    color: #94a3b8;
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+
+  .diff-table td.rankmator-cell {
+    background: #f0fef4 !important;
+    border-left: none !important;
+    border-top: 2px solid var(--secondary) !important;
+  }
+
+  .diff-table td.rankmator-cell::before {
+    content: "✅ Rankmator: ";
+    font-weight: 700;
+    color: var(--secondary);
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+
+  .diff-table tr:last-child td:last-child {
+    border-bottom: none !important;
+  }
+
+  /* Fix: service slider buttons wrap nicely */
+  .service-slider-wrap {
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    justify-content: flex-start !important;
+  }
+
+  .service-slider-wrap button,
+  .slider-nav-btn {
+    font-size: 13px !important;
+    padding: 10px 16px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Fix: vstat 3-col grid */
+  .service-grid-premium[style*="repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Reduce padding in slider content */
+  #slider-content-area {
+    padding: 20px 15px !important;
   }
 }

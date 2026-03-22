@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI/UX Design Agency | User-Centered Design That Converts | Rankmator</title>
+  <meta name="description" content="Rankmator's UI/UX Design Agency creates stunning, user-centered digital experiences. From wireframes to high-fidelity prototypes, we design interfaces that engage users and drive conversions." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <style>
+    .hero-uiux{background:var(--gradient-hero);padding:60px 0;position:relative;overflow:hidden;}.hero-uiux::before{content:'';position:absolute;inset:0;background:url('https://www.transparenttextures.com/patterns/carbon-fibre.png');opacity:0.1;}
+    .hero-badge-uiux{background:rgba(107,171,68,0.1);border:1px solid rgba(107,171,68,0.3);color:var(--secondary);padding:8px 16px;border-radius:50px;display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;margin-bottom:24px;animation:fadeInUp 0.8s ease-out;}
+    .hero-badge-dot-uiux{width:8px;height:8px;background:var(--secondary);border-radius:50%;box-shadow:0 0 10px var(--secondary);animation:pulse 2s infinite;}
+    .service-grid-premium{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px;margin-top:48px;}
+    .premium-card{background:#fff;padding:40px;border-radius:24px;box-shadow:0 10px 40px rgba(0,0,0,0.05);border:1px solid #f0f0f0;transition:all 0.4s cubic-bezier(0.175,0.885,0.32,1.275);position:relative;overflow:hidden;}
+    .premium-card:hover{transform:translateY(-12px);box-shadow:0 20px 60px rgba(107,171,68,0.15);border-color:var(--secondary);}
+    .card-icon-wrap{width:64px;height:64px;background:var(--secondary);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:28px;color:#fff;margin-bottom:28px;}
+    .premium-card h3{font-size:24px;font-weight:800;color:var(--text-primary);margin-bottom:16px;}.premium-card p{color:#64748b;line-height:1.7;}
+    .platform-slider-container{width:100%;overflow:hidden;white-space:nowrap;position:relative;padding:40px 0;}
+    .platform-slider-container::before,.platform-slider-container::after{content:'';position:absolute;top:0;width:15rem;height:100%;z-index:2;pointer-events:none;}
+    .platform-slider-container::before{left:0;background:linear-gradient(to right,#fff,transparent);}.platform-slider-container::after{right:0;background:linear-gradient(to left,#fff,transparent);}
+    .platform-logos-track{display:inline-block;animation:marquee 30s linear infinite;}.platform-logos-track:hover{animation-play-state:paused;}
+    .platform-logo{display:inline-flex;align-items:center;gap:12px;font-size:26px;font-weight:800;color:#0f172a;margin:0 40px;transition:color 0.3s;}
+    @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+    @keyframes pulse{0%{transform:scale(1);opacity:1}50%{transform:scale(1.5);opacity:0.5}100%{transform:scale(1);opacity:1}}
+    .diff-table{width:100%;border-collapse:separate;border-spacing:0;margin-top:30px;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.05);border:1px solid #e2e8f0;}
+    .diff-table th{background:var(--primary);color:#fff;padding:20px;text-align:left;font-size:18px;}
+    .diff-table td{padding:20px;border-bottom:1px solid #f1f5f9;background:#fff;vertical-align:middle;}
+    .diff-table tr:last-child td{border-bottom:none;}.diff-table .point-label{font-weight:700;color:var(--text-primary);width:25%;background:#f8fafc;}
+    .diff-table .others-cell{color:#64748b;width:35%;}.diff-table .rankmator-cell{color:#000;font-weight:600;background:#fffdf5;width:40%;border-left:2px solid var(--secondary);}
+    .diff-table .check-icon{color:#22c55e;margin-right:8px;}.diff-table .cross-icon{color:#ef4444;margin-right:8px;}
+    .vstat-card{background:#fff;padding:40px;border-radius:20px;border:1px solid #e2e8f0;transition:all 0.3s;}
+    .vstat-card:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,0.08);border-color:var(--secondary);}
+    .vstat-icon{font-size:40px;margin-bottom:20px;color:var(--primary);}.vstat-number{font-size:48px;font-weight:900;color:var(--secondary);margin-bottom:5px;}
+    .vstat-label{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:#64748b;font-weight:700;}
+  </style>
+</head>
+<body>
+  <div class="top-bar"><div class="container">
+    <a href="tel:+919910308266" class="top-bar-link"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>+91-9910308266</a>
+    <a href="mailto:enquiry@rankmator.com" class="top-bar-link"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>enquiry@rankmator.com</a>
+    <a href="#contact" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right" style="margin-left:5px;font-size:0.9em;"></i></a>
+  </div></div>
+  <header id="navbar">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">
+          <div class="nav-logo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <div>
+            <div class="nav-logo-text">RANK<span>MATOR</span></div>
+            <span class="nav-tagline">Digital Excellence</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+            <li class="nav-item mega-item">
+              <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
+              <div class="mega-menu">
+  <div class="mega-col">
+    <div class="mega-col-title">SEO &amp; Organic</div>
+    <a href="seo-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+      <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span></div>
+    </a>
+    <a href="local-seo-services.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+      <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
+    </a>
+    <a href="ecommerce-seo-services.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+      <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span></div>
+    </a>
+    <a href="content-marketing-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-newspaper"></i></div>
+      <div class="mega-link-text"><strong>Content Marketing</strong><span>Authority content that converts</span></div>
+    </a>
+  </div>
+  <div class="mega-col">
+    <div class="mega-col-title">Paid Advertising</div>
+    <a href="performance-marketing.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
+      <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media ROI</span></div>
+    </a>
+    <a href="google-ads.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
+      <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed campaigns</span></div>
+    </a>
+    <a href="meta-ads-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-brands fa-meta"></i></div>
+      <div class="mega-link-text"><strong>Meta Ads Agency</strong><span>Facebook &amp; Instagram precision ads</span></div>
+    </a>
+    <a href="linkedin-management-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+      <div class="mega-link-text"><strong>LinkedIn Management</strong><span>B2B lead generation on LinkedIn</span></div>
+    </a>
+  </div>
+  <div class="mega-col">
+    <div class="mega-col-title">Social &amp; Content</div>
+    <a href="social-media-marketing.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
+      <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand communities</span></div>
+    </a>
+    <a href="youtube-marketing.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
+      <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span></div>
+    </a>
+    <a href="email-marketing.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
+      <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span></div>
+    </a>
+  </div>
+  <div class="mega-col">
+    <div class="mega-col-title">Web &amp; Design</div>
+    <a href="website-development-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
+      <div class="mega-link-text"><strong>Website Development</strong><span>High-converting custom websites</span></div>
+    </a>
+    <a href="ecommerce-website-development-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-store"></i></div>
+      <div class="mega-link-text"><strong>Ecommerce Development</strong><span>Shopify, WooCommerce &amp; more</span></div>
+    </a>
+    <a href="wordpress-website-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-brands fa-wordpress"></i></div>
+      <div class="mega-link-text"><strong>WordPress Agency</strong><span>Fast, secure WordPress sites</span></div>
+    </a>
+    <a href="landing-page-design-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
+      <div class="mega-link-text"><strong>Landing Page Design</strong><span>CRO-optimised landing pages</span></div>
+    </a>
+    <a href="ui-ux-design-agency.html" class="mega-link">
+      <div class="mega-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+      <div class="mega-link-text"><strong>UI/UX Design</strong><span>User-first design systems</span></div>
+    </a>
+  </div>
+  <div class="mega-col-promo">
+    <div class="mega-promo-tag">Free Resource</div>
+    <h4>Get Your Free Digital Growth Audit</h4>
+    <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
+    <a href="contact.html" class="mega-promo-btn">Request Free Audit <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+      </div>
+    </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
+              <div class="nav-dropdown">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
+                <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
+                <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
+                <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
+                <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+                <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+
+        <div class="nav-actions">
+          <a href="#cta-banner" class="nav-cta">Request a Call</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-uiux">
+    <div class="hero-orbs"><div class="orb orb-1"></div><div class="orb orb-2"></div></div>
+    <div class="container"><div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-badge-uiux"><div class="hero-badge-dot-uiux"></div>Award-Winning UI/UX Design Agency</div>
+        <h1 class="hero-title">Design Experiences That <br /><span class="highlight">Delight Users &</span><br />Drive Conversions</h1>
+        <p class="hero-subtitle">We create user-centered digital experiences — from research-driven wireframes to pixel-perfect interfaces — that transform how people interact with your product and brand.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-green"><i class="fa-solid fa-pen-ruler" style="margin-right:8px;"></i>Get a Free Design Audit</a>
+          <a href="#solutions" class="btn btn-ghost-white">View Our Process</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-avatars"><i>D</i><i>R</i><i>A</i><i>P</i><i>M</i></div>
+          <div class="trust-text"><strong>40% Average Conversion Rate Improvement</strong>UX Research · Prototyping · UI Design</div>
+        </div>
+      </div>
+      <div class="hero-right"><div class="hero-illustration"><div class="hero-banner-frame fade-in"><img src="assets/images/ui_ux_hero.png" alt="UI UX Design Agency" class="hero-banner-img"></div></div></div>
+    </div></div>
+  </section>
+
+  <section class="section-pad" style="background:#fff;padding-bottom:0!important;">
+    <div class="container"><div class="market-lead-box" style="background:#f8fafc;padding:50px;border-radius:30px;border:1px solid #e2e8f0;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:-50px;right:-50px;width:300px;height:300px;background:rgba(107,171,68,0.05);border-radius:50%;z-index:0;"></div>
+      <div style="position:relative;z-index:1;">
+        <h2 style="font-size:32px;font-weight:800;color:var(--text-primary);margin-bottom:30px;">Why Great UI/UX Design is Non-Negotiable for Business Growth</h2>
+        <ul style="list-style:none;padding:0;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i class="fa-solid fa-circle-check" style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span><strong>Every ₹1 invested in UX</strong> returns ₹100 — a 9,900% ROI via improved retention and conversions.</span></li>
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i class="fa-solid fa-circle-check" style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span><strong>88% of online consumers</strong> are less likely to return to a website after a bad user experience.</span></li>
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i class="fa-solid fa-circle-check" style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>We combine user research, behavioural psychology, and modern design systems for measurable CRO.</span></li>
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i class="fa-solid fa-circle-check" style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>300+ UI/UX projects delivered across SaaS products, mobile apps, e-commerce, and enterprise platforms.</span></li>
+        </ul>
+      </div>
+    </div></div>
+  </section>
+
+  <section style="background:#fff;border-bottom:1px solid #e2e8f0;padding:20px 0;">
+    <div class="platform-slider-container fade-in"><div class="platform-logos-track">
+      <div class="platform-logo"><i class="fa-solid fa-figma"></i> Figma</div>
+      <div class="platform-logo"><i class="fa-solid fa-wand-magic-sparkles"></i> Adobe XD</div>
+      <div class="platform-logo"><i class="fa-solid fa-mobile-screen"></i> Mobile UX</div>
+      <div class="platform-logo"><i class="fa-solid fa-desktop"></i> Web UI</div>
+      <div class="platform-logo"><i class="fa-solid fa-sitemap"></i> Design Systems</div>
+      <div class="platform-logo"><i class="fa-solid fa-flask"></i> Usability Testing</div>
+      <div class="platform-logo"><i class="fa-solid fa-figma"></i> Figma</div>
+      <div class="platform-logo"><i class="fa-solid fa-wand-magic-sparkles"></i> Adobe XD</div>
+      <div class="platform-logo"><i class="fa-solid fa-mobile-screen"></i> Mobile UX</div>
+      <div class="platform-logo"><i class="fa-solid fa-desktop"></i> Web UI</div>
+      <div class="platform-logo"><i class="fa-solid fa-sitemap"></i> Design Systems</div>
+      <div class="platform-logo"><i class="fa-solid fa-flask"></i> Usability Testing</div>
+    </div></div>
+  </section>
+
+  <section id="solutions" class="section-pad" style="background:#fcfcfc;">
+    <div class="container">
+      <div class="section-header" style="text-align:left;margin-bottom:60px;">
+        <h2 class="section-title" style="font-size:42px;line-height:1.2;margin-bottom:25px;">End-to-End UI/UX Design Services: From Research to Pixel-Perfect Delivery</h2>
+        <p class="section-subtitle" style="font-size:18px;margin-left:0;">Our five-stage design process ensures every pixel serves a purpose — aligned to your business goals and users' needs.</p>
+        <p style="font-size:16px;color:#64748b;margin-top:15px;">Our core UI/UX design services include:</p>
+      </div>
+      <div class="service-grid-premium">
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-magnifying-glass-chart" style="color:var(--secondary);"></i></div><h3>UX Research &amp; Strategy</h3><p>User interviews, heatmap analysis, journey mapping, and competitive UX benchmarking to build a design strategy grounded in real user behaviour.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-sitemap" style="color:var(--secondary);"></i></div><h3>Information Architecture</h3><p>Logical site maps, user flow diagrams, and content hierarchy planning that makes navigation intuitive and reduces friction in the conversion funnel.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-vector-square" style="color:var(--secondary);"></i></div><h3>Wireframing &amp; Prototyping</h3><p>Low and high-fidelity wireframes and clickable prototypes in Figma, validated through usability testing before a single line of code is written.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-palette" style="color:var(--secondary);"></i></div><h3>Visual UI Design</h3><p>Stunning, brand-aligned visual interfaces with a premium design system — typography, colour, spacing, components — built for consistency and scalability.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-mobile-screen-button" style="color:var(--secondary);"></i></div><h3>Mobile App UX Design</h3><p>iOS and Android app design following platform-specific HIG and Material Design guidelines — creating native-feeling, intuitive mobile experiences.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="premium-card"><div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-chart-line" style="color:var(--secondary);"></i></div><h3>Conversion Rate Optimisation (CRO)</h3><p>Data-driven UX audits, A/B testing, heatmap analysis, and iterative design improvements to systematically improve your website's conversion rate.</p><a href="#contact" style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+      <div style="text-align:center;margin-top:50px;"><a href="#contact" class="btn btn-primary" style="padding:15px 40px;border-radius:10px;font-weight:700;">Get a Free UX Audit <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a></div>
+    </div>
+  </section>
+
+  <section class="section-pad" style="padding-top:0;">
+    <div class="container"><div class="insights-banner" style="background:var(--gradient-blue);border-radius:20px;display:flex;align-items:center;padding:0 40px;color:#fff;overflow:hidden;height:180px;position:relative;">
+      <div class="insights-img" style="width:200px;height:100%;display:flex;align-items:flex-end;"><img src="assets/images/seo_insights_cta.png" alt="UX Insights" style="height:120%;object-fit:contain;margin-bottom:-1px;"></div>
+      <div class="insights-text" style="flex:1;padding-left:40px;"><h2 style="font-size:28px;font-weight:800;margin-bottom:10px;">Is Your UX Costing You Conversions?</h2><p style="font-size:16px;opacity:0.9;">Get a free UX audit to identify usability issues and conversion bottlenecks in your current interface.</p></div>
+      <div class="insights-action"><a href="#contact" class="btn btn-white" style="border-radius:50px;padding:12px 30px;">Get Audit <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a></div>
+    </div></div>
+  </section>
+
+  <section class="section-pad" style="background:var(--primary);color:#fff;">
+    <div class="container">
+      <div class="section-header" style="text-align:left;margin-bottom:40px;"><h2 class="section-title" style="color:#fff;font-size:38px;">Our 5-Stage Design Process</h2><p class="section-subtitle" style="color:rgba(255,255,255,0.9);margin-left:0;max-width:900px;">Every project follows a structured, iterative process ensuring every design decision is validated, purposeful, and aligned to your business goals.</p></div>
+      <div class="service-slider-wrap" style="display:flex;align-items:center;gap:15px;margin-bottom:50px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none;">
+        <button class="slider-nav-btn active" data-target="audit" style="background:var(--primary-dark);border:1px solid rgba(255,255,255,0.3);color:#fff;padding:12px 24px;border-radius:50px;white-space:nowrap;font-weight:600;cursor:pointer;transition:all 0.3s;">1. Discover</button>
+        <button class="slider-nav-btn" data-target="strategy" style="background:transparent;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:12px 24px;border-radius:50px;white-space:nowrap;font-weight:600;cursor:pointer;transition:all 0.3s;">2. Define</button>
+        <button class="slider-nav-btn" data-target="onpage" style="background:transparent;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:12px 24px;border-radius:50px;white-space:nowrap;font-weight:600;cursor:pointer;transition:all 0.3s;">3. Design</button>
+        <button class="slider-nav-btn" data-target="offpage" style="background:transparent;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:12px 24px;border-radius:50px;white-space:nowrap;font-weight:600;cursor:pointer;transition:all 0.3s;">4. Prototype</button>
+        <button class="slider-nav-btn" data-target="technical" style="background:transparent;border:1px solid rgba(255,255,255,0.3);color:#fff;padding:12px 24px;border-radius:50px;white-space:nowrap;font-weight:600;cursor:pointer;transition:all 0.3s;">5. Test &amp; Deliver</button>
+      </div>
+      <div id="slider-content-area" style="background:rgba(0,0,0,0.1);border-radius:30px;padding:50px;">
+        <div class="slider-panel active" id="panel-audit" style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
+          <div class="panel-left"><h3 style="font-size:28px;margin-bottom:20px;">Discover — Research &amp; Empathy</h3><p style="font-size:18px;margin-bottom:30px;opacity:0.9;">We start by deeply understanding your users and business:</p>
+            <ul style="list-style:none;padding:0;">
+              <li style="display:flex;align-items:center;gap:15px;margin-bottom:20px;font-size:16px;"><i class="fa-solid fa-circle-check" style="color:#fff;font-size:20px;"></i><span>User interviews &amp; stakeholder workshops</span></li>
+              <li style="display:flex;align-items:center;gap:15px;margin-bottom:20px;font-size:16px;"><i class="fa-solid fa-circle-check" style="color:#fff;font-size:20px;"></i><span>Heatmap &amp; session recording analysis</span></li>
+              <li style="display:flex;align-items:center;gap:15px;margin-bottom:20px;font-size:16px;"><i class="fa-solid fa-circle-check" style="color:#fff;font-size:20px;"></i><span>Competitor UX benchmarking</span></li>
+              <li style="display:flex;align-items:center;gap:15px;margin-bottom:20px;font-size:16px;"><i class="fa-solid fa-circle-check" style="color:#fff;font-size:20px;"></i><span>Persona creation &amp; journey mapping</span></li>
+            </ul>
+          </div>
+          <div class="panel-right" style="text-align:right;"><img src="assets/images/seo_audit_graphic.png" alt="UX Design Process" style="max-width:450px;border-radius:50%;box-shadow:0 20px 50px rgba(0,0,0,0.3);"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" style="background:#f8fafc;">
+    <div class="container">
+      <div class="section-header" style="text-align:center;margin-bottom:60px;"><div class="section-tag">Impact</div><h2 class="section-title">UI/UX Design Results Across <span>Every Platform</span></h2><p class="section-subtitle">Measurable improvements in engagement, retention, and revenue across diverse digital products.</p></div>
+      <div class="service-grid-premium" style="grid-template-columns:repeat(3,1fr);gap:30px;">
+        <div class="vstat-card"><div class="vstat-icon"><i class="fa-solid fa-laptop-code"></i></div><h3 style="font-size:20px;margin-bottom:15px;">SaaS Products</h3><div class="vstat-number">40%</div><div class="vstat-label">Increase in Trial-to-Paid CVR</div><p style="margin-top:15px;font-size:14px;color:#64748b;">Reducing onboarding friction to accelerate the aha-moment for SaaS users.</p></div>
+        <div class="vstat-card"><div class="vstat-icon"><i class="fa-solid fa-mobile-screen"></i></div><h3 style="font-size:20px;margin-bottom:15px;">Mobile Apps</h3><div class="vstat-number">55%</div><div class="vstat-label">Improvement in Retention Rate</div><p style="margin-top:15px;font-size:14px;color:#64748b;">Delightful mobile UX that keeps users coming back and reduces churn.</p></div>
+        <div class="vstat-card"><div class="vstat-icon"><i class="fa-solid fa-store"></i></div><h3 style="font-size:20px;margin-bottom:15px;">E-Commerce</h3><div class="vstat-number">28%</div><div class="vstat-label">Reduction in Cart Abandonment</div><p style="margin-top:15px;font-size:14px;color:#64748b;">Streamlined checkout and product discovery flows that drive completed purchases.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad" style="background:#fff;">
+    <div class="container">
+      <div class="section-header" style="text-align:center;margin-bottom:60px;"><div class="section-tag">Comparison</div><h2 class="section-title">Why Our <span>UI/UX Design</span> Wins</h2><p class="section-subtitle">We design for business outcomes, not just aesthetics.</p></div>
+      <table class="diff-table"><thead><tr><th>Core Capability</th><th>Generic Design Agency</th><th style="background:var(--secondary);">The Rankmator Edge</th></tr></thead><tbody>
+        <tr><td class="point-label">Process</td><td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Design-first, no research</td><td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Research-driven, user-validated design</td></tr>
+        <tr><td class="point-label">Business Alignment</td><td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Aesthetics-focused</td><td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Every design decision tied to conversion metrics</td></tr>
+        <tr><td class="point-label">Delivery</td><td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Static mockups only</td><td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Interactive prototypes + developer-ready design systems</td></tr>
+        <tr><td class="point-label">Iteration</td><td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Fixed revisions</td><td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Unlimited A/B test cycles &amp; post-launch CRO support</td></tr>
+      </tbody></table>
+    </div>
+  </section>
+
+  <section id="faq" class="section-pad" style="background:var(--primary-dark);color:#fff;">
+    <div class="container">
+      <div class="section-header"><div class="section-tag" style="color:var(--secondary);">FAQ</div><h2 class="section-title" style="color:#fff;">UI/UX Design FAQs</h2></div>
+      <div class="faq-container">
+        <div class="faq-item"><div class="faq-question"><h4>What is the difference between UI and UX design?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>UX (User Experience) covers the overall feel and usability — research, flows, and structure. UI (User Interface) is the visual layer — colours, typography, and interactive elements. We provide both as an integrated service.</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>How long does a UI/UX design project take?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>A standard web/app design project typically takes 4-8 weeks depending on complexity, number of screens, and revision cycles. We provide a clear timeline at project kick-off.</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>Do you provide developer handoff files?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>Yes, we deliver production-ready Figma files with organised layers, a complete design system, assets in all formats, and an interactive prototype to guide developers through the implementation.</p></div></div>
+        <div class="faq-item"><div class="faq-question"><h4>Can you redesign our existing product?</h4><i class="fa-solid fa-plus faq-icon"></i></div><div class="faq-answer"><p>Absolutely. Product redesigns are one of our most common engagements. We conduct a UX audit of your existing product before designing a measurably better replacement.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-pad" style="background:linear-gradient(rgba(255,255,255,0.93),rgba(255,255,255,0.98));position:relative;">
+    <div class="container" style="position:relative;z-index:2;">
+      <div class="section-header fade-in"><h2 class="section-title">Start Your <span>Design Project</span></h2><p class="section-subtitle">Get a free UX audit and design strategy consultation for your digital product.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info-card fade-in">
+          <div class="location-header"><div class="location-title"><i class="fa-solid fa-hotel"></i><span>Delhi</span></div><span class="corp-badge">Corporate Office</span></div>
+          <div class="contact-detail-group"><span class="contact-detail-label">Location :</span><div class="contact-detail-content"><i class="fa-solid fa-map-location-dot"></i><span>A-24/8, 1st Floor, Rathi Tower, NH-19, Mohan Cooperative Industrial Estate, New Delhi, 110044</span></div></div>
+          <div class="contact-detail-group"><span class="contact-detail-label">Email :</span><div class="contact-detail-content"><i class="fa-solid fa-envelope"></i><a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a></div></div>
+          <div class="contact-detail-group"><span class="contact-detail-label">Sales Enquiry :</span><div class="contact-detail-content"><i class="fa-solid fa-phone"></i><a href="tel:+919910308266">+91-9910308266</a></div></div>
+          <div class="info-card-footer"><a href="#" class="btn-direction">Get Direction <i class="fa-solid fa-arrow-right"></i></a></div>
+        </div>
+        <div class="contact-form-side fade-in">
+          <h3 style="font-size:24px;font-weight:800;margin-bottom:30px;color:var(--text-primary);">Request a Free UX Audit*</h3>
+          <form class="main-contact-form" onsubmit="event.preventDefault();alert('Your UX audit request has been sent!');">
+            <div class="form-group"><input type="text" class="form-field" placeholder="Full Name *" required></div>
+            <div class="form-group"><input type="email" class="form-field" placeholder="Work Email *" required></div>
+            <div class="form-group"><input type="tel" class="form-field" placeholder="Mobile Number *" required></div>
+            <div class="form-group"><input type="url" class="form-field" placeholder="Product / Website URL *"></div>
+            <div class="form-group-full"><textarea class="form-field" placeholder="Tell us about your design challenge or project goals..."></textarea></div>
+            <div class="form-footer"><label class="consent-check" style="margin-bottom:20px;"><input type="checkbox" required><span>I agree to Rankmator's <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a>.</span></label><button type="submit" class="btn-submit-main">Start My Design Project <i class="fa-solid fa-arrow-right"></i></button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-text">RANK<span>MATOR</span><span class="footer-tagline">Digital Excellence</span></div>
+        </div>
+        <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational growth through digital excellence.</p>
+        <div class="trust-badges-main">
+          <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span class="label">Certified Partner</span></div>
+          <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span class="label" style="color:#fff;">SEMRUSH<br/>Partner</span></div>
+          <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>SEO &amp; Organic</h5>
+        <div class="footer-links">
+          <a href="seo-agency.html">SEO Agency</a>
+          <a href="local-seo-services.html">Local SEO Services</a>
+          <a href="ecommerce-seo-services.html">Ecommerce SEO</a>
+          <a href="content-marketing-agency.html">Content Marketing</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Paid Advertising</h5>
+        <div class="footer-links">
+          <a href="performance-marketing.html">Performance Marketing</a>
+          <a href="google-ads.html">Google Ads (PPC)</a>
+          <a href="meta-ads-agency.html">Meta Ads Agency</a>
+          <a href="facebook-ads.html">Facebook Ads</a>
+          <a href="linkedin-management-agency.html">LinkedIn Management</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Social &amp; Content</h5>
+        <div class="footer-links">
+          <a href="social-media-marketing.html">Social Media Marketing</a>
+          <a href="youtube-marketing.html">YouTube Marketing</a>
+          <a href="email-marketing.html">Email Marketing</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Web &amp; Design</h5>
+        <div class="footer-links">
+          <a href="website-development-agency.html">Website Development</a>
+          <a href="ecommerce-website-development-agency.html">Ecommerce Development</a>
+          <a href="wordpress-website-agency.html">WordPress Agency</a>
+          <a href="landing-page-design-agency.html">Landing Page Design</a>
+          <a href="ui-ux-design-agency.html">UI/UX Design</a>
+          <a href="web-development-services.html">Web Dev Services</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Awards &amp; Recognition</a>
+          <a href="#">Case Studies</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="tools-section">
+          <h6>Quick Links</h6>
+          <div class="footer-links">
+            <a href="#">Blog</a>
+            <a href="#">FAQs</a>
+            <a href="#">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom-bar">
+    <div class="container footer-bottom-inner">
+      <div class="bottom-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="bottom-ratings">
+        <div class="rating-item"><div class="rating-icon google">G</div> 4.1/5</div>
+        <div class="rating-item"><div class="rating-icon clutch">C</div> 4.5</div>
+        <div class="rating-item"><div class="dmca-badge">DMCA</div> PROTECTED</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+  <script>
+    
+    const navBtns=document.querySelectorAll('.slider-nav-btn');
+    const contentData={audit:{title:"Discover — Research & Empathy",desc:"We start by deeply understanding your users and business:",items:["User interviews & stakeholder workshops","Heatmap & session recording analysis","Competitor UX benchmarking","Persona creation & journey mapping"]},strategy:{title:"Define — Strategy & Architecture",desc:"Translating research into a clear design blueprint:",items:["Problem framing & design principles","Information architecture & sitemap","User flow diagrams","Content hierarchy planning"]},onpage:{title:"Design — Wireframes & Visual UI",desc:"Creating the visual identity and interface structure:",items:["Low-fidelity wireframes","High-fidelity UI screens in Figma","Design system & component library","Responsive design for all breakpoints"]},offpage:{title:"Prototype — Interactive Clickable Models",desc:"Bringing designs to life before development:",items:["Clickable Figma prototypes","Micro-animations & transitions","Developer-ready annotations","Interactive prototype testing sessions"]},technical:{title:"Test & Deliver — Validate & Hand Off",desc:"Ensuring quality before and after launch:",items:["Moderated usability testing","Feedback-based iteration cycles","Developer handoff with Figma Inspect","Post-launch CRO monitoring"]}};
+    navBtns.forEach(btn=>{btn.addEventListener('click',()=>{const target=btn.getAttribute('data-target');navBtns.forEach(b=>{b.style.background='transparent';b.classList.remove('active');});btn.style.background='var(--primary-dark)';btn.classList.add('active');const data=contentData[target];document.querySelector('#panel-audit h3').textContent=data.title;document.querySelector('#panel-audit p').textContent=data.desc;document.querySelector('#panel-audit ul').innerHTML=data.items.map(item=>`<li style="display:flex;align-items:center;gap:15px;margin-bottom:20px;font-size:16px;"><i class="fa-solid fa-circle-check" style="color:#fff;font-size:20px;"></i><span>${item}</span></li>`).join('');});});
+  </script>
+</body>
+</html>
