@@ -31,8 +31,6 @@
         </svg>
         rankmator@gmail.com
       </a>
-      <a href="#cta-banner" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right"
-          style="margin-left:5px; font-size: 0.9em;"></i></a>
     </div>
   </div>
 
