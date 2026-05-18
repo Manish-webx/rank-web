@@ -7,10 +7,7 @@
   <title>E-commerce SEO Services to Grow Your Brand | Rankmator</title>
   <meta name="description"
     content="Boost your online sales with Rankmator's professional E-commerce SEO services. Expert strategies for Shopify, Magento, WooCommerce. AI-driven SEO & LLM optimization for 2025." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <?php include 'links.php'; ?>
   <style>
     /* Page Specific Styles */
     .hero-ecommerce {
@@ -281,147 +278,7 @@
 
 <body>
 
-  <!-- TOP BAR -->
-  <div class="top-bar">
-    <div class="container">
-      <a href="tel:+919910308266" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-        +91-9910308266
-      </a>
-      <a href="mailto:enquiry@rankmator.com" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        enquiry@rankmator.com
-      </a>
-      <a href="#cta-banner" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right" style="margin-left:5px; font-size: 0.9em;"></i></a>
-    </div>
-  </div>
-
-  <!-- NAVIGATION -->
-  <header id="navbar">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">
-          <div class="nav-logo-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          </div>
-          <div>
-            <div class="nav-logo-text">RANK<span>MATOR</span></div>
-            <span class="nav-tagline">Digital Excellence</span>
-          </div>
-        </a>
-
-        <ul class="nav-links">
-            <li class="nav-item mega-item">
-              <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="mega-menu">
-  <div class="mega-col">
-    <div class="mega-col-title">SEO &amp; Organic</div>
-    <a href="seo-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-      <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span></div>
-    </a>
-    <a href="local-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-      <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
-    </a>
-    <a href="ecommerce-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-      <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span></div>
-    </a>
-    <a href="content-marketing-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-newspaper"></i></div>
-      <div class="mega-link-text"><strong>Content Marketing</strong><span>Authority content that converts</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Paid Advertising</div>
-    <a href="performance-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
-      <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media ROI</span></div>
-    </a>
-    <a href="google-ads.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
-      <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed campaigns</span></div>
-    </a>
-    <a href="meta-ads-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-meta"></i></div>
-      <div class="mega-link-text"><strong>Meta Ads Agency</strong><span>Facebook &amp; Instagram precision ads</span></div>
-    </a>
-    <a href="linkedin-management-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-linkedin"></i></div>
-      <div class="mega-link-text"><strong>LinkedIn Management</strong><span>B2B lead generation on LinkedIn</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Social &amp; Content</div>
-    <a href="social-media-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
-      <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand communities</span></div>
-    </a>
-    <a href="youtube-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
-      <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span></div>
-    </a>
-    <a href="email-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
-      <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Web &amp; Design</div>
-    <a href="website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
-      <div class="mega-link-text"><strong>Website Development</strong><span>High-converting custom websites</span></div>
-    </a>
-    <a href="ecommerce-website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-store"></i></div>
-      <div class="mega-link-text"><strong>Ecommerce Development</strong><span>Shopify, WooCommerce &amp; more</span></div>
-    </a>
-    <a href="wordpress-website-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-wordpress"></i></div>
-      <div class="mega-link-text"><strong>WordPress Agency</strong><span>Fast, secure WordPress sites</span></div>
-    </a>
-    <a href="landing-page-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
-      <div class="mega-link-text"><strong>Landing Page Design</strong><span>CRO-optimised landing pages</span></div>
-    </a>
-    <a href="ui-ux-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-      <div class="mega-link-text"><strong>UI/UX Design</strong><span>User-first design systems</span></div>
-    </a>
-  </div>
-  <div class="mega-col-promo">
-    <div class="mega-promo-tag">Free Resource</div>
-    <h4>Get Your Free Digital Growth Audit</h4>
-    <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
-    <a href="contact.html" class="mega-promo-btn">Request Free Audit <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
-      </div>
-    </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="nav-dropdown">
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
-                <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
-                <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
-                <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
-                <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
-                <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-
-        <div class="nav-actions">
-          <a href="#cta-banner" class="nav-cta">Request a Call</a>
-        </div>
-        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <?php include 'header.php'; ?>
 
   <!-- HERO SECTION -->
   <section class="hero-ecommerce">
@@ -980,26 +837,26 @@
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Location :</span>
-            <div class="contact-detail-content">
-              <i class="fa-solid fa-map-location-dot"></i>
-              <span>A-24/8, 1st Floor, Rathi Tower, NH-19, Mohan Cooperative Industrial Estate, New Delhi, 110044</span>
-            </div>
-          </div>
-
-          <div class="contact-detail-group">
             <span class="contact-detail-label">Email :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a>
+              <a href="mailto:rankmator@gmail.com">rankmator@gmail.com</a>
             </div>
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Sales Enquiry :</span>
+            <span class="contact-detail-label">Marketing :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-phone"></i>
-              <a href="tel:+919910308266">+91-9910308266</a>
+              <a href="tel:+919560864432">+91 9560864432</a>
+            </div>
+          </div>
+
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">WhatsApp :</span>
+            <div class="contact-detail-content">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
 
@@ -1012,148 +869,46 @@
         <div class="contact-form-side fade-in">
           <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a Free
             Audit*</h3>
-          <form class="main-contact-form"
-            onsubmit="event.preventDefault(); alert('Success! Your request has been sent. Our strategists will contact you shortly.');">
+          <form class="main-contact-form" action="mail.php" method="POST">
             <div class="form-group">
-              <input type="text" class="form-field" placeholder="Name *" required>
+              <input type="text" name="name" class="form-field" placeholder="Name *" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-field" placeholder="Email Id *" required>
+              <input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
             <div class="form-group">
-              <input type="tel" class="form-field" placeholder="Mobile No*" required>
-            </div>
-            <div class="form-group">
-              <select class="form-field" required>
-                <option value="" disabled selected>Platform Choice</option>
-                <option value="shopify">Shopify</option>
-                <option value="magento">Magento</option>
-                <option value="woo">WooCommerce</option>
-                <option value="other">Other/Custom</option>
-              </select>
+              <input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
             </div>
             <div class="form-group-full">
-              <textarea class="form-field"
-                placeholder="Tell us about your store and goals (Monthly revenue, SKU count, etc.)"></textarea>
+              <textarea name="message" class="form-field" placeholder="Your Message"></textarea>
             </div>
-
             <div class="form-footer">
-              <label class="consent-check" style="margin-bottom:20px;">
-                <input type="checkbox" required>
-                <span>By registering here, I agree to Rankmator's <a href="#">Terms of Service</a> and <a
-                    href="#">Privacy Policy</a>.</span>
-              </label>
-
-
               <button type="submit" class="btn-submit-main">
-                Get My Free Audit <i class="fa-solid fa-arrow-right"></i>
+                Submit Now <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
           </form>
         </div>
+
+        <div class="form-footer">
+          <label class="consent-check" style="margin-bottom:20px;">
+            <input type="checkbox" required>
+            <span>By registering here, I agree to Rankmator's <a href="#">Terms of Service</a> and <a href="#">Privacy
+                Policy</a>.</span>
+          </label>
+
+
+          <button type="submit" class="btn-submit-main">
+            Get My Free Audit <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        </form>
       </div>
+    </div>
     </div>
   </section>
 
-  <footer id="footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <div class="footer-logo-text">RANK<span>MATOR</span><span class="footer-tagline">Digital Excellence</span></div>
-        </div>
-        <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational growth through digital excellence.</p>
-        <div class="trust-badges-main">
-          <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span class="label">Certified Partner</span></div>
-          <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span class="label" style="color:#fff;">SEMRUSH<br/>Partner</span></div>
-          <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>SEO &amp; Organic</h5>
-        <div class="footer-links">
-          <a href="seo-agency.html">SEO Agency</a>
-          <a href="local-seo-services.html">Local SEO Services</a>
-          <a href="ecommerce-seo-services.html">Ecommerce SEO</a>
-          <a href="content-marketing-agency.html">Content Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Paid Advertising</h5>
-        <div class="footer-links">
-          <a href="performance-marketing.html">Performance Marketing</a>
-          <a href="google-ads.html">Google Ads (PPC)</a>
-          <a href="meta-ads-agency.html">Meta Ads Agency</a>
-          <a href="facebook-ads.html">Facebook Ads</a>
-          <a href="linkedin-management-agency.html">LinkedIn Management</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Social &amp; Content</h5>
-        <div class="footer-links">
-          <a href="social-media-marketing.html">Social Media Marketing</a>
-          <a href="youtube-marketing.html">YouTube Marketing</a>
-          <a href="email-marketing.html">Email Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Web &amp; Design</h5>
-        <div class="footer-links">
-          <a href="website-development-agency.html">Website Development</a>
-          <a href="ecommerce-website-development-agency.html">Ecommerce Development</a>
-          <a href="wordpress-website-agency.html">WordPress Agency</a>
-          <a href="landing-page-design-agency.html">Landing Page Design</a>
-          <a href="ui-ux-design-agency.html">UI/UX Design</a>
-          <a href="web-development-services.html">Web Dev Services</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Company</h5>
-        <div class="footer-links">
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Awards &amp; Recognition</a>
-          <a href="#">Case Studies</a>
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="tools-section">
-          <h6>Quick Links</h6>
-          <div class="footer-links">
-            <a href="#">Blog</a>
-            <a href="#">FAQs</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom-bar">
-    <div class="container footer-bottom-inner">
-      <div class="bottom-socials">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <div class="bottom-ratings">
-        <div class="rating-item"><div class="rating-icon google">G</div> 4.1/5</div>
-        <div class="rating-item"><div class="rating-icon clutch">C</div> 4.5</div>
-        <div class="rating-item"><div class="dmca-badge">DMCA</div> PROTECTED</div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-  <!-- Scroll to Top -->
-  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-
-  <script src="script.js"></script>
+  <?php include 'footer.php'; ?>
   <script>
     // FAQ Accordion
     document.querySelectorAll('.faq-question').forEach(q => {

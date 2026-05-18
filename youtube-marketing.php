@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email Marketing Services | Rankmator</title>
+  <title>YouTube Marketing Services | Rankmator</title>
   <meta name="description"
-    content="Drive revenue through the inbox with Rankmator's email marketing services. Automated drip campaigns, advanced segmentation, personalization, and measurable ROI for every send." />
+    content="Maximize your YouTube presence with Rankmator's expert YouTube Marketing services. Video SEO, YouTube Ads, channel management, and content strategy to drive views and conversions." />
   <?php include 'links.php'; ?>
   <style>
-    .hero-em {
+    .hero-yt {
       background: var(--gradient-hero);
       padding: 60px 0;
       position: relative;
       overflow: hidden;
     }
 
-    .hero-em::before {
+    .hero-yt::before {
       content: '';
       position: absolute;
       inset: 0;
@@ -24,7 +24,7 @@
       opacity: 0.1;
     }
 
-    .hero-badge-em {
+    .hero-badge-yt {
       background: rgba(107, 171, 68, 0.1);
       border: 1px solid rgba(107, 171, 68, 0.3);
       color: var(--secondary);
@@ -38,7 +38,7 @@
       margin-bottom: 24px;
     }
 
-    .hero-badge-dot-em {
+    .hero-badge-dot-yt {
       width: 8px;
       height: 8px;
       background: var(--secondary);
@@ -268,7 +268,7 @@
   <?php include 'header.php'; ?>
 
   <!-- HERO -->
-  <section class="hero-em">
+  <section class="hero-yt">
     <div class="hero-orbs">
       <div class="orb orb-1"></div>
       <div class="orb orb-2"></div>
@@ -276,26 +276,28 @@
     <div class="container">
       <div class="hero-grid">
         <div class="hero-left">
-          <div class="hero-badge-em">
-            <div class="hero-badge-dot-em"></div>India's #1 Email Marketing Agency
+          <div class="hero-badge-yt">
+            <div class="hero-badge-dot-yt"></div>YouTube Growth Experts
           </div>
-          <h1 class="hero-title">Turn Your Inbox Into a <br /><span
-              class="highlight">Revenue-Generating</span><br />Growth Machine</h1>
-          <p class="hero-subtitle">Email marketing delivers the highest ROI of any digital channel — $42 for every $1
-            spent. Rankmator's automated, hyper-personalized email strategies convert prospects into loyal, repeat
-            customers.</p>
-          <div class="hero-actions"><a href="#contact" class="btn btn-green"><i class="fa-solid fa-envelope"
-                style="margin-right:8px;"></i>Start Email Campaigns</a><a href="#solutions"
-              class="btn btn-ghost-white">View Our Services</a></div>
+          <h1 class="hero-title">Grow Your Brand on <br /><span class="highlight">YouTube — The World's</span><br />2nd
+            Largest Search Engine</h1>
+          <p class="hero-subtitle">Turn your YouTube channel into a powerful lead generation machine with expert Video
+            SEO, in-stream ads, and content strategies that drive views, subscribers, and revenue.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-green"><i class="fa-brands fa-youtube" style="margin-right:8px;"></i>Grow
+              My Channel</a>
+            <a href="#solutions" class="btn btn-ghost-white">View Our Services</a>
+          </div>
           <div class="hero-trust">
             <div class="trust-avatars"><i>S</i><i>R</i><i>A</i><i>P</i><i>M</i></div>
-            <div class="trust-text"><strong>1M+ Emails Sent Monthly</strong> Average 10x ROI on Campaigns</div>
+            <div class="trust-text"><strong>100+ YouTube Channels Grown</strong> Experts in Video SEO &amp; YouTube Ads
+            </div>
           </div>
         </div>
         <div class="hero-right">
           <div class="hero-illustration">
-            <div class="hero-banner-frame fade-in"><img src="assets/images/email_marketing_hero.png"
-                alt="Email Marketing" class="hero-banner-img"></div>
+            <div class="hero-banner-frame fade-in"><img src="assets/images/youtube_marketing_hero.png"
+                alt="YouTube Marketing" class="hero-banner-img"></div>
           </div>
         </div>
       </div>
@@ -311,48 +313,49 @@
           style="position:absolute;top:-50px;right:-50px;width:300px;height:300px;background:rgba(107,171,68,0.05);border-radius:50%;z-index:0;">
         </div>
         <div style="position:relative;z-index:1;">
-          <h2 style="font-size:32px;font-weight:800;color:var(--text-primary);margin-bottom:30px;">Why Email Marketing
-            Remains the Highest-ROI Channel in 2025</h2>
+          <h2 style="font-size:32px;font-weight:800;color:var(--text-primary);margin-bottom:30px;">Why YouTube Marketing
+            is Critical for Your Business Growth</h2>
           <ul style="list-style:none;padding:0;">
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Email generates an average ROI
-                of <strong>$42 for every $1 spent</strong> — higher than any other digital marketing channel.</span>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>YouTube has <strong>2.7 billion
+                  logged-in users</strong> monthly — making it the world's 2nd largest search engine.</span></li>
+            <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
+                class="fa-solid fa-circle-check"
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span><strong>Video content gets 1200%
+                  more shares</strong> than text and image content combined on social media.</span></li>
+            <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
+                class="fa-solid fa-circle-check"
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>YouTube Ads reach <strong>2
+                  billion users per month</strong> with precise targeting by interest, intent, and demographics.</span>
             </li>
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>There are <strong>4.3 billion
-                  email users globally</strong> — more than any social media platform combined.</span></li>
-            <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
-                class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Personalized email campaigns
-                deliver <strong>6x higher transaction rates</strong> than generic mass-blast campaigns.</span></li>
-            <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
-                class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Our AI-powered email automation
-                delivers an average open rate of <strong>25%+</strong> vs. a 15% industry standard.</span></li>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>We've grown channels by
+                <strong>500%+ in organic views</strong> within 6 months using our proprietary Video SEO
+                framework.</span></li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- MARQUEE -->
+  <!-- PLATFORM MARQUEE -->
   <section style="background:#fff;border-bottom:1px solid #e2e8f0;padding:20px 0;">
     <div class="platform-slider-container fade-in">
       <div class="platform-logos-track">
-        <div class="platform-logo"><i class="fa-regular fa-envelope"></i> Mailchimp</div>
-        <div class="platform-logo"><i class="fa-solid fa-h"></i> HubSpot</div>
-        <div class="platform-logo"><i class="fa-solid fa-k"></i> Klaviyo</div>
-        <div class="platform-logo"><i class="fa-solid fa-b"></i> Brevo</div>
-        <div class="platform-logo"><i class="fa-brands fa-salesforce"></i> Salesforce</div>
-        <div class="platform-logo"><i class="fa-solid fa-gear"></i> ActiveCampaign</div>
-        <div class="platform-logo"><i class="fa-regular fa-envelope"></i> Mailchimp</div>
-        <div class="platform-logo"><i class="fa-solid fa-h"></i> HubSpot</div>
-        <div class="platform-logo"><i class="fa-solid fa-k"></i> Klaviyo</div>
-        <div class="platform-logo"><i class="fa-solid fa-b"></i> Brevo</div>
-        <div class="platform-logo"><i class="fa-brands fa-salesforce"></i> Salesforce</div>
-        <div class="platform-logo"><i class="fa-solid fa-gear"></i> ActiveCampaign</div>
+        <div class="platform-logo"><i class="fa-brands fa-youtube"></i> YouTube</div>
+        <div class="platform-logo"><i class="fa-brands fa-google"></i> Google Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-video"></i> Video SEO</div>
+        <div class="platform-logo"><i class="fa-solid fa-chart-line"></i> YouTube Analytics</div>
+        <div class="platform-logo"><i class="fa-solid fa-bullseye"></i> In-Stream Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-film"></i> Shorts</div>
+        <div class="platform-logo"><i class="fa-brands fa-youtube"></i> YouTube</div>
+        <div class="platform-logo"><i class="fa-brands fa-google"></i> Google Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-video"></i> Video SEO</div>
+        <div class="platform-logo"><i class="fa-solid fa-chart-line"></i> YouTube Analytics</div>
+        <div class="platform-logo"><i class="fa-solid fa-bullseye"></i> In-Stream Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-film"></i> Shorts</div>
       </div>
     </div>
   </section>
@@ -361,70 +364,70 @@
   <section id="solutions" class="section-pad" style="background:#fcfcfc;">
     <div class="container">
       <div class="section-header" style="text-align:left;margin-bottom:60px;">
-        <h2 class="section-title" style="font-size:42px;line-height:1.2;margin-bottom:25px;">Full-Spectrum Email
+        <h2 class="section-title" style="font-size:42px;line-height:1.2;margin-bottom:25px;">Full-Spectrum YouTube
           Marketing Services</h2>
-        <p class="section-subtitle" style="font-size:18px;margin-left:0;">From list building to automation workflows and
-          deliverability optimization, Rankmator handles every element of your email marketing for maximum revenue
-          impact.</p>
+        <p class="section-subtitle" style="font-size:18px;margin-left:0;">From channel setup to scaling millions of
+          views, Rankmator delivers end-to-end YouTube marketing solutions that turn your content into a powerful growth
+          engine.</p>
       </div>
       <div class="service-grid-premium">
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-code-branch" style="color:var(--secondary);"></i></div>
-          <h3>Drip Campaign Design</h3>
-          <p>Automated multi-stage email sequences that nurture leads from awareness to purchase with perfectly timed,
-            contextually relevant messages at every funnel stage.</p><a href="#contact"
+              class="fa-solid fa-magnifying-glass" style="color:var(--secondary);"></i></div>
+          <h3>YouTube SEO</h3>
+          <p>Keyword research, title optimization, description strategy, tag selection, and transcript optimization to
+            rank your videos at the top of YouTube search results.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-puzzle-piece" style="color:var(--secondary);"></i></div>
-          <h3>Advanced Segmentation</h3>
-          <p>Behavioral, demographic, and purchase-history-based list segmentation to ensure every subscriber receives
-            the most relevant content for maximum engagement and conversions.</p><a href="#contact"
+              class="fa-brands fa-youtube" style="color:var(--secondary);"></i></div>
+          <h3>YouTube Ads Management</h3>
+          <p>Data-driven in-stream, discovery, and bumper ad campaigns with precision targeting, smart bidding, and
+            continuous A/B testing to maximize your ROAS.</p><a href="#contact"
+            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
+              class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="premium-card">
+          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-image"
+              style="color:var(--secondary);"></i></div>
+          <h3>Thumbnail &amp; Title Optimization</h3>
+          <p>CTR-boosting custom thumbnail design and title formulas scientifically proven to increase click-through
+            rates and viewer retention.</p><a href="#contact"
+            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
+              class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="premium-card">
+          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-users"
+              style="color:var(--secondary);"></i></div>
+          <h3>Channel Management</h3>
+          <p>End-to-end channel setup, optimization, community posts, playlist structuring, and end-screen/card strategy
+            to build a loyal subscriber base.</p><a href="#contact"
+            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
+              class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="premium-card">
+          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i class="fa-solid fa-film"
+              style="color:var(--secondary);"></i></div>
+          <h3>YouTube Shorts Strategy</h3>
+          <p>Short-form video strategy and creation leveraging YouTube Shorts to reach new audiences, boost channel
+            visibility, and drive subscriber growth virally.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-wand-magic-sparkles" style="color:var(--secondary);"></i></div>
-          <h3>AI-Powered Personalization</h3>
-          <p>Dynamic content blocks, personalized subject lines, and AI-driven send time optimization that adapts every
-            email to individual subscriber behavior and preferences.</p><a href="#contact"
-            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
-              class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="premium-card">
-          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-rotate-right" style="color:var(--secondary);"></i></div>
-          <h3>Automation &amp; Flows</h3>
-          <p>Welcome series, abandoned cart recovery, post-purchase flows, win-back campaigns, and re-engagement
-            sequences — all automated for consistent revenue on autopilot.</p><a href="#contact"
-            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
-              class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="premium-card">
-          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-envelope-open-text" style="color:var(--secondary);"></i></div>
-          <h3>Email Template Design</h3>
-          <p>Stunning, on-brand HTML email templates optimized for all devices and clients, combining exceptional design
-            with high deliverability best practices.</p><a href="#contact"
-            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
-              class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="premium-card">
-          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-chart-line" style="color:var(--secondary);"></i></div>
-          <h3>Deliverability &amp; Analytics</h3>
-          <p>DNS setup (SPF, DKIM, DMARC), list hygiene, spam score monitoring, and comprehensive reporting on opens,
-            clicks, conversions, and revenue attribution.</p><a href="#contact"
+              class="fa-solid fa-chart-bar" style="color:var(--secondary);"></i></div>
+          <h3>Analytics &amp; Performance Reporting</h3>
+          <p>Deep-dive performance analysis covering watch time, audience retention, CTR, conversion tracking, and ROI
+            attribution with actionable monthly reports.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
       <div style="text-align:center;margin-top:50px;"><a href="#contact" class="btn btn-primary"
-          style="padding:15px 40px;border-radius:10px;font-weight:700;">Start Email Marketing <i
+          style="padding:15px 40px;border-radius:10px;font-weight:700;">Grow My YouTube Channel <i
             class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a></div>
     </div>
   </section>
@@ -433,18 +436,17 @@
   <section class="section-pad" style="padding-top:0;">
     <div class="container">
       <div class="insights-banner"
-        style="background:var(--gradient-blue);border-radius:20px;display:flex;align-items:center;padding:0 40px;color:#fff;overflow:hidden;height:180px;">
+        style="background:var(--gradient-blue);border-radius:20px;display:flex;align-items:center;padding:0 40px;color:#fff;overflow:hidden;height:180px;position:relative;">
         <div class="insights-img" style="width:200px;height:100%;display:flex;align-items:flex-end;"><img
-            src="assets/images/seo_insights_cta.png" alt="Email Marketing Audit"
+            src="assets/images/seo_insights_cta.png" alt="YouTube Audit"
             style="height:120%;object-fit:contain;margin-bottom:-1px;"></div>
         <div class="insights-text" style="flex:1;padding-left:40px;">
-          <h2 style="font-size:28px;font-weight:800;margin-bottom:10px;">Is Your Email List a Revenue Asset or Dead
-            Weight?</h2>
-          <p style="font-size:16px;opacity:0.9;">Get a free email marketing audit and see how to turn your existing list
-            into a consistent revenue engine.</p>
+          <h2 style="font-size:28px;font-weight:800;margin-bottom:10px;">Is Your YouTube Channel Underperforming?</h2>
+          <p style="font-size:16px;opacity:0.9;">Get a free YouTube channel audit and see exactly what's holding back
+            your views and subscribers.</p>
         </div>
         <div class="insights-action"><a href="#contact" class="btn btn-white"
-            style="border-radius:50px;padding:12px 30px;">Free Email Audit <i class="fa-solid fa-arrow-right"
+            style="border-radius:50px;padding:12px 30px;">Free Channel Audit <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a></div>
       </div>
     </div>
@@ -455,86 +457,86 @@
     <div class="container">
       <div class="section-header" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">Proven Results</div>
-        <h2 class="section-title">Email Marketing ROI Across <span>All Industries</span></h2>
-        <p class="section-subtitle">Our email campaigns consistently outperform industry benchmarks across every sector
-          we serve.</p>
+        <h2 class="section-title">YouTube Success Across <span>All Industries</span></h2>
+        <p class="section-subtitle">Our YouTube marketing strategies have driven viral growth for brands across diverse
+          sectors.</p>
       </div>
       <div class="service-grid-premium" style="grid-template-columns:repeat(3,1fr);gap:30px;">
         <div class="vstat-card">
           <div class="vstat-icon"><i class="fa-solid fa-bag-shopping"></i></div>
-          <h3 style="font-size:20px;margin-bottom:15px;">E-commerce &amp; D2C</h3>
-          <div class="vstat-number">12x</div>
-          <div class="vstat-label">Email Revenue ROI</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">Abandoned cart flows and post-purchase upsell
-            sequences driving significant repeat purchase revenue.</p>
-        </div>
-        <div class="vstat-card">
-          <div class="vstat-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3 style="font-size:20px;margin-bottom:15px;">BFSI &amp; Insurance</h3>
-          <div class="vstat-number">25%</div>
-          <div class="vstat-label">Average Open Rate</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">REBI-compliant transactional and marketing emails for
-            financial services with trusted deliverability.</p>
+          <h3 style="font-size:20px;margin-bottom:15px;">E-commerce &amp; Retail</h3>
+          <div class="vstat-number">500%</div>
+          <div class="vstat-label">Growth in Organic Views</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Product review videos and shoppable content driving
+            significant purchase intent for retail brands.</p>
         </div>
         <div class="vstat-card">
           <div class="vstat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <h3 style="font-size:20px;margin-bottom:15px;">Education &amp; EdTech</h3>
+          <div class="vstat-number">10x</div>
+          <div class="vstat-label">Subscriber Growth</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Converting YouTube viewers into enrolled students
+            through educational long-form and short-form content.</p>
+        </div>
+        <div class="vstat-card">
+          <div class="vstat-icon"><i class="fa-solid fa-house"></i></div>
+          <h3 style="font-size:20px;margin-bottom:15px;">Real Estate</h3>
           <div class="vstat-number">3x</div>
-          <div class="vstat-label">Enrolment Conversion</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">Lead nurturing email sequences that guide potential
-            students from inquiry to confirmed enrolment.</p>
+          <div class="vstat-label">Lead Quality Improvement</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Virtual property tours and project walkthroughs
+            generating high-intent buyer inquiries via YouTube.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COMPARISON -->
+  <!-- COMPARISON TABLE -->
   <section class="section-pad" style="background:#fff;">
     <div class="container">
       <div class="section-header" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">The Comparison</div>
-        <h2 class="section-title">The Rankmator <span>Email Marketing Edge</span></h2>
-        <p class="section-subtitle">We treat your email list as your most valuable owned asset and manage it with the
-          precision it deserves.</p>
+        <h2 class="section-title">The Rankmator <span>YouTube Edge</span></h2>
+        <p class="section-subtitle">We go far beyond basic channel management to deliver measurable business growth from
+          YouTube.</p>
       </div>
       <table class="diff-table">
         <thead>
           <tr>
             <th>Capability</th>
-            <th>Typical Email Agencies</th>
+            <th>Typical Video Agencies</th>
             <th style="background:var(--secondary);">The Rankmator Edge</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="point-label">Strategy</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Monthly newsletters only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full lifecycle email strategy &amp;
-              automation</td>
+            <td class="point-label">Video SEO</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic tags &amp; descriptions</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full semantic optimization &amp;
+              transcript SEO</td>
           </tr>
           <tr>
-            <td class="point-label">Personalization</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>First name only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>AI-driven dynamic content &amp;
-              behavioral triggers</td>
+            <td class="point-label">Ads Management</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Set-and-forget campaigns</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Continuous A/B testing &amp; smart
+              bidding</td>
           </tr>
           <tr>
-            <td class="point-label">Deliverability</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic list management</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full DNS setup, spam testing &amp;
-              inbox placement</td>
+            <td class="point-label">Content Strategy</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Ad-hoc video uploads</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Data-backed content calendar &amp;
+              series planning</td>
+          </tr>
+          <tr>
+            <td class="point-label">Thumbnails</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Generic stock visuals</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Custom CTR-optimized thumbnail
+              designs</td>
           </tr>
           <tr>
             <td class="point-label">Reporting</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Open and click rates only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Revenue attribution &amp; full funnel
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Views &amp; subscriber counts only</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full revenue attribution &amp; ROAS
               reporting</td>
-          </tr>
-          <tr>
-            <td class="point-label">Automation</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic welcome email</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>10+ automated flows covering full
-              customer lifecycle</td>
           </tr>
         </tbody>
       </table>
@@ -545,48 +547,48 @@
   <section id="faq" class="section-pad" style="background:var(--primary-dark);color:#fff;">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag" style="color:var(--secondary);">Email Marketing Q&amp;A</div>
-        <h2 class="section-title" style="color:#fff;">Email Marketing FAQs</h2>
+        <div class="section-tag" style="color:var(--secondary);">YouTube Expert Q&amp;A</div>
+        <h2 class="section-title" style="color:#fff;">YouTube Marketing FAQs</h2>
       </div>
       <div class="faq-container">
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What email marketing platforms do you work with?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>How long does it take to see results from YouTube Marketing?</h4><i
+              class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We work with all major platforms including Mailchimp, Klaviyo, HubSpot, Brevo (formerly Sendinblue),
-              ActiveCampaign, Salesforce Marketing Cloud, and Marketo. We can also recommend the best platform for your
-              specific business needs and migrate your existing lists.</p>
+            <p>YouTube SEO results typically appear within 3-6 months as videos gain authority and watch history.
+              YouTube Ads can drive immediate traffic and leads from day one. We set clear 30/60/90-day milestones for
+              every engagement.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Do you build the email list or do I need to provide it?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>Do you help with video production or just marketing?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We can do both. If you have an existing list, we'll audit it for deliverability and segment it properly.
-              If you need to build a list, we design opt-in strategies including lead magnets, website pop-ups, and
-              gated content to grow a high-quality, consent-based subscriber list.</p>
+            <p>We focus on the marketing strategy, SEO, ads management, and channel optimization. We can work with your
+              existing production team or refer you to trusted production partners for high-quality video creation.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>How do you ensure emails land in inbox and not spam?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>What types of YouTube Ads do you manage?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We handle the full technical setup including SPF, DKIM, and DMARC DNS records, domain warming for new
-              sending infrastructure, regular list hygiene (removing bounces and inactives), spam score testing with
-              tools like Litmus, and content optimization to maximize inbox placement rates.</p>
+            <p>We manage all YouTube Ad formats including skippable in-stream ads, non-skippable in-stream ads, video
+              discovery ads, bumper ads, and masthead ads. We select the right format based on your campaign objective
+              and budget.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What types of automated email flows do you set up?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>Can YouTube marketing help B2B businesses?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We design and build all essential automation flows including: welcome series, abandoned cart recovery,
-              browse abandonment, post-purchase follow-up &amp; upsell, win-back campaigns for inactive subscribers,
-              birthday emails, VIP loyalty flows, and lead nurturing funnels for B2B.</p>
+            <p>Absolutely. YouTube is highly effective for B2B through thought leadership content, product demos,
+              webinar recordings, and case study videos. B2B buyers increasingly use YouTube for research before making
+              purchase decisions.</p>
           </div>
         </div>
       </div>
@@ -598,9 +600,9 @@
     <div class="container">
       <div class="section-header fade-in" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">Get Started</div>
-        <h2 class="section-title">Ready to Turn Your List Into a <span>Revenue Machine?</span></h2>
-        <p class="section-subtitle">Talk to our email marketing experts today and get a free list audit and strategy
-          recommendation.</p>
+        <h2 class="section-title">Ready to Dominate <span>YouTube?</span></h2>
+        <p class="section-subtitle">Talk to our YouTube marketing experts today and get a custom growth strategy for
+          your channel.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info-card fade-in">
@@ -637,6 +639,7 @@
     </div>
   </section>
 
+  <!-- FOOTER CTA + FOOTER -->
   <?php include 'footer.php'; ?>
 </body>
 

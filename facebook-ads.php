@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Email Marketing Services | Rankmator</title>
+  <title>Facebook Ads Management Services | Meta Advertising | Rankmator</title>
   <meta name="description"
-    content="Drive revenue through the inbox with Rankmator's email marketing services. Automated drip campaigns, advanced segmentation, personalization, and measurable ROI for every send." />
+    content="Drive targeted leads and sales with Rankmator's expert Facebook & Meta Ads management. Precision audience targeting, compelling ad creatives, and data-driven campaigns for maximum ROAS." />
   <?php include 'links.php'; ?>
   <style>
-    .hero-em {
+    .hero-fb {
       background: var(--gradient-hero);
       padding: 60px 0;
       position: relative;
       overflow: hidden;
     }
 
-    .hero-em::before {
+    .hero-fb::before {
       content: '';
       position: absolute;
       inset: 0;
@@ -24,7 +24,7 @@
       opacity: 0.1;
     }
 
-    .hero-badge-em {
+    .hero-badge-fb {
       background: rgba(107, 171, 68, 0.1);
       border: 1px solid rgba(107, 171, 68, 0.3);
       color: var(--secondary);
@@ -38,7 +38,7 @@
       margin-bottom: 24px;
     }
 
-    .hero-badge-dot-em {
+    .hero-badge-dot-fb {
       width: 8px;
       height: 8px;
       background: var(--secondary);
@@ -268,7 +268,7 @@
   <?php include 'header.php'; ?>
 
   <!-- HERO -->
-  <section class="hero-em">
+  <section class="hero-fb">
     <div class="hero-orbs">
       <div class="orb orb-1"></div>
       <div class="orb orb-2"></div>
@@ -276,26 +276,25 @@
     <div class="container">
       <div class="hero-grid">
         <div class="hero-left">
-          <div class="hero-badge-em">
-            <div class="hero-badge-dot-em"></div>India's #1 Email Marketing Agency
+          <div class="hero-badge-fb">
+            <div class="hero-badge-dot-fb"></div>Meta Business Partner Agency
           </div>
-          <h1 class="hero-title">Turn Your Inbox Into a <br /><span
-              class="highlight">Revenue-Generating</span><br />Growth Machine</h1>
-          <p class="hero-subtitle">Email marketing delivers the highest ROI of any digital channel — $42 for every $1
-            spent. Rankmator's automated, hyper-personalized email strategies convert prospects into loyal, repeat
-            customers.</p>
-          <div class="hero-actions"><a href="#contact" class="btn btn-green"><i class="fa-solid fa-envelope"
-                style="margin-right:8px;"></i>Start Email Campaigns</a><a href="#solutions"
-              class="btn btn-ghost-white">View Our Services</a></div>
+          <h1 class="hero-title">Precision Facebook Ads <br /><span class="highlight">That Convert &amp;
+              Scale</span><br />Your Business Growth</h1>
+          <p class="hero-subtitle">Reach 3 billion+ Meta users with laser-targeted Facebook and Instagram ads.
+            Rankmator's certified Meta Ads team designs, manages, and scales campaigns that deliver measurable ROI.</p>
+          <div class="hero-actions"><a href="#contact" class="btn btn-green"><i class="fa-brands fa-meta"
+                style="margin-right:8px;"></i>Start Meta Ads</a><a href="#solutions" class="btn btn-ghost-white">View
+              Our Services</a></div>
           <div class="hero-trust">
             <div class="trust-avatars"><i>S</i><i>R</i><i>A</i><i>P</i><i>M</i></div>
-            <div class="trust-text"><strong>1M+ Emails Sent Monthly</strong> Average 10x ROI on Campaigns</div>
+            <div class="trust-text"><strong>200+ Meta Ad Campaigns</strong> Average 4x ROAS Delivered</div>
           </div>
         </div>
         <div class="hero-right">
           <div class="hero-illustration">
-            <div class="hero-banner-frame fade-in"><img src="assets/images/email_marketing_hero.png"
-                alt="Email Marketing" class="hero-banner-img"></div>
+            <div class="hero-banner-frame fade-in"><img src="assets/images/facebook_ads_hero.png"
+                alt="Facebook Ads Management" class="hero-banner-img"></div>
           </div>
         </div>
       </div>
@@ -311,26 +310,29 @@
           style="position:absolute;top:-50px;right:-50px;width:300px;height:300px;background:rgba(107,171,68,0.05);border-radius:50%;z-index:0;">
         </div>
         <div style="position:relative;z-index:1;">
-          <h2 style="font-size:32px;font-weight:800;color:var(--text-primary);margin-bottom:30px;">Why Email Marketing
-            Remains the Highest-ROI Channel in 2025</h2>
+          <h2 style="font-size:32px;font-weight:800;color:var(--text-primary);margin-bottom:30px;">Why Facebook &amp;
+            Meta Ads Are a Business Growth Powerhouse</h2>
           <ul style="list-style:none;padding:0;">
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Email generates an average ROI
-                of <strong>$42 for every $1 spent</strong> — higher than any other digital marketing channel.</span>
-            </li>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Meta's advertising ecosystem
+                reaches over <strong>3.27 billion daily active users</strong> across Facebook, Instagram, WhatsApp, and
+                Messenger.</span></li>
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>There are <strong>4.3 billion
-                  email users globally</strong> — more than any social media platform combined.</span></li>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Facebook Ads offer the most
+                sophisticated <strong>interest, demographic, and behavioral targeting</strong> of any advertising
+                platform globally.</span></li>
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Personalized email campaigns
-                deliver <strong>6x higher transaction rates</strong> than generic mass-blast campaigns.</span></li>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>We've generated <strong>₹200Cr+
+                  in revenue</strong> for e-commerce brands through our Meta Advantage+ and Dynamic Product Ad
+                campaigns.</span></li>
             <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:20px;font-size:18px;color:#475569;"><i
                 class="fa-solid fa-circle-check"
-                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Our AI-powered email automation
-                delivers an average open rate of <strong>25%+</strong> vs. a 15% industry standard.</span></li>
+                style="color:var(--secondary);font-size:24px;margin-top:2px;"></i><span>Our Advantage+ AI campaigns
+                reduce <strong>cost per acquisition by up to 50%</strong> compared to traditional manual
+                targeting.</span></li>
           </ul>
         </div>
       </div>
@@ -341,18 +343,18 @@
   <section style="background:#fff;border-bottom:1px solid #e2e8f0;padding:20px 0;">
     <div class="platform-slider-container fade-in">
       <div class="platform-logos-track">
-        <div class="platform-logo"><i class="fa-regular fa-envelope"></i> Mailchimp</div>
-        <div class="platform-logo"><i class="fa-solid fa-h"></i> HubSpot</div>
-        <div class="platform-logo"><i class="fa-solid fa-k"></i> Klaviyo</div>
-        <div class="platform-logo"><i class="fa-solid fa-b"></i> Brevo</div>
-        <div class="platform-logo"><i class="fa-brands fa-salesforce"></i> Salesforce</div>
-        <div class="platform-logo"><i class="fa-solid fa-gear"></i> ActiveCampaign</div>
-        <div class="platform-logo"><i class="fa-regular fa-envelope"></i> Mailchimp</div>
-        <div class="platform-logo"><i class="fa-solid fa-h"></i> HubSpot</div>
-        <div class="platform-logo"><i class="fa-solid fa-k"></i> Klaviyo</div>
-        <div class="platform-logo"><i class="fa-solid fa-b"></i> Brevo</div>
-        <div class="platform-logo"><i class="fa-brands fa-salesforce"></i> Salesforce</div>
-        <div class="platform-logo"><i class="fa-solid fa-gear"></i> ActiveCampaign</div>
+        <div class="platform-logo"><i class="fa-brands fa-facebook"></i> Facebook</div>
+        <div class="platform-logo"><i class="fa-brands fa-instagram"></i> Instagram</div>
+        <div class="platform-logo"><i class="fa-brands fa-whatsapp"></i> WhatsApp Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-envelope"></i> Messenger Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-bolt"></i> Advantage+</div>
+        <div class="platform-logo"><i class="fa-solid fa-cart-shopping"></i> Dynamic Ads</div>
+        <div class="platform-logo"><i class="fa-brands fa-facebook"></i> Facebook</div>
+        <div class="platform-logo"><i class="fa-brands fa-instagram"></i> Instagram</div>
+        <div class="platform-logo"><i class="fa-brands fa-whatsapp"></i> WhatsApp Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-envelope"></i> Messenger Ads</div>
+        <div class="platform-logo"><i class="fa-solid fa-bolt"></i> Advantage+</div>
+        <div class="platform-logo"><i class="fa-solid fa-cart-shopping"></i> Dynamic Ads</div>
       </div>
     </div>
   </section>
@@ -361,70 +363,69 @@
   <section id="solutions" class="section-pad" style="background:#fcfcfc;">
     <div class="container">
       <div class="section-header" style="text-align:left;margin-bottom:60px;">
-        <h2 class="section-title" style="font-size:42px;line-height:1.2;margin-bottom:25px;">Full-Spectrum Email
-          Marketing Services</h2>
-        <p class="section-subtitle" style="font-size:18px;margin-left:0;">From list building to automation workflows and
-          deliverability optimization, Rankmator handles every element of your email marketing for maximum revenue
-          impact.</p>
+        <h2 class="section-title" style="font-size:42px;line-height:1.2;margin-bottom:25px;">Complete Facebook &amp;
+          Meta Ads Services</h2>
+        <p class="section-subtitle" style="font-size:18px;margin-left:0;">From audience strategy to ad creative and
+          campaign optimization, our Meta Ads team delivers full-funnel performance across every Meta platform.</p>
       </div>
       <div class="service-grid-premium">
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-code-branch" style="color:var(--secondary);"></i></div>
-          <h3>Drip Campaign Design</h3>
-          <p>Automated multi-stage email sequences that nurture leads from awareness to purchase with perfectly timed,
-            contextually relevant messages at every funnel stage.</p><a href="#contact"
+              class="fa-solid fa-crosshairs" style="color:var(--secondary);"></i></div>
+          <h3>Audience Strategy &amp; Targeting</h3>
+          <p>Custom, Lookalike, and Interest-based audience creation using data-driven segmentation to reach your ideal
+            customers at the lowest possible cost per click.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-puzzle-piece" style="color:var(--secondary);"></i></div>
-          <h3>Advanced Segmentation</h3>
-          <p>Behavioral, demographic, and purchase-history-based list segmentation to ensure every subscriber receives
-            the most relevant content for maximum engagement and conversions.</p><a href="#contact"
+              class="fa-solid fa-palette" style="color:var(--secondary);"></i></div>
+          <h3>Ad Creative &amp; Copywriting</h3>
+          <p>High-performing video, carousel, single image, and collection ad creatives crafted by our in-house design
+            team, backed by data from thousands of campaigns.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-wand-magic-sparkles" style="color:var(--secondary);"></i></div>
-          <h3>AI-Powered Personalization</h3>
-          <p>Dynamic content blocks, personalized subject lines, and AI-driven send time optimization that adapts every
-            email to individual subscriber behavior and preferences.</p><a href="#contact"
+              class="fa-solid fa-cart-shopping" style="color:var(--secondary);"></i></div>
+          <h3>Dynamic Product Ads (DPA)</h3>
+          <p>Automated product catalog ads that show the right product to each shopper based on their browsing history,
+            cart activity, and purchase behavior.</p><a href="#contact"
+            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
+              class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="premium-card">
+          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
+              class="fa-solid fa-user-plus" style="color:var(--secondary);"></i></div>
+          <h3>Lead Generation Campaigns</h3>
+          <p>Facebook Lead Ads and landing page campaigns with optimized lead forms and instant CRM integration to
+            capture high-quality leads at scale.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
               class="fa-solid fa-rotate-right" style="color:var(--secondary);"></i></div>
-          <h3>Automation &amp; Flows</h3>
-          <p>Welcome series, abandoned cart recovery, post-purchase flows, win-back campaigns, and re-engagement
-            sequences — all automated for consistent revenue on autopilot.</p><a href="#contact"
+          <h3>Retargeting &amp; Funnel Campaigns</h3>
+          <p>Strategic retargeting of website visitors, video viewers, and engaged audiences through multi-stage funnel
+            campaigns that nurture prospects to conversion.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-envelope-open-text" style="color:var(--secondary);"></i></div>
-          <h3>Email Template Design</h3>
-          <p>Stunning, on-brand HTML email templates optimized for all devices and clients, combining exceptional design
-            with high deliverability best practices.</p><a href="#contact"
-            style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
-              class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="premium-card">
-          <div class="card-icon-wrap" style="background:#f8fafc;border:1px solid #e2e8f0;"><i
-              class="fa-solid fa-chart-line" style="color:var(--secondary);"></i></div>
-          <h3>Deliverability &amp; Analytics</h3>
-          <p>DNS setup (SPF, DKIM, DMARC), list hygiene, spam score monitoring, and comprehensive reporting on opens,
-            clicks, conversions, and revenue attribution.</p><a href="#contact"
+              class="fa-solid fa-chart-pie" style="color:var(--secondary);"></i></div>
+          <h3>Analytics &amp; Attribution</h3>
+          <p>Meta Pixel setup, Conversions API implementation, and comprehensive attribution tracking to accurately
+            measure campaign impact and optimize ROAS.</p><a href="#contact"
             style="color:var(--secondary);display:block;margin-top:20px;font-size:20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
       <div style="text-align:center;margin-top:50px;"><a href="#contact" class="btn btn-primary"
-          style="padding:15px 40px;border-radius:10px;font-weight:700;">Start Email Marketing <i
+          style="padding:15px 40px;border-radius:10px;font-weight:700;">Launch Facebook Ads Campaign <i
             class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a></div>
     </div>
   </section>
@@ -435,16 +436,15 @@
       <div class="insights-banner"
         style="background:var(--gradient-blue);border-radius:20px;display:flex;align-items:center;padding:0 40px;color:#fff;overflow:hidden;height:180px;">
         <div class="insights-img" style="width:200px;height:100%;display:flex;align-items:flex-end;"><img
-            src="assets/images/seo_insights_cta.png" alt="Email Marketing Audit"
+            src="assets/images/seo_insights_cta.png" alt="Facebook Ads Audit"
             style="height:120%;object-fit:contain;margin-bottom:-1px;"></div>
         <div class="insights-text" style="flex:1;padding-left:40px;">
-          <h2 style="font-size:28px;font-weight:800;margin-bottom:10px;">Is Your Email List a Revenue Asset or Dead
-            Weight?</h2>
-          <p style="font-size:16px;opacity:0.9;">Get a free email marketing audit and see how to turn your existing list
-            into a consistent revenue engine.</p>
+          <h2 style="font-size:28px;font-weight:800;margin-bottom:10px;">Is Your Facebook Ad Spend Wasting Budget?</h2>
+          <p style="font-size:16px;opacity:0.9;">Get a free Meta Ads audit and uncover why your campaigns aren't
+            converting at their full potential.</p>
         </div>
         <div class="insights-action"><a href="#contact" class="btn btn-white"
-            style="border-radius:50px;padding:12px 30px;">Free Email Audit <i class="fa-solid fa-arrow-right"
+            style="border-radius:50px;padding:12px 30px;">Free Meta Audit <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a></div>
       </div>
     </div>
@@ -455,86 +455,85 @@
     <div class="container">
       <div class="section-header" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">Proven Results</div>
-        <h2 class="section-title">Email Marketing ROI Across <span>All Industries</span></h2>
-        <p class="section-subtitle">Our email campaigns consistently outperform industry benchmarks across every sector
-          we serve.</p>
+        <h2 class="section-title">Meta Ads Success Across <span>All Industries</span></h2>
+        <p class="section-subtitle">Our Facebook and Instagram ad campaigns drive measurable revenue for brands in every
+          sector.</p>
       </div>
       <div class="service-grid-premium" style="grid-template-columns:repeat(3,1fr);gap:30px;">
         <div class="vstat-card">
           <div class="vstat-icon"><i class="fa-solid fa-bag-shopping"></i></div>
           <h3 style="font-size:20px;margin-bottom:15px;">E-commerce &amp; D2C</h3>
-          <div class="vstat-number">12x</div>
-          <div class="vstat-label">Email Revenue ROI</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">Abandoned cart flows and post-purchase upsell
-            sequences driving significant repeat purchase revenue.</p>
-        </div>
-        <div class="vstat-card">
-          <div class="vstat-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3 style="font-size:20px;margin-bottom:15px;">BFSI &amp; Insurance</h3>
-          <div class="vstat-number">25%</div>
-          <div class="vstat-label">Average Open Rate</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">REBI-compliant transactional and marketing emails for
-            financial services with trusted deliverability.</p>
+          <div class="vstat-number">6x</div>
+          <div class="vstat-label">Average ROAS Delivered</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Dynamic Product Ads and Advantage+ Shopping campaigns
+            scaling D2C brands from ₹10L to ₹1Cr+ monthly revenue.</p>
         </div>
         <div class="vstat-card">
           <div class="vstat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
           <h3 style="font-size:20px;margin-bottom:15px;">Education &amp; EdTech</h3>
-          <div class="vstat-number">3x</div>
-          <div class="vstat-label">Enrolment Conversion</div>
-          <p style="margin-top:15px;font-size:14px;color:#64748b;">Lead nurturing email sequences that guide potential
-            students from inquiry to confirmed enrolment.</p>
+          <div class="vstat-number">50%</div>
+          <div class="vstat-label">Reduction in Lead Cost</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Lead Gen and Messenger campaigns driving enrolment
+            inquiries at significantly lower cost per lead for education brands.</p>
+        </div>
+        <div class="vstat-card">
+          <div class="vstat-icon"><i class="fa-solid fa-house"></i></div>
+          <h3 style="font-size:20px;margin-bottom:15px;">Real Estate</h3>
+          <div class="vstat-number">4x</div>
+          <div class="vstat-label">Increase in Site Visits</div>
+          <p style="margin-top:15px;font-size:14px;color:#64748b;">Video ads and instant experience campaigns driving
+            high-intent property buyers to showrooms and project sites.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COMPARISON -->
+  <!-- COMPARISON TABLE -->
   <section class="section-pad" style="background:#fff;">
     <div class="container">
       <div class="section-header" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">The Comparison</div>
-        <h2 class="section-title">The Rankmator <span>Email Marketing Edge</span></h2>
-        <p class="section-subtitle">We treat your email list as your most valuable owned asset and manage it with the
-          precision it deserves.</p>
+        <h2 class="section-title">The Rankmator <span>Facebook Ads Edge</span></h2>
+        <p class="section-subtitle">We go beyond the basics to build Facebook ad systems that scale profitably.</p>
       </div>
       <table class="diff-table">
         <thead>
           <tr>
             <th>Capability</th>
-            <th>Typical Email Agencies</th>
+            <th>Typical Meta Agencies</th>
             <th style="background:var(--secondary);">The Rankmator Edge</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="point-label">Strategy</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Monthly newsletters only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full lifecycle email strategy &amp;
-              automation</td>
+            <td class="point-label">Creative</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Outsourced or template designs</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>In-house creative team with
+              data-backed design</td>
           </tr>
           <tr>
-            <td class="point-label">Personalization</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>First name only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>AI-driven dynamic content &amp;
-              behavioral triggers</td>
+            <td class="point-label">Targeting</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic interest-based targeting</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Multi-layered audience + Conversions
+              API integration</td>
           </tr>
           <tr>
-            <td class="point-label">Deliverability</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic list management</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Full DNS setup, spam testing &amp;
-              inbox placement</td>
+            <td class="point-label">Optimization</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Set &amp; check weekly</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Daily monitoring + rapid creative
+              iteration</td>
           </tr>
           <tr>
-            <td class="point-label">Reporting</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Open and click rates only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Revenue attribution &amp; full funnel
-              reporting</td>
+            <td class="point-label">Attribution</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Last-click Pixel only</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Conversions API + cross-channel
+              attribution modelling</td>
           </tr>
           <tr>
-            <td class="point-label">Automation</td>
-            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Basic welcome email</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>10+ automated flows covering full
-              customer lifecycle</td>
+            <td class="point-label">Scaling</td>
+            <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i>Manual budget increases</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>Proven scaling framework maintaining
+              ROAS at each step</td>
           </tr>
         </tbody>
       </table>
@@ -545,48 +544,48 @@
   <section id="faq" class="section-pad" style="background:var(--primary-dark);color:#fff;">
     <div class="container">
       <div class="section-header">
-        <div class="section-tag" style="color:var(--secondary);">Email Marketing Q&amp;A</div>
-        <h2 class="section-title" style="color:#fff;">Email Marketing FAQs</h2>
+        <div class="section-tag" style="color:var(--secondary);">Meta Ads Expert Q&amp;A</div>
+        <h2 class="section-title" style="color:#fff;">Facebook Ads FAQs</h2>
       </div>
       <div class="faq-container">
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What email marketing platforms do you work with?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>What budget should I start with for Facebook Ads?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We work with all major platforms including Mailchimp, Klaviyo, HubSpot, Brevo (formerly Sendinblue),
-              ActiveCampaign, Salesforce Marketing Cloud, and Marketo. We can also recommend the best platform for your
-              specific business needs and migrate your existing lists.</p>
+            <p>We recommend a starting budget of at least ₹30,000-₹50,000 per month to test multiple audiences and
+              creatives. E-commerce brands typically see optimal results with ₹1L+ monthly budgets where we can scale
+              Advantage+ Shopping campaigns for compound ROAS growth.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Do you build the email list or do I need to provide it?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>How do you handle iOS 14+ tracking limitations?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We can do both. If you have an existing list, we'll audit it for deliverability and segment it properly.
-              If you need to build a list, we design opt-in strategies including lead magnets, website pop-ups, and
-              gated content to grow a high-quality, consent-based subscriber list.</p>
+            <p>We implement Meta's Conversions API (CAPI) server-side tracking which bypasses browser-level privacy
+              restrictions, maintaining 85-90% attribution accuracy. We also set up aggregated event measurement and use
+              first-party data strategies to maximize campaign performance despite iOS limitations.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>How do you ensure emails land in inbox and not spam?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>Do Facebook Ads work for B2B businesses?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We handle the full technical setup including SPF, DKIM, and DMARC DNS records, domain warming for new
-              sending infrastructure, regular list hygiene (removing bounces and inactives), spam score testing with
-              tools like Litmus, and content optimization to maximize inbox placement rates.</p>
+            <p>Facebook Ads can work very well for B2B when used correctly. We target decision-makers by job title,
+              company size, and industry, running Lead Gen campaigns for whitepapers, webinars, and consultations. For
+              many B2B verticals, Facebook Ads deliver leads at significantly lower CPL than LinkedIn.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What types of automated email flows do you set up?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>How long does it take to see Facebook Ads results?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We design and build all essential automation flows including: welcome series, abandoned cart recovery,
-              browse abandonment, post-purchase follow-up &amp; upsell, win-back campaigns for inactive subscribers,
-              birthday emails, VIP loyalty flows, and lead nurturing funnels for B2B.</p>
+            <p>Facebook's algorithm needs a "learning phase" of approximately 50 conversion events per ad set (usually
+              1-2 weeks) before it stabilizes. You'll typically see initial results in week 1-2, with optimized
+              performance from week 4 onwards as we iterate on creatives and audiences based on data.</p>
           </div>
         </div>
       </div>
@@ -598,9 +597,9 @@
     <div class="container">
       <div class="section-header fade-in" style="text-align:center;margin-bottom:60px;">
         <div class="section-tag">Get Started</div>
-        <h2 class="section-title">Ready to Turn Your List Into a <span>Revenue Machine?</span></h2>
-        <p class="section-subtitle">Talk to our email marketing experts today and get a free list audit and strategy
-          recommendation.</p>
+        <h2 class="section-title">Ready to Scale with <span>Facebook Ads?</span></h2>
+        <p class="section-subtitle">Talk to our certified Meta Ads experts today and get a free account audit and growth
+          strategy.</p>
       </div>
       <div class="contact-grid">
         <div class="contact-info-card fade-in">

@@ -7,10 +7,7 @@
   <title>Custom Web Development Services for High-Growth Brands | Rankmator</title>
   <meta name="description"
     content="Build high-performance, secure, and SEO-optimized websites with Rankmator. Expert web development services in React, Next.js, WordPress, and Ecommerce solutions." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <?php include 'links.php'; ?>
   <style>
     /* Page Specific Styles */
     .hero-webdev {
@@ -281,147 +278,7 @@
 
 <body>
 
-  <!-- TOP BAR -->
-  <div class="top-bar">
-    <div class="container">
-      <a href="tel:+919910308266" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-        +91-9910308266
-      </a>
-      <a href="mailto:enquiry@rankmator.com" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        enquiry@rankmator.com
-      </a>
-      <a href="#cta-banner" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right" style="margin-left:5px; font-size: 0.9em;"></i></a>
-    </div>
-  </div>
-
-  <!-- NAVIGATION -->
-  <header id="navbar">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">
-          <div class="nav-logo-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          </div>
-          <div>
-            <div class="nav-logo-text">RANK<span>MATOR</span></div>
-            <span class="nav-tagline">Digital Excellence</span>
-          </div>
-        </a>
-
-        <ul class="nav-links">
-            <li class="nav-item mega-item">
-              <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="mega-menu">
-  <div class="mega-col">
-    <div class="mega-col-title">SEO &amp; Organic</div>
-    <a href="seo-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-      <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span></div>
-    </a>
-    <a href="local-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-      <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
-    </a>
-    <a href="ecommerce-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-      <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span></div>
-    </a>
-    <a href="content-marketing-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-newspaper"></i></div>
-      <div class="mega-link-text"><strong>Content Marketing</strong><span>Authority content that converts</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Paid Advertising</div>
-    <a href="performance-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
-      <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media ROI</span></div>
-    </a>
-    <a href="google-ads.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
-      <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed campaigns</span></div>
-    </a>
-    <a href="meta-ads-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-meta"></i></div>
-      <div class="mega-link-text"><strong>Meta Ads Agency</strong><span>Facebook &amp; Instagram precision ads</span></div>
-    </a>
-    <a href="linkedin-management-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-linkedin"></i></div>
-      <div class="mega-link-text"><strong>LinkedIn Management</strong><span>B2B lead generation on LinkedIn</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Social &amp; Content</div>
-    <a href="social-media-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
-      <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand communities</span></div>
-    </a>
-    <a href="youtube-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
-      <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span></div>
-    </a>
-    <a href="email-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
-      <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Web &amp; Design</div>
-    <a href="website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
-      <div class="mega-link-text"><strong>Website Development</strong><span>High-converting custom websites</span></div>
-    </a>
-    <a href="ecommerce-website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-store"></i></div>
-      <div class="mega-link-text"><strong>Ecommerce Development</strong><span>Shopify, WooCommerce &amp; more</span></div>
-    </a>
-    <a href="wordpress-website-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-wordpress"></i></div>
-      <div class="mega-link-text"><strong>WordPress Agency</strong><span>Fast, secure WordPress sites</span></div>
-    </a>
-    <a href="landing-page-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
-      <div class="mega-link-text"><strong>Landing Page Design</strong><span>CRO-optimised landing pages</span></div>
-    </a>
-    <a href="ui-ux-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-      <div class="mega-link-text"><strong>UI/UX Design</strong><span>User-first design systems</span></div>
-    </a>
-  </div>
-  <div class="mega-col-promo">
-    <div class="mega-promo-tag">Free Resource</div>
-    <h4>Get Your Free Digital Growth Audit</h4>
-    <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
-    <a href="contact.html" class="mega-promo-btn">Request Free Audit <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
-      </div>
-    </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="nav-dropdown">
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
-                <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
-                <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
-                <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
-                <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
-                <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-
-        <div class="nav-actions">
-          <a href="#cta-banner" class="nav-cta">Request a Call</a>
-        </div>
-        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <?php include 'header.php'; ?>
 
   <!-- HERO SECTION -->
   <section class="hero-webdev">
@@ -442,7 +299,8 @@
             That Convert
           </h1>
           <p class="hero-subtitle">
-            Custom website design and development tailored to your business goals. We create fast, secure, and SEO-optimized sites that deliver premium user experiences across all devices.
+            Custom website design and development tailored to your business goals. We create fast, secure, and
+            SEO-optimized sites that deliver premium user experiences across all devices.
           </p>
           <div class="hero-actions">
             <a href="#contact" class="btn btn-green">
@@ -483,19 +341,22 @@
           style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background: rgba(107, 171, 68, 0.05); border-radius: 50%; z-index: 0;">
         </div>
         <div style="position: relative; z-index: 1;">
-          <h2 style="font-size: 32px; font-weight: 800; color: var(--text-primary); margin-bottom: 30px;">Engineered for Impact: Rankmator’s Web Development Edge</h2>
+          <h2 style="font-size: 32px; font-weight: 800; color: var(--text-primary); margin-bottom: 30px;">Engineered for
+            Impact: Rankmator’s Web Development Edge</h2>
           <ul style="list-style: none; padding: 0;">
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
               <i class="fa-solid fa-circle-check"
                 style="color: var(--secondary); font-size: 24px; margin-top: 2px;"></i>
-              <span><strong>75% of users</strong> admit to making judgments on a company's credibility based on their website design.</span>
+              <span><strong>75% of users</strong> admit to making judgments on a company's credibility based on their
+                website design.</span>
             </li>
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
               <i class="fa-solid fa-circle-check"
                 style="color: var(--secondary); font-size: 24px; margin-top: 2px;"></i>
-              <span><strong>88% of online consumers</strong> are less likely to return to a site after a bad user experience.</span>
+              <span><strong>88% of online consumers</strong> are less likely to return to a site after a bad user
+                experience.</span>
             </li>
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
@@ -541,8 +402,11 @@
   <section id="solutions" class="section-pad" style="background: #fcfcfc;">
     <div class="container">
       <div class="section-header" style="text-align: left; margin-bottom: 60px;">
-        <h2 class="section-title" style="font-size: 42px; line-height: 1.2; margin-bottom: 25px;">End-to-End Web Solutions: From Discovery to Deployment</h2>
-        <p class="section-subtitle" style="font-size: 18px; margin-left: 0;">We don't just write code; we build digital assets that drive revenue. Our development process combines aesthetic excellence with technical robustness.</p>
+        <h2 class="section-title" style="font-size: 42px; line-height: 1.2; margin-bottom: 25px;">End-to-End Web
+          Solutions: From Discovery to Deployment</h2>
+        <p class="section-subtitle" style="font-size: 18px; margin-left: 0;">We don't just write code; we build digital
+          assets that drive revenue. Our development process combines aesthetic excellence with technical robustness.
+        </p>
         <p style="font-size: 16px; color: #64748b; margin-top: 15px;">Our core Web Development services include:</p>
       </div>
 
@@ -552,7 +416,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-laptop-code" style="color: var(--secondary);"></i></div>
           <h3>Custom Web Applications</h3>
-          <p>Complex, scalable web applications built with modern frameworks like React and Next.js for superior performance and user interactivity.</p>
+          <p>Complex, scalable web applications built with modern frameworks like React and Next.js for superior
+            performance and user interactivity.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -561,7 +426,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-pen-ruler" style="color: var(--secondary);"></i></div>
           <h3>UI/UX Design & Prototyping</h3>
-          <p>User-centric design that prioritizes intuitive navigation, accessibility, and brand storytelling to maximize engagement and conversion.</p>
+          <p>User-centric design that prioritizes intuitive navigation, accessibility, and brand storytelling to
+            maximize engagement and conversion.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -570,7 +436,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-cart-shopping" style="color: var(--secondary);"></i></div>
           <h3>Full-Stack E-commerce</h3>
-          <p>Robust online stores built on Shopify, Magento, or custom headless architectures, engineered for high volume SKU management and fast checkout.</p>
+          <p>Robust online stores built on Shopify, Magento, or custom headless architectures, engineered for high
+            volume SKU management and fast checkout.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -579,7 +446,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-layer-group" style="color: var(--secondary);"></i></div>
           <h3>Enterprise CMS Solutions</h3>
-          <p>Flexible and secure content management systems that empower your team to update content easily while maintaining brand consistency.</p>
+          <p>Flexible and secure content management systems that empower your team to update content easily while
+            maintaining brand consistency.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -588,7 +456,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-plug" style="color: var(--secondary);"></i></div>
           <h3>API & Integrations</h3>
-          <p>Seamlessly connecting your website with ERPs, CRMs, payment gateways, and third-party SaaS tools to automate your business workflows.</p>
+          <p>Seamlessly connecting your website with ERPs, CRMs, payment gateways, and third-party SaaS tools to
+            automate your business workflows.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -597,14 +466,16 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-gauge-high" style="color: var(--secondary);"></i></div>
           <h3>Performance Optimization</h3>
-          <p>Advanced speed tuning, image optimization, and server-side enhancements to ensure your site loads instantly and stays ahead of search algorithms.</p>
+          <p>Advanced speed tuning, image optimization, and server-side enhancements to ensure your site loads instantly
+            and stays ahead of search algorithms.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
       <div style="text-align: center; margin-top: 50px;">
         <a href="#contact" class="btn btn-primary"
-          style="padding: 15px 40px; border-radius: 10px; font-weight: 700;">Start Your Roadmap <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+          style="padding: 15px 40px; border-radius: 10px; font-weight: 700;">Start Your Roadmap <i
+            class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
       </div>
     </div>
   </section>
@@ -620,7 +491,8 @@
         </div>
         <div class="insights-text" style="flex: 1; padding-left: 40px;">
           <h2 style="font-size: 28px; font-weight: 800; margin-bottom: 10px;">Is Your Website Underperforming?</h2>
-          <p style="font-size: 16px; opacity: 0.9;">Get a free technical audit to identify speed bottlenecks and UI/UX friction points.</p>
+          <p style="font-size: 16px; opacity: 0.9;">Get a free technical audit to identify speed bottlenecks and UI/UX
+            friction points.</p>
         </div>
         <div class="insights-action">
           <a href="#contact" class="btn btn-white" style="border-radius: 50px; padding: 12px 30px;">Get Free Audit <i
@@ -635,7 +507,9 @@
     <div class="container">
       <div class="section-header" style="text-align: left; margin-bottom: 40px;">
         <h2 class="section-title" style="color: #fff; font-size: 38px;">Our Scientific Development Process</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.9); margin-left: 0; max-width: 900px;">We follow a disciplined, agile methodology to ensure every line of code adds value and every design element serves a purpose.</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.9); margin-left: 0; max-width: 900px;">We follow a
+          disciplined, agile methodology to ensure every line of code adds value and every design element serves a
+          purpose.</p>
       </div>
 
       <!-- Category Slider -->
@@ -705,7 +579,8 @@
       <div class="section-header" style="text-align: center; margin-bottom: 60px;">
         <div class="section-tag">Vertical Expertise</div>
         <h2 class="section-title">Dominating Specialized <span>Industries</span></h2>
-        <p class="section-subtitle">Our development frameworks are customized for the unique requirements of your sector.</p>
+        <p class="section-subtitle">Our development frameworks are customized for the unique requirements of your
+          sector.</p>
       </div>
 
       <div class="service-grid-premium" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
@@ -715,7 +590,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">Fintech & Banking</h3>
           <div class="vstat-number">99.9%</div>
           <div class="vstat-label">Security Uptime</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Enterprise-grade security and API-driven architectures for financial products.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Enterprise-grade security and API-driven
+            architectures for financial products.</p>
         </div>
         <!-- Healthcare -->
         <div class="vstat-card">
@@ -723,7 +599,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">Healthcare</h3>
           <div class="vstat-number">100%</div>
           <div class="vstat-label">HIPAA Compliant</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Patient-first portals and secure medical data management systems.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Patient-first portals and secure medical data
+            management systems.</p>
         </div>
         <!-- SaaS -->
         <div class="vstat-card">
@@ -731,7 +608,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">SaaS & Tech</h3>
           <div class="vstat-number">3x</div>
           <div class="vstat-label">Faster Time-to-Market</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Rapid MVP development and scalable infrastructure for tech startups.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Rapid MVP development and scalable
+            infrastructure for tech startups.</p>
         </div>
       </div>
     </div>
@@ -763,12 +641,14 @@
           <tr>
             <td class="point-label">Speed</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Slow loading, poor scores</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> < 2s Loading & High CWV Scores</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i>
+              < 2s Loading & High CWV Scores</td>
           </tr>
           <tr>
             <td class="point-label">SEO Ready</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Ad-hoc plugins needed</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Integrated Architecture & Schema</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Integrated Architecture & Schema
+            </td>
           </tr>
           <tr>
             <td class="point-label">Security</td>
@@ -791,7 +671,8 @@
       <div class="section-header" style="text-align: center; margin-bottom: 60px;">
         <div class="section-tag">Trust & Scale</div>
         <h2 class="section-title">Why Enterprises Trust Rankmator for <br /><span>Digital Engineering</span></h2>
-        <p class="section-subtitle">We combine creative design with engineering excellence to deliver world-class web solutions.</p>
+        <p class="section-subtitle">We combine creative design with engineering excellence to deliver world-class web
+          solutions.</p>
       </div>
 
       <div class="service-grid-premium" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
@@ -801,7 +682,8 @@
             style="background: rgba(8, 104, 160, 0.05); border: 1px solid rgba(8, 104, 160, 0.1);"><i
               class="fa-solid fa-shield-halved" style="color: var(--primary);"></i></div>
           <h3>Security First</h3>
-          <p>We implement the latest security standards, including SSL, DDoS protection, and regular security audits.</p>
+          <p>We implement the latest security standards, including SSL, DDoS protection, and regular security audits.
+          </p>
         </div>
         <!-- Card 2 -->
         <div class="premium-card">
@@ -809,7 +691,8 @@
             style="background: rgba(107, 171, 68, 0.05); border: 1px solid rgba(107, 171, 68, 0.1);"><i
               class="fa-solid fa-expand" style="color: var(--secondary);"></i></div>
           <h3>Infinite Scalability</h3>
-          <p>Architecture designed to handle millions of users and process complex data without performance degradation.</p>
+          <p>Architecture designed to handle millions of users and process complex data without performance degradation.
+          </p>
         </div>
         <!-- Card 3 -->
         <div class="premium-card">
@@ -838,7 +721,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>A standard corporate project usually takes 6-10 weeks. Complex ecommerce or SaaS platforms can take 3-6 months depending on functionality requirements.</p>
+            <p>A standard corporate project usually takes 6-10 weeks. Complex ecommerce or SaaS platforms can take 3-6
+              months depending on functionality requirements.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -847,7 +731,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We typically recommend React/Next.js for high-performance apps, WordPress for content-heavy sites, and custom Node.js/Laravel for complex logic.</p>
+            <p>We typically recommend React/Next.js for high-performance apps, WordPress for content-heavy sites, and
+              custom Node.js/Laravel for complex logic.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -856,7 +741,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>Yes, we offer monthly maintenance retainers that cover security updates, performance monitoring, and small feature enhancements.</p>
+            <p>Yes, we offer monthly maintenance retainers that cover security updates, performance monitoring, and
+              small feature enhancements.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -865,7 +751,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>Absolutely. Every site we build includes technical SEO foundations like clean URL structure, Schema markup, and speed optimization as standard.</p>
+            <p>Absolutely. Every site we build includes technical SEO foundations like clean URL structure, Schema
+              markup, and speed optimization as standard.</p>
           </div>
         </div>
       </div>
@@ -893,26 +780,26 @@
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Location :</span>
-            <div class="contact-detail-content">
-              <i class="fa-solid fa-map-location-dot"></i>
-              <span>A-24/8, 1st Floor, Rathi Tower, NH-19, Mohan Cooperative Industrial Estate, New Delhi, 110044</span>
-            </div>
-          </div>
-
-          <div class="contact-detail-group">
             <span class="contact-detail-label">Email :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a>
+              <a href="mailto:rankmator@gmail.com">rankmator@gmail.com</a>
             </div>
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Sales Enquiry :</span>
+            <span class="contact-detail-label">Marketing :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-phone"></i>
-              <a href="tel:+919910308266">+91-9910308266</a>
+              <a href="tel:+919560864432">+91 9560864432</a>
+            </div>
+          </div>
+
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">WhatsApp :</span>
+            <div class="contact-detail-content">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
 
@@ -923,147 +810,34 @@
 
         <!-- Right Column: Contact Form -->
         <div class="contact-form-side fade-in">
-          <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a Technical Proposal*</h3>
-          <form class="main-contact-form"
-            onsubmit="event.preventDefault(); alert('Success! Our tech lead will contact you with a proposal shortly.');">
+          <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a
+            Technical Proposal*</h3>
+          <form class="main-contact-form" action="mail.php" method="POST">
             <div class="form-group">
-              <input type="text" class="form-field" placeholder="Full Name *" required>
+              <input type="text" name="name" class="form-field" placeholder="Name *" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-field" placeholder="Work Email *" required>
+              <input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
             <div class="form-group">
-              <input type="tel" class="form-field" placeholder="Mobile Number *" required>
-            </div>
-            <div class="form-group">
-              <select class="form-field" required>
-                <option value="" disabled selected>Project Type</option>
-                <option value="custom">Custom Web App</option>
-                <option value="ecommerce">E-commerce Store</option>
-                <option value="corporate">Corporate Website</option>
-                <option value="maintenance">Site Maintenance</option>
-              </select>
+              <input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
             </div>
             <div class="form-group-full">
-              <textarea class="form-field"
-                placeholder="Tell us about your project requirements and goals..."></textarea>
+              <textarea name="message" class="form-field" placeholder="Your Message"></textarea>
             </div>
-
             <div class="form-footer">
-              <label class="consent-check" style="margin-bottom:20px;">
-                <input type="checkbox" required>
-                <span>I agree to Rankmator's <a href="#">Terms</a> & <a href="#">Privacy Policy</a>.</span>
-              </label>
-
               <button type="submit" class="btn-submit-main">
-                Get My Proposal <i class="fa-solid fa-arrow-right"></i>
+                Submit Now <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
           </form>
         </div>
       </div>
     </div>
+    </div>
   </section>
 
-  <footer id="footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <div class="footer-logo-text">RANK<span>MATOR</span><span class="footer-tagline">Digital Excellence</span></div>
-        </div>
-        <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational growth through digital excellence.</p>
-        <div class="trust-badges-main">
-          <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span class="label">Certified Partner</span></div>
-          <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span class="label" style="color:#fff;">SEMRUSH<br/>Partner</span></div>
-          <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>SEO &amp; Organic</h5>
-        <div class="footer-links">
-          <a href="seo-agency.html">SEO Agency</a>
-          <a href="local-seo-services.html">Local SEO Services</a>
-          <a href="ecommerce-seo-services.html">Ecommerce SEO</a>
-          <a href="content-marketing-agency.html">Content Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Paid Advertising</h5>
-        <div class="footer-links">
-          <a href="performance-marketing.html">Performance Marketing</a>
-          <a href="google-ads.html">Google Ads (PPC)</a>
-          <a href="meta-ads-agency.html">Meta Ads Agency</a>
-          <a href="facebook-ads.html">Facebook Ads</a>
-          <a href="linkedin-management-agency.html">LinkedIn Management</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Social &amp; Content</h5>
-        <div class="footer-links">
-          <a href="social-media-marketing.html">Social Media Marketing</a>
-          <a href="youtube-marketing.html">YouTube Marketing</a>
-          <a href="email-marketing.html">Email Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Web &amp; Design</h5>
-        <div class="footer-links">
-          <a href="website-development-agency.html">Website Development</a>
-          <a href="ecommerce-website-development-agency.html">Ecommerce Development</a>
-          <a href="wordpress-website-agency.html">WordPress Agency</a>
-          <a href="landing-page-design-agency.html">Landing Page Design</a>
-          <a href="ui-ux-design-agency.html">UI/UX Design</a>
-          <a href="web-development-services.html">Web Dev Services</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Company</h5>
-        <div class="footer-links">
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Awards &amp; Recognition</a>
-          <a href="#">Case Studies</a>
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="tools-section">
-          <h6>Quick Links</h6>
-          <div class="footer-links">
-            <a href="#">Blog</a>
-            <a href="#">FAQs</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom-bar">
-    <div class="container footer-bottom-inner">
-      <div class="bottom-socials">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <div class="bottom-ratings">
-        <div class="rating-item"><div class="rating-icon google">G</div> 4.1/5</div>
-        <div class="rating-item"><div class="rating-icon clutch">C</div> 4.5</div>
-        <div class="rating-item"><div class="dmca-badge">DMCA</div> PROTECTED</div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-  <!-- Scroll to Top -->
-  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-
-  <script src="script.js"></script>
+  <?php include 'footer.php'; ?>
   <script>
     // FAQ Accordion
     document.querySelectorAll('.faq-question').forEach(q => {

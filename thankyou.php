@@ -1,101 +1,118 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thank You | Rankmator</title>
-    <meta name="description" content="Thank you for contacting Rankmator. We will get back to you shortly.">
-    <meta name="robots" content="noindex, nofollow">
-
-    <?php include('header-link.php'); ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/header-loader.js"></script>
-
-    <style>
-        .thank-you-section {
-            padding: 150px 0 100px;
-            text-align: center;
-            min-height: 80vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f9f9f9;
-        }
-
-        .thank-you-card {
-            background: #fff;
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-            max-width: 600px;
-            width: 100%;
-            margin: 0 auto;
-        }
-
-        .check-icon {
-            font-size: 80px;
-            color: #d0cc37;
-            margin-bottom: 30px;
-        }
-
-        .thank-you-title {
-            font-size: 36px;
-            font-weight: 800;
-            color: #1a1a1a;
-            margin-bottom: 20px;
-        }
-
-        .thank-you-text {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 40px;
-            line-height: 1.6;
-        }
-
-        .btn-home {
-            background: #d0cc37;
-            color: #000;
-            padding: 15px 40px;
-            font-size: 16px;
-            font-weight: 700;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            display: inline-block;
-            border: 2px solid #d0cc37;
-        }
-
-        .btn-home:hover {
-            background: transparent;
-            color: #d0cc37;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Rankmator — Digital Marketing Agency</title>
+  <?php include 'links.php'; ?>
+  <style>
+    .thankyou-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0868A0 0%, #054e78 100%);
+      padding: 40px 20px;
+    }
+    .thankyou-card {
+      background: #fff;
+      border-radius: 30px;
+      padding: 60px 50px;
+      text-align: center;
+      max-width: 600px;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+    }
+    .thankyou-icon {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #6BAB44, #4d8a2c);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+      font-size: 50px;
+      color: #fff;
+      box-shadow: 0 10px 30px rgba(107,171,68,0.4);
+    }
+    .thankyou-card h1 {
+      font-size: 36px;
+      font-weight: 900;
+      color: #0d1b2a;
+      margin-bottom: 15px;
+    }
+    .thankyou-card p {
+      font-size: 18px;
+      color: #64748b;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+    .thankyou-info {
+      background: #f8fafc;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+    }
+    .thankyou-info h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #0868A0;
+      margin-bottom: 15px;
+    }
+    .thankyou-info p {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .thankyou-info i {
+      color: #6BAB44;
+      margin-right: 8px;
+    }
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 36px;
+      background: linear-gradient(135deg, #0868A0, #054e78);
+      color: #fff;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 8px 25px rgba(8,104,160,0.3);
+    }
+    .btn-home:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 35px rgba(8,104,160,0.4);
+    }
+  </style>
 </head>
+<body>
 
-<body id="page-top" class="top">
-    <div id="header-include"></div>
+<?php include 'header.php'; ?>
 
-    <section class="thank-you-section">
-        <div class="container">
-            <div class="thank-you-card">
-                <i class="fa fa-check-circle check-icon"></i>
-                <h1 class="thank-you-title">Thank You!</h1>
-                <p class="thank-you-text">Your message has been successfully sent. Our team will review your inquiry and
-                    get back to you shortly.</p>
-                <a href="index" class="btn-home">Back to Home</a>
-            </div>
-        </div>
-    </section>
+<section class="thankyou-page">
+  <div class="thankyou-card fade-in">
+    <div class="thankyou-icon">
+      <i class="fa-solid fa-check"></i>
+    </div>
+    <h1>Thank You for Reaching Out!</h1>
+    <p>Your message has been successfully received by our team. One of our digital growth experts will get in touch with you within 24 hours.</p>
 
-    <div id="footer-include"></div>
+    <div class="thankyou-info">
+      <h3><i class="fa-solid fa-clock"></i> What Happens Next?</h3>
+      <p><i class="fa-solid fa-check-circle"></i> Our team will review your enquiry</p>
+      <p><i class="fa-solid fa-check-circle"></i> A growth expert will reach out within 24 hours</p>
+      <p><i class="fa-solid fa-check-circle"></i> We'll schedule a free 30-minute discovery call</p>
+      <p><i class="fa-solid fa-check-circle"></i> You'll receive a customized proposal within 3-5 business days</p>
+    </div>
 
-    <?php include('footer-link.php'); ?>
-    <script src="js/footer-loader.js"></script>
+    <a href="index.php" class="btn-home">
+      <i class="fa-solid fa-arrow-left"></i> Back to Homepage
+    </a>
+  </div>
+</section>
+
+<script src="script.js"></script>
 </body>
-
 </html>
-
-

@@ -1,1802 +1,1274 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
 <head>
-
-    <title>Best Digital Marketing Agency in India | Rankmator </title>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Rankmator is a top digital marketing company in India,Delhi helping startups & businesses grow with SEO, PPC, and branding. Get 20% off for startups today!">
-    <meta name="keywords"
-        content="Creative digital agency in delhi, Top Advertising Agencies in Delhi, Best Digital agency in Delhi, top digital marketing companies in Delhi, Best Digital Branding in Delhi, Best Marketing agency in Delhi, Best Creative Agency in Delhi, Best Digital Agency in Delhi, Best Ad Agency in Delhi, SHOPIFY Expert Agency in Delhi, Best Agency for D2C brands in Delhi, Top Creative Agency in Delhi, Top Digital Agency in Delhi, No 1 Creative Agency in Delhi, No 1 Digital Agency in Delhi">
-    <meta name="author" content="Coffee & Creative">
-    
-    <!-- Google search console-->
-     
-     <meta name="google-site-verification" content="EJxWgOb7_UeRH9f1Wk1xEt5g_MBmKrnMbeSQHmQVb4c" />
-    <!-- Google search console-->
-    
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JH5QHSNMYN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JH5QHSNMYN');
-</script>
-
-    <?php include('header-link.php'); ?>
-
-
-
-
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-    <style>
-        .owl-next span {
-            font-size: 30px;
-            font-weight: 100;
-            position: absolute;
-            color: #fff;
-            z-index: 99999;
-            top: 50%;
-            right: 20px;
-        }
-
-        .owl-prev span {
-            font-size: 30px;
-            font-weight: 100;
-            position: absolute;
-            color: #fff;
-            z-index: 99999;
-            top: 50%;
-            left: 20px;
-        }
-    </style>
-    <link rel="canonical" href="index" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/header-loader.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rankmator — Digital Excellence | SEO, Performance & Digital Marketing Agency</title>
+  <meta name="description"
+    content="Drive Traffic, Leads & Revenue with Rankmator — India's premier digital marketing and SEO powerhouse. 18+ years of proven success, 300+ clients transformed." />
+  <?php include 'links.php'; ?>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
-    <div id="header-include"></div>
-    <h1 style="display:none;">Thirsty for branding?</h1>
-
-
-
-    <style>
-        img.logodark,
-        img.logo {
-            object-fit: contain;
-        }
-
-        .navbar-brand {
-            height: unset;
-        }
-
-        .navbar-custom .navbar-brand {
-            padding-bottom: 0;
-        }
-
-
-        #hero-section {
-            padding: 120px 0 80px 0;
-        }
-
-        .hero-heading {
-            font-size: 48px;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 30px;
-            color: #d0cc37;
-        }
-
-        .hero-text {
-            font-size: 18px;
-            line-height: 1.7;
-            margin-bottom: 30px;
-            color: #fff;
-        }
-
-        .highlight-text {
-            font-size: 22px;
-            font-weight: 600;
-            color: #d0cc37;
-            margin-top: 20px;
-        }
-
-
-        .section-heading {
-            font-size: 42px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            line-height: 1.3;
-        }
-
-        .section-subheading {
-            font-size: 24px;
-            font-weight: 500;
-            margin-bottom: 30px;
-        }
-
-
-        @media (max-width: 992px) {
-            #hero-section {
-                padding: 100px 0 60px 0;
-            }
-
-            .hero-heading {
-                font-size: 36px;
-                line-height: 1.3;
-                margin-bottom: 25px;
-            }
-
-            .hero-text {
-                font-size: 16px;
-            }
-
-            .highlight-text {
-                font-size: 20px;
-            }
-
-            .section-heading {
-                font-size: 36px;
-                margin-bottom: 18px;
-            }
-
-            .section-subheading {
-                font-size: 20px;
-                margin-bottom: 25px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            #hero-section {
-                padding: 80px 0 50px 0;
-            }
-
-            .hero-heading {
-                font-size: 28px;
-                line-height: 1.4;
-                margin-bottom: 20px;
-                padding: 0 15px;
-            }
-
-            .hero-text {
-                font-size: 15px;
-                line-height: 1.6;
-                padding: 0 10px;
-            }
-
-            .highlight-text {
-                font-size: 18px;
-                margin-top: 15px;
-            }
-
-            .section-heading {
-                font-size: 28px;
-                margin-bottom: 15px;
-                line-height: 1.3;
-            }
-
-            .section-subheading {
-                font-size: 18px;
-                margin-bottom: 20px;
-                padding: 0 10px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            #hero-section {
-                padding: 70px 0 40px 0;
-            }
-
-            .hero-heading {
-                font-size: 24px;
-                line-height: 1.4;
-                margin-bottom: 18px;
-            }
-
-            .hero-text {
-                font-size: 14px;
-                line-height: 1.6;
-            }
-
-            .highlight-text {
-                font-size: 16px;
-                margin-top: 12px;
-            }
-
-            .section-heading {
-                font-size: 24px;
-                margin-bottom: 12px;
-                line-height: 1.35;
-            }
-
-            .section-subheading {
-                font-size: 16px;
-                margin-bottom: 18px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero-heading {
-                font-size: 22px;
-            }
-
-            .section-heading {
-                font-size: 22px;
-            }
-        }
-    </style>
-
-
-    <header id="hero-section" class="text-center" style="background-color: #000000;
-    background-image: url('https://cognivicdigital.com/images/seo/texture.png');
-    background-repeat: repeat;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="hero-heading">Best Digital Agency
-                        Company in India</h1>
-                    <div class="hero-text ">
-                        <p>In the 21st century, the internet has fundamentally transformed how businesses operate, compete, and build trust. From customer interactions to purchasing decisions, a strong and strategically managed digital presence is no longer optional — it is essential for sustainable growth.</p>
-                        <p>Rankmator stands as your trusted growth partner, delivering some of the <strong>best digital marketing services in India</strong>. We help businesses strengthen visibility, build credibility, and achieve measurable, performance-driven outcomes.</p>
-                        <p class="highlight-text">"Kyuki Dikhega Tabhi To Bikega!"</p>
-                    </div>
-                    <a href="#contact" class="btn btn-brand btn-lg hero-btn">Book a Free Strategy Call</a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <section id="digital-revolution" class="section-small" style="background-color: #f9f9f9;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">The Digital Revolution - Why Every Business Needs Digital Marketing
-                    </h2>
-                    <h3 class="section-subheading text-muted">(From Gaaon to Sheher)</h3>
-                    <p class="large text-muted">India is now home to over 800 million internet users, with consumers actively searching, engaging, and making purchase decisions online every day. For most customers, Google remains the first point of interaction with any business. Without strong online visibility, businesses risk losing a substantial share of potential customers. This is why digital marketing, supported by strategic <strong>internet marketing services</strong>, has become essential for sustainable growth.</p>
-                   
-                    <p class="large text-muted">At Rankmator, we help brands build visibility, strengthen awareness, and connect with their target audience where decisions are made — online.</p>
-                    <a href="#contact" class="btn btn-brand btn-lg">Let's Connect -></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="connect" class="section-small" style="background-color: #212121">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-left">
-                    <h2 class="section-heading" style="color: #d0cc37;">Connect with Rankmator - Your Growth Partner in
-                        the
-                        Digital World</h2>
-                    <p style="color: #fff;">Rankmator is not just another Digital marketing agency - it's your
-                        strategic
-                        partner in growth.</p>
-                    <p style="color: #fff;">Founded in Delhi with a mission to make digital marketing
-                        accessible for
-                        every business, Rankmator empowers brands across India to achieve real, measurable growth.</p>
-                    <p style="color: #fff;">We blend creativity, data, and technology to help you not just
-                        rank
-                        higher - but grow faster. Whether you're a startup finding your first customer or an
-                        established
-                        brand aiming for scale, our goal is simple: to make your business stand out in the digital
-                        crowd.</p>
-                    <p style="color: #fff;">"We know how hard it is to turn an idea into
-                        a brand - that's why we exist."</p>
-                    <a href="contact" class="btn btn-brand btn-lg">Connect with us -></a>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/home-page-alian.webp" class="img-responsive" alt="Connect with Rankmator">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <style>
-        #services {
-            background-color: #fff;
-        }
-
-        #services .section-heading {
-            color: #1a1a1a;
-            font-size: 42px;
-            font-weight: 800;
-        }
-
-
-        @media (max-width: 992px) {
-            #services .section-heading {
-                font-size: 36px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            #services .section-heading {
-                font-size: 28px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            #services .section-heading {
-                font-size: 24px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            #services .section-heading {
-                font-size: 22px;
-            }
-        }
-
-        .services-masonry-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-auto-rows: 280px;
-            gap: 20px;
-            margin-top: 10px;
-        }
-
-
-        .service-card-wrapper {
-            position: relative;
-            overflow: hidden;
-            border-radius: 15px;
-        }
-
-        .service-large {
-            grid-column: span 2;
-            grid-row: span 2;
-        }
-
-        .service-medium {
-            grid-column: span 2;
-            grid-row: span 1;
-        }
-
-        .service-standard {
-            grid-column: span 1;
-            grid-row: span 1;
-        }
-
-        .service-card {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            border-radius: 15px;
-            transition: all 0.4s ease;
-        }
-
-        .service-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-size: cover;
-            background-position: center;
-            transition: transform 0.4s ease;
-        }
-
-        .service-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
-            transition: background 0.4s ease;
-        }
-
-        .service-content {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 25px;
-            color: #fff;
-            z-index: 2;
-            transform: translateY(0);
-            transition: all 0.4s ease;
-        }
-
-        .service-content h4 {
-            color: #fff;
-            font-size: 20px;
-            font-weight: 700;
-            margin: 0 0 10px 0;
-            text-transform: none;
-        }
-
-        .service-large .service-content h4 {
-            font-size: 26px;
-        }
-
-        .service-medium .service-content h4 {
-            font-size: 22px;
-        }
-
-        .service-content p {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 14px;
-            line-height: 1.5;
-            margin: 0;
-            opacity: 0.9;
-        }
-
-        .service-large .service-content p {
-            font-size: 16px;
-        }
-
-
-        .service-card-wrapper:hover .service-card {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .service-card-wrapper:hover .service-bg {
-            transform: scale(1.1);
-        }
-
-        .service-card-wrapper:hover .service-overlay {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
-        }
-
-
-        @media (max-width: 1200px) {
-            .services-masonry-grid {
-                grid-template-columns: repeat(3, 1fr);
-                grid-auto-rows: 260px;
-            }
-
-            .service-large {
-                grid-column: span 2;
-                grid-row: span 2;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .services-masonry-grid {
-                grid-template-columns: repeat(2, 1fr);
-                grid-auto-rows: 240px;
-            }
-
-            .service-large,
-            .service-medium {
-                grid-column: span 2;
-                grid-row: span 1;
-            }
-
-            .service-standard {
-                grid-column: span 1;
-                grid-row: span 1;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .services-masonry-grid {
-                grid-template-columns: 1fr;
-                grid-auto-rows: 220px;
-                gap: 15px;
-            }
-
-            .service-large,
-            .service-medium,
-            .service-standard {
-                grid-column: span 1;
-                grid-row: span 1;
-            }
-
-            .service-content h4 {
-                font-size: 18px !important;
-            }
-
-            .service-content p {
-                font-size: 13px !important;
-            }
-        }
-    </style>
-
-    <section id="services" class="section-small">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Digital Marketing Solutions for Business Growth</h2>
-                </div>
-            </div>
-
-            <div class="services-masonry-grid">
-
-                <div class="service-card-wrapper service-large">
-                    <a href="best-seo-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/SEO.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Search Engine Optimization (SEO)</h4>
-                                <p>Boost your website's visibility and drive organic traffic.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-standard">
-                    <a href="local-seo-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Local.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Local SEO</h4>
-                                <p>Dominate your neighborhood searches.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-standard">
-                    <a href="performance-marketing-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Performance.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Performance Marketing</h4>
-                                <p>Get instant visibility and ROI.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-medium">
-                    <a href="social-media-marketing-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Social.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Social Media Marketing</h4>
-                                <p>Build your brand voice and engage with your audience on every platform.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-medium">
-                    <a href="website-design-development-services" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Website.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Website Design & Development</h4>
-                                <p>Create stunning, conversion-focused websites that represent your brand.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-large">
-                    <a href="ecommerce-marketing-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Ecommerce.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>E-commerce Marketing</h4>
-                                <p>Scale your online store with targeted campaigns and high-converting strategies.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-standard">
-                    <a href="branding-creative-design" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/Branding.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Branding & Creative Design</h4>
-                                <p>Tell your story with visuals.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-standard">
-                    <a href="email-marketing" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/email.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>Email Marketing</h4>
-                                <p>Convert leads into customers.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-medium">
-                    <a href="ai-marketing-agency" style="text-decoration: none; color: inherit;">
-                        <div class="service-card">
-                            <div class="service-bg" style="background-image: url('img/AI.webp');"></div>
-                            <div class="service-overlay"></div>
-                            <div class="service-content">
-                                <h4>AI Marketing</h4>
-                                <p>AI-powered marketing agency specializing in data-driven growth solutions.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="service-card-wrapper service-medium">
-                    <div class="service-card service-cta-card">
-                        <div class="service-bg" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
-                        </div>
-                        <div class="service-cta-content">
-                            <h4>Ready to Grow Your Brand?</h4>
-                            <p>Let's discuss how we can help you achieve your digital marketing goals with data-driven
-                                strategies.</p>
-                            <a href="#contact" class="cta-button">
-                                <i class="fa fa-paper-plane"></i>
-                                Ready to grow your brand
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        .service-cta-card {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .service-cta-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            padding: 30px;
-            width: 100%;
-        }
-
-        .service-cta-content h4 {
-            color: #fff;
-            font-size: 24px;
-            font-weight: 700;
-            margin: 0 0 15px 0;
-        }
-
-        .service-cta-content p {
-            color: rgba(255, 255, 255, 0.9);
-            font-size: 15px;
-            line-height: 1.6;
-            margin: 0 0 25px 0;
-        }
-
-        .cta-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: #d0cc37;
-            color: #000 !important;
-            padding: 12px 30px;
-            border-radius: 50px;
-            font-size: 15px;
-            font-weight: 700;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid #d0cc37;
-        }
-
-        .cta-button:hover {
-            background: transparent;
-            color: #d0cc37 !important;
-            border-color: #d0cc37;
-            transform: scale(1.05);
-        }
-
-        .cta-button i {
-            font-size: 14px;
-        }
-
-        @media (max-width: 768px) {
-            .service-cta-content h4 {
-                font-size: 20px;
-            }
-
-            .service-cta-content p {
-                font-size: 14px;
-                margin-bottom: 20px;
-            }
-
-            .cta-button {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-    </style>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+     TOP BAR
+═══════════════════════════════════════════ -->
+  <div class="top-bar">
+    <div class="container">
+      <a href="tel:+919560864432" class="top-bar-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+        </svg>
+        +91 9560864432
+      </a>
+      <a href="mailto:rankmator@gmail.com" class="top-bar-link">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+        rankmator@gmail.com
+      </a>
+      <a href="#cta-banner" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right"
+          style="margin-left:5px; font-size: 0.9em;"></i></a>
     </div>
-    </section>
+  </div>
 
+  <!-- ═══════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════ -->
+  <header id="navbar">
+    <div class="container">
+      <nav class="nav-inner">
+        <a href="/" class="nav-logo">
+          <div class="nav-logo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+          </div>
+          <div>
+            <div class="nav-logo-text">RANK<span>MATOR</span></div>
+            <span class="nav-tagline">Digital Excellence</span>
+          </div>
+        </a>
 
-    <style>
-        #why-choose {
-            background-color: #212121 !important;
-        }
-
-        #why-choose .section-heading {
-            color: #fff;
-            font-size: 42px;
-            font-weight: 800;
-            margin-bottom: 50px;
-        }
-
-
-        @media (max-width: 992px) {
-            #why-choose .section-heading {
-                font-size: 36px;
-                margin-bottom: 40px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            #why-choose .section-heading {
-                font-size: 28px;
-                margin-bottom: 35px;
-                padding: 0 15px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            #why-choose .section-heading {
-                font-size: 24px;
-                margin-bottom: 30px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            #why-choose .section-heading {
-                font-size: 22px;
-            }
-        }
-
-        .why-choose-card {
-            background: #fff;
-            border: 1px solid #e0e0e0;
-            border-radius: 12px;
-            padding: 30px 25px;
-            margin-bottom: 30px;
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-            min-height: 160px;
-        }
-
-        .why-choose-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-            border-color: #d0cc37;
-        }
-
-        .why-choose-icon {
-            width: 60px;
-            height: 60px;
-            min-width: 60px;
-            background: linear-gradient(135deg, #f0f0f0 0%, #e6e6e6 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 28px;
-            color: #1a1a1a;
-            transition: all 0.3s ease;
-        }
-
-        .why-choose-card:hover .why-choose-icon {
-            background: linear-gradient(135deg, #d0cc37 0%, #c4c030 100%);
-            color: #000;
-            transform: scale(1.1);
-        }
-
-        .why-choose-content {
-            flex: 1;
-        }
-
-        .why-choose-content h4 {
-            color: #1a1a1a;
-            font-size: 18px;
-            font-weight: 700;
-            margin: 0 0 10px 0;
-            text-transform: none;
-        }
-
-        .why-choose-content p {
-            color: #666;
-            font-size: 14px;
-            line-height: 1.6;
-            margin: 0;
-        }
-
-        @media (max-width: 768px) {
-            .why-choose-card {
-                padding: 20px 18px;
-                min-height: auto;
-            }
-
-            .why-choose-icon {
-                width: 50px;
-                height: 50px;
-                min-width: 50px;
-                font-size: 24px;
-            }
-
-            .why-choose-content h4 {
-                font-size: 16px;
-            }
-
-            .why-choose-content p {
-                font-size: 13px;
-            }
-        }
-    </style>
-    <section id="why-choose" class="section-small">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What Makes Us the Best Marketing Agency in
-                        India
-                    </h2>
-                </div>
+        <ul class="nav-links">
+          <li class="nav-item mega-item">
+            <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></a>
+            <div class="mega-menu">
+              <div class="mega-col">
+                <div class="mega-col-title">SEO &amp; Organic</div>
+                <a href="seo-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span>
+                  </div>
+                </a>
+                <a href="local-seo-services.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                  <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
+                </a>
+                <a href="ecommerce-seo-services.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span>
+                  </div>
+                </a>
+                <a href="content-marketing-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-newspaper"></i></div>
+                  <div class="mega-link-text"><strong>Content Marketing</strong><span>Authority content that
+                      converts</span></div>
+                </a>
+              </div>
+              <div class="mega-col">
+                <div class="mega-col-title">Paid Advertising</div>
+                <a href="performance-marketing.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
+                  <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media
+                      ROI</span></div>
+                </a>
+                <a href="google-ads.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
+                  <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed
+                      campaigns</span></div>
+                </a>
+                <a href="meta-ads-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-meta"></i></div>
+                  <div class="mega-link-text"><strong>Meta Ads Agency</strong><span>Facebook &amp; Instagram precision
+                      ads</span></div>
+                </a>
+                <a href="linkedin-management-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+                  <div class="mega-link-text"><strong>LinkedIn Management</strong><span>B2B lead generation on
+                      LinkedIn</span></div>
+                </a>
+              </div>
+              <div class="mega-col">
+                <div class="mega-col-title">Social &amp; Content</div>
+                <a href="social-media-marketing.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                  <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand
+                      communities</span></div>
+                </a>
+                <a href="youtube-marketing.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
+                  <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span>
+                  </div>
+                </a>
+                <a href="email-marketing.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span>
+                  </div>
+                </a>
+              </div>
+              <div class="mega-col">
+                <div class="mega-col-title">Web &amp; Design</div>
+                <a href="website-development-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
+                  <div class="mega-link-text"><strong>Website Development</strong><span>High-converting custom
+                      websites</span></div>
+                </a>
+                <a href="ecommerce-website-development-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-store"></i></div>
+                  <div class="mega-link-text"><strong>Ecommerce Development</strong><span>Shopify, WooCommerce &amp;
+                      more</span></div>
+                </a>
+                <a href="wordpress-website-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-brands fa-wordpress"></i></div>
+                  <div class="mega-link-text"><strong>WordPress Agency</strong><span>Fast, secure WordPress sites</span>
+                  </div>
+                </a>
+                <a href="landing-page-design-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
+                  <div class="mega-link-text"><strong>Landing Page Design</strong><span>CRO-optimised landing
+                      pages</span></div>
+                </a>
+                <a href="ui-ux-design-agency.php" class="mega-link">
+                  <div class="mega-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                  <div class="mega-link-text"><strong>UI/UX Design</strong><span>User-first design systems</span></div>
+                </a>
+              </div>
+              <div class="mega-col-promo">
+                <div class="mega-promo-tag">Free Resource</div>
+                <h4>Get Your Free Digital Growth Audit</h4>
+                <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
+                <a href="contact.php" class="mega-promo-btn">Request Free Audit <i
+                    class="fa-solid fa-arrow-right"></i></a>
+              </div>
             </div>
-            <div class="row">
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-bar-chart"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Data-Driven Strategies</h4>
-                            <p>Every campaign is backed by insights and analytics - no guesswork, just proven results.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-file-text-o"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Transparent Reporting</h4>
-                            <p>You always know where your money goes and what results you're getting.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-users"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Dedicated Support Team</h4>
-                            <p>From planning to execution, our experts work as your extended in-house team.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-money"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Affordable & Scalable Plans</h4>
-                            <p>From startups to enterprises, we tailor solutions for every stage of business growth.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Delhi-Based, Pan-India Reach</h4>
-                            <p>Rooted in Delhi, serving clients across India with flexible and local-first strategies.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="why-choose-card">
-                        <div class="why-choose-icon">
-                            <i class="fa fa-trophy"></i>
-                        </div>
-                        <div class="why-choose-content">
-                            <h4>Proven Track Record</h4>
-                            <p>Helping 100+ brands achieve their digital goals with measurable results and growth.</p>
-                        </div>
-                    </div>
-                </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9" />
+              </svg></a>
+            <div class="nav-dropdown">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
+              <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
+              <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
+              <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
+              <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
+              <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
             </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="contact.php" class="nav-cta">Contact Us</a>
         </div>
-    </section>
-
-
-    <style>
-        #startup-cta {
-            background-color: #f5f5f5;
-            padding: 45px 0;
-        }
-
-        .startup-cta-container {
-            background: #fff;
-            border-radius: 20px;
-            padding: 50px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            display: flex;
-            align-items: center;
-            gap: 50px;
-        }
-
-        .startup-cta-content {
-            flex: 1;
-        }
-
-        .startup-cta-content h2 {
-            color: #1a1a1a;
-            font-size: 32px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            line-height: 1.3;
-            text-transform: none;
-        }
-
-        .startup-cta-content p {
-            color: #666;
-            font-size: 16px;
-            line-height: 1.7;
-            margin-bottom: 15px;
-        }
-
-        .startup-cta-image {
-            flex: 1;
-            max-width: 500px;
-        }
-
-        .startup-cta-image img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-        }
-
-        @media (max-width: 992px) {
-            .startup-cta-container {
-                flex-direction: column;
-                padding: 40px 30px;
-                gap: 30px;
-            }
-
-            .startup-cta-content h2 {
-                font-size: 26px;
-            }
-
-            .startup-cta-content p {
-                font-size: 15px;
-            }
-
-            .startup-cta-image {
-                max-width: 100%;
-            }
-        }
-
-        @media (max-width: 768px) {
-            #startup-cta {
-                padding: 40px 0;
-            }
-
-            .startup-cta-container {
-                padding: 30px 20px;
-            }
-
-            .startup-cta-content h2 {
-                font-size: 24px;
-            }
-
-            .startup-cta-button {
-                width: 100%;
-                justify-content: center;
-                padding: 12px 30px;
-            }
-        }
-    </style>
-    <section id="startup-cta">
-        <div class="container">
-            <div class="startup-cta-container">
-                <div class="startup-cta-content">
-                    <h2>Helping Startups Turn Ideas into Impact - Get 20% Off for New Businesses!</h2>
-                    <p>Every big brand you see today started with a small dream.</p>
-                    <p>At Rankmator, we understand that journey - the late nights, the endless planning, and the
-                        courage
-                        it takes to turn a thought into a thriving business.</p>
-                    <p>That's why we offer 20% off on all digital marketing services for startups. But more than that,
-                        our team stands beside you - from setting up your online presence to launching your first
-                        campaign.</p>
-                    <a href="#contact" class="cta-button">
-                        <i class="fa fa-calendar"></i>
-                        Get Your Startup Offer
-                    </a>
-                </div>
-                <div class="startup-cta-image">
-                    <img src="img/startup-illustration.png" alt="Startup Consultation">
-                </div>
-            </div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
         </div>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-
-    <style>
-        #testimonials {
-            background-color: #212121;
-            padding: 45px 0;
-        }
-
-        #testimonials .section-heading {
-            color: #fff;
-            font-size: 42px;
-            font-weight: 800;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        .testimonials-slider {
-            position: relative;
-            overflow: hidden;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px 60px;
-        }
-
-        .testimonials-track {
-            display: flex;
-            transition: transform 0.4s ease;
-            gap: 30px;
-        }
-
-        .testimonial-card {
-            min-width: calc(50% - 15px);
-            background: #fff;
-            border-radius: 15px;
-            padding: 35px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-        }
-
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-        }
-
-        .testimonial-header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .testimonial-avatar {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 3px solid #d0cc37;
-            flex-shrink: 0;
-        }
-
-        .testimonial-avatar img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .testimonial-info {
-            flex: 1;
-        }
-
-        .testimonial-name {
-            font-size: 18px;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin: 0 0 5px 0;
-        }
-
-        .testimonial-stars {
-            color: #d0cc37;
-            font-size: 16px;
-        }
-
-        .testimonial-stars i {
-            margin-right: 2px;
-        }
-
-        .testimonial-content {
-            color: #666;
-            font-size: 15px;
-            line-height: 1.7;
-            font-style: italic;
-            margin: 0;
-        }
-
-
-        .testimonial-nav {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background: #1a1a1a;
-            color: #fff;
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            border: none;
-            font-size: 18px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            z-index: 10;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .testimonial-nav:hover {
-            background: #d0cc37;
-            color: #000;
-            transform: translateY(-50%) scale(1.1);
-        }
-
-        .testimonial-nav.prev {
-            left: 0;
-        }
-
-        .testimonial-nav.next {
-            right: 0;
-        }
-
-
-        @media (max-width: 992px) {
-            .testimonial-card {
-                min-width: calc(50% - 15px);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .testimonials-slider {
-                padding: 20px 50px;
-            }
-
-            .testimonial-card {
-                min-width: 100%;
-                padding: 25px;
-            }
-
-            .testimonial-avatar {
-                width: 60px;
-                height: 60px;
-            }
-
-            .testimonial-name {
-                font-size: 16px;
-            }
-
-            .testimonial-content {
-                font-size: 14px;
-            }
-
-            #testimonials {
-                padding: 45px 0;
-            }
-
-            #testimonials .section-heading {
-                font-size: 28px;
-                margin-bottom: 10px;
-            }
-        }
-    </style>
-
-    <section id="testimonials">
-        <div class="container">
-            <h2 class="section-heading">What Our Clients Say</h2>
-
-            <div class="testimonials-slider">
-                <button class="testimonial-nav prev" onclick="slideTestimonials('prev')">
-                    <i class="fa fa-chevron-left"></i>
-                </button>
-
-                <div class="testimonials-track" id="testimonialsTrack">
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=12" alt="Rajesh Kumar">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Rajesh Kumar</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "Rankmator transformed our online presence completely. Their SEO strategies helped us rank
-                            #1 for our target keywords within 6 months. The team is professional, responsive, and truly
-                            understands digital marketing."
-                        </p>
-                    </div>
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=47" alt="Priya Sharma">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Priya Sharma</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "Working with Rankmator has been a game-changer for our startup. Their performance marketing
-                            campaigns delivered a 300% ROI in the first quarter. Highly recommend their services!"
-                        </p>
-                    </div>
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=33" alt="Amit Verma">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Amit Verma</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "The social media marketing team at Rankmator is exceptional. They helped us grow our
-                            Instagram following from 2K to 50K in just 8 months. Our engagement rates have skyrocketed!"
-                        </p>
-                    </div>
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=20" alt="Neha Gupta">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Neha Gupta</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "Rankmator's website development team created a stunning, high-converting site for our
-                            e-commerce business. The design is beautiful and the functionality is flawless. Sales
-                            increased by 250%!"
-                        </p>
-                    </div>
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=60" alt="Vikram Singh">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Vikram Singh</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "As a startup founder, budget was tight. Rankmator's startup package was perfect for us.
-                            They delivered results beyond our expectations and helped us establish a strong digital
-                            footprint."
-                        </p>
-                    </div>
-
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar">
-                                <img src="https://i.pravatar.cc/150?img=38" alt="Sanjana Patel">
-                            </div>
-                            <div class="testimonial-info">
-                                <h4 class="testimonial-name">Sanjana Patel</h4>
-                                <div class="testimonial-stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="testimonial-content">
-                            "Their AI marketing solutions are cutting-edge. The data-driven insights helped us optimize
-                            our campaigns and reduce our customer acquisition cost by 40%. Truly innovative approach!"
-                        </p>
-                    </div>
-                </div>
-
-                <button class="testimonial-nav next" onclick="slideTestimonials('next')">
-                    <i class="fa fa-chevron-right"></i>
-                </button>
+  <!-- ═══════════════════════════════════════════
+     HERO SECTION
+═══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <div class="hero-badge">
+            <div class="hero-badge-dot"></div>
+            India's #1 Digital Marketing Partner
+          </div>
+          <h1 class="hero-title">
+            Drive Traffic,<br />
+            <span class="highlight">Leads & Revenue</span><br />
+            with Expert Digital <br /> Marketing Services
+          </h1>
+          <p class="hero-subtitle">
+            To succeed in business, you first need to succeed in search results. Our digital marketing services connect
+            you with your customers' journey from end to end — from discovery to retention. Join hundreds of marquee
+            brands who have experienced transformational growth with Rankmator.
+          </p>
+          <div class="hero-actions">
+            <a href="#cta-banner" class="btn btn-green">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              Speak to an SEO Expert
+            </a>
+            <a href="#services" class="btn btn-ghost-white">
+              Our Services
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-avatars">
+              <i>S</i><i>R</i><i>A</i><i>P</i><i>M</i>
             </div>
+            <div class="trust-text">
+              <strong>300+ Brands Trust Us</strong>
+              Transformational Growth Delivered
+            </div>
+          </div>
         </div>
-    </section>
 
-    <script>
-        let currentSlide = 0;
-        const track = document.getElementById('testimonialsTrack');
-        const cards = document.querySelectorAll('.testimonial-card');
-        let cardsPerView = window.innerWidth > 768 ? 2 : 1;
-
-        function getCardsPerView() {
-            return window.innerWidth > 768 ? 2 : 1;
-        }
-
-        function updateSlide() {
-            cardsPerView = getCardsPerView();
-            const maxSlide = cards.length - cardsPerView;
-
-            if (currentSlide > maxSlide) {
-                currentSlide = maxSlide;
-            }
-
-            const cardWidth = cards[0].offsetWidth;
-            const gap = 30;
-            const offset = -(currentSlide * (cardWidth + gap));
-            track.style.transform = `translateX(${offset}px)`;
-        }
-
-        function slideTestimonials(direction) {
-            cardsPerView = getCardsPerView();
-            const maxSlide = cards.length - cardsPerView;
-
-            if (direction === 'next') {
-
-                if (currentSlide >= maxSlide) {
-                    currentSlide = 0;
-                } else {
-                    currentSlide++;
-                }
-            } else if (direction === 'prev') {
-
-                if (currentSlide <= 0) {
-                    currentSlide = maxSlide;
-                } else {
-                    currentSlide--;
-                }
-            }
-
-            updateSlide();
-        }
-
-
-        window.addEventListener('load', updateSlide);
-        window.addEventListener('resize', updateSlide);
-    </script>
-
-
-    <style>
-        .footer h6 {
-            margin: 0px 0px 0px 0px;
-        }
-
-        .footlink {
-            margin: 0px 2px 0px 2px;
-        }
-
-        section.bg-dark .fa,
-        section.bg-dark2 .fa {
-            color: #fff;
-        }
-
-        .footer ul,
-        ol {
-            margin-bottom: 0em;
-        }
-
-        .list-inline>li {
-            padding-bottom: 0px;
-            vertical-align: bottom;
-        }
-
-        .flcontainer {
-
-            margin-top: 18%;
-        }
-
-        .footersocial {
-
-            margin-top: 8%;
-        }
-
-        .contacttypo {
-            padding: 30px 20px;
-            filter: gray;
-
-            -webkit-filter: grayscale(100%);
-        }
-
-        .contacttypo:hover {
-            filter: none;
-            -webkit-filter: grayscale(0%);
-        }
-
-        .copyright {
-            padding: 5px 0px 5px 0px;
-            margin: 0px 0px 0px 0px;
-        }
-
-        @media (max-width: 768px) {
-            .flcontainer {
-
-                margin-top: 0%;
-
-                margin-top: 10px;
-                font-size: 12px;
-                text-align: center;
-            }
-
-            .footer {
-                font-size: 12px
-            }
-
-
-            .footersocial {
-
-                margin-top: 0%;
-                margin-bottom: 10px !important;
-                text-align: center;
-            }
-
-            .copyright {
-                font-size: 12px;
-                font-weight: 100;
-                text-align: center;
-            }
-        }
-    </style>
-
-    <style>
-        #contact {
-            position: relative;
-            background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&h=1080&fit=crop');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
-
-        #contact::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7);
-            z-index: 1;
-        }
-
-        #contact .container {
-            position: relative;
-            z-index: 2;
-        }
-
-        .glass-form-container {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-        }
-
-        .glass-form-container .form-control {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            color: #fff;
-            border-radius: 10px;
-            padding: 12px 18px;
-        }
-
-        .glass-form-container .form-control::placeholder {
-            color: rgba(255, 255, 255, 0.7);
-        }
-
-        .glass-form-container .form-control:focus {
-            background: rgba(255, 255, 255, 0.2);
-            border-color: #d0cc37;
-            color: #fff;
-            box-shadow: 0 0 0 0.2rem rgba(208, 204, 55, 0.25);
-        }
-
-        @media (max-width: 768px) {
-            .glass-form-container {
-                padding: 30px 20px;
-            }
-        }
-    </style>
-    <section id="contact" class="section-small">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading" style="color: #fff;">Ready to Grow? Let's Talk.</h2>
-                    <p class="large" style="color: #ddd;">Your next big customer is searching for you right now. Let's
-                        make sure
-                        they find you.</p>
-                </div>
+        <div class="hero-right">
+          <div class="hero-illustration">
+            <div class="hero-banner-frame fade-in">
+              <img src="assets/images/hero_banner_digital_marketing_rankmator_1773570456257.png"
+                alt="Rankmator Digital Excellence" class="hero-banner-img">
             </div>
-            <div class="row" style="margin-top: 40px;">
-
-                <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <div class="glass-form-container">
-                        <form action="mail.php" method="POST" name="sentMessage" id="contactForm" novalidate>
-                            <div class="form-group">
-                                <input name="name" type="text" class="form-control" placeholder="Your Name *" id="name"
-                                    required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input name="email" type="email" class="form-control" placeholder="Your Email *"
-                                    id="email" required
-                                    data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input name="phone" type="tel" class="form-control" placeholder="Your Phone *"
-                                    id="phone" required
-                                    data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" placeholder="Your Message *" id="message"
-                                    required data-validation-required-message="Please enter a message."
-                                    rows="5"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-brand btn-lg">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-    <div id="footer-include"></div>
 
-    <?php include('footer-link.php'); ?>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/device.min.js"></script>
-    <script src="js/form.min.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
-    <script src="js/jquery.circle-progress.min.js"></script>
-    <script src="js/jquery.swipebox.min.js"></script>
-    <script src="js/wow.min.js"></script>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
 
-    <script type="text/javascript">
-        _linkedin_partner_id = "4032713";
-        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-    </script>
-    <script type="text/javascript">
-        (function (l) {
-            if (!l) {
-                window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
-                window.lintrk.q = []
-            }
-            var s = document.getElementsByTagName("script")[0];
-            var b = document.createElement("script");
-            b.type = "text/javascript"; b.async = true;
-            b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";
-            s.parentNode.insertBefore(b, s);
-        })(window.lintrk);
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none;" alt=""
-            src="https://px.ads.linkedin.com/collect/?pid=4032713&amp;fmt=gif" />
-    </noscript>
+  <!-- ═══════════════════════════════════════════
+     SERVICES QUICK BAR
+═══════════════════════════════════════════ -->
+  <div class="services-bar">
+    <div class="container">
+      <div class="services-bar-inner">
+        <div class="sbar-item active" data-tab="seo">
+          <span class="sbar-icon"><i class="fa-solid fa-magnifying-glass"></i></span> SEO
+        </div>
+        <div class="sbar-item" data-tab="local-seo">
+          <span class="sbar-icon"><i class="fa-solid fa-location-dot"></i></span> Local SEO
+        </div>
+        <div class="sbar-item" data-tab="performance">
+          <span class="sbar-icon"><i class="fa-solid fa-bolt"></i></span> Performance
+        </div>
+        <div class="sbar-item" data-tab="social">
+          <span class="sbar-icon"><i class="fa-solid fa-share-nodes"></i></span> Social Media
+        </div>
+        <div class="sbar-item" data-tab="web-design">
+          <span class="sbar-icon"><i class="fa-solid fa-code"></i></span> Web Design
+        </div>
+        <div class="sbar-item" data-tab="ecommerce">
+          <span class="sbar-icon"><i class="fa-solid fa-cart-shopping"></i></span> E-commerce
+        </div>
+        <div class="sbar-item" data-tab="branding">
+          <span class="sbar-icon"><i class="fa-solid fa-palette"></i></span> Branding
+        </div>
+        <div class="sbar-item" data-tab="email">
+          <span class="sbar-icon"><i class="fa-solid fa-envelope"></i></span> Email Marketing
+        </div>
+        <div class="sbar-item" data-tab="ai">
+          <span class="sbar-icon"><i class="fa-solid fa-robot"></i></span> AI Marketing
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+  <!-- ═══════════════════════════════════════════
+     STATS SECTION
+═══════════════════════════════════════════ -->
+  <section id="stats" class="section-pad">
+    <div class="container">
+      <div class="stats-grid fade-in">
+        <div class="stat-box">
+          <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+          <span class="stat-number"><span class="counter" data-target="18">0</span><span
+              class="stat-suffix">+</span></span>
+          <p class="stat-box-label">Years of Digital Excellence</p>
+        </div>
+        <div class="stat-box">
+          <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
+          <span class="stat-number"><span class="counter" data-target="300">0</span><span
+              class="stat-suffix">+</span></span>
+          <p class="stat-box-label">Clients Transformed</p>
+        </div>
+        <div class="stat-box">
+          <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <span class="stat-number"><span class="counter" data-target="309">0</span><span
+              class="stat-suffix">%</span></span>
+          <p class="stat-box-label">Avg. Growth in Traffic</p>
+        </div>
+        <div class="stat-box">
+          <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+          <span class="stat-number"><span class="counter" data-target="50">0</span><span
+              class="stat-suffix">+</span></span>
+          <p class="stat-box-label">Industry Awards Won</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
+  <!-- ═══════════════════════════════════════════
+     ABOUT / COMPANY
+═══════════════════════════════════════════ -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content fade-in">
+          <div class="section-tag">Who We Are</div>
+          <h2 class="section-title">India's Premier Digital Marketing & SEO Powerhouse</h2>
+          <p class="section-subtitle">
+            Rankmator is India's premier digital marketing and SEO powerhouse. With over 18 years of proven success, our
+            vision is to fuel transformational growth for 300+ clients by 2030. Ready to unlock your brand's complete
+            digital potential?
+          </p>
+          <div class="about-points">
+            <div class="about-point">
+              <div class="about-point-icon"><i class="fa-solid fa-robot" style="color:var(--primary);"></i></div>
+              <div class="about-point-text">
+                <h4>Dedicated Teams for AI, Automation & Data Analytics</h4>
+                <p>Our specialized teams use AI, automation, and analytics to augment campaign performance and unlock
+                  new growth opportunities.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="about-point-icon"><i class="fa-solid fa-gears" style="color:var(--primary);"></i></div>
+              <div class="about-point-text">
+                <h4>In-House Martech Capabilities</h4>
+                <p>Our in-house expertise in CRM, AI analytics, and marketing automation empowers businesses with
+                  data-driven, personalized solutions.</p>
+              </div>
+            </div>
+            <div class="about-point">
+              <div class="about-point-icon"><i class="fa-solid fa-medal" style="color:var(--secondary);"></i></div>
+              <div class="about-point-text">
+                <h4>Google Premier Partner Agency</h4>
+                <p>As a Google Premier Partner, we have exclusive access to beta tools, advanced support, and insider
+                  insights to deliver superior performance.</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:28px;">
+            <a href="#cta-banner" class="btn btn-primary">Speak to an Expert <i class="fa-solid fa-arrow-right"
+                style="margin-left:8px;"></i></a>
+          </div>
+        </div>
 
-        $(document).ready(function () {
+        <div class="fade-in fade-in-delay-2">
+          <div class="video-box">
+            <div class="video-box-bg">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:20px;z-index:2;position:relative;">
+                <div style="font-size:60px;color:rgba(255,255,255,0.7);"><i class="fa-solid fa-building"></i></div>
+                <div style="text-align:center;padding:0 32px;">
+                  <p style="font-size:18px;font-weight:700;margin-bottom:6px;">Watch Our Story</p>
+                  <p style="font-size:13px;color:var(--text-muted);">18+ years of transformational growth</p>
+                </div>
+              </div>
+              <div class="play-btn" onclick="alert('Video opens here')">
+                <svg viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </div>
+            <div class="video-label">
+              <div style="font-size:28px;color:var(--primary);"><i class="fa-solid fa-bullseye"></i></div>
+              <div class="video-label-text">
+                <strong>Achieve 2x Increase in Avg. Monthly Traffic</strong>
+                Proven frameworks. Measurable results.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            var count = 0;
+  <!-- ═══════════════════════════════════════════
+     SERVICES TABS
+═══════════════════════════════════════════ -->
+  <section id="services" class="section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Data-Backed Services to Grow Your Revenue</h2>
+        <p class="section-subtitle">To experience 360° growth for your business, you need a 360° approach. Rankmator can
+          help. Our core expertise lies in SEO, Martech, and search marketing — powering comprehensive digital growth
+          since 2006.</p>
+      </div>
 
-            $('body').on('click', '.mtg', function () {
+      <div class="services-tabs-nav fade-in" id="services-tabs-nav">
+        <button class="tab-btn active" data-tab="seo"><i class="fa-solid fa-magnifying-glass"></i> SEO</button>
+        <button class="tab-btn" data-tab="local-seo"><i class="fa-solid fa-location-dot"></i> Local SEO</button>
+        <button class="tab-btn" data-tab="performance"><i class="fa-solid fa-bolt"></i> Performance</button>
+        <button class="tab-btn" data-tab="social"><i class="fa-solid fa-share-nodes"></i> Social Media</button>
+        <button class="tab-btn" data-tab="web-design"><i class="fa-solid fa-code"></i> Web Design</button>
+        <button class="tab-btn" data-tab="ecommerce"><i class="fa-solid fa-cart-shopping"></i> E-commerce</button>
+        <button class="tab-btn" data-tab="branding"><i class="fa-solid fa-palette"></i> Branding</button>
+        <button class="tab-btn" data-tab="email"><i class="fa-solid fa-envelope"></i> Email Marketing</button>
+        <button class="tab-btn" data-tab="ai"><i class="fa-solid fa-robot"></i> AI Marketing</button>
+      </div>
 
-                if (count == 0) {
+      <!-- SEO Tab -->
+      <div class="tab-panel active" id="panel-seo">
+        <div class="tab-content fade-in">
+          <h3>Search Engine Optimization</h3>
+          <p>Boost your website's visibility and drive organic traffic. Our enterprise-grade SEO frameworks have powered
+            transformational growth for global brands since 2006.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Enterprise SEO
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Technical SEO Audits
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>E-commerce SEO
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>AI-Driven Content Strategy
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Link Building & Outreach
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>International SEO
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Boost Your SEO <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">309%</div>
+            <div class="tab-stat-desc">Avg. Traffic Growth</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">113%</div>
+            <div class="tab-stat-desc">Avg. Lead Boost</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">200+</div>
+            <div class="tab-stat-desc">SEO Clients</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">18Yrs</div>
+            <div class="tab-stat-desc">Market Experience</div>
+          </div>
+        </div>
+      </div>
 
-                    count = 1;
+      <!-- Local SEO Tab -->
+      <div class="tab-panel" id="panel-local-seo">
+        <div class="tab-content fade-in">
+          <h3>Local SEO</h3>
+          <p>Dominate your neighborhood searches. We optimize your local presence to ensure your business is the first
+            one customers find in their area.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Google Business Profile
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Local Citations & Directory
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Map Pack Optimization
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Review Management
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Hyper-local Targeting
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Voice Search Optimization
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Go Local <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">3x</div>
+            <div class="tab-stat-desc">Map Pack Visibility</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">150%</div>
+            <div class="tab-stat-desc">Store Visit Increase</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">500+</div>
+            <div class="tab-stat-desc">Locations Optimized</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">95%</div>
+            <div class="tab-stat-desc">Client Retention Rate</div>
+          </div>
+        </div>
+      </div>
 
-                    $(this).attr("src", "img/misc/cancel.svg");
+      <!-- Performance Marketing Tab -->
+      <div class="tab-panel" id="panel-performance">
+        <div class="tab-content fade-in">
+          <h3>Performance Marketing</h3>
+          <p>Get instant visibility and ROI. Our data-driven PPC and paid media strategies maximize every dollar of your
+            ad spend for measurable business outcomes.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Google Search Ads
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Performance Max (PMax)
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Paid Social (Meta/LinkedIn)
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Remarketing & Retargeting
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Programmatic Advertising
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>CRO & Landing Pages
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Get Instant ROI <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">4x</div>
+            <div class="tab-stat-desc">Avg. ROAS Delivered</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">60%</div>
+            <div class="tab-stat-desc">Reduction in CPA</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">150+</div>
+            <div class="tab-stat-desc">Campaigns Managed</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">₹500Cr+</div>
+            <div class="tab-stat-desc">Ad Spend Managed</div>
+          </div>
+        </div>
+      </div>
 
-                    $('.portfolio-overlay').show();
+      <!-- Social Media Marketing Tab -->
+      <div class="tab-panel" id="panel-social">
+        <div class="tab-content fade-in">
+          <h3>Social Media Marketing</h3>
+          <p>Build your brand voice and engage with your audience on every platform. We create social strategies that
+            turn followers into brand advocates.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Platform Management
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Creative Content Design
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Community Engagement
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Social Paid Campaigns
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Influencer Marketing
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Social Listening & BI
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Engage Audience <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">5x</div>
+            <div class="tab-stat-desc">Engagement Rate Boost</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">1M+</div>
+            <div class="tab-stat-desc">Community Members</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">200+</div>
+            <div class="tab-stat-desc">Brand Voices Built</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">30%</div>
+            <div class="tab-stat-desc">Viral Potential Increase</div>
+          </div>
+        </div>
+      </div>
 
-                    event.stopPropagation();
+      <!-- Web Design Tab -->
+      <div class="tab-panel" id="panel-web-design">
+        <div class="tab-content fade-in">
+          <h3>Website Design & Development</h3>
+          <p>Create stunning, conversion-focused websites that represent your brand. We fuse creative design with
+            technical excellence to build high-performing digital assets.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>UI/UX Design Excellence
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Custom Web Development
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>E-commerce Development
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Responsive Optimization
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>CMS Solutions (WP/Shopify)
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Web Security & Support
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Build Your Brand <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">90+</div>
+            <div class="tab-stat-desc">Page Speed Score</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">45%</div>
+            <div class="tab-stat-desc">Conversion Rate Boost</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">300+</div>
+            <div class="tab-stat-desc">Websites Launched</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">100%</div>
+            <div class="tab-stat-desc">Responsive Layouts</div>
+          </div>
+        </div>
+      </div>
 
-                } else {
+      <!-- E-commerce Marketing Tab -->
+      <div class="tab-panel" id="panel-ecommerce">
+        <div class="tab-content fade-in">
+          <h3>E-commerce Marketing</h3>
+          <p>Scale your online store with targeted campaigns and high-converting strategies. We turn your product
+            catalog into a high-revenue growth engine.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Marketplace SEO (Amazon)
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Google Shopping Ads
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Dynamic Remarketing
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Cart Recovery Automation
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Storefront Optimization
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Catalog Management
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Scale Store <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">5x</div>
+            <div class="tab-stat-desc">Avg. ROAS on Products</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">40%</div>
+            <div class="tab-stat-desc">Cart Recovery Rate</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">100+</div>
+            <div class="tab-stat-desc">Stores Managed</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">₹200Cr+</div>
+            <div class="tab-stat-desc">E-com Revenue Driven</div>
+          </div>
+        </div>
+      </div>
 
-                    count = 0;
+      <!-- Branding Tab -->
+      <div class="tab-panel" id="panel-branding">
+        <div class="tab-content fade-in">
+          <h3>Branding & Creative Design</h3>
+          <p>Tell your story with visuals. We craft meaningful brand identities and creative campaigns that resonate
+            with your audience and build lasting impact.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Brand Identity & Logos
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Creative Ad Campaigns
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Corporate Communication
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Video & Motion Design
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Packaging & Print Assets
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Brand Strategy Consulting
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Design Story <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">50+</div>
+            <div class="tab-stat-desc">Awards for Creativity</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">300+</div>
+            <div class="tab-stat-desc">Brand Designs Handled</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">15+</div>
+            <div class="tab-stat-desc">Industry Segments</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">80%</div>
+            <div class="tab-stat-desc">Recall Value Increase</div>
+          </div>
+        </div>
+      </div>
 
-                    $('.portfolio-overlay').hide();
+      <!-- Email Marketing Tab -->
+      <div class="tab-panel" id="panel-email">
+        <div class="tab-content fade-in">
+          <h3>Email Marketing</h3>
+          <p>Convert leads into customers. Our targeted email strategies nurture relationships and drive repeat revenue
+            through personalization and smart automation.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Drip Campaign Strategy
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Automated Lead Nurturing
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Dynamic Personalization
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>List Segmentation
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Retargeting & Flows
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Performance Analytics
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Start Nurturing <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">25%</div>
+            <div class="tab-stat-desc">Open Rate Average</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">10x</div>
+            <div class="tab-stat-desc">ROI on Campaigns</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">1M+</div>
+            <div class="tab-stat-desc">Emails Sent Monthly</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">20%</div>
+            <div class="tab-stat-desc">Engagement Growth</div>
+          </div>
+        </div>
+      </div>
 
-                    event.stopPropagation();
+      <!-- AI Marketing Tab -->
+      <div class="tab-panel" id="panel-ai">
+        <div class="tab-content fade-in">
+          <h3>AI Marketing</h3>
+          <p>AI-powered marketing agency specializing in data-driven growth solutions. We leverage the future of
+            technology to optimize your marketing performance today.</p>
+          <div class="service-features">
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Predictive Data Analytics
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>AI Content Generation
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Automated Personalization
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Smart Bidding AI (PPC)
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>Customer BI Dashboards
+            </div>
+            <div class="service-feat">
+              <div class="feat-check"><i class="fa-solid fa-check"></i></div>ML Implementation
+            </div>
+          </div>
+          <a href="#cta-banner" class="btn btn-primary">Future Proof Now <i class="fa-solid fa-arrow-right"
+              style="margin-left:8px;"></i></a>
+        </div>
+        <div class="tab-stat-grid fade-in fade-in-delay-2">
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">40%</div>
+            <div class="tab-stat-desc">Avg. Efficiency Gain</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">3.5x</div>
+            <div class="tab-stat-desc">Growth in Scaling</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val">50+</div>
+            <div class="tab-stat-desc">AI Models Deployed</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">#1</div>
+            <div class="tab-stat-desc">Martech ROI Improvement</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    $(this).attr("src", "img/misc/add1.svg");
+  <!-- ═══════════════════════════════════════════
+     WHY CHOOSE US
+═══════════════════════════════════════════ -->
+  <section id="why-us" class="section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Why Rankmator</div>
+        <h2 class="section-title">The Rankmator Advantage</h2>
+        <p class="section-subtitle">We don't just run campaigns — we build digital growth engines. Here's what sets us
+          apart from every other digital marketing agency in India.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card fade-in">
+          <div class="why-icon"><i class="fa-solid fa-robot"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">AI-Powered SEO & Marketing</h3>
+            <p class="why-desc">We leverage cutting-edge AI tools and proprietary algorithms to stay ahead of algorithm
+              updates and drive consistent, compounding organic growth for your brand.</p>
+          </div>
+        </div>
+        <div class="why-card fade-in fade-in-delay-1">
+          <div class="why-icon"><i class="fa-solid fa-chart-bar"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">Data-Driven Decision Making</h3>
+            <p class="why-desc">Every strategy is backed by granular data analysis. We track, measure, and optimize
+              across all channels to ensure every campaign delivers maximum ROI.</p>
+          </div>
+        </div>
+        <div class="why-card fade-in fade-in-delay-2">
+          <div class="why-icon"><i class="fa-solid fa-medal"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">Google Premier Partner</h3>
+            <p class="why-desc">As a Google Premier Partner, we get exclusive early access to beta features, direct
+              Google support, and advanced training — giving your campaigns a decisive edge.</p>
+          </div>
+        </div>
+        <div class="why-card fade-in fade-in-delay-1">
+          <div class="why-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">Full-Funnel Marketing</h3>
+            <p class="why-desc">From brand awareness to conversion and retention — we cover the complete customer
+              lifecycle with integrated strategies that create compounding growth over time.</p>
+          </div>
+        </div>
+        <div class="why-card fade-in fade-in-delay-2">
+          <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">Transparent Reporting</h3>
+            <p class="why-desc">Real-time dashboards, weekly reports, and dedicated account managers ensure you always
+              know exactly what we're doing, why, and what results it's delivering.</p>
+          </div>
+        </div>
+        <div class="why-card fade-in fade-in-delay-3">
+          <div class="why-icon"><i class="fa-solid fa-rocket"></i></div>
+          <div class="why-content">
+            <h3 class="why-title">18+ Years of Proven Success</h3>
+            <p class="why-desc">Our track record speaks for itself — 300+ marquee brands, 18+ years of experience, and
+              50+ industry awards make Rankmator India's most trusted digital partner.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                }
-            });
 
-        });
 
-        $(window).on('load', function () {
 
-            $('#ak1').owlCarousel({
 
-                animateOut: 'fadeOut',
 
-                animateIn: 'fadeIn',
 
-                loop: true,
 
-                margin: 0,
+  <!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════════ -->
+  <section id="testimonials" class="section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Client Love</div>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">Don't take our word for it — hear directly from the marketers, CMOs, and founders
+          who have experienced transformational growth with Rankmator.</p>
+      </div>
 
-                autoplay: true,
+      <div class="testi-slider fade-in">
+        <div class="testi-track" id="testi-track">
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Rankmator has completely transformed our digital presence. Their SEO strategy
+              delivered exceptional results — we saw a 3x increase in organic traffic within just 6 months. Their team
+              is highly professional, data-driven, and always ahead of the curve.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--gradient-blue);">R</div>
+              <div>
+                <div class="testi-name">Rahul Kapoor</div>
+                <div class="testi-role">VP Marketing, RBL Bank</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Working with Rankmator has been a game changer for our e-commerce platform. Their
+              integrated approach combining SEO, PPC, and content marketing drove a 5x ROAS on our paid campaigns while
+              doubling our organic traffic.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--gradient-gold);">P</div>
+              <div>
+                <div class="testi-name">Priya Sharma</div>
+                <div class="testi-role">Head of Digital, BigBasket</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">The Martech implementation by Rankmator gave us a 360° view of our customer journey.
+              Their CRM integration and automation workflows saved us countless hours and significantly improved our
+              lead nurturing effectiveness.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--accent-purple);">A</div>
+              <div>
+                <div class="testi-name">Amit Verma</div>
+                <div class="testi-role">CMO, NIIT Technologies</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">The multi-region SEO strategy developed by Rankmator has been phenomenal. We achieved
+              top rankings across all our key target cities within just 4 months, leading to a significant increase in
+              policy inquiries and customer trust.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--accent-teal);color:#000;">S</div>
+              <div>
+                <div class="testi-name">Sunita Menon</div>
+                <div class="testi-role">Director Digital, HDFC Life</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Rankmator's performance marketing team is simply the best in the business. Our
+              acquisition costs dropped by 40% while doubling our monthly user growth. They truly understand how to
+              scale a high-growth consumer platform.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--primary);">N</div>
+              <div>
+                <div class="testi-name">Neeraj Chopra</div>
+                <div class="testi-role">VP Operations, Swiggy</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">As a specialized e-commerce brand, we needed an agency that understood both aesthetics
+              and conversions. Rankmator delivered on both fronts, helping us achieve a 6x ROAS and a much stronger
+              brand identity.</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:var(--secondary);">A</div>
+              <div>
+                <div class="testi-name">Anjali Rai</div>
+                <div class="testi-role">Founder, StyleHub</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote">"</div>
+            <p class="testi-text">Our app downloads grew by 200% within three months of engaging Rankmator for our
+              mobile marketing strategy. Their app store optimization and paid UA campaigns gave us incredible ROI.
+              Highly recommended!</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:linear-gradient(135deg,#f0a500,#ff6b35);">K</div>
+              <div>
+                <div class="testi-name">Karan Mehta</div>
+                <div class="testi-role">CTO, PolicyBazaar App</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                lazyLoad: true,
+      <div class="testi-controls">
+        <button class="testi-btn" id="testi-prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="testi-dots" id="testi-dots">
+          <div class="testi-dot active"></div>
+          <div class="testi-dot"></div>
+          <div class="testi-dot"></div>
+        </div>
+        <button class="testi-btn" id="testi-next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
 
-                autoplayTimeout: 5000,
 
-                autoplayHoverPause: true,
+  <!-- ═══════════════════════════════════════════
+     FAQ SECTION
+═══════════════════════════════════════════ -->
+  <section id="faq">
+    <div class="container flex-center">
+      <div class="section-header fade-in">
+        <div class="section-tag" style="color:var(--secondary-light);">Common Queries</div>
+        <h2 class="section-title" style="color:#fff;">Frequently Asked Questions</h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.7);">Your growth journey often starts with
+          questions. Here are the most common ones we encounter from brands looking to scale.</p>
+      </div>
 
-                responsiveClass: true,
+      <div class="faq-container fade-in">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>What can Rankmator SEO service do for my business in Kolkata?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>As a top SEO company in Kolkata, Rankmator helps your business rank higher on Google, attract more local
+              customers, and increase conversions. Our SEO experts optimize your website and content to drive measurable
+              growth in Kolkata's digital market.</p>
+          </div>
+        </div>
 
-                responsive: {
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How does Rankmator's SEO strategy differ from other agencies in Delhi?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Unlike other agencies in Delhi, Rankmator utilizes AI-powered proprietary tools to identify high-intent
+              keywords and competitor gaps. Our strategy focuses on "Search Intelligence" rather than just rankings,
+              ensuring your traffic actually converts into revenue.</p>
+          </div>
+        </div>
 
-                    0: {
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Does Rankmator offer AI-driven or LLM-optimized SEO solutions?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we are at the forefront of AI-driven SEO. We optimize for Generative Search Experiences (like
+              Google's SGE) and ensuring your brand is the top 'suggested' result in LLM-based searches (ChatGPT,
+              Perplexity), preparing you for the future of search.</p>
+          </div>
+        </div>
 
-                        items: 1,
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>What are the top SEO trends businesses in Delhi should focus on?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>For Delhi businesses, the focus has shifted to Hyper-local SEO, Video SEO for YouTube rankings, and
+              E-E-A-T (Experience, Expertise, Authoritativeness, Trust). We specialize in building this multi-channel
+              authority that search engines now prioritize.</p>
+          </div>
+        </div>
 
-                        dots: false,
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Can SEO help local Delhi businesses compete with national brands?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutely. Local SEO allows you to dominate "near me" searches and local map packs. By winning the local
+              context, small-to-mid sized Delhi businesses can often outrank massive national brands that lack a
+              localized digital footprint.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                        nav: true
+  <!-- ═══════════════════════════════════════════
+     CONTACT SECTION
+═══════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2 class="section-title">Let's Do Great Work Together</h2>
+        <p class="section-subtitle">Get in touch with our SEO experts today</p>
+      </div>
 
-                    },
+      <div class="contact-grid">
+        <!-- Left Column: Location Card -->
+        <div class="contact-info-card fade-in">
+          <div class="location-header">
+            <div class="location-title">
+              <i class="fa-solid fa-hotel"></i>
+              <span>Delhi</span>
+            </div>
+            <span class="corp-badge">Corporate Office</span>
+          </div>
 
-                    600: {
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">Email :</span>
+            <div class="contact-detail-content">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:rankmator@gmail.com">rankmator@gmail.com</a>
+            </div>
+          </div>
 
-                        items: 2,
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">Marketing :</span>
+            <div class="contact-detail-content">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+919560864432">+91 9560864432</a>
+            </div>
+          </div>
 
-                        dots: false,
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">WhatsApp :</span>
+            <div class="contact-detail-content">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
+            </div>
+          </div>
 
-                        nav: true,
+          <div class="info-card-footer">
+            <a href="#" class="btn-direction">Get Direction <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="view-all-link">View All <i class="fa-solid fa-arrow-right-long"></i></a>
+          </div>
+        </div>
 
-                        loop: true
+        <!-- Right Column: Contact Form -->
+        <div class="contact-form-side fade-in">
+          <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:#111;">Contact Info*</h3>
+          <form class="main-contact-form" action="mail.php" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-field" placeholder="Name *" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-field" placeholder="Email *" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
+            </div>
+            <div class="form-group-full">
+              <textarea name="message" class="form-field" placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-footer">
+              <button type="submit" class="btn-submit-main">
+                Submit Now <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    },
+  <!-- ═══════════════════════════════════════════
+     CTA OVERFLOW BANNER
+═══════════════════════════════════════════ -->
+  <div class="footer-cta-wrapper">
+    <div class="container">
+      <div class="footer-cta-banner fade-in">
+        <div class="cta-left">
+          <h2>Are You Ready for Transformational Growth for Your Business?</h2>
+          <button class="cta-btn-alt" onclick="alert('Our team will call you back within 24 hours!')">Request a Call
+            Back</button>
+        </div>
+        <div class="cta-right">
+          <p class="cta-trust-text">Trusted by Google Premier Partner<br />& Top Rated Agency</p>
+          <div class="cta-trust-badges">
+            <div class="trust-badge-mini">
+              <i class="fa-brands fa-google" style="color:#4285F4;"></i>
+              <span>Google Partner<br /><small style="font-size:8px; opacity:0.6;">PREMIER 2025</small></span>
+            </div>
+            <div class="trust-badge-mini">
+              <span style="font-size:14px; font-weight:900;">Clutch</span>
+              <span class="clutch-stars">4.5 ★★★★★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                    1000: {
-
-                        items: 3,
-
-                        dots: false,
-
-                        nav: true,
-
-                        loop: true
-
-                    }
-
-                }
-
-            });
-
-        });
-
-    </script>
-    <script type="text/javascript">
-
-        setTimeout(function () {
-            $('#myModalpop').modal('show');
-        }, 10000);
-
-        $("#btnClosePopup").click(function () {
-            $("#myModalpop").modal("hide");
-        });
-        $("#modalClose").click(function () {
-            $("#myModalpop").modal("hide");
-        });
-
-    </script>
-    <div id="footer-include"></div>
-    <script src="js/footer-loader.js"></script>
+  <!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+  <?php include 'footer.php'; ?>
 </body>
 
-
-
-
 </html>
-
-

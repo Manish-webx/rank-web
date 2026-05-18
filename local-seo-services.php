@@ -7,10 +7,7 @@
   <title>Local SEO Services to Dominate Your Market | Rankmator</title>
   <meta name="description"
     content="Boost your local visibility with Rankmator's expert Local SEO services. Optimize your Google Business Profile, build local citations, and rank for 'near me' searches in 2025." />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <?php include 'links.php'; ?>
   <style>
     /* Page Specific Styles */
     .hero-local {
@@ -281,147 +278,7 @@
 
 <body>
 
-  <!-- TOP BAR -->
-  <div class="top-bar">
-    <div class="container">
-      <a href="tel:+919910308266" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
-        +91-9910308266
-      </a>
-      <a href="mailto:enquiry@rankmator.com" class="top-bar-link">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        enquiry@rankmator.com
-      </a>
-      <a href="#cta-banner" class="top-bar-cta">Request a Call <i class="fa-solid fa-arrow-right" style="margin-left:5px; font-size: 0.9em;"></i></a>
-    </div>
-  </div>
-
-  <!-- NAVIGATION -->
-  <header id="navbar">
-    <div class="container">
-      <nav class="nav-inner">
-        <a href="/" class="nav-logo">
-          <div class="nav-logo-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          </div>
-          <div>
-            <div class="nav-logo-text">RANK<span>MATOR</span></div>
-            <span class="nav-tagline">Digital Excellence</span>
-          </div>
-        </a>
-
-        <ul class="nav-links">
-            <li class="nav-item mega-item">
-              <a href="#" class="nav-link">Our Services <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="mega-menu">
-  <div class="mega-col">
-    <div class="mega-col-title">SEO &amp; Organic</div>
-    <a href="seo-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-      <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span></div>
-    </a>
-    <a href="local-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-      <div class="mega-link-text"><strong>Local SEO</strong><span>Dominate local search results</span></div>
-    </a>
-    <a href="ecommerce-seo-services.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
-      <div class="mega-link-text"><strong>E-commerce SEO</strong><span>Grow your online store traffic</span></div>
-    </a>
-    <a href="content-marketing-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-newspaper"></i></div>
-      <div class="mega-link-text"><strong>Content Marketing</strong><span>Authority content that converts</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Paid Advertising</div>
-    <a href="performance-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-bolt"></i></div>
-      <div class="mega-link-text"><strong>Performance Marketing</strong><span>Data-driven paid media ROI</span></div>
-    </a>
-    <a href="google-ads.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-google"></i></div>
-      <div class="mega-link-text"><strong>Google Ads (PPC)</strong><span>Premier Partner managed campaigns</span></div>
-    </a>
-    <a href="meta-ads-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-meta"></i></div>
-      <div class="mega-link-text"><strong>Meta Ads Agency</strong><span>Facebook &amp; Instagram precision ads</span></div>
-    </a>
-    <a href="linkedin-management-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-linkedin"></i></div>
-      <div class="mega-link-text"><strong>LinkedIn Management</strong><span>B2B lead generation on LinkedIn</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Social &amp; Content</div>
-    <a href="social-media-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-share-nodes"></i></div>
-      <div class="mega-link-text"><strong>Social Media Marketing</strong><span>Build brand communities</span></div>
-    </a>
-    <a href="youtube-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-youtube"></i></div>
-      <div class="mega-link-text"><strong>YouTube Marketing</strong><span>Video SEO &amp; YouTube Ads</span></div>
-    </a>
-    <a href="email-marketing.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-envelope"></i></div>
-      <div class="mega-link-text"><strong>Email Marketing</strong><span>Automated revenue from inbox</span></div>
-    </a>
-  </div>
-  <div class="mega-col">
-    <div class="mega-col-title">Web &amp; Design</div>
-    <a href="website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-code"></i></div>
-      <div class="mega-link-text"><strong>Website Development</strong><span>High-converting custom websites</span></div>
-    </a>
-    <a href="ecommerce-website-development-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-store"></i></div>
-      <div class="mega-link-text"><strong>Ecommerce Development</strong><span>Shopify, WooCommerce &amp; more</span></div>
-    </a>
-    <a href="wordpress-website-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-brands fa-wordpress"></i></div>
-      <div class="mega-link-text"><strong>WordPress Agency</strong><span>Fast, secure WordPress sites</span></div>
-    </a>
-    <a href="landing-page-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
-      <div class="mega-link-text"><strong>Landing Page Design</strong><span>CRO-optimised landing pages</span></div>
-    </a>
-    <a href="ui-ux-design-agency.html" class="mega-link">
-      <div class="mega-link-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-      <div class="mega-link-text"><strong>UI/UX Design</strong><span>User-first design systems</span></div>
-    </a>
-  </div>
-  <div class="mega-col-promo">
-    <div class="mega-promo-tag">Free Resource</div>
-    <h4>Get Your Free Digital Growth Audit</h4>
-    <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
-    <a href="contact.html" class="mega-promo-btn">Request Free Audit <i class="fa-solid fa-arrow-right"></i></a>
-  </div>
-      </div>
-    </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Industry <svg class="nav-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-              <div class="nav-dropdown">
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i>E-Commerce</a>
-                <a href="#"><i class="fa-solid fa-building-columns"></i>Finance &amp; BFSI</a>
-                <a href="#"><i class="fa-solid fa-hospital"></i>Healthcare</a>
-                <a href="#"><i class="fa-solid fa-house"></i>Real Estate</a>
-                <a href="#"><i class="fa-solid fa-graduation-cap"></i>Education</a>
-                <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
-              </div>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          </ul>
-
-        <div class="nav-actions">
-          <a href="#cta-banner" class="nav-cta">Request a Call</a>
-        </div>
-        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </div>
-      </nav>
-    </div>
-  </header>
+  <?php include 'header.php'; ?>
 
   <!-- HERO SECTION -->
   <section class="hero-local">
@@ -442,7 +299,8 @@
             Local SEO & GMB
           </h1>
           <p class="hero-subtitle">
-            Get found by customers near you. We optimize your business for Google Maps, Yelp, and LLMs to ensure you're the first choice when locals search for your services.
+            Get found by customers near you. We optimize your business for Google Maps, Yelp, and LLMs to ensure you're
+            the first choice when locals search for your services.
           </p>
           <div class="hero-actions">
             <a href="#contact" class="btn btn-green">
@@ -483,7 +341,8 @@
           style="position: absolute; top: -50px; right: -50px; width: 300px; height: 300px; background: rgba(107, 171, 68, 0.05); border-radius: 50%; z-index: 0;">
         </div>
         <div style="position: relative; z-index: 1;">
-          <h2 style="font-size: 32px; font-weight: 800; color: var(--text-primary); margin-bottom: 30px;">Grow Your Local Footprint with Rankmator’s Specialized Local SEO</h2>
+          <h2 style="font-size: 32px; font-weight: 800; color: var(--text-primary); margin-bottom: 30px;">Grow Your
+            Local Footprint with Rankmator’s Specialized Local SEO</h2>
           <ul style="list-style: none; padding: 0;">
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
@@ -495,7 +354,8 @@
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
               <i class="fa-solid fa-circle-check"
                 style="color: var(--secondary); font-size: 24px; margin-top: 2px;"></i>
-              <span><strong>88% of searches</strong> for local businesses on a mobile device result in a call or visit within 24 hours.</span>
+              <span><strong>88% of searches</strong> for local businesses on a mobile device result in a call or visit
+                within 24 hours.</span>
             </li>
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
@@ -541,8 +401,11 @@
   <section id="solutions" class="section-pad" style="background: #fcfcfc;">
     <div class="container">
       <div class="section-header" style="text-align: left; margin-bottom: 60px;">
-        <h2 class="section-title" style="font-size: 42px; line-height: 1.2; margin-bottom: 25px;">Hyper-Local Search Solutions: Be the First Business Your Customers See</h2>
-        <p class="section-subtitle" style="font-size: 18px; margin-left: 0;">Rankmator's Local SEO services are designed to maximize your visibility in the "Map Pack" and "Near Me" results. We optimize every touchpoint from discovery to decision.</p>
+        <h2 class="section-title" style="font-size: 42px; line-height: 1.2; margin-bottom: 25px;">Hyper-Local Search
+          Solutions: Be the First Business Your Customers See</h2>
+        <p class="section-subtitle" style="font-size: 18px; margin-left: 0;">Rankmator's Local SEO services are designed
+          to maximize your visibility in the "Map Pack" and "Near Me" results. We optimize every touchpoint from
+          discovery to decision.</p>
         <p style="font-size: 16px; color: #64748b; margin-top: 15px;">Our core Local SEO components include:</p>
       </div>
 
@@ -552,7 +415,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-store" style="color: var(--secondary);"></i></div>
           <h3>Google Business Profile (GMB)</h3>
-          <p>Full optimization of your Google Business Profile to ensure you show up in the Local 3-Pack with correct info, photos, and Q&A.</p>
+          <p>Full optimization of your Google Business Profile to ensure you show up in the Local 3-Pack with correct
+            info, photos, and Q&A.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -561,7 +425,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-quote-left" style="color: var(--secondary);"></i></div>
           <h3>Local Citation Management</h3>
-          <p>We build and maintain your business information across high-authority local directories and niche platforms to ensure NAP consistency.</p>
+          <p>We build and maintain your business information across high-authority local directories and niche platforms
+            to ensure NAP consistency.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -570,7 +435,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-star-half-stroke" style="color: var(--secondary);"></i></div>
           <h3>Review & Reputation Management</h3>
-          <p>Strategic review acquisition and management to build trust and authority, directly impacting your local ranking signals.</p>
+          <p>Strategic review acquisition and management to build trust and authority, directly impacting your local
+            ranking signals.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -579,7 +445,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-pen-nib" style="color: var(--secondary);"></i></div>
           <h3>Hyper-Local Content Strategy</h3>
-          <p>Creating location-specific landing pages and blog content that resonate with your local community and target geo-specific keywords.</p>
+          <p>Creating location-specific landing pages and blog content that resonate with your local community and
+            target geo-specific keywords.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -588,7 +455,8 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-code" style="color: var(--secondary);"></i></div>
           <h3>Local Schema Implementation</h3>
-          <p>Deploying specialized Schema markup for local businesses to help search engines understand your location, service area, and hours.</p>
+          <p>Deploying specialized Schema markup for local businesses to help search engines understand your location,
+            service area, and hours.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
@@ -597,14 +465,16 @@
           <div class="card-icon-wrap" style="background: #f8fafc; border: 1px solid #e2e8f0;"><i
               class="fa-solid fa-bullseye" style="color: var(--secondary);"></i></div>
           <h3>Geo-Targeted Local Ads</h3>
-          <p>Precision-targeted local search ads (LSAs) and Google Maps ads to drive immediate foot traffic and calls from high-intent local buyers.</p>
+          <p>Precision-targeted local search ads (LSAs) and Google Maps ads to drive immediate foot traffic and calls
+            from high-intent local buyers.</p>
           <a href="#contact" style="color: var(--secondary); display: block; margin-top: 20px; font-size: 20px;"><i
               class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
       <div style="text-align: center; margin-top: 50px;">
         <a href="#contact" class="btn btn-primary"
-          style="padding: 15px 40px; border-radius: 10px; font-weight: 700;">Claim Your Local Audit <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+          style="padding: 15px 40px; border-radius: 10px; font-weight: 700;">Claim Your Local Audit <i
+            class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
       </div>
     </div>
   </section>
@@ -620,7 +490,8 @@
         </div>
         <div class="insights-text" style="flex: 1; padding-left: 40px;">
           <h2 style="font-size: 28px; font-weight: 800; margin-bottom: 10px;">Who Is Searching For You Locally?</h2>
-          <p style="font-size: 16px; opacity: 0.9;">Identify high-volume 'near me' keywords and capture ready-to-buy customers in your city.</p>
+          <p style="font-size: 16px; opacity: 0.9;">Identify high-volume 'near me' keywords and capture ready-to-buy
+            customers in your city.</p>
         </div>
         <div class="insights-action">
           <a href="#contact" class="btn btn-white" style="border-radius: 50px; padding: 12px 30px;">Get Report <i
@@ -635,7 +506,8 @@
     <div class="container">
       <div class="section-header" style="text-align: left; margin-bottom: 40px;">
         <h2 class="section-title" style="color: #fff; font-size: 38px;">What's Inside Our Local SEO Growth Engine?</h2>
-        <p class="section-subtitle" style="color: rgba(255,255,255,0.9); margin-left: 0; max-width: 900px;">Rankmator delivers a data-led approach to local dominance. From audit to authority, we cover it all.</p>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.9); margin-left: 0; max-width: 900px;">Rankmator
+          delivers a data-led approach to local dominance. From audit to authority, we cover it all.</p>
       </div>
 
       <!-- Category Slider -->
@@ -669,7 +541,8 @@
           style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
           <div class="panel-left">
             <h3 style="font-size: 28px; margin-bottom: 20px;">Local Presence Audit</h3>
-            <p style="font-size: 18px; margin-bottom: 30px; opacity: 0.9;">We deep-dive into your current local standing:
+            <p style="font-size: 18px; margin-bottom: 30px; opacity: 0.9;">We deep-dive into your current local
+              standing:
             </p>
             <ul style="list-style: none; padding: 0;">
               <li style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px; font-size: 16px;">
@@ -705,7 +578,8 @@
       <div class="section-header" style="text-align: center; margin-bottom: 60px;">
         <div class="section-tag">Industry Focus</div>
         <h2 class="section-title">Scaling Results for <span>Local Vertical</span></h2>
-        <p class="section-subtitle">We specialize in hyper-local growth for service-based and physical storefront industries.</p>
+        <p class="section-subtitle">We specialize in hyper-local growth for service-based and physical storefront
+          industries.</p>
       </div>
 
       <div class="service-grid-premium" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
@@ -715,7 +589,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">Real Estate</h3>
           <div class="vstat-number">4x</div>
           <div class="vstat-label">Qualified Local Leads</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Dominating local neighborhood searches for agencies and developers.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Dominating local neighborhood searches for
+            agencies and developers.</p>
         </div>
         <!-- Healthcare -->
         <div class="vstat-card">
@@ -723,7 +598,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">Healthcare</h3>
           <div class="vstat-number">350%</div>
           <div class="vstat-label">Increase in Patient Calls</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Scaling clinic appointments via Map Pack visibility and E-E-A-T.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Scaling clinic appointments via Map Pack
+            visibility and E-E-A-T.</p>
         </div>
         <!-- Law -->
         <div class="vstat-card">
@@ -731,7 +607,8 @@
           <h3 style="font-size: 20px; margin-bottom: 15px;">Law Firms</h3>
           <div class="vstat-number">2.5x</div>
           <div class="vstat-label">Trust & Case Intake</div>
-          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Creating high-authority local presences for competitive legal niches.</p>
+          <p style="margin-top: 15px; font-size: 14px; color: #64748b;">Creating high-authority local presences for
+            competitive legal niches.</p>
         </div>
       </div>
     </div>
@@ -758,27 +635,32 @@
           <tr>
             <td class="point-label">GMB Strategy</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Basic info update only</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> AI-Optimized Q&A, Posts & Geotagging</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> AI-Optimized Q&A, Posts & Geotagging
+            </td>
           </tr>
           <tr>
             <td class="point-label">Citations</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Automated generic lists</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Premium Niche & Local Authority Citations</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Premium Niche & Local Authority
+              Citations</td>
           </tr>
           <tr>
             <td class="point-label">Reporting</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Simple monthly PDF</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Real-time Map Ranking & Call Tracking</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Real-time Map Ranking & Call
+              Tracking</td>
           </tr>
           <tr>
             <td class="point-label">Content</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Stock city landing pages</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Hyper-local original content & Schema</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Hyper-local original content &
+              Schema</td>
           </tr>
           <tr>
             <td class="point-label">Reviews</td>
             <td class="others-cell"><i class="fa-solid fa-xmark cross-icon"></i> Ignore or reactive</td>
-            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Proactive AI Sentiment Management</td>
+            <td class="rankmator-cell"><i class="fa-solid fa-check check-icon"></i> Proactive AI Sentiment Management
+            </td>
           </tr>
         </tbody>
       </table>
@@ -791,7 +673,8 @@
       <div class="section-header" style="text-align: center; margin-bottom: 60px;">
         <div class="section-tag">Trust & Scale</div>
         <h2 class="section-title">Why Businesses Trust Rankmator for <br /><span>Local Excellence</span></h2>
-        <p class="section-subtitle">We combine city-specific knowledge with global SEO standards to put your business on the map.</p>
+        <p class="section-subtitle">We combine city-specific knowledge with global SEO standards to put your business on
+          the map.</p>
       </div>
 
       <div class="service-grid-premium" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
@@ -801,7 +684,8 @@
             style="background: rgba(8, 104, 160, 0.05); border: 1px solid rgba(8, 104, 160, 0.1);"><i
               class="fa-solid fa-bullseye" style="color: var(--primary);"></i></div>
           <h3>Geo-Targeted Precision</h3>
-          <p>We target the exact suburbs and zip codes where your customers live, ensuring no budget is wasted on irrelevant traffic.</p>
+          <p>We target the exact suburbs and zip codes where your customers live, ensuring no budget is wasted on
+            irrelevant traffic.</p>
         </div>
         <!-- Card 2 -->
         <div class="premium-card">
@@ -809,7 +693,8 @@
             style="background: rgba(107, 171, 68, 0.05); border: 1px solid rgba(107, 171, 68, 0.1);"><i
               class="fa-solid fa-arrows-to-circle" style="color: var(--secondary);"></i></div>
           <h3>MAP-Pack Domination</h3>
-          <p>Strategic focus on the Local 3-Pack, where 70% of local Clicks happen, ensuring your brand is the obvious choice.</p>
+          <p>Strategic focus on the Local 3-Pack, where 70% of local Clicks happen, ensuring your brand is the obvious
+            choice.</p>
         </div>
         <!-- Card 3 -->
         <div class="premium-card">
@@ -817,7 +702,8 @@
             style="background: rgba(8, 104, 160, 0.05); border: 1px solid rgba(8, 104, 160, 0.1);"><i
               class="fa-solid fa-link" style="color: var(--primary);"></i></div>
           <h3>Local Link Building</h3>
-          <p>Acquiring links from local newspapers, blogs, and community portals to establish authentic local authority.</p>
+          <p>Acquiring links from local newspapers, blogs, and community portals to establish authentic local authority.
+          </p>
         </div>
       </div>
     </div>
@@ -838,7 +724,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>Significant improvements can often be seen in 30-90 days, depending on existing competition and profile health. Full domination typically takes 4-6 months.</p>
+            <p>Significant improvements can often be seen in 30-90 days, depending on existing competition and profile
+              health. Full domination typically takes 4-6 months.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -847,7 +734,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>Yes, we specialize in enterprise Local SEO architectures for brands with hundreds of locations, ensuring centralized management with local relevance.</p>
+            <p>Yes, we specialize in enterprise Local SEO architectures for brands with hundreds of locations, ensuring
+              centralized management with local relevance.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -856,7 +744,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>It's the process of technical and content enhancement of your Google Business Profile to improve signals like relevance, distance, and prominence.</p>
+            <p>It's the process of technical and content enhancement of your Google Business Profile to improve signals
+              like relevance, distance, and prominence.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -865,7 +754,8 @@
             <i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We help implement response strategies and review acquisition funnels to bury negative feedback with high-quality, authentic positive experiences.</p>
+            <p>We help implement response strategies and review acquisition funnels to bury negative feedback with
+              high-quality, authentic positive experiences.</p>
           </div>
         </div>
       </div>
@@ -893,26 +783,26 @@
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Location :</span>
-            <div class="contact-detail-content">
-              <i class="fa-solid fa-map-location-dot"></i>
-              <span>A-24/8, 1st Floor, Rathi Tower, NH-19, Mohan Cooperative Industrial Estate, New Delhi, 110044</span>
-            </div>
-          </div>
-
-          <div class="contact-detail-group">
             <span class="contact-detail-label">Email :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:enquiry@rankmator.com">enquiry@rankmator.com</a>
+              <a href="mailto:rankmator@gmail.com">rankmator@gmail.com</a>
             </div>
           </div>
 
           <div class="contact-detail-group">
-            <span class="contact-detail-label">Sales Enquiry :</span>
+            <span class="contact-detail-label">Marketing :</span>
             <div class="contact-detail-content">
               <i class="fa-solid fa-phone"></i>
-              <a href="tel:+919910308266">+91-9910308266</a>
+              <a href="tel:+919560864432">+91 9560864432</a>
+            </div>
+          </div>
+
+          <div class="contact-detail-group">
+            <span class="contact-detail-label">WhatsApp :</span>
+            <div class="contact-detail-content">
+              <i class="fa-brands fa-whatsapp"></i>
+              <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
 
@@ -923,34 +813,24 @@
 
         <!-- Right Column: Contact Form -->
         <div class="contact-form-side fade-in">
-          <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a Free Local Audit*</h3>
-          <form class="main-contact-form"
-            onsubmit="event.preventDefault(); alert('Success! Your local audit request has been sent.');">
+          <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a Free
+            Local Audit*</h3>
+          <form class="main-contact-form" action="mail.php" method="POST">
             <div class="form-group">
-              <input type="text" class="form-field" placeholder="Full Name *" required>
+              <input type="text" name="name" class="form-field" placeholder="Name *" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-field" placeholder="Work Email *" required>
+              <input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
             <div class="form-group">
-              <input type="tel" class="form-field" placeholder="Mobile Number *" required>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-field" placeholder="Business Name & Location *" required>
+              <input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
             </div>
             <div class="form-group-full">
-              <textarea class="form-field"
-                placeholder="Tell us about your local goals and challenges..."></textarea>
+              <textarea name="message" class="form-field" placeholder="Your Message"></textarea>
             </div>
-
             <div class="form-footer">
-              <label class="consent-check" style="margin-bottom:20px;">
-                <input type="checkbox" required>
-                <span>I agree to Rankmator's <a href="#">Terms</a> & <a href="#">Privacy Policy</a>.</span>
-              </label>
-
               <button type="submit" class="btn-submit-main">
-                Run My Local Audit <i class="fa-solid fa-arrow-right"></i>
+                Submit Now <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
           </form>
@@ -959,105 +839,7 @@
     </div>
   </section>
 
-  <footer id="footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <div class="footer-logo-text">RANK<span>MATOR</span><span class="footer-tagline">Digital Excellence</span></div>
-        </div>
-        <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational growth through digital excellence.</p>
-        <div class="trust-badges-main">
-          <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span class="label">Certified Partner</span></div>
-          <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span class="label" style="color:#fff;">SEMRUSH<br/>Partner</span></div>
-          <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>SEO &amp; Organic</h5>
-        <div class="footer-links">
-          <a href="seo-agency.html">SEO Agency</a>
-          <a href="local-seo-services.html">Local SEO Services</a>
-          <a href="ecommerce-seo-services.html">Ecommerce SEO</a>
-          <a href="content-marketing-agency.html">Content Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Paid Advertising</h5>
-        <div class="footer-links">
-          <a href="performance-marketing.html">Performance Marketing</a>
-          <a href="google-ads.html">Google Ads (PPC)</a>
-          <a href="meta-ads-agency.html">Meta Ads Agency</a>
-          <a href="facebook-ads.html">Facebook Ads</a>
-          <a href="linkedin-management-agency.html">LinkedIn Management</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Social &amp; Content</h5>
-        <div class="footer-links">
-          <a href="social-media-marketing.html">Social Media Marketing</a>
-          <a href="youtube-marketing.html">YouTube Marketing</a>
-          <a href="email-marketing.html">Email Marketing</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Web &amp; Design</h5>
-        <div class="footer-links">
-          <a href="website-development-agency.html">Website Development</a>
-          <a href="ecommerce-website-development-agency.html">Ecommerce Development</a>
-          <a href="wordpress-website-agency.html">WordPress Agency</a>
-          <a href="landing-page-design-agency.html">Landing Page Design</a>
-          <a href="ui-ux-design-agency.html">UI/UX Design</a>
-          <a href="web-development-services.html">Web Dev Services</a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h5>Company</h5>
-        <div class="footer-links">
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Awards &amp; Recognition</a>
-          <a href="#">Case Studies</a>
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="tools-section">
-          <h6>Quick Links</h6>
-          <div class="footer-links">
-            <a href="#">Blog</a>
-            <a href="#">FAQs</a>
-            <a href="#">Portfolio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom-bar">
-    <div class="container footer-bottom-inner">
-      <div class="bottom-socials">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <div class="bottom-ratings">
-        <div class="rating-item"><div class="rating-icon google">G</div> 4.1/5</div>
-        <div class="rating-item"><div class="rating-icon clutch">C</div> 4.5</div>
-        <div class="rating-item"><div class="dmca-badge">DMCA</div> PROTECTED</div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-  <!-- Scroll to Top -->
-  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>
-
-  <script src="script.js"></script>
+  <?php include 'footer.php'; ?>
   <script>
     // FAQ Accordion
     document.querySelectorAll('.faq-question').forEach(q => {
