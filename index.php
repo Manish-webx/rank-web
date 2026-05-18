@@ -214,13 +214,7 @@
             brands who have experienced transformational growth with Rankmator.
           </p>
           <div class="hero-actions">
-            <a href="#cta-banner" class="btn btn-green">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                <path
-                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1a2 2 0 012-2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
-              </svg>
-              Speak to an SEO Expert
-            </a>
+
             <a href="#services" class="btn btn-ghost-white">
               Our Services
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -1236,34 +1230,6 @@
       </div>
     </div>
   </section>
-
-  <!-- ═══════════════════════════════════════════
-     CTA OVERFLOW BANNER
-═══════════════════════════════════════════ -->
-  <div class="footer-cta-wrapper">
-    <div class="container">
-      <div class="footer-cta-banner fade-in">
-        <div class="cta-left">
-          <h2>Are You Ready for Transformational Growth for Your Business?</h2>
-          <button class="cta-btn-alt" onclick="alert('Our team will call you back within 24 hours!')">Request a Call
-            Back</button>
-        </div>
-        <div class="cta-right">
-          <p class="cta-trust-text">Trusted by Google Premier Partner<br />& Top Rated Agency</p>
-          <div class="cta-trust-badges">
-            <div class="trust-badge-mini">
-              <i class="fa-brands fa-google" style="color:#4285F4;"></i>
-              <span>Google Partner<br /><small style="font-size:8px; opacity:0.6;">PREMIER 2025</small></span>
-            </div>
-            <div class="trust-badge-mini">
-              <span style="font-size:14px; font-weight:900;">Clutch</span>
-              <span class="clutch-stars">4.5 ★★★★★</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- ═══════════════════════════════════════════
      FOOTER

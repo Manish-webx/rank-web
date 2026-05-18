@@ -714,28 +714,6 @@
     </div>
   </section>
 
-  <!-- FOOTER CTA -->
-  <div class="footer-cta-wrapper">
-    <div class="container">
-      <div class="footer-cta-banner fade-in">
-        <div class="cta-left">
-          <h2>Are You Ready for Transformational Social Media Growth?</h2>
-          <button class="cta-btn-alt" onclick="alert('Our team will call you back within 24 hours!')">Request a Call
-            Back</button>
-        </div>
-        <div class="cta-right">
-          <p class="cta-trust-text">Trusted by Google Premier Partner<br />&amp; Top Rated Agency</p>
-          <div class="cta-trust-badges">
-            <div class="trust-badge-mini"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span>Google
-                Partner<br /><small style="font-size:8px;opacity:0.6;">PREMIER 2025</small></span></div>
-            <div class="trust-badge-mini"><span style="font-size:14px;font-weight:900;">Clutch</span><span
-                class="clutch-stars">4.5 ★★★★★</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- FOOTER -->
   <?php include 'footer.php'; ?>
 </body>
