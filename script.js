@@ -29,14 +29,92 @@
   const hamburger = document.getElementById('hamburger');
   const navLinks = document.querySelector('.nav-links');
   const navActions = document.querySelector('.nav-actions');
-  
+  const navItems = document.querySelectorAll('.nav-item');
+  const navInner = document.querySelector('.nav-inner');
+
   if (hamburger) {
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      if (navLinks) navLinks.classList.toggle('active');
-      if (navActions) navActions.classList.toggle('active');
+    hamburger.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const isActive = hamburger.classList.toggle('active');
+      console.log('Hamburger clicked, active:', isActive);
+
+      if (navLinks) {
+        navLinks.classList.toggle('active', isActive);
+      }
+      if (navActions) {
+        navActions.classList.toggle('active', isActive);
+      }
+      document.body.classList.toggle('menu-open', isActive);
     });
+  } else {
+    console.log('Hamburger element not found!');
   }
+
+  // Handle nav items with dropdowns on mobile
+  navItems.forEach(item => {
+    const link = item.querySelector('.nav-link');
+    const dropdown = item.querySelector('.nav-dropdown, .mega-menu');
+
+    if (link && dropdown) {
+      link.addEventListener('click', (e) => {
+        // Only on mobile (when nav-links is active)
+        const links = document.querySelector('.nav-links');
+        if (links && links.classList.contains('active')) {
+          e.preventDefault();
+          e.stopPropagation();
+          // Close other dropdowns
+          navItems.forEach(otherItem => {
+            if (otherItem !== item) {
+              otherItem.classList.remove('active');
+            }
+          });
+          // Toggle current
+          item.classList.toggle('active');
+        }
+      });
+    } else if (link) {
+      // For links without dropdowns on mobile - close menu when clicked
+      link.addEventListener('click', () => {
+        const links = document.querySelector('.nav-links');
+        if (links && links.classList.contains('active') && !link.closest('.nav-item:has(.nav-dropdown, .mega-menu)')) {
+          hamburger.classList.remove('active');
+          if (navLinks) navLinks.classList.remove('active');
+          if (navActions) navActions.classList.remove('active');
+          document.body.classList.remove('menu-open');
+        }
+      });
+    }
+  });
+
+  // Close mobile menu when clicking on overlay or outside
+  document.addEventListener('click', (e) => {
+    if (document.body.classList.contains('menu-open')) {
+      const navInner = document.querySelector('.nav-inner');
+      const navLinksActive = document.querySelector('.nav-links.active');
+
+      // If click is outside the nav area
+      if (!e.target.closest('.nav-inner') && navLinksActive) {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        navActions.classList.remove('active');
+        document.body.classList.remove('menu-open');
+        navItems.forEach(item => item.classList.remove('active'));
+      }
+    }
+  });
+
+  // Close menu on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('menu-open')) {
+      hamburger.classList.remove('active');
+      if (navLinks) navLinks.classList.remove('active');
+      if (navActions) navActions.classList.remove('active');
+      document.body.classList.remove('menu-open');
+      navItems.forEach(item => item.classList.remove('active'));
+    }
+  });
 
   /* ─── Services Tab Switching (main section) ──────── */
   const tabBtns = document.querySelectorAll('#services-tabs-nav .tab-btn');

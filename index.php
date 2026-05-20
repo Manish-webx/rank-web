@@ -178,9 +178,15 @@
         <div class="nav-actions">
           <a href="contact.php" class="nav-cta">Contact Us</a>
         </div>
-        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span></span><span></span><span></span>
-        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <svg class="hamburger-close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
       </nav>
     </div>
   </header>
@@ -367,11 +373,11 @@
         <div class="fade-in fade-in-delay-2">
           <div class="video-box">
             <div class="video-box-bg">
-              <div style="display:flex;flex-direction:column;align-items:center;gap:20px;z-index:2;position:relative;">
-                <div style="font-size:60px;color:rgba(255,255,255,0.7);"><i class="fa-solid fa-building"></i></div>
-                <div style="text-align:center;padding:0 32px;">
-                  <p style="font-size:18px;font-weight:700;margin-bottom:6px;">Watch Our Story</p>
-                  <p style="font-size:13px;color:var(--text-muted);">18+ years of transformational growth</p>
+              <div class="video-content">
+                <div class="video-icon"><i class="fa-solid fa-building"></i></div>
+                <div class="video-text">
+                  <p class="video-headline">Watch Our Story</p>
+                  <p class="video-subline">18+ years of transformational growth</p>
                 </div>
               </div>
               <div class="play-btn" onclick="alert('Video opens here')">
@@ -381,10 +387,10 @@
               </div>
             </div>
             <div class="video-label">
-              <div style="font-size:28px;color:var(--primary);"><i class="fa-solid fa-bullseye"></i></div>
+              <div class="video-label-icon"><i class="fa-solid fa-bullseye"></i></div>
               <div class="video-label-text">
                 <strong>Achieve 2x Increase in Avg. Monthly Traffic</strong>
-                Proven frameworks. Measurable results.
+                <span>Proven frameworks. Measurable results.</span>
               </div>
             </div>
           </div>
@@ -1233,6 +1239,7 @@
      FOOTER
 ═══════════════════════════════════════════ -->
   <?php include 'footer.php'; ?>
+  <script src="script.js"></script>
 </body>
 
 </html>
