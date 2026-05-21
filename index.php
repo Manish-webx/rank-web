@@ -291,40 +291,6 @@
   </div>
 
   <!-- ═══════════════════════════════════════════
-     STATS SECTION
-═══════════════════════════════════════════ -->
-  <section id="stats" class="section-pad">
-    <div class="container">
-      <div class="stats-grid fade-in">
-        <div class="stat-box">
-          <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
-          <span class="stat-number"><span class="counter" data-target="18">0</span><span
-              class="stat-suffix">+</span></span>
-          <p class="stat-box-label">Years of Digital Excellence</p>
-        </div>
-        <div class="stat-box">
-          <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
-          <span class="stat-number"><span class="counter" data-target="300">0</span><span
-              class="stat-suffix">+</span></span>
-          <p class="stat-box-label">Clients Transformed</p>
-        </div>
-        <div class="stat-box">
-          <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
-          <span class="stat-number"><span class="counter" data-target="309">0</span><span
-              class="stat-suffix">%</span></span>
-          <p class="stat-box-label">Avg. Growth in Traffic</p>
-        </div>
-        <div class="stat-box">
-          <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
-          <span class="stat-number"><span class="counter" data-target="50">0</span><span
-              class="stat-suffix">+</span></span>
-          <p class="stat-box-label">Industry Awards Won</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════
      ABOUT / COMPANY
 ═══════════════════════════════════════════ -->
   <section id="about" class="section-pad">
@@ -365,7 +331,7 @@
             </div>
           </div>
           <div style="margin-top:28px;">
-            <a href="#cta-banner" class="btn btn-primary">Speak to an Expert <i class="fa-solid fa-arrow-right"
+            <a href="contact.php" class="btn btn-primary">Speak to an Expert <i class="fa-solid fa-arrow-right"
                 style="margin-left:8px;"></i></a>
           </div>
         </div>
@@ -450,7 +416,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>International SEO
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Boost Your SEO <i class="fa-solid fa-arrow-right"
+          <a href="seo-agency.php" class="btn btn-primary">Boost Your SEO <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -499,7 +465,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Voice Search Optimization
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Go Local <i class="fa-solid fa-arrow-right"
+          <a href="local-seo-services.php" class="btn btn-primary">Go Local <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -548,7 +514,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>CRO & Landing Pages
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Get Instant ROI <i class="fa-solid fa-arrow-right"
+          <a href="performance-marketing.php" class="btn btn-primary">Get Instant ROI <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -597,8 +563,8 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Social Listening & BI
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Engage Audience <i class="fa-solid fa-arrow-right"
-              style="margin-left:8px;"></i></a>
+          <a href="social-media-marketing.php" class="btn btn-primary">Engage Audience <i
+              class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
           <div class="tab-stat-card">
@@ -646,8 +612,8 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Web Security & Support
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Build Your Brand <i class="fa-solid fa-arrow-right"
-              style="margin-left:8px;"></i></a>
+          <a href="website-development-agency.php" class="btn btn-primary">Build Your Brand <i
+              class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
           <div class="tab-stat-card">
@@ -695,7 +661,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Catalog Management
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Scale Store <i class="fa-solid fa-arrow-right"
+          <a href="ecommerce-seo-services.php" class="btn btn-primary">Scale Store <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -744,7 +710,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Brand Strategy Consulting
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Design Story <i class="fa-solid fa-arrow-right"
+          <a href="contact.php" class="btn btn-primary">Design Story <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -793,7 +759,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Performance Analytics
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Start Nurturing <i class="fa-solid fa-arrow-right"
+          <a href="email-marketing.php" class="btn btn-primary">Start Nurturing <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -842,7 +808,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>ML Implementation
             </div>
           </div>
-          <a href="#cta-banner" class="btn btn-primary">Future Proof Now <i class="fa-solid fa-arrow-right"
+          <a href="contact.php" class="btn btn-primary">Future Proof Now <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -1201,11 +1167,6 @@
               <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
-
-          <div class="info-card-footer">
-            <a href="#" class="btn-direction">Get Direction <i class="fa-solid fa-arrow-right"></i></a>
-            <a href="#" class="view-all-link">View All <i class="fa-solid fa-arrow-right-long"></i></a>
-          </div>
         </div>
 
         <!-- Right Column: Contact Form -->
@@ -1218,7 +1179,7 @@
             <div class="form-group">
               <input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
-            <div class="form-group">
+            <div class="form-group-full">
               <input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
             </div>
             <div class="form-group-full">
@@ -1239,7 +1200,6 @@
      FOOTER
 ═══════════════════════════════════════════ -->
   <?php include 'footer.php'; ?>
-  <script src="script.js"></script>
 </body>
 
 </html>

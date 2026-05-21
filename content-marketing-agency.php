@@ -593,17 +593,20 @@
                 href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
-          <div class="info-card-footer"><a href="#" class="btn-direction">Get Direction <i
-                class="fa-solid fa-arrow-right"></i></a></div>
         </div>
         <div class="contact-form-side fade-in">
           <h3 style="font-size:24px;font-weight:800;margin-bottom:30px;color:var(--text-primary);">Request a Content
             Audit*</h3>
           <form class="main-contact-form" action="mail.php" method="POST">
-            <div class="form-group"><input type="text" name="name" class="form-field" placeholder="Name *" required></div>
-            <div class="form-group"><input type="email" name="email" class="form-field" placeholder="Email *" required></div>
-            <div class="form-group"><input type="tel" name="phone" class="form-field" placeholder="Phone *" required></div>
-            <div class="form-group-full"><textarea name="message" class="form-field" placeholder="Your Message"></textarea></div>
+            <div class="form-group"><input type="text" name="name" class="form-field" placeholder="Name *" required>
+            </div>
+            <div class="form-group"><input type="email" name="email" class="form-field" placeholder="Email *" required>
+            </div>
+            <div class="form-group-full"><input type="tel" name="phone" class="form-field" placeholder="Phone *"
+                required>
+            </div>
+            <div class="form-group-full"><textarea name="message" class="form-field"
+                placeholder="Your Message"></textarea></div>
             <div class="form-footer">
               <button type="submit" class="btn-submit-main">Submit Now <i class="fa-solid fa-arrow-right"></i></button>
             </div>

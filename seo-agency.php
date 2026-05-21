@@ -657,7 +657,8 @@
       <div class="service-grid-premium" style="grid-template-columns: repeat(3, 1fr); gap: 30px;">
         <div class="premium-card">
           <div class="card-icon-wrap" style="background: rgba(8,104,160,0.05); border: 1px solid rgba(8,104,160,0.1);">
-            <i class="fa-solid fa-chart-line" style="color: var(--primary);"></i></div>
+            <i class="fa-solid fa-chart-line" style="color: var(--primary);"></i>
+          </div>
           <h3>Data-Driven Strategy</h3>
           <p>Every decision is backed by data — from keyword selection to content structure, we let the numbers guide
             our SEO roadmap.</p>
@@ -672,7 +673,8 @@
         </div>
         <div class="premium-card">
           <div class="card-icon-wrap" style="background: rgba(8,104,160,0.05); border: 1px solid rgba(8,104,160,0.1);">
-            <i class="fa-solid fa-users" style="color: var(--primary);"></i></div>
+            <i class="fa-solid fa-users" style="color: var(--primary);"></i>
+          </div>
           <h3>Dedicated SEO Team</h3>
           <p>You get a dedicated team of SEO specialists, content strategists, and technical experts — not a single
             generalist account manager.</p>
@@ -759,8 +761,6 @@
                 href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
-          <div class="info-card-footer"><a href="#" class="btn-direction">Get Direction <i
-                class="fa-solid fa-arrow-right"></i></a></div>
         </div>
         <div class="contact-form-side fade-in">
           <h3 style="font-size:24px; font-weight:800; margin-bottom:30px; color:var(--text-primary);">Request a Free SEO
@@ -770,7 +770,8 @@
             </div>
             <div class="form-group"><input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
-            <div class="form-group"><input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
+            <div class="form-group-full"><input type="tel" name="phone" class="form-field" placeholder="Phone *"
+                required>
             </div>
             <div class="form-group-full"><textarea name="message" class="form-field"
                 placeholder="Your Message"></textarea></div>

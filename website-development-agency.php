@@ -658,7 +658,8 @@
             </div>
             <div class="form-group"><input type="email" name="email" class="form-field" placeholder="Email *" required>
             </div>
-            <div class="form-group"><input type="tel" name="phone" class="form-field" placeholder="Phone *" required>
+            <div class="form-group-full"><input type="tel" name="phone" class="form-field" placeholder="Phone *"
+                required>
             </div>
             <div class="form-group-full"><textarea name="message" class="form-field"
                 placeholder="Your Message"></textarea></div>

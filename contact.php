@@ -769,6 +769,19 @@
     </div>
   </section>
 
+  <script>
+    // Inline FAQ test
+    console.log('Inline FAQ script loaded');
+    document.querySelectorAll('.faq-item').forEach(item => {
+      const q = item.querySelector('.faq-question');
+      if (q) {
+        q.addEventListener('click', () => {
+          console.log('FAQ clicked:', item);
+          item.classList.toggle('active');
+        });
+      }
+    });
+  </script>
 
   <!-- FOOTER -->
   <?php include 'footer.php'; ?>

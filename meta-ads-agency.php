@@ -680,8 +680,6 @@
                 href="https://api.whatsapp.com/send?phone=919560864432&text=Hi Rankmator!" target="_blank">Chat Now</a>
             </div>
           </div>
-          <div class="info-card-footer"><a href="#" class="btn-direction">Get Direction <i
-                class="fa-solid fa-arrow-right"></i></a></div>
         </div>
         <div class="contact-form-side fade-in">
           <h3 style="font-size:24px;font-weight:800;margin-bottom:30px;color:var(--text-primary);">Request a Free Meta
@@ -691,7 +689,7 @@
                 required></div>
             <div class="form-group"><input type="email" name="email" class="form-field" placeholder="Work Email *"
                 required></div>
-            <div class="form-group"><input type="tel" name="phone" class="form-field" placeholder="Mobile Number *"
+            <div class="form-group-full"><input type="tel" name="phone" class="form-field" placeholder="Mobile Number *"
                 required></div>
 
             <div class="form-group-full"><textarea class="form-field" name="message"
