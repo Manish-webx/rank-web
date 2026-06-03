@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Marketing Agency | Authority-Building Content Strategy | Rankmator</title>
   <meta name="description"
-    content="Rankmator's Content Marketing Agency creates strategic, SEO-optimised content that builds authority, drives organic traffic, and converts readers into customers. From blogs to full content strategies." />
-  <?php include 'links.php'; ?>
+    content="Rankmator's Contents Marketing Agency creates strategic, SEO-optimised content that builds authority, drives organic traffic, and converts readers into customers. From blogs to full content strategies." />
+  <?php include 'links.php'; ?> 
+
   <style>
     .hero-cm {
       background: var(--gradient-hero);
