@@ -45,7 +45,7 @@
           <div class="mega-menu">
             <div class="mega-col">
               <div class="mega-col-title">SEO & Organic</div>
-              <a href="seo-agency.php" class="mega-link">
+              <a href="seo-agency-in-india.php" class="mega-link">
                 <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span>
                 </div>

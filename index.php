@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -61,7 +61,7 @@
             <div class="mega-menu">
               <div class="mega-col">
                 <div class="mega-col-title">SEO &amp; Organic</div>
-                <a href="seo-agency.php" class="mega-link">
+                <a href="seo-agency-in-india.php" class="mega-link">
                   <div class="mega-link-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                   <div class="mega-link-text"><strong>SEO Agency</strong><span>Rank #1 on Google organically</span>
                   </div>
@@ -416,7 +416,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>International SEO
             </div>
           </div>
-          <a href="seo-agency.php" class="btn btn-primary">Boost Your SEO <i class="fa-solid fa-arrow-right"
+          <a href="seo-agency-in-india.php" class="btn btn-primary">Boost Your SEO <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">

@@ -49,7 +49,7 @@
       <div class="footer-col">
         <h5>SEO &amp; Organic</h5>
         <div class="footer-links">
-          <a href="seo-agency.php">SEO Agency</a>
+          <a href="seo-agency-in-india.php">SEO Agency</a>
           <a href="local-seo-services.php">Local SEO Services</a>
           <a href="ecommerce-seo-services.php">Ecommerce SEO</a>
           <a href="content-marketing-agency.php">Content Marketing</a>
