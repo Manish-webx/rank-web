@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rankmator — Digital Excellence | SEO, Performance & Digital Marketing Agency</title>
+  <title>Best Digital Marketing Agency in India | Rankmator</title>
   <meta name="description"
-    content="Drive Traffic, Leads & Revenue with Rankmator — India's premier digital marketing and SEO powerhouse. 18+ years of proven success, 300+ clients transformed." />
+    content="Rankmator is a leading digital marketing agency in India with 18+ years of experience, helping 300+ businesses grow traffic, leads, and revenue." />
   <?php include 'links.php'; ?>
 </head>
 
@@ -208,14 +208,11 @@
             India's #1 Digital Marketing Partner
           </div>
           <h1 class="hero-title">
-            Drive Traffic,<br />
-            <span class="highlight">Leads & Revenue</span><br />
-            with Expert Digital <br /> Marketing Services
+          Best Digital Marketing Agency<br />
+            <span class="highlight">to Grow Your Traffic, Leads & Revenue</span>
           </h1>
           <p class="hero-subtitle">
-            To succeed in business, you first need to succeed in search results. Our digital marketing services connect
-            you with your customers' journey from end to end — from discovery to retention. Join hundreds of marquee
-            brands who have experienced transformational growth with Rankmator.
+            To succeed in business, you first need to succeed in search results. As a leading <strong>Digital Marketing Agency in India</strong>, Rankmator connects you with your customers throughout their journey—from discovery to retention. Join hundreds of brands that have achieved transformational growth with our data-driven marketing strategies.
           </p>
           <div class="hero-actions">
 
@@ -298,10 +295,10 @@
       <div class="about-grid">
         <div class="about-content fade-in">
           <div class="section-tag">Who We Are</div>
-          <h2 class="section-title">India's Premier Digital Marketing & SEO Powerhouse</h2>
+          <h2 class="section-title">India's Premier Digital Marketing & SEO Agency</h2>
           <p class="section-subtitle">
-            Rankmator is India's premier digital marketing and SEO powerhouse. With over 18 years of proven success, our
-            vision is to fuel transformational growth for 300+ clients by 2030. Ready to unlock your brand's complete
+            Rankmator is India's premier digital marketing and SEO powerhouse. With over 9 years of proven success, our
+            vision is to fuel transformational growth for 349+ clients by 2030. Ready to unlock your brand's complete
             digital potential?
           </p>
           <div class="about-points">
@@ -374,8 +371,7 @@
         <div class="section-tag">What We Do</div>
         <h2 class="section-title">Data-Backed Services to Grow Your Revenue</h2>
         <p class="section-subtitle">To experience 360° growth for your business, you need a 360° approach. Rankmator can
-          help. Our core expertise lies in SEO, Martech, and search marketing — powering comprehensive digital growth
-          since 2006.</p>
+          help. Our comprehensive digital marketing services help businesses increase visibility, attract qualified leads, and drive sustainable revenue growth. From SEO and local SEO to performance marketing, web design, AI marketing, and branding, Rankmator delivers data-driven strategies tailored to your business goals.</p>
       </div>
 
       <div class="services-tabs-nav fade-in" id="services-tabs-nav">
