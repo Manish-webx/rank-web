@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Digital Marketing Agency in India | Rankmator</title>
   <meta name="description"
-    content="Rankmator is a leading digital marketing agency in India with 18+ years of experience, helping 300+ businesses grow traffic, leads, and revenue." />
+    content="Rankmator is a leading digital marketing agency in India with 5+ years of experience, helping 300+ businesses grow traffic, leads, and revenue." />
   <?php include 'links.php'; ?>
 </head>
 
@@ -208,11 +208,14 @@
             India's #1 Digital Marketing Partner
           </div>
           <h1 class="hero-title">
-          Best Digital Marketing Agency<br />
+            Best Digital Marketing Agency<br />
             <span class="highlight">to Grow Your Traffic, Leads & Revenue</span>
           </h1>
           <p class="hero-subtitle">
-            To succeed in business, you first need to succeed in search results. As a leading <strong>Digital Marketing Agency in India</strong>, Rankmator connects you with your customers throughout their journey—from discovery to retention. Join hundreds of brands that have achieved transformational growth with our data-driven marketing strategies.
+            To succeed in business, you first need to succeed in search results. As a leading <strong>Digital Marketing
+              Agency in India</strong>, Rankmator connects you with your customers throughout their journey—from
+            discovery to retention. Join hundreds of brands that have achieved transformational growth with our
+            data-driven marketing strategies.
           </p>
           <div class="hero-actions">
 
@@ -340,7 +343,7 @@
                 <div class="video-icon"><i class="fa-solid fa-building"></i></div>
                 <div class="video-text">
                   <p class="video-headline">Watch Our Story</p>
-                  <p class="video-subline">18+ years of transformational growth</p>
+                  <p class="video-subline">5+ years of transformational growth</p>
                 </div>
               </div>
               <div class="play-btn" onclick="alert('Video opens here')">
@@ -371,7 +374,9 @@
         <div class="section-tag">What We Do</div>
         <h2 class="section-title">Data-Backed Services to Grow Your Revenue</h2>
         <p class="section-subtitle">To experience 360° growth for your business, you need a 360° approach. Rankmator can
-          help. Our comprehensive digital marketing services help businesses increase visibility, attract qualified leads, and drive sustainable revenue growth. From SEO and local SEO to performance marketing, web design, AI marketing, and branding, Rankmator delivers data-driven strategies tailored to your business goals.</p>
+          help. Our comprehensive digital marketing services help businesses increase visibility, attract qualified
+          leads, and drive sustainable revenue growth. From SEO and local SEO to performance marketing, web design, AI
+          marketing, and branding, Rankmator delivers data-driven strategies tailored to your business goals.</p>
       </div>
 
       <div class="services-tabs-nav fade-in" id="services-tabs-nav">
@@ -429,7 +434,7 @@
             <div class="tab-stat-desc">SEO Clients</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">18Yrs</div>
+            <div class="tab-stat-val gold">5Yrs</div>
             <div class="tab-stat-desc">Market Experience</div>
           </div>
         </div>
@@ -884,8 +889,8 @@
         <div class="why-card fade-in fade-in-delay-3">
           <div class="why-icon"><i class="fa-solid fa-rocket"></i></div>
           <div class="why-content">
-            <h3 class="why-title">18+ Years of Proven Success</h3>
-            <p class="why-desc">Our track record speaks for itself — 300+ marquee brands, 18+ years of experience, and
+            <h3 class="why-title">5+ Years of Proven Success</h3>
+            <p class="why-desc">Our track record speaks for itself — 300+ marquee brands, 5+ years of experience, and
               50+ industry awards make Rankmator India's most trusted digital partner.</p>
           </div>
         </div>

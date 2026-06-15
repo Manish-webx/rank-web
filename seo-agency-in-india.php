@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -316,7 +316,7 @@
             </div>
             <div class="trust-text">
               <strong>Trusted by 300+ Brands Across India</strong>
-              Google Premier Partner | 18+ Years of SEO Excellence
+              Google Premier Partner | 5+ Years of SEO Excellence
             </div>
           </div>
         </div>
@@ -368,7 +368,7 @@
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
               <i class="fa-solid fa-circle-check"
                 style="color: var(--secondary); font-size: 24px; margin-top: 2px;"></i>
-              <span>18+ years of SEO expertise across 300+ brands in e-commerce, SaaS, finance, healthcare, and
+              <span>5+ years of SEO expertise across 300+ brands in e-commerce, SaaS, finance, healthcare, and
                 more.</span>
             </li>
           </ul>
@@ -706,7 +706,7 @@
           </div>
           <div class="faq-answer">
             <p>We focus on revenue, not just rankings. Our strategies are tied directly to business goals with
-              transparent reporting, dedicated teams, and 18+ years of proven expertise.</p>
+              transparent reporting, dedicated teams, and 5+ years of proven expertise.</p>
           </div>
         </div>
         <div class="faq-item">

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -572,7 +572,7 @@
         <div class="trust-strip-item">
           <div class="trust-strip-icon"><i class="fa-solid fa-trophy"></i></div>
           <div class="trust-strip-text">
-            <strong>18+ Years</strong>
+            <strong>5+ Years</strong>
             <span>Digital Excellence</span>
           </div>
         </div>
