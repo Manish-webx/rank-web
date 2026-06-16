@@ -151,8 +151,8 @@
               </div>
               <div class="mega-col-promo">
                 <div class="mega-promo-tag">Free Resource</div>
-                <h4>Get Your Free Digital Growth Audit</h4>
-                <p>Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
+                <h4 class="mega-promo-title">Get Your Free Digital Growth Audit</h4>
+                <p class="mega-promo-desc">Uncover your biggest traffic &amp; revenue opportunities in 48 hours.</p>
                 <a href="contact.php" class="mega-promo-btn">Request Free Audit <i
                     class="fa-solid fa-arrow-right"></i></a>
               </div>
