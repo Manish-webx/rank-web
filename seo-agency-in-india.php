@@ -316,7 +316,7 @@
             </div>
             <div class="trust-text">
               <strong>Trusted by 300+ Brands Across India</strong>
-              Google Premier Partner | 5+ Years of SEO Excellence
+              5+ Years of SEO Excellence
             </div>
           </div>
         </div>
@@ -361,8 +361,8 @@
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">
               <i class="fa-solid fa-circle-check"
                 style="color: var(--secondary); font-size: 24px; margin-top: 2px;"></i>
-              <span>Google Premier Partner with proven track record of top-3 rankings across competitive
-                industries.</span>
+              <span>Proven track record of top-3 rankings across competitive industries.
+              </span>
             </li>
             <li
               style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; font-size: 18px; color: #475569;">

@@ -298,35 +298,30 @@
       <div class="about-grid">
         <div class="about-content fade-in">
           <div class="section-tag">Who We Are</div>
-          <h2 class="section-title">India's Premier Digital Marketing & SEO Agency</h2>
+          <h2 class="section-title">A Digital Marketing Agency Built Around Results, Not Excuses</h2>
           <p class="section-subtitle">
-            Rankmator is India's premier digital marketing and SEO powerhouse. With over 9 years of proven success, our
-            vision is to fuel transformational growth for 349+ clients by 2030. Ready to unlock your brand's complete
-            digital potential?
+            Rankmator is a digital marketing and SEO team focused on one thing — growth you can actually measure. We combine SEO, performance marketing and content strategy with a genuinely honest approach to reporting. No inflated numbers, no recycled strategies, just work that moves the needle for your business.
           </p>
           <div class="about-points">
             <div class="about-point">
               <div class="about-point-icon"><i class="fa-solid fa-robot" style="color:var(--primary);"></i></div>
               <div class="about-point-text">
-                <h4>Dedicated Teams for AI, Automation & Data Analytics</h4>
-                <p>Our specialized teams use AI, automation, and analytics to augment campaign performance and unlock
-                  new growth opportunities.</p>
+                <h4>AI-Powered Campaign Insights</h4>
+                <p>Our team uses AI and automation to spot opportunities faster and keep your campaigns ahead of algorithm changes.</p>
               </div>
             </div>
             <div class="about-point">
               <div class="about-point-icon"><i class="fa-solid fa-gears" style="color:var(--primary);"></i></div>
               <div class="about-point-text">
                 <h4>In-House Martech Capabilities</h4>
-                <p>Our in-house expertise in CRM, AI analytics, and marketing automation empowers businesses with
-                  data-driven, personalized solutions.</p>
+                <p>From CRM integration to marketing automation, we build the backend systems that make your data actually useful.</p>
               </div>
             </div>
             <div class="about-point">
               <div class="about-point-icon"><i class="fa-solid fa-medal" style="color:var(--secondary);"></i></div>
               <div class="about-point-text">
-                <h4>Google Premier Partner Agency</h4>
-                <p>As a Google Premier Partner, we have exclusive access to beta tools, advanced support, and insider
-                  insights to deliver superior performance.</p>
+                <h4>Built on Google's Best Practices</h4>
+                <p>We stay current with Google's official guidelines and certifications, so your campaigns are built on solid, compliant foundations.</p>
               </div>
             </div>
           </div>
@@ -373,10 +368,7 @@
       <div class="section-header fade-in">
         <div class="section-tag">What We Do</div>
         <h2 class="section-title">Data-Backed Services to Grow Your Revenue</h2>
-        <p class="section-subtitle">To experience 360° growth for your business, you need a 360° approach. Rankmator can
-          help. Our comprehensive digital marketing services help businesses increase visibility, attract qualified
-          leads, and drive sustainable revenue growth. From SEO and local SEO to performance marketing, web design, AI
-          marketing, and branding, Rankmator delivers data-driven strategies tailored to your business goals.</p>
+        <p class="section-subtitle">Real growth needs a full picture, not a single tactic. From SEO and local SEO to performance marketing, web design and branding, Rankmator builds strategies tailored to your business goals, not templated packages.</p>
       </div>
 
       <div class="services-tabs-nav fade-in" id="services-tabs-nav">

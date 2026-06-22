@@ -9,17 +9,7 @@
           Back</a>
       </div>
       <div class="cta-right">
-        <p class="cta-trust-text">Trusted by Google Premier Partner<br />& Top Rated Agency</p>
-        <div class="cta-trust-badges">
-          <div class="trust-badge-mini">
-            <i class="fa-brands fa-google" style="color:#4285F4;"></i>
-            <span>Google Partner<br /><small style="font-size:8px; opacity:0.6;">PREMIER 2025</small></span>
-          </div>
-          <div class="trust-badge-mini">
-            <span style="font-size:14px; font-weight:900;">Clutch</span>
-            <span class="clutch-stars">4.5 ★★★★★</span>
-          </div>
-        </div>
+        <p class="cta-trust-text">Award-Winning Performance<br /> Marketing Agency</p>
       </div>
     </div>
   </div>
@@ -36,14 +26,7 @@
         </div>
         <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational
           growth through digital excellence.</p>
-        <div class="trust-badges-main">
-          <div class="trust-item"><i class="fa-brands fa-google" style="color:#4285F4;"></i><span
-              class="label">Certified Partner</span></div>
-          <div class="trust-item dark"><i class="fa-solid fa-shield-halved" style="color:#7232ad;"></i><span
-              class="label" style="color:#fff;">SEMRUSH<br />Partner</span></div>
-          <div class="trust-item"><span style="font-size:14px;font-weight:900;color:#333;">Clutch</span><span
-              class="clutch-stars" style="font-size:9px;">4.5 ★★★</span></div>
-        </div>
+
       </div>
 
       <div class="footer-col">
@@ -100,9 +83,6 @@
       <div class="bottom-ratings">
         <div class="rating-item">
           <div class="rating-icon google">G</div> 4.1/5
-        </div>
-        <div class="rating-item">
-          <div class="rating-icon clutch">C</div> 4.5
         </div>
         <div class="rating-item">
           <div class="dmca-badge">DMCA</div> PROTECTED
