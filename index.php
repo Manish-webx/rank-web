@@ -387,8 +387,7 @@
       <div class="tab-panel active" id="panel-seo">
         <div class="tab-content fade-in">
           <h3>Search Engine Optimization</h3>
-          <p>Boost your website's visibility and drive organic traffic. Our enterprise-grade SEO frameworks have powered
-            transformational growth for global brands since 2006.</p>
+          <p>Boost your website's visibility and drive organic traffic with SEO frameworks built around how search actually works today, not five years ago.</p>
           <div class="service-features">
             <div class="service-feat">
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Enterprise SEO
@@ -414,20 +413,20 @@
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
           <div class="tab-stat-card">
-            <div class="tab-stat-val">309%</div>
+            <div class="tab-stat-val">4x</div>
+            <div class="tab-stat-desc">Avg. ROAS Delivered</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">300%+</div>
             <div class="tab-stat-desc">Avg. Traffic Growth</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">113%</div>
-            <div class="tab-stat-desc">Avg. Lead Boost</div>
+            <div class="tab-stat-val">100%</div>
+            <div class="tab-stat-desc">White Hat Techniques</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val">200+</div>
-            <div class="tab-stat-desc">SEO Clients</div>
-          </div>
-          <div class="tab-stat-card">
-            <div class="tab-stat-val gold">5Yrs</div>
-            <div class="tab-stat-desc">Market Experience</div>
+            <div class="tab-stat-val gold">Built for</div>
+            <div class="tab-stat-desc">Long-Term Ranking</div>
           </div>
         </div>
       </div>
@@ -458,7 +457,7 @@
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Voice Search Optimization
             </div>
           </div>
-          <a href="local-seo-services.php" class="btn btn-primary">Go Local <i class="fa-solid fa-arrow-right"
+          <a href="local-seo-services.php" class="btn btn-primary">Dominate Local <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
         <div class="tab-stat-grid fade-in fade-in-delay-2">
@@ -516,16 +515,16 @@
             <div class="tab-stat-desc">Avg. ROAS Delivered</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">60%</div>
-            <div class="tab-stat-desc">Reduction in CPA</div>
+            <div class="tab-stat-val gold">40%</div>
+            <div class="tab-stat-desc">Avg. CPL Reduction</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val">150+</div>
-            <div class="tab-stat-desc">Campaigns Managed</div>
+            <div class="tab-stat-val">100%</div>
+            <div class="tab-stat-desc">Transparent Ad Spend</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">₹500Cr+</div>
-            <div class="tab-stat-desc">Ad Spend Managed</div>
+            <div class="tab-stat-val gold">Built</div>
+            <div class="tab-stat-desc">Around Your Budget</div>
           </div>
         </div>
       </div>
@@ -565,16 +564,16 @@
             <div class="tab-stat-desc">Engagement Rate Boost</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">1M+</div>
-            <div class="tab-stat-desc">Community Members</div>
-          </div>
-          <div class="tab-stat-card">
-            <div class="tab-stat-val">200+</div>
+            <div class="tab-stat-val gold">200+</div>
             <div class="tab-stat-desc">Brand Voices Built</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">30%</div>
+            <div class="tab-stat-val">30%</div>
             <div class="tab-stat-desc">Viral Potential Increase</div>
+          </div>
+          <div class="tab-stat-card">
+            <div class="tab-stat-val gold">Consistent</div>
+            <div class="tab-stat-desc">Performance Reporting</div>
           </div>
         </div>
       </div>
@@ -671,8 +670,8 @@
             <div class="tab-stat-desc">Stores Managed</div>
           </div>
           <div class="tab-stat-card">
-            <div class="tab-stat-val gold">₹200Cr+</div>
-            <div class="tab-stat-desc">E-com Revenue Driven</div>
+            <div class="tab-stat-val gold">Built Around</div>
+            <div class="tab-stat-desc">Your Catalog</div>
           </div>
         </div>
       </div>
@@ -797,31 +796,13 @@
             <div class="service-feat">
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>Customer BI Dashboards
             </div>
-            <div class="service-feat">
               <div class="feat-check"><i class="fa-solid fa-check"></i></div>ML Implementation
             </div>
           </div>
           <a href="contact.php" class="btn btn-primary">Future Proof Now <i class="fa-solid fa-arrow-right"
               style="margin-left:8px;"></i></a>
         </div>
-        <div class="tab-stat-grid fade-in fade-in-delay-2">
-          <div class="tab-stat-card">
-            <div class="tab-stat-val">40%</div>
-            <div class="tab-stat-desc">Avg. Efficiency Gain</div>
-          </div>
-          <div class="tab-stat-card">
-            <div class="tab-stat-val gold">3.5x</div>
-            <div class="tab-stat-desc">Growth in Scaling</div>
-          </div>
-          <div class="tab-stat-card">
-            <div class="tab-stat-val">50+</div>
-            <div class="tab-stat-desc">AI Models Deployed</div>
-          </div>
-          <div class="tab-stat-card">
-            <div class="tab-stat-val gold">#1</div>
-            <div class="tab-stat-desc">Martech ROI Improvement</div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -834,56 +815,49 @@
       <div class="section-header fade-in">
         <div class="section-tag">Why Rankmator</div>
         <h2 class="section-title">The Rankmator Advantage</h2>
-        <p class="section-subtitle">We don't just run campaigns — we build digital growth engines. Here's what sets us
-          apart from every other digital marketing agency in India.</p>
+        <p class="section-subtitle">We don't just run campaigns, we build digital growth engines. Here's what actually sets us apart from another agency promising the same thing.</p>
       </div>
       <div class="why-grid">
         <div class="why-card fade-in">
           <div class="why-icon"><i class="fa-solid fa-robot"></i></div>
           <div class="why-content">
-            <h3 class="why-title">AI-Powered SEO & Marketing</h3>
-            <p class="why-desc">We leverage cutting-edge AI tools and proprietary algorithms to stay ahead of algorithm
-              updates and drive consistent, compounding organic growth for your brand.</p>
+            <h3 class="why-title">AI-Powered SEO &amp; Marketing</h3>
+            <p class="why-desc">We use AI tools and data models to stay ahead of algorithm updates and drive consistent, compounding organic growth for your brand.</p>
           </div>
         </div>
         <div class="why-card fade-in fade-in-delay-1">
           <div class="why-icon"><i class="fa-solid fa-chart-bar"></i></div>
           <div class="why-content">
             <h3 class="why-title">Data-Driven Decision Making</h3>
-            <p class="why-desc">Every strategy is backed by granular data analysis. We track, measure, and optimize
-              across all channels to ensure every campaign delivers maximum ROI.</p>
+            <p class="why-desc">Every strategy is backed by real data analysis. We track, measure and optimize across channels to make sure every campaign earns its budget.</p>
           </div>
         </div>
         <div class="why-card fade-in fade-in-delay-2">
           <div class="why-icon"><i class="fa-solid fa-medal"></i></div>
           <div class="why-content">
-            <h3 class="why-title">Google Premier Partner</h3>
-            <p class="why-desc">As a Google Premier Partner, we get exclusive early access to beta features, direct
-              Google support, and advanced training — giving your campaigns a decisive edge.</p>
+            <h3 class="why-title">Built on Google's Best Practices</h3>
+            <p class="why-desc">We follow Google's official guidelines and stay current with every algorithm update, so your campaigns are built on a compliant, future-proof foundation.</p>
           </div>
         </div>
         <div class="why-card fade-in fade-in-delay-1">
           <div class="why-icon"><i class="fa-solid fa-bullseye"></i></div>
           <div class="why-content">
             <h3 class="why-title">Full-Funnel Marketing</h3>
-            <p class="why-desc">From brand awareness to conversion and retention — we cover the complete customer
-              lifecycle with integrated strategies that create compounding growth over time.</p>
+            <p class="why-desc">From awareness to conversion to retention, we cover the full customer lifecycle with strategies that compound over time instead of resetting every month.</p>
           </div>
         </div>
         <div class="why-card fade-in fade-in-delay-2">
           <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <div class="why-content">
             <h3 class="why-title">Transparent Reporting</h3>
-            <p class="why-desc">Real-time dashboards, weekly reports, and dedicated account managers ensure you always
-              know exactly what we're doing, why, and what results it's delivering.</p>
+            <p class="why-desc">Real dashboards, regular reports and direct access to the people running your campaign, so you always know exactly what's happening and why.</p>
           </div>
         </div>
         <div class="why-card fade-in fade-in-delay-3">
           <div class="why-icon"><i class="fa-solid fa-rocket"></i></div>
           <div class="why-content">
-            <h3 class="why-title">5+ Years of Proven Success</h3>
-            <p class="why-desc">Our track record speaks for itself — 300+ marquee brands, 5+ years of experience, and
-              50+ industry awards make Rankmator India's most trusted digital partner.</p>
+            <h3 class="why-title">A Team That Actually Cares About Your Numbers</h3>
+            <p class="why-desc">We treat your revenue like it's our own. Every campaign is judged by one thing, whether it actually moved your business forward.</p>
           </div>
         </div>
       </div>
@@ -905,8 +879,7 @@
       <div class="section-header fade-in">
         <div class="section-tag">Client Love</div>
         <h2 class="section-title">What Our Clients Say</h2>
-        <p class="section-subtitle">Don't take our word for it — hear directly from the marketers, CMOs, and founders
-          who have experienced transformational growth with Rankmator.</p>
+        <p class="section-subtitle">Real feedback from the businesses we've worked with, before the big logos catch up.</p>
       </div>
 
       <div class="testi-slider fade-in">
@@ -914,98 +887,72 @@
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">Rankmator has completely transformed our digital presence. Their SEO strategy
-              delivered exceptional results — we saw a 3x increase in organic traffic within just 6 months. Their team
-              is highly professional, data-driven, and always ahead of the curve.</p>
+            <p class="testi-text">We'd tried two SEO agencies before Rankmator and neither delivered real movement. Within four months of working with their team, we were ranking on page one for keywords we'd been chasing for over a year. Genuinely the best SEO investment we've made.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--gradient-blue);">R</div>
+              <div class="testi-avatar" style="background:#1a73e8;">A</div>
               <div>
-                <div class="testi-name">Rahul Kapoor</div>
-                <div class="testi-role">VP Marketing, RBL Bank</div>
+                <div class="testi-name">Arjun Mehta</div>
+                <div class="testi-role">Founder, D2C Skincare Brand</div>
               </div>
             </div>
           </div>
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">Working with Rankmator has been a game changer for our e-commerce platform. Their
-              integrated approach combining SEO, PPC, and content marketing drove a 5x ROAS on our paid campaigns while
-              doubling our organic traffic.</p>
+            <p class="testi-text">Our Google Ads spend was all over the place before Rankmator stepped in with a proper performance marketing strategy. They restructured our campaigns, cut cost-per-lead nearly in half and doubled our qualified enquiries within weeks.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--gradient-gold);">P</div>
+              <div class="testi-avatar" style="background:#f5a623;">S</div>
               <div>
-                <div class="testi-name">Priya Sharma</div>
-                <div class="testi-role">Head of Digital, BigBasket</div>
+                <div class="testi-name">Sonal Kapoor</div>
+                <div class="testi-role">Marketing Head, Real Estate Developer</div>
               </div>
             </div>
           </div>
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">The Martech implementation by Rankmator gave us a 360° view of our customer journey.
-              Their CRM integration and automation workflows saved us countless hours and significantly improved our
-              lead nurturing effectiveness.</p>
+            <p class="testi-text">As a local clinic, we needed visibility in our own city, not the whole country. Rankmator's local SEO work got us to the top of Google Maps results for our area, and patient enquiries from search have nearly tripled since.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--accent-purple);">A</div>
+              <div class="testi-avatar" style="background:#7c3aed;">P</div>
               <div>
-                <div class="testi-name">Amit Verma</div>
-                <div class="testi-role">CMO, NIIT Technologies</div>
+                <div class="testi-name">Dr. Pooja Varshney</div>
+                <div class="testi-role">Owner, Healthcare Clinic, Delhi</div>
               </div>
             </div>
           </div>
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">The multi-region SEO strategy developed by Rankmator has been phenomenal. We achieved
-              top rankings across all our key target cities within just 4 months, leading to a significant increase in
-              policy inquiries and customer trust.</p>
+            <p class="testi-text">Our e-commerce store's organic traffic grew significantly within five months of their SEO and content work. More importantly it actually converted. The strategy felt built specifically for our business, not a copy paste template.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--accent-teal);color:#000;">S</div>
+              <div class="testi-avatar" style="background:#0891b2;">N</div>
               <div>
-                <div class="testi-name">Sunita Menon</div>
-                <div class="testi-role">Director Digital, HDFC Life</div>
+                <div class="testi-name">Neha Joshi</div>
+                <div class="testi-role">Co-founder, Online Fashion Label</div>
               </div>
             </div>
           </div>
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">Rankmator's performance marketing team is simply the best in the business. Our
-              acquisition costs dropped by 40% while doubling our monthly user growth. They truly understand how to
-              scale a high-growth consumer platform.</p>
+            <p class="testi-text">We brought Rankmator in for a full website redesign and came away with a site that actually converts. Clean web design, fast load times and a UX that finally matches the quality of our product.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--primary);">N</div>
+              <div class="testi-avatar" style="background:#0868A0;">R</div>
               <div>
-                <div class="testi-name">Neeraj Chopra</div>
-                <div class="testi-role">VP Operations, Swiggy</div>
+                <div class="testi-name">Rohit Verma</div>
+                <div class="testi-role">CEO, EdTech Startup</div>
               </div>
             </div>
           </div>
           <div class="testi-card">
             <div class="testi-stars">★★★★★</div>
             <div class="testi-quote">"</div>
-            <p class="testi-text">As a specialized e-commerce brand, we needed an agency that understood both aesthetics
-              and conversions. Rankmator delivered on both fronts, helping us achieve a 6x ROAS and a much stronger
-              brand identity.</p>
+            <p class="testi-text">The social media strategy they built for our launch outperformed every benchmark we set internally. Clear weekly reporting, consistent content and an ad spend that finally felt like it was working for us.</p>
             <div class="testi-author">
-              <div class="testi-avatar" style="background:var(--secondary);">A</div>
+              <div class="testi-avatar" style="background:#6BAB44;">P</div>
               <div>
-                <div class="testi-name">Anjali Rai</div>
-                <div class="testi-role">Founder, StyleHub</div>
-              </div>
-            </div>
-          </div>
-          <div class="testi-card">
-            <div class="testi-stars">★★★★★</div>
-            <div class="testi-quote">"</div>
-            <p class="testi-text">Our app downloads grew by 200% within three months of engaging Rankmator for our
-              mobile marketing strategy. Their app store optimization and paid UA campaigns gave us incredible ROI.
-              Highly recommended!</p>
-            <div class="testi-author">
-              <div class="testi-avatar" style="background:linear-gradient(135deg,#f0a500,#ff6b35);">K</div>
-              <div>
-                <div class="testi-name">Karan Mehta</div>
-                <div class="testi-role">CTO, PolicyBazaar App</div>
+                <div class="testi-name">Priya Tiwari</div>
+                <div class="testi-role">Brand Manager, FMCG Company</div>
               </div>
             </div>
           </div>
@@ -1033,83 +980,111 @@
       <div class="section-header fade-in">
         <div class="section-tag" style="color:var(--secondary-light);">Common Queries</div>
         <h2 class="section-title" style="color:#fff;">Frequently Asked Questions</h2>
-        <p class="section-subtitle" style="color:rgba(255,255,255,0.7);">Your growth journey often starts with
-          questions. Here are the most common ones we encounter from brands looking to scale.</p>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.7);">Your growth journey often starts with questions. Here are the ones we hear most from brands looking to scale.</p>
       </div>
 
       <div class="faq-container fade-in">
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What can Rankmator SEO service do for my business in Kolkata?</h4>
+            <h4>How do I choose the right digital marketing agency in India?</h4>
             <div class="faq-icon">
               <i class="fa-solid fa-circle-plus icon-plus"></i>
               <i class="fa-solid fa-circle-xmark icon-close"></i>
             </div>
           </div>
           <div class="faq-answer">
-            <p>As a top SEO company in Kolkata, Rankmator helps your business rank higher on Google, attract more local
-              customers, and increase conversions. Our SEO experts optimize your website and content to drive measurable
-              growth in Kolkata's digital market.</p>
+            <p>Look past the pitch deck. Check for clear strategy, transparent reporting and proof of real results, not just promises. That's exactly how we'd want you to evaluate Rankmator too.</p>
           </div>
         </div>
 
         <div class="faq-item">
           <div class="faq-question">
-            <h4>How does Rankmator's SEO strategy differ from other agencies in Delhi?</h4>
+            <h4>What services does a digital marketing agency in India actually offer?</h4>
             <div class="faq-icon">
               <i class="fa-solid fa-circle-plus icon-plus"></i>
               <i class="fa-solid fa-circle-xmark icon-close"></i>
             </div>
           </div>
           <div class="faq-answer">
-            <p>Unlike other agencies in Delhi, Rankmator utilizes AI-powered proprietary tools to identify high-intent
-              keywords and competitor gaps. Our strategy focuses on "Search Intelligence" rather than just rankings,
-              ensuring your traffic actually converts into revenue.</p>
+            <p>A proper one covers SEO, performance marketing, social media, content and web design under one roof, so your strategy stays connected instead of scattered across five different freelancers.</p>
           </div>
         </div>
 
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Does Rankmator offer AI-driven or LLM-optimized SEO solutions?</h4>
+            <h4>How much does digital marketing cost in India?</h4>
             <div class="faq-icon">
               <i class="fa-solid fa-circle-plus icon-plus"></i>
               <i class="fa-solid fa-circle-xmark icon-close"></i>
             </div>
           </div>
           <div class="faq-answer">
-            <p>Yes, we are at the forefront of AI-driven SEO. We optimize for Generative Search Experiences (like
-              Google's SGE) and ensuring your brand is the top 'suggested' result in LLM-based searches (ChatGPT,
-              Perplexity), preparing you for the future of search.</p>
+            <p>It varies widely based on scope, typically anywhere from a modest monthly retainer for a small business to a much larger spend for enterprise campaigns. We'll give you an honest number after understanding your goals, not a generic price list.</p>
           </div>
         </div>
 
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What are the top SEO trends businesses in Delhi should focus on?</h4>
+            <h4>How long does SEO take to show results?</h4>
             <div class="faq-icon">
               <i class="fa-solid fa-circle-plus icon-plus"></i>
               <i class="fa-solid fa-circle-xmark icon-close"></i>
             </div>
           </div>
           <div class="faq-answer">
-            <p>For Delhi businesses, the focus has shifted to Hyper-local SEO, Video SEO for YouTube rankings, and
-              E-E-A-T (Experience, Expertise, Authoritativeness, Trust). We specialize in building this multi-channel
-              authority that search engines now prioritize.</p>
+            <p>Usually three to six months for meaningful movement, longer for competitive industries. Anyone promising page one rankings in two weeks is not being straight with you.</p>
           </div>
         </div>
 
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Can SEO help local Delhi businesses compete with national brands?</h4>
+            <h4>Do I need separate agencies for SEO and social media marketing?</h4>
             <div class="faq-icon">
               <i class="fa-solid fa-circle-plus icon-plus"></i>
               <i class="fa-solid fa-circle-xmark icon-close"></i>
             </div>
           </div>
           <div class="faq-answer">
-            <p>Absolutely. Local SEO allows you to dominate "near me" searches and local map packs. By winning the local
-              context, small-to-mid sized Delhi businesses can often outrank massive national brands that lack a
-              localized digital footprint.</p>
+            <p>No, and you probably shouldn't. Keeping SEO, social and performance marketing under one team means your messaging and data stay consistent across channels instead of working against each other.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Will I own my website, ad accounts and content after the project ends?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, always. Everything we build — your website, your ad accounts, your content — stays fully yours. If an agency won't confirm this in writing, that's a red flag worth noticing.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How do I know if an agency is actually delivering results?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Ask for real reporting, not vanity metrics. Traffic, leads, conversions and cost per lead tell the real story. We send this on a regular schedule, not just when you ask.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Can a small business really compete with bigger brands through digital marketing?</h4>
+            <div class="faq-icon">
+              <i class="fa-solid fa-circle-plus icon-plus"></i>
+              <i class="fa-solid fa-circle-xmark icon-close"></i>
+            </div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, often more effectively than expected. Strong SEO and targeted performance marketing let smaller businesses outrank and outperform competitors with far bigger budgets.</p>
           </div>
         </div>
       </div>

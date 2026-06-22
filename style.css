@@ -2174,44 +2174,113 @@ textarea {
 .footer-cta-wrapper {
   position: relative;
   z-index: 5;
-  margin-bottom: -50px;
+  margin-bottom: -60px;
+  padding: 0 0 20px;
 }
 
 .footer-cta-banner {
-  background: linear-gradient(135deg, #0868A0 0%, #054e78 100%);
-  border-radius: 20px;
-  padding: 40px 60px;
+  border-radius: 24px;
+  padding: 52px 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  gap: 48px;
+  box-shadow: 0 30px 60px rgba(5, 78, 120, 0.35), 0 0 0 1px rgba(255,255,255,0.08) inset;
   color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #054e78 0%, #0868A0 50%, #0a7abf 100%);
+}
+
+.footer-cta-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+
+/* animated glow orbs */
+.fcta-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fcta-pulse 6s ease-in-out infinite;
+}
+.fcta-orb-1 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(107,171,68,0.18) 0%, transparent 70%);
+  top: -100px;
+  right: 80px;
+  animation-delay: 0s;
+}
+.fcta-orb-2 {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+  bottom: -60px;
+  left: 40px;
+  animation-delay: 3s;
+}
+@keyframes fcta-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.7; }
+}
+
+/* pill badge */
+.fcta-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(107,171,68,0.18);
+  border: 1px solid rgba(107,171,68,0.4);
+  color: #a3d977;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 100px;
+  margin-bottom: 18px;
+}
+
+.cta-left {
+  flex: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .cta-left h2 {
-  font-size: 28px;
+  font-size: clamp(22px, 2.4vw, 30px);
   font-weight: 800;
-  line-height: 1.3;
-  margin-bottom: 20px;
-  max-width: 500px;
+  line-height: 1.35;
+  margin-bottom: 28px;
+  max-width: 560px;
+  color: #fff;
 }
 
 .cta-btn-alt {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   background: #6BAB44;
   color: #fff;
-  padding: 14px 28px;
-  border-radius: 30px;
+  padding: 15px 32px;
+  border-radius: 100px;
   font-weight: 700;
+  font-size: 15px;
   border: none;
   cursor: pointer;
-  transition: var(--transition);
-  box-shadow: 0 10px 20px rgba(107, 171, 68, 0.3);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(107, 171, 68, 0.35);
+  text-decoration: none;
 }
 
 .cta-btn-alt:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 25px rgba(107, 171, 68, 0.4);
+  box-shadow: 0 14px 32px rgba(107, 171, 68, 0.5);
   background: #7cc250;
 }
 
@@ -2219,14 +2288,57 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 12px;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
 }
 
-.cta-trust-text {
-  font-size: 16px;
+/* stat chips on the right */
+.fcta-stats {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 20px 28px;
+  backdrop-filter: blur(8px);
+}
+
+.fcta-stat {
+  text-align: center;
+  padding: 0 24px;
+}
+
+.fcta-stat-val {
+  font-size: 32px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.fcta-stat-label {
+  font-size: 11px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.fcta-stat-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255,255,255,0.15);
+  flex-shrink: 0;
+}
+
+.fcta-note {
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.5);
   text-align: right;
+  line-height: 1.6;
 }
 
 .cta-trust-badges {

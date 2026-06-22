@@ -2,14 +2,33 @@
 <div class="footer-cta-wrapper">
   <div class="container">
     <div class="footer-cta-banner fade-in">
+      <div class="fcta-orb fcta-orb-1"></div>
+      <div class="fcta-orb fcta-orb-2"></div>
       <div class="cta-left">
-        <h2>Are You Ready for Transformational Growth for Your Business?</h2>
-        <a href="contact.php" class="cta-btn-alt"
-          onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'}); return false;">Request a Call
-          Back</a>
+        <div class="fcta-pill"><i class="fa-solid fa-bolt"></i> Ready to grow?</div>
+        <h2>Working across SEO, performance marketing, web design and social media for brands who actually want to grow, not just look busy.</h2>
+        <a href="contact.php" class="cta-btn-alt">
+          Request a Call Back <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i>
+        </a>
       </div>
       <div class="cta-right">
-        <p class="cta-trust-text">Award-Winning Performance<br /> Marketing Agency</p>
+        <div class="fcta-stats">
+          <div class="fcta-stat">
+            <div class="fcta-stat-val">300+</div>
+            <div class="fcta-stat-label">Brands Grown</div>
+          </div>
+          <div class="fcta-stat-divider"></div>
+          <div class="fcta-stat">
+            <div class="fcta-stat-val">5+</div>
+            <div class="fcta-stat-label">Years of Results</div>
+          </div>
+          <div class="fcta-stat-divider"></div>
+          <div class="fcta-stat">
+            <div class="fcta-stat-val">4x</div>
+            <div class="fcta-stat-label">Avg. ROAS</div>
+          </div>
+        </div>
+        <p class="fcta-note">No retainer lock-ins. No templated packages.<br/>Just work that moves your business forward.</p>
       </div>
     </div>
   </div>
