@@ -94,7 +94,8 @@
   <div class="footer-bottom-bar">
     <div class="container footer-bottom-inner">
       <div class="bottom-socials">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61587617454050" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/rankmator/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-youtube"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
