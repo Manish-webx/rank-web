@@ -477,41 +477,50 @@
       color: #fff;
     }
 
-    /* ── Trust Strip ── */
+    /* ── Trust Strip (Stats Boxes) ── */
     .trust-strip {
-      display: flex;
-      gap: 40px;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding: 50px 0;
-      border-top: 1px solid #e2e8f0;
-      border-bottom: 1px solid #e2e8f0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
       margin: 60px 0;
     }
 
+    @media (max-width: 900px) {
+      .trust-strip {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .trust-strip {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .trust-strip-item {
+      background: #065A8A;
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 14px;
+      justify-content: center;
     }
 
-    .trust-strip-icon {
+    .trust-strip-val {
       font-size: 36px;
-      color: var(--primary);
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 8px;
+      line-height: 1;
     }
 
-    .trust-strip-text strong {
-      display: block;
-      font-size: 22px;
-      font-weight: 900;
-      color: var(--text-primary);
-    }
-
-    .trust-strip-text span {
-      font-size: 13px;
-      color: #64748b;
+    .trust-strip-label {
+      font-size: 14px;
+      color: #fff;
       font-weight: 500;
+      line-height: 1.4;
     }
   </style>
 </head>
@@ -531,9 +540,10 @@
         <div class="contact-hero-dot"></div>
         We Reply Within 24 Hours
       </div>
-      <h1>Let's Build Something<br /><span class="highlight">Extraordinary Together</span></h1>
-      <p>Whether you're looking to grow organic traffic, scale your ad campaigns, or rebuild your entire digital
-        presence — our experts are ready to craft your custom growth strategy.</p>
+      <h1>Let's Build Something<br /><span class="highlight">Worth Ranking For.</span></h1>
+      <p>Tell us what's broken in your marketing. We will act surprised, then fix it anyway.<br />Whether your traffic
+        has gone quiet, your ad spend is vanishing into nothing or your entire digital presence needs a rebuild, that is
+        exactly the kind of mess a digital marketing agency like us exists to fix.</p>
       <a href="#main-form" class="btn btn-green"
         style="display:inline-flex;align-items:center;gap:10px;font-size:17px;padding:16px 40px;">
         <i class="fa-solid fa-paper-plane"></i> Send Us a Message
@@ -570,39 +580,20 @@
     <div class="container">
       <div class="trust-strip">
         <div class="trust-strip-item">
-          <div class="trust-strip-icon"><i class="fa-solid fa-trophy"></i></div>
-          <div class="trust-strip-text">
-            <strong>5+ Years</strong>
-            <span>Digital Excellence</span>
-          </div>
+          <div class="trust-strip-val">4x</div>
+          <div class="trust-strip-label">avg roas delivered</div>
         </div>
         <div class="trust-strip-item">
-          <div class="trust-strip-icon"><i class="fa-solid fa-users"></i></div>
-          <div class="trust-strip-text">
-            <strong>300+</strong>
-            <span>Clients Transformed</span>
-          </div>
+          <div class="trust-strip-val">300%</div>
+          <div class="trust-strip-label">avg traffic growth</div>
         </div>
         <div class="trust-strip-item">
-          <div class="trust-strip-icon"><i class="fa-brands fa-google" style="color:#4285F4;"></i></div>
-          <div class="trust-strip-text">
-            <strong>Premier Partner</strong>
-            <span>Google Certified 2025</span>
-          </div>
+          <div class="trust-strip-val">&lt;24hr</div>
+          <div class="trust-strip-label">response guarantee</div>
         </div>
         <div class="trust-strip-item">
-          <div class="trust-strip-icon"><i class="fa-solid fa-award"></i></div>
-          <div class="trust-strip-text">
-            <strong>50+ Awards</strong>
-            <span>Industry Recognition</span>
-          </div>
-        </div>
-        <div class="trust-strip-item">
-          <div class="trust-strip-icon"><i class="fa-solid fa-clock"></i></div>
-          <div class="trust-strip-text">
-            <strong>&lt; 24hr</strong>
-            <span>Response Guarantee</span>
-          </div>
+          <div class="trust-strip-val">100%</div>
+          <div class="trust-strip-label">transparent reporting</div>
         </div>
       </div>
     </div>
@@ -618,6 +609,9 @@
           <!-- Corporate Office -->
           <div class="info-panel-card">
             <h3><i class="fa-solid fa-building"></i> Contact Info</h3>
+            <p style="color:#64748b;font-size:15px;margin-bottom:20px;"><strong>(Where we work
+                from):</strong><br />Officially, we're a digital marketing agency based out of Delhi NCR. Practically,
+              wherever there is good chai and a strong internet connection.</p>
             <div class="info-row">
               <div class="info-row-icon"><i class="fa-solid fa-envelope"></i></div>
               <div class="info-row-text">
@@ -721,48 +715,79 @@
       <div class="section-header">
         <div class="section-tag" style="color:var(--secondary);">Before You Reach Out</div>
         <h2 class="section-title" style="color:#fff;">Frequently Asked Questions</h2>
-        <p class="section-subtitle" style="color:rgba(255,255,255,0.8);">Here are the most common questions we get from
-          businesses looking to grow with Rankmator.</p>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.8);">Questions You're Probably Already Thinking.
+          Answered.</p>
       </div>
       <div class="faq-container">
         <div class="faq-item">
           <div class="faq-question">
-            <h4>How quickly will you respond to my enquiry?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>How fast do you actually reply?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We guarantee a response within 24 business hours. In most cases, you'll hear from one of our growth
-              strategists within a few hours during regular business hours (Monday–Saturday, 9 AM – 7 PM IST).</p>
+            <p>Within 24 hours, usually sooner. If we're slow, something has genuinely gone wrong, not just "swamped
+              with clients."</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>What happens after I submit the contact form?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>What happens right after I submit the form?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>A dedicated growth strategist will review your enquiry and reach out to schedule a free 30-minute
-              discovery call. On the call, we'll discuss your business goals, current marketing efforts, challenges, and
-              rough budget range. We'll then prepare a customized proposal within 3-5 business days.</p>
+            <p>We go through what you've shared, look up your brand properly and book a short call to understand the
+              actual problem before suggesting anything.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Do you work with small businesses or only large enterprises?</h4><i
-              class="fa-solid fa-plus faq-icon"></i>
+            <h4>Do you only work with big brands?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>We work with businesses of all sizes — from growing startups to Fortune 500 brands. Our service packages
-              are flexible and scalable, designed to deliver maximum ROI regardless of your current marketing budget.
-              We'll recommend the right engagement model based on your specific goals and resources.</p>
+            <p>No. We work with anyone serious about growing, whether that's SEO, paid ads or a full digital marketing
+              overhaul. A small business with a clear goal matters more to us than a big logo with no direction.</p>
           </div>
         </div>
         <div class="faq-item">
           <div class="faq-question">
-            <h4>Can I visit your office for a meeting?</h4><i class="fa-solid fa-plus faq-icon"></i>
+            <h4>Do you have an office I can visit?</h4><i class="fa-solid fa-plus faq-icon"></i>
           </div>
           <div class="faq-answer">
-            <p>Absolutely. We welcome in-person meetings at our New Delhi corporate office. Please contact us to
-              schedule an appointment. We also conduct virtual meetings via Google Meet or Zoom for clients across India
-              and internationally.</p>
+            <p>No, we're remote first. It keeps our costs down, which means better pricing for you. All meetings happen
+              over a call, fully prepared, no excuses.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Will I actually be talking to the people doing my work?</h4><i class="fa-solid fa-plus faq-icon"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes. No account manager nodding along and forwarding your emails. You talk to whoever is actually running
+              your campaign.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How do you decide what strategy fits us?</h4><i class="fa-solid fa-plus faq-icon"></i>
+          </div>
+          <div class="faq-answer">
+            <p>We look at your goals, your audience and what's currently working or not, then build from there. Nothing
+              copy pasted from another client's plan.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>What if I don't like the first strategy you propose?</h4><i class="fa-solid fa-plus faq-icon"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Tell us. We'd rather revise it twice than deliver something you're not convinced about.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How involved do I need to be once we start?</h4><i class="fa-solid fa-plus faq-icon"></i>
+          </div>
+          <div class="faq-answer">
+            <p>As much or as little as you want. We'll keep you updated regularly either way, you won't have to chase us
+              for status.</p>
           </div>
         </div>
       </div>
