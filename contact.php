@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Us | Rankmator — Digital Marketing Agency</title>
+  <title>Contact Uss | Rankmator — Digital Marketing Agency</title>
   <meta name="description"
     content="Get in touch with Rankmator's digital marketing experts. We're here to help you grow your business with SEO, Google Ads, Social Media, and Performance Marketing services." />
   <?php include 'links.php'; ?>
