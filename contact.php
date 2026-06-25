@@ -657,9 +657,11 @@
             <p style="color:#64748b;font-size:15px;margin-bottom:20px;">Stay connected for the latest digital marketing
               insights, case studies, and industry news.</p>
             <div class="social-follow">
-              <a href="https://www.facebook.com/profile.php?id=61587617454050" target="_blank" class="social-btn fb"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+              <a href="https://www.facebook.com/profile.php?id=61587617454050" target="_blank" class="social-btn fb"><i
+                  class="fa-brands fa-facebook-f"></i> Facebook</a>
               <a href="#" class="social-btn ln"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
-              <a href="https://www.instagram.com/rankmator/" target="_blank" class="social-btn ig"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a href="https://www.instagram.com/rankmator/" target="_blank" class="social-btn ig"><i
+                  class="fa-brands fa-instagram"></i> Instagram</a>
               <a href="#" class="social-btn yt"><i class="fa-brands fa-youtube"></i> YouTube</a>
             </div>
           </div>
