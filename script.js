@@ -258,7 +258,8 @@
       if (animate) isTransitioning = true;
       const firstCard = track.querySelector('.testi-card');
       if (!firstCard) return;
-      const cardWidth = firstCard.offsetWidth + 24; // gap = 24px
+      const gap = parseFloat(window.getComputedStyle(track).gap) || 24;
+      const cardWidth = firstCard.offsetWidth + gap;
       track.style.transition = animate ? 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)' : 'none';
       track.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
       updateDots();

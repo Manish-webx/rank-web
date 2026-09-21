@@ -45,7 +45,10 @@
         </div>
         <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational
           growth through digital excellence.</p>
-
+        <div style="margin-top:16px;display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="team.php" style="color:var(--text-white);font-size:13px;font-weight:600;opacity:0.85;text-decoration:none;"><i class="fa-solid fa-users" style="color:var(--secondary);margin-right:6px;"></i>Our Team</a>
+          <a href="contact.php" style="color:var(--text-white);font-size:13px;font-weight:600;opacity:0.85;text-decoration:none;"><i class="fa-solid fa-envelope" style="color:var(--secondary);margin-right:6px;"></i>Contact Us</a>
+        </div>
       </div>
 
       <div class="footer-col">
@@ -111,6 +114,30 @@
     </div>
   </div>
 </footer>
+
+<!-- Mobile Floating CTA Bar -->
+<div class="mobile-cta-bar" id="mobile-cta-bar">
+  <a href="contact.php" class="mobile-cta-item">
+    <div class="mobile-cta-icon">
+      <i class="fa-regular fa-calendar-check"></i>
+    </div>
+    <span class="mobile-cta-text">Book Now</span>
+  </a>
+  <div class="mobile-cta-divider"></div>
+  <a href="tel:+919560864432" class="mobile-cta-item">
+    <div class="mobile-cta-icon">
+      <i class="fa-solid fa-phone"></i>
+    </div>
+    <span class="mobile-cta-text">Call Now</span>
+  </a>
+  <div class="mobile-cta-divider"></div>
+  <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Rankmator!" target="_blank" rel="noopener noreferrer" class="mobile-cta-item">
+    <div class="mobile-cta-icon">
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <span class="mobile-cta-text">WhatsApp</span>
+  </a>
+</div>
 
 <!-- Scroll to Top -->
 <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-chevron-up"></i></button>

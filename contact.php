@@ -522,6 +522,64 @@
       font-weight: 500;
       line-height: 1.4;
     }
+
+    @media (max-width: 768px) {
+      .contact-hero {
+        padding: 50px 0 70px;
+      }
+
+      .contact-hero h1 {
+        font-size: clamp(28px, 7vw, 40px);
+      }
+
+      .contact-hero p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 28px;
+      }
+
+      .contact-pillars {
+        margin-top: -30px;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+
+      .pillar-card {
+        padding: 24px 20px;
+      }
+
+      .contact-form-panel {
+        padding: 28px 20px;
+        border-radius: 20px;
+        position: static !important;
+      }
+
+      .contact-form-panel h2 {
+        font-size: 24px;
+      }
+
+      .contact-form-panel>p {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+
+      .info-panel-card {
+        padding: 24px 20px;
+      }
+
+      .map-header {
+        padding: 24px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+      }
+
+      .map-placeholder {
+        height: 260px;
+        padding: 20px;
+      }
+    }
   </style>
 </head>
 

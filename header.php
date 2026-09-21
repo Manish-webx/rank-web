@@ -156,6 +156,7 @@
             <a href="#"><i class="fa-solid fa-hotel"></i>Hospitality</a>
           </div>
         </li>
+        <li class="nav-item"><a href="team.php" class="nav-link">Our Team</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
       </ul>
 
