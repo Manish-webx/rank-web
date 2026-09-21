@@ -115,9 +115,12 @@
 
     .team-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 32px;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px;
       margin-top: 50px;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .team-card {
