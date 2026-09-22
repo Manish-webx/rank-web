@@ -46,6 +46,7 @@
         <p class="footer-desc">Rankmator is an award-winning performance marketing agency delivering transformational
           growth through digital excellence.</p>
         <div style="margin-top:16px;display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="portfolio.php" style="color:var(--text-white);font-size:13px;font-weight:600;opacity:0.85;text-decoration:none;"><i class="fa-solid fa-briefcase" style="color:var(--secondary);margin-right:6px;"></i>Portfolio</a>
           <a href="team.php" style="color:var(--text-white);font-size:13px;font-weight:600;opacity:0.85;text-decoration:none;"><i class="fa-solid fa-users" style="color:var(--secondary);margin-right:6px;"></i>Our Team</a>
           <a href="contact.php" style="color:var(--text-white);font-size:13px;font-weight:600;opacity:0.85;text-decoration:none;"><i class="fa-solid fa-envelope" style="color:var(--secondary);margin-right:6px;"></i>Contact Us</a>
         </div>

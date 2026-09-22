@@ -558,17 +558,17 @@
           </div>
         </div>
 
-        <!-- 3. Pooja -->
+        <!-- 3. Pooja Thakur -->
         <div class="team-card fade-in fade-in-delay-2">
           <div class="team-card-header accent-3">
             <div class="team-avatar-box">
-              P
+              PT
               <div class="team-avatar-icon"><i class="fa-solid fa-bullhorn"></i></div>
             </div>
             <span class="team-badge">Paid Media</span>
           </div>
           <div class="team-card-body">
-            <h3 class="team-name">Pooja</h3>
+            <h3 class="team-name">Pooja Thakur</h3>
             <span class="team-role">Social &amp; Paid Marketer</span>
             <p class="team-bio">
               Performance marketing architect executing precision Meta Ads, Google PPC, and social campaign funnels engineered to lower customer acquisition costs (CAC) and scale return on ad spend (ROAS).
@@ -582,6 +582,7 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
+                <a href="https://www.linkedin.com/in/pooja-thakur-b69b6418b/" target="_blank" class="team-social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Pooja!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
@@ -591,17 +592,17 @@
           </div>
         </div>
 
-        <!-- 4. Manish -->
+        <!-- 4. Manish Kushwaha -->
         <div class="team-card fade-in fade-in-delay-3">
           <div class="team-card-header accent-4">
             <div class="team-avatar-box">
-              M
+              MK
               <div class="team-avatar-icon"><i class="fa-solid fa-code"></i></div>
             </div>
             <span class="team-badge">Tech &amp; AI</span>
           </div>
           <div class="team-card-body">
-            <h3 class="team-name">Manish</h3>
+            <h3 class="team-name">Manish Kushwaha</h3>
             <span class="team-role">Developer &amp; AI Automation Specialist</span>
             <p class="team-bio">
               Full-stack engineer and automation builder crafting ultra-fast web experiences, custom marketing technology integrations, automated lead workflows, and state-of-the-art AI marketing pipelines.
@@ -615,6 +616,7 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
+                <a href="https://www.linkedin.com/in/manish-kushwahaa/" target="_blank" class="team-social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Manish!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
