@@ -10,7 +10,9 @@ $exclude_files = [
     'links.php', 
     'mail.php', 
     'thankyou.php',
-    'sitemap.php'
+    'sitemap.php',
+    'case-study-template.php',
+    'portfolio-data.php'
 ];
 
 $php_files = [];
