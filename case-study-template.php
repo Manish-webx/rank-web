@@ -966,7 +966,7 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
           <div class="cs-section-block">
             <h2 class="cs-block-title">
               <span class="cs-block-title-icon"><i class="fa-solid fa-building"></i></span>
-              Executive Summary &amp; Client Overview
+              Project Overview &amp; Client Brief
             </h2>
             <p class="cs-block-text">
               <?php echo htmlspecialchars($p['about_client']); ?>
@@ -1000,7 +1000,7 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
           <div class="cs-section-block">
             <h2 class="cs-block-title">
               <span class="cs-block-title-icon"><i class="fa-solid fa-lightbulb" style="color:#6BAB44;"></i></span>
-              The Rankmator Solution: <?php echo htmlspecialchars($p['solution_title']); ?>
+              Execution &amp; Strategy: <?php echo htmlspecialchars($p['solution_title']); ?>
             </h2>
             <p class="cs-block-text">
               <?php echo htmlspecialchars($p['solution']); ?>
@@ -1027,7 +1027,7 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
               Key Deliverables &amp; Technology Stack
             </h2>
             <p class="cs-block-text">
-              Our engineering and growth team deployed the following strategic deliverables and technologies to ensure scalable performance:
+              Our engineering and design team deployed the following strategic deliverables and technologies to ensure high-speed, reliable performance:
             </p>
 
             <div style="margin-bottom:18px;">
@@ -1053,10 +1053,10 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
           <div class="cs-section-block">
             <h2 class="cs-block-title">
               <span class="cs-block-title-icon"><i class="fa-solid fa-chart-line" style="color:#059669;"></i></span>
-              Measurable Results &amp; Business Impact
+              Verified Outcomes &amp; Technical Milestones
             </h2>
             <p class="cs-block-text">
-              The project yielded immediate and sustained business impact, establishing scalable market authority and exponential return on investment:
+              Key verified deliverables and performance outcomes achieved upon deployment:
             </p>
 
             <ul class="cs-results-list">
@@ -1078,25 +1078,27 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
             </div>
           </div>
 
-          <!-- 6. Client Testimonial -->
-          <div class="cs-testimonial-box">
-            <div class="cs-stars-row">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-            <p class="cs-quote-text">
-              "<?php echo htmlspecialchars($p['quote']); ?>"
-            </p>
-            <div class="cs-quote-meta">
-              <div>
-                <div class="cs-quote-author-name"><?php echo htmlspecialchars($p['quote_author']); ?></div>
-                <div class="cs-quote-author-role"><?php echo htmlspecialchars($p['quote_role']); ?></div>
+          <!-- 6. Client Feedback -->
+          <?php if (!empty($p['quote'])): ?>
+            <div class="cs-testimonial-box">
+              <div class="cs-stars-row">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="cs-quote-text">
+                "<?php echo htmlspecialchars($p['quote']); ?>"
+              </p>
+              <div class="cs-quote-meta">
+                <div>
+                  <div class="cs-quote-author-name"><?php echo htmlspecialchars($p['quote_author']); ?></div>
+                  <div class="cs-quote-author-role"><?php echo htmlspecialchars($p['quote_role']); ?></div>
+                </div>
               </div>
             </div>
-          </div>
+          <?php endif; ?>
 
         </main>
 
