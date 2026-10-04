@@ -116,65 +116,99 @@
   <!-- ═══════════════════════════════════════════
      ABOUT / COMPANY
 ═══════════════════════════════════════════ -->
-  <section id="about" class="section-pad">
+  <!-- ═══════════════════════════════════════════
+     ABOUT / COMPANY
+═══════════════════════════════════════════ -->
+  <section id="about" class="section-pad about-section">
     <div class="container">
       <div class="about-grid">
         <div class="about-content fade-in">
-          <div class="section-tag">Who We Are</div>
-          <h2 class="section-title">A Digital Marketing Agency Built Around Results, Not Excuses</h2>
+          <div class="section-tag">
+            <i class="fa-solid fa-sparkles" style="color:var(--secondary);font-size:12px;"></i> Who We Are
+          </div>
+          <h2 class="section-title">
+            A Digital Marketing Agency Built Around <span class="about-highlight">Results, Not Excuses</span>
+          </h2>
           <p class="section-subtitle">
-            Rankmator is a digital marketing and SEO team focused on one thing — growth you can actually measure. We combine SEO, performance marketing and content strategy with a genuinely honest approach to reporting. No inflated numbers, no recycled strategies, just work that moves the needle for your business.
+            Rankmator is a digital marketing and SEO team focused on one thing — <strong>growth you can actually measure</strong>. We combine data-driven SEO, performance marketing, and high-impact content strategy with complete reporting transparency. No vanity metrics, no recycled strategies, just revenue growth.
           </p>
-          <div class="about-points">
-            <div class="about-point">
-              <div class="about-point-icon"><i class="fa-solid fa-robot" style="color:var(--primary);"></i></div>
-              <div class="about-point-text">
-                <h4>AI-Powered Campaign Insights</h4>
-                <p>Our team uses AI and automation to spot opportunities faster and keep your campaigns ahead of algorithm changes.</p>
+
+          <div class="about-points-modern">
+            <div class="about-point-card">
+              <div class="point-icon-box icon-robot">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="point-details">
+                <div class="point-header">
+                  <h4>AI-Powered Campaign Insights</h4>
+                  <span class="point-tag">Smart Tech</span>
+                </div>
+                <p>Our team leverages AI and predictive analytics to uncover high-intent search gaps faster and keep your campaigns ahead of search engine updates.</p>
               </div>
             </div>
-            <div class="about-point">
-              <div class="about-point-icon"><i class="fa-solid fa-gears" style="color:var(--primary);"></i></div>
-              <div class="about-point-text">
-                <h4>In-House Martech Capabilities</h4>
-                <p>From CRM integration to marketing automation, we build the backend systems that make your data actually useful.</p>
+
+            <div class="about-point-card">
+              <div class="point-icon-box icon-martech">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <div class="point-details">
+                <div class="point-header">
+                  <h4>In-House Martech Capabilities</h4>
+                  <span class="point-tag tag-blue">Full-Stack</span>
+                </div>
+                <p>From advanced CRM integrations to full-funnel tracking and automated reporting, we engineer backend systems that make your marketing data profitable.</p>
               </div>
             </div>
-            <div class="about-point">
-              <div class="about-point-icon"><i class="fa-solid fa-medal" style="color:var(--secondary);"></i></div>
-              <div class="about-point-text">
-                <h4>Built on Google's Best Practices</h4>
-                <p>We stay current with Google's official guidelines and certifications, so your campaigns are built on solid, compliant foundations.</p>
+
+            <div class="about-point-card">
+              <div class="point-icon-box icon-google">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <div class="point-details">
+                <div class="point-header">
+                  <h4>Built on Google's Best Practices</h4>
+                  <span class="point-tag tag-green">100% White-Hat</span>
+                </div>
+                <p>Strict adherence to official Google guidelines, technical quality benchmarks, and certified frameworks ensures safe, compounding ROI.</p>
               </div>
             </div>
           </div>
-          <div style="margin-top:28px;">
-            <a href="contact.php" class="btn btn-primary">Speak to an Expert <i class="fa-solid fa-arrow-right"
-                style="margin-left:8px;"></i></a>
+
+          <div class="about-cta-bar">
+            <a href="contact.php" class="btn btn-primary btn-about-cta">
+              <span>Speak to an Expert</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <div class="about-trust-chip">
+              <div class="stars-row">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="trust-info">
+                <strong>4.9 / 5 Client Rating</strong>
+                <span>150+ Successful Growth Brands</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="fade-in fade-in-delay-2">
-          <div class="video-box">
-            <div class="video-box-bg">
-              <div class="video-content">
-                <div class="video-icon"><i class="fa-solid fa-building"></i></div>
-                <div class="video-text">
-                  <p class="video-headline">Watch Our Story</p>
-                  <p class="video-subline">5+ years of transformational growth</p>
-                </div>
-              </div>
-              <div class="play-btn" onclick="alert('Video opens here')">
-                <svg viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-            </div>
-            <div class="video-label">
-              <div class="video-label-icon"><i class="fa-solid fa-bullseye"></i></div>
-              <div class="video-label-text">
-                <strong>Achieve 2x Increase in Avg. Monthly Traffic</strong>
-                <span>Proven frameworks. Measurable results.</span>
+        <div class="about-visual-column fade-in fade-in-delay-2">
+          <div class="about-showcase-card">
+            <div class="about-bg-orb"></div>
+            
+            <div class="about-media-frame">
+              <img src="assets/images/about-agency-showcase.jpg" alt="Rankmator Agency Team and Marketing Strategy" class="about-img-main" loading="lazy">
+              
+              <!-- Subtle Central Play Trigger with No Text -->
+              <div class="about-video-trigger" onclick="openAboutVideoModal()">
+                <div class="pulse-ring pulse-ring-1"></div>
+                <div class="pulse-ring pulse-ring-2"></div>
+                <button class="about-play-button" type="button" aria-label="Play video showcase">
+                  <i class="fa-solid fa-play"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -182,6 +216,37 @@
       </div>
     </div>
   </section>
+
+  <!-- About Video Lightbox Modal -->
+  <div id="aboutVideoModal" class="about-video-modal" onclick="closeAboutVideoModal(event)">
+    <div class="about-modal-box">
+      <button class="about-modal-close" onclick="closeAboutVideoModal(event)" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="about-modal-body">
+        <div class="modal-tag"><i class="fa-solid fa-award"></i> The Rankmator Difference</div>
+        <h3>Scaling Brands with Data &amp; Engineering</h3>
+        <p>From initial market &amp; competitor audits to omnichannel campaign scaling, see how Rankmator drives unmatched client retention and compound revenue growth.</p>
+        <div class="modal-stats-row">
+          <div class="mstat">
+            <span class="mstat-num">100%</span>
+            <span class="mstat-lbl">White-Hat Strategy</span>
+          </div>
+          <div class="mstat">
+            <span class="mstat-num">4.8x</span>
+            <span class="mstat-lbl">Average ROAS</span>
+          </div>
+          <div class="mstat">
+            <span class="mstat-num">98%</span>
+            <span class="mstat-lbl">Client Retention</span>
+          </div>
+        </div>
+        <div class="modal-btn-row">
+          <a href="contact.php" class="btn btn-primary">Book a Growth Strategy Session <i class="fa-solid fa-arrow-right" style="margin-left:8px;"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- ═══════════════════════════════════════════
      SERVICES TABS
@@ -633,54 +698,144 @@
   <!-- ═══════════════════════════════════════════
      WHY CHOOSE US
 ═══════════════════════════════════════════ -->
-  <section id="why-us" class="section-pad">
+  <!-- ═══════════════════════════════════════════
+     WHY CHOOSE US / ADVANTAGE
+═══════════════════════════════════════════ -->
+  <section id="why-us" class="section-pad why-section-revamp">
+    <div class="why-bg-ambient"></div>
     <div class="container">
       <div class="section-header fade-in">
-        <div class="section-tag">Why Rankmator</div>
-        <h2 class="section-title">The Rankmator Advantage</h2>
-        <p class="section-subtitle">We don't just run campaigns, we build digital growth engines. Here's what actually sets us apart from another agency promising the same thing.</p>
+        <div class="section-tag"><i class="fa-solid fa-bolt" style="color:var(--secondary);font-size:12px;"></i> Why Rankmator</div>
+        <h2 class="section-title">The Rankmator <span class="advantage-highlight">Advantage</span></h2>
+        <p class="section-subtitle">We don't just run campaigns, we build high-octane digital growth engines. Here's what actually sets our frameworks apart from traditional agencies.</p>
       </div>
-      <div class="why-grid">
-        <div class="why-card fade-in">
-          <div class="why-icon"><i class="fa-solid fa-robot"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">AI-Powered SEO &amp; Marketing</h3>
-            <p class="why-desc">We use AI tools and data models to stay ahead of algorithm updates and drive consistent, compounding organic growth for your brand.</p>
+
+      <div class="why-grid-modern">
+        <!-- Card 1 -->
+        <div class="why-card-v2 fade-in">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-blue">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <span class="why-pill-badge badge-blue">01 • AI Engine</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">AI-Powered SEO &amp; Marketing</h3>
+            <p class="why-desc-v2">We deploy predictive AI modeling and search-intent clustering to detect keyword opportunities and protect rankings against algorithm shifts.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> Predictive Search Clustering</span>
+              <span><i class="fa-solid fa-check"></i> Real-time Algorithmic Safeguards</span>
+            </div>
           </div>
         </div>
-        <div class="why-card fade-in fade-in-delay-1">
-          <div class="why-icon"><i class="fa-solid fa-chart-bar"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">Data-Driven Decision Making</h3>
-            <p class="why-desc">Every strategy is backed by real data analysis. We track, measure and optimize across channels to make sure every campaign earns its budget.</p>
+
+        <!-- Card 2 -->
+        <div class="why-card-v2 fade-in fade-in-delay-1">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-green">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <span class="why-pill-badge badge-green">02 • Analytics</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">Data-Driven Decision Making</h3>
+            <p class="why-desc-v2">Every marketing rupee is tracked through full-funnel attribution models. We optimize across paid, organic, and direct channels for max ROI.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> Multi-Touch Attribution</span>
+              <span><i class="fa-solid fa-check"></i> ROAS Focused Budgets</span>
+            </div>
           </div>
         </div>
-        <div class="why-card fade-in fade-in-delay-2">
-          <div class="why-icon"><i class="fa-solid fa-medal"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">Built on Google's Best Practices</h3>
-            <p class="why-desc">We follow Google's official guidelines and stay current with every algorithm update, so your campaigns are built on a compliant, future-proof foundation.</p>
+
+        <!-- Card 3 -->
+        <div class="why-card-v2 fade-in fade-in-delay-2">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-amber">
+              <i class="fa-solid fa-medal"></i>
+            </div>
+            <span class="why-pill-badge badge-amber">03 • Compliance</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">Built on Google's Best Practices</h3>
+            <p class="why-desc-v2">We strictly follow official search guidelines, Core Web Vitals benchmarks, and certified ad policies to guarantee penalty-free sustainable growth.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> 100% White-Hat Standards</span>
+              <span><i class="fa-solid fa-check"></i> Future-Proof Architecture</span>
+            </div>
           </div>
         </div>
-        <div class="why-card fade-in fade-in-delay-1">
-          <div class="why-icon"><i class="fa-solid fa-bullseye"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">Full-Funnel Marketing</h3>
-            <p class="why-desc">From awareness to conversion to retention, we cover the full customer lifecycle with strategies that compound over time instead of resetting every month.</p>
+
+        <!-- Card 4 -->
+        <div class="why-card-v2 fade-in fade-in-delay-1">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-purple">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <span class="why-pill-badge badge-purple">04 • Lifecycle</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">Full-Funnel Marketing</h3>
+            <p class="why-desc-v2">From top-of-funnel awareness to bottom-of-funnel conversions and lifetime retention, we build flywheel systems that compound month-over-month.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> Omnichannel Funnels</span>
+              <span><i class="fa-solid fa-check"></i> High LTV Maximization</span>
+            </div>
           </div>
         </div>
-        <div class="why-card fade-in fade-in-delay-2">
-          <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">Transparent Reporting</h3>
-            <p class="why-desc">Real dashboards, regular reports and direct access to the people running your campaign, so you always know exactly what's happening and why.</p>
+
+        <!-- Card 5 -->
+        <div class="why-card-v2 fade-in fade-in-delay-2">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-cyan">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <span class="why-pill-badge badge-cyan">05 • Transparency</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">Transparent Live Reporting</h3>
+            <p class="why-desc-v2">No vanity PDFs or delayed summaries. You get 24/7 access to live Looker Studio dashboards and direct Slack communication with senior leads.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> 24/7 Live Looker Dashboards</span>
+              <span><i class="fa-solid fa-check"></i> Direct Slack / WhatsApp Access</span>
+            </div>
           </div>
         </div>
-        <div class="why-card fade-in fade-in-delay-3">
-          <div class="why-icon"><i class="fa-solid fa-rocket"></i></div>
-          <div class="why-content">
-            <h3 class="why-title">A Team That Actually Cares About Your Numbers</h3>
-            <p class="why-desc">We treat your revenue like it's our own. Every campaign is judged by one thing, whether it actually moved your business forward.</p>
+
+        <!-- Card 6 -->
+        <div class="why-card-v2 fade-in fade-in-delay-3">
+          <div class="why-card-top">
+            <div class="why-icon-box icon-theme-rose">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <span class="why-pill-badge badge-rose">06 • Partnership</span>
+          </div>
+          <div class="why-card-body">
+            <h3 class="why-title-v2">Obsessed with Your Revenue</h3>
+            <p class="why-desc-v2">We treat your budget like our own investment. We don't settle for impressions or clicks — we measure success by pipeline and bottom-line revenue.</p>
+            <div class="why-perks">
+              <span><i class="fa-solid fa-check"></i> Zero Lock-in Retainers</span>
+              <span><i class="fa-solid fa-check"></i> Dedicated Growth Strategists</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Value Bar -->
+      <div class="why-bottom-strip fade-in">
+        <div class="why-strip-content">
+          <div class="why-strip-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span><strong>No Lock-ins:</strong> Flexible, performance-based agreements</span>
+          </div>
+          <div class="why-strip-divider"></div>
+          <div class="why-strip-item">
+            <i class="fa-solid fa-user-check"></i>
+            <span><strong>Senior-Led:</strong> Experienced domain strategists manage your account</span>
+          </div>
+          <div class="why-strip-divider"></div>
+          <div class="why-strip-item">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span><strong>100% Data Ownership:</strong> All accounts, pixels &amp; creative assets belong to you</span>
           </div>
         </div>
       </div>

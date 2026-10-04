@@ -378,6 +378,40 @@
     });
   });
 
+  // ─── ABOUT VIDEO MODAL ────────────────────────────
+  window.openAboutVideoModal = function () {
+    const modal = document.getElementById('aboutVideoModal');
+    if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
+  window.closeAboutVideoModal = function (e) {
+    if (e) {
+      if (e.target.id === 'aboutVideoModal' || e.target.closest('.about-modal-close')) {
+        const modal = document.getElementById('aboutVideoModal');
+        if (modal) {
+          modal.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+      }
+    } else {
+      const modal = document.getElementById('aboutVideoModal');
+      if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+  };
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      window.closeAboutVideoModal();
+    }
+  });
+
   console.log('%c RANKMATOR REVAMP 🚀 ', 'background:#0868A0;color:#fff;font-size:16px;font-weight:bold;padding:8px 16px;border-radius:6px;');
   console.log('%c Modern Light Rebrand — Blue + Green + White ', 'color:#6BAB44;font-size:13px;');
 

@@ -457,8 +457,9 @@
         The Growth Architects
       </div>
       <h1>Meet the Minds Behind Your<br /><span>Digital Dominance.</span></h1>
-      <p>A specialized squad of brand strategists, technical SEO masters, paid acquisition specialists, and full-stack AI developers focused on one singular mission: your exponential revenue growth.</p>
-      
+      <p>A specialized squad of brand strategists, technical SEO masters, paid acquisition specialists, and full-stack
+        AI developers focused on one singular mission: your exponential revenue growth.</p>
+
       <div class="team-hero-stats">
         <div class="hero-stat-chip">
           <i class="fa-solid fa-chart-line"></i> 300+ Brands Scaled
@@ -487,7 +488,8 @@
       <div class="section-header fade-in">
         <div class="section-tag">Our Core Team</div>
         <h2 class="section-title">Passionate Experts. Measurable Impact.</h2>
-        <p class="section-subtitle">No account managers reading scripts or outsourced guesswork. You collaborate directly with practitioners who strategize, build, execute, and deliver results.</p>
+        <p class="section-subtitle">No account managers reading scripts or outsourced guesswork. You collaborate
+          directly with practitioners who strategize, build, execute, and deliver results.</p>
       </div>
 
       <div class="team-grid">
@@ -505,7 +507,8 @@
             <h3 class="team-name">Noor Ansari</h3>
             <span class="team-role">Brand Specialist &amp; Creative Strategist</span>
             <p class="team-bio">
-              Specializing in high-impact brand identities, conversion narratives, and market positioning strategies that make brands stand out in crowded industries and convert attention into brand loyalty.
+              Specializing in high-impact brand identities, conversion narratives, and market positioning strategies
+              that make brands stand out in crowded industries and convert attention into brand loyalty.
             </p>
             <span class="team-skills-title">Core Competencies</span>
             <div class="team-skills">
@@ -516,8 +519,10 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
-                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Noor!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Noor!" target="_blank"
+                  class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i
+                    class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
               </div>
               <a href="contact.php" class="team-contact-btn">Connect <i class="fa-solid fa-arrow-right"></i></a>
@@ -538,7 +543,8 @@
             <h3 class="team-name">Saurabh Gupta</h3>
             <span class="team-role">SEO Executive &amp; Search Strategist</span>
             <p class="team-bio">
-              Data-driven organic search specialist mastering deep technical SEO audits, high-intent keyword mapping, link velocity frameworks, and enterprise crawl optimization to achieve sustainable #1 rankings.
+              Data-driven organic search specialist mastering deep technical SEO audits, high-intent keyword mapping,
+              link velocity frameworks, and enterprise crawl optimization to achieve sustainable #1 rankings.
             </p>
             <span class="team-skills-title">Core Competencies</span>
             <div class="team-skills">
@@ -549,8 +555,12 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
-                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Saurabh!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/saurabh-gupta001/" target="_blank" class="team-social-link"
+                  title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Saurabh!" target="_blank"
+                  class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i
+                    class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
               </div>
               <a href="contact.php" class="team-contact-btn">Connect <i class="fa-solid fa-arrow-right"></i></a>
@@ -571,7 +581,8 @@
             <h3 class="team-name">Pooja Thakur</h3>
             <span class="team-role">Social &amp; Paid Marketer</span>
             <p class="team-bio">
-              Performance marketing architect executing precision Meta Ads, Google PPC, and social campaign funnels engineered to lower customer acquisition costs (CAC) and scale return on ad spend (ROAS).
+              Performance marketing architect executing precision Meta Ads, Google PPC, and social campaign funnels
+              engineered to lower customer acquisition costs (CAC) and scale return on ad spend (ROAS).
             </p>
             <span class="team-skills-title">Core Competencies</span>
             <div class="team-skills">
@@ -582,9 +593,12 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
-                <a href="https://www.linkedin.com/in/pooja-thakur-b69b6418b/" target="_blank" class="team-social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Pooja!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/pooja-thakur-b69b6418b/" target="_blank" class="team-social-link"
+                  title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Pooja!" target="_blank"
+                  class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i
+                    class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
               </div>
               <a href="contact.php" class="team-contact-btn">Connect <i class="fa-solid fa-arrow-right"></i></a>
@@ -605,7 +619,8 @@
             <h3 class="team-name">Manish Kushwaha</h3>
             <span class="team-role">Developer &amp; AI Automation Specialist</span>
             <p class="team-bio">
-              Full-stack engineer and automation builder crafting ultra-fast web experiences, custom marketing technology integrations, automated lead workflows, and state-of-the-art AI marketing pipelines.
+              Full-stack engineer and automation builder crafting ultra-fast web experiences, custom marketing
+              technology integrations, automated lead workflows, and state-of-the-art AI marketing pipelines.
             </p>
             <span class="team-skills-title">Core Competencies</span>
             <div class="team-skills">
@@ -616,9 +631,12 @@
             </div>
             <div class="team-card-footer">
               <div class="team-socials">
-                <a href="https://www.linkedin.com/in/manish-kushwahaa/" target="_blank" class="team-social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Manish!" target="_blank" class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/manish-kushwahaa/" target="_blank" class="team-social-link"
+                  title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=919560864432&text=Hi%20Manish!" target="_blank"
+                  class="team-social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:rankmator@gmail.com" class="team-social-link" title="Email"><i
+                    class="fa-solid fa-envelope"></i></a>
                 <a href="tel:+919560864432" class="team-social-link" title="Call"><i class="fa-solid fa-phone"></i></a>
               </div>
               <a href="contact.php" class="team-contact-btn">Connect <i class="fa-solid fa-arrow-right"></i></a>
@@ -638,32 +656,37 @@
       <div class="section-header fade-in">
         <div class="section-tag">Why Work With Us</div>
         <h2 class="section-title">The Principles Driving Our Results</h2>
-        <p class="section-subtitle">We believe digital marketing should be transparent, scientific, and relentless about generating revenue.</p>
+        <p class="section-subtitle">We believe digital marketing should be transparent, scientific, and relentless about
+          generating revenue.</p>
       </div>
 
       <div class="culture-grid">
         <div class="culture-card fade-in">
           <div class="culture-icon"><i class="fa-solid fa-bullseye"></i></div>
           <h3>Zero Fluff, 100% Impact</h3>
-          <p>We don't sell vanity metrics or empty retainers. Every campaign we launch has clear ROI benchmarks attached.</p>
+          <p>We don't sell vanity metrics or empty retainers. Every campaign we launch has clear ROI benchmarks
+            attached.</p>
         </div>
 
         <div class="culture-card fade-in fade-in-delay-1">
           <div class="culture-icon"><i class="fa-solid fa-chart-pie"></i></div>
           <h3>Data-First Execution</h3>
-          <p>Decisions are backed by rigorous data analysis, search patterns, and behavioral analytics — never guesswork.</p>
+          <p>Decisions are backed by rigorous data analysis, search patterns, and behavioral analytics — never
+            guesswork.</p>
         </div>
 
         <div class="culture-card fade-in fade-in-delay-2">
           <div class="culture-icon"><i class="fa-solid fa-microchip"></i></div>
           <h3>AI &amp; Automation Edge</h3>
-          <p>We integrate intelligent AI tools and custom automation to execute faster, analyze deeper, and scale effortlessly.</p>
+          <p>We integrate intelligent AI tools and custom automation to execute faster, analyze deeper, and scale
+            effortlessly.</p>
         </div>
 
         <div class="culture-card fade-in fade-in-delay-3">
           <div class="culture-icon"><i class="fa-solid fa-handshake"></i></div>
           <h3>True Growth Partners</h3>
-          <p>We treat your business like our own. Continuous communication, weekly insights, and agile strategy pivoting.</p>
+          <p>We treat your business like our own. Continuous communication, weekly insights, and agile strategy
+            pivoting.</p>
         </div>
       </div>
     </div>
