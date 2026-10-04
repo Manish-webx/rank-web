@@ -20,6 +20,7 @@ $projects = [
     'meta_description' => 'See how Rankmator optimized DermaTales Clinic with targeted local SEO, Google Business Profile optimization, and direct WhatsApp booking channels.',
     'url' => 'https://www.dermatales.com/',
     'display_url' => 'dermatales.com',
+    'thumb_image' => 'assets/images/portfolio/dermatales.webp',
     'industry' => 'Healthcare & Dermatology',
     'service_category' => 'Local SEO & Clinic Lead Generation',
     'category' => 'seo healthcare',
@@ -117,6 +118,7 @@ $projects = [
     'meta_description' => 'Discover how Rankmator optimized Shree Ganesh Enterprises with product catalog SEO, B2B wholesale inquiry forms, and fast mobile browsing.',
     'url' => 'https://shganeshenterprises.com/',
     'display_url' => 'shganeshenterprises.com',
+    'thumb_image' => 'assets/images/portfolio/shre-ganesh.webp',
     'industry' => 'Electronics & Wholesale',
     'service_category' => 'B2B Catalog SEO & Lead Capture',
     'category' => 'seo industrial',
@@ -224,6 +226,7 @@ $projects = [
     'meta_description' => 'Explore how Rankmator developed a modern eyewear brand experience with responsive UI, clear frame categories, and on-page SEO for Eyedell India.',
     'url' => 'https://eyedell.com/',
     'display_url' => 'eyedell.com',
+    'thumb_image' => 'assets/images/portfolio/eyedell.webp',
     'industry' => 'Fashion & Optical Retail',
     'service_category' => 'eCommerce UI/UX & On-Page SEO',
     'category' => 'seo ecommerce',
@@ -314,7 +317,7 @@ $projects = [
     'quote' => 'The website looks sleek, premium, and loads very quickly on phones. Customers have praised how easy it is to find the right frame style and place orders.',
     'quote_author' => 'Eyedell Team',
     'quote_role' => 'Eyedell India',
-    'related_ids' => ['nere-web', 'bobby-seo', 'shganesh-seo']
+    'related_ids' => ['dermatales-seo', 'bobby-seo', 'shganesh-seo']
   ],
 
   // ─────────────────────────────────────────────────────────────
@@ -331,6 +334,7 @@ $projects = [
     'meta_description' => 'Discover how Rankmator optimized Jim Corbett Safari portal with zone-specific tour landing pages, fast mobile UI, and direct inquiry booking funnels.',
     'url' => 'https://jimcorbett.in/',
     'display_url' => 'jimcorbett.in',
+    'thumb_image' => 'assets/images/portfolio/jimcorbet.webp',
     'industry' => 'Tourism & Wildlife Safaris',
     'service_category' => 'Tourism SEO & Safari Booking Funnels',
     'category' => 'seo travel',
@@ -438,6 +442,7 @@ $projects = [
     'meta_description' => 'Learn how Rankmator designed a premium luxury yacht charter website with fleet showcase, transparent hourly pricing, and instant booking funnels in Dubai.',
     'url' => 'https://alamyachts.com/',
     'display_url' => 'alamyachts.com',
+    'thumb_image' => 'assets/images/portfolio/alamyatch.webp',
     'industry' => 'Luxury Hospitality & Marine Tourism',
     'service_category' => 'Luxury Brand UI & Charter Lead Funnels',
     'category' => 'seo travel',
@@ -545,6 +550,7 @@ $projects = [
     'meta_description' => 'Learn how Rankmator developed a modern EV charging and clean tech infrastructure website with technical specs, franchise RFQ, and SEO.',
     'url' => 'https://ev-fast.com/',
     'display_url' => 'ev-fast.com',
+    'thumb_image' => 'assets/images/portfolio/ev-fast.webp',
     'industry' => 'CleanTech & Electric Mobility',
     'service_category' => 'CleanTech UI & Franchise Lead Capture',
     'category' => 'seo industrial',
@@ -635,7 +641,7 @@ $projects = [
     'quote' => 'Rankmator gave our EV brand a polished, modern look. The charger specifications are clearly laid out, and property owners can easily submit partnership inquiries.',
     'quote_author' => 'Leadership Team',
     'quote_role' => 'EV Fast Mobility',
-    'related_ids' => ['goldenindustrial-web', 'dbdixon-seo', 'matrix-seo']
+    'related_ids' => ['a3techno-seo', 'dbdixon-seo', 'matrix-seo']
   ],
 
   // ─────────────────────────────────────────────────────────────
@@ -652,6 +658,7 @@ $projects = [
     'meta_description' => 'Discover how Rankmator built an engaging holiday tour package website with day-wise itinerary cards, price quotes, and WhatsApp booking for Venus Destination.',
     'url' => 'https://venusdestination.com/',
     'display_url' => 'venusdestination.com',
+    'thumb_image' => 'assets/images/portfolio/venus-destination.webp',
     'industry' => 'Travel & Holiday Packages',
     'service_category' => 'Travel Web Design & Holiday Package Inquiries',
     'category' => 'seo travel',
@@ -759,6 +766,7 @@ $projects = [
     'meta_description' => 'See how Rankmator structured DB Dixon Battery web presence with automotive battery selector, dealership RFQ funnels, and local SEO.',
     'url' => 'https://dbdixonbattery.com/',
     'display_url' => 'dbdixonbattery.com',
+    'thumb_image' => 'assets/images/portfolio/db-dixon.webp',
     'industry' => 'Automotive & Industrial Manufacturing',
     'service_category' => 'Industrial Catalog & Dealership Inquiries',
     'category' => 'seo industrial',
@@ -864,8 +872,9 @@ $projects = [
     'tagline' => 'Asiatic Lion Safari Booking, Devalia Safari Park & Gir Resort Packages',
     'meta_title' => 'Gir Lion Safari Case Study | Wildlife Travel Portal & SEO — Rankmator',
     'meta_description' => 'See how Rankmator structured the Gir Lion Safari portal with permit booking guidance, safari timing charts, and instant WhatsApp inquiry channels.',
-    'url' => 'https://girlionsafari.in/',
-    'display_url' => 'girlionsafari.in',
+    'url' => 'https://girlionsafari.com/',
+    'display_url' => 'girlionsafari.com',
+    'thumb_image' => 'assets/images/portfolio/giri-lion-safari.webp',
     'industry' => 'Wildlife Tourism & Safari Permits',
     'service_category' => 'Tourism Web Design & Safari Lead Capture',
     'category' => 'seo travel',
@@ -963,6 +972,7 @@ $projects = [
     'meta_description' => 'Explore how Rankmator structured the Ranthambore Safari portal with Zone 1-10 guides, gypsy vs canter comparison, and direct booking inquiries.',
     'url' => 'https://ranthamboresafari.in/',
     'display_url' => 'ranthamboresafari.in',
+    'thumb_image' => '',
     'industry' => 'Wildlife Tourism & Safari Permits',
     'service_category' => 'Tourism Web Design & Safari Inquiries',
     'category' => 'seo travel',
@@ -1060,6 +1070,7 @@ $projects = [
     'meta_description' => 'See how Rankmator structured the Matrix Battery product catalog with vehicle fitment data, warranty support, and distributor inquiry funnels.',
     'url' => 'https://matrixbattery.com/',
     'display_url' => 'matrixbattery.com',
+    'thumb_image' => 'assets/images/portfolio/matrix-battery.webp',
     'industry' => 'Automotive & Energy Storage',
     'service_category' => 'Industrial Catalog & Dealer Network SEO',
     'category' => 'seo industrial',
@@ -1157,6 +1168,7 @@ $projects = [
     'meta_description' => 'Discover how Rankmator developed a modern apparel catalog with fabric guides, ethnic wear showcase, and wholesale inquiry channels for Bobby & Brother.',
     'url' => 'https://bobbyandbrother.com/',
     'display_url' => 'bobbyandbrother.com',
+    'thumb_image' => 'assets/images/portfolio/bobby-brother.webp',
     'industry' => 'Fashion & Menswear Retail',
     'service_category' => 'Apparel Showcase & Wholesale Inquiries',
     'category' => 'seo ecommerce',
@@ -1237,7 +1249,7 @@ $projects = [
     'quote' => 'Rankmator gave our menswear brand a premium online look. Customers can see our wedding collections on their phones and contact us directly for fittings and orders.',
     'quote_author' => 'Bobby & Brother Team',
     'quote_role' => 'Bobby and Brother',
-    'related_ids' => ['eyedell-seo', 'nere-web', 'shganesh-seo']
+    'related_ids' => ['eyedell-seo', 'dermatales-seo', 'shganesh-seo']
   ],
 
   // ─────────────────────────────────────────────────────────────
@@ -1254,6 +1266,7 @@ $projects = [
     'meta_description' => 'See how Rankmator structured A3 Technocrafts industrial web presence with machinery spec sheets, fabrication RFQ funnels, and B2B SEO.',
     'url' => 'https://a3technocrafts.com/',
     'display_url' => 'a3technocrafts.com',
+    'thumb_image' => 'assets/images/portfolio/a3technocraft.webp',
     'industry' => 'Industrial Machinery & Fabrication',
     'service_category' => 'B2B Engineering Web & RFQ Lead Capture',
     'category' => 'seo industrial',
@@ -1334,108 +1347,11 @@ $projects = [
     'quote' => 'Rankmator delivered a clean, professional website for our engineering business. Industrial buyers can easily see our fabrication capabilities and submit quote requests.',
     'quote_author' => 'Engineering Management',
     'quote_role' => 'A3 Technocrafts',
-    'related_ids' => ['goldenindustrial-web', 'dbdixon-seo', 'matrix-seo']
+    'related_ids' => ['evfast-seo', 'dbdixon-seo', 'matrix-seo']
   ],
 
   // ─────────────────────────────────────────────────────────────
-  // 14. NERE LIFESTYLE (D2C Activewear & Fashion eCommerce)
-  // ─────────────────────────────────────────────────────────────
-  'nere-web' => [
-    'id' => 'nere-web',
-    'file' => 'case-study-nere-lifestyle.php',
-    'slug' => 'case-study-nere-lifestyle',
-    'title' => 'Nere Lifestyle',
-    'client_name' => 'Nere Lifestyle Activewear & D2C Brand',
-    'tagline' => 'Modern Activewear, Athleisure & Sustainable Everyday Lifestyle Fashion',
-    'meta_title' => 'Nere Lifestyle Case Study | D2C eCommerce UI & Speed Optimization — Rankmator',
-    'meta_description' => 'See how Rankmator developed a modern D2C activewear storefront with fast mobile checkout, size recommendation UI, and on-page SEO for Nere Lifestyle.',
-    'url' => 'https://nerelifestyle.com/',
-    'display_url' => 'nerelifestyle.com',
-    'industry' => 'D2C eCommerce & Activewear',
-    'service_category' => 'D2C eCommerce UI/UX & Web Performance',
-    'category' => 'web ecommerce',
-    'gradient' => 'linear-gradient(135deg, #09090b, #18181b)',
-    'badge_text' => 'D2C eCommerce & Performance UI',
-    'timeline' => 'Full eCommerce Web Build',
-    'services_provided' => [
-      'Minimalist D2C Activewear Storefront UI/UX',
-      'Mobile-First Product Grid & Color Swatch Selector',
-      'Fast 1-Page Checkout & Payment Gateway Integration',
-      'Product Schema Markup & Image SEO Optimization',
-      'Core Web Vitals Speed & Performance Tuning'
-    ],
-    'tech_stack' => ['WooCommerce', 'WordPress', 'JavaScript', 'HTML5', 'CSS3', 'Schema.org JSON-LD', 'Cloudflare'],
-    'metric1_num' => '97/100',
-    'metric1_label' => 'Mobile Usability Score',
-    'metric1_green' => true,
-    'metric2_num' => '< 1.4s',
-    'metric2_label' => 'Checkout Load Speed',
-    'metric2_green' => true,
-    'metric3_num' => '1-Page',
-    'metric3_label' => 'Streamlined Checkout',
-    'metric3_green' => false,
-    'metric4_num' => 'Live',
-    'metric4_label' => 'Active D2C Store',
-    'summary' => 'Engineered a modern, high-speed D2C activewear shopping experience with crisp visual hierarchy, intuitive size selectors, and optimized mobile checkout for Nere Lifestyle.',
-    'verified' => 'Live D2C Brand',
-    'about_client' => 'Nere Lifestyle is a direct-to-consumer apparel brand offering premium gym wear, breathable athleisure sets, seamless leggings, and minimalist everyday apparel.',
-    'challenge_title' => 'Competitive D2C Landscape & High Mobile Cart Abandonment',
-    'challenge' => 'Modern D2C apparel brands face tough competition on Instagram and Google Ads where mobile shoppers expect instantaneous page loading and friction-free checkout. Nere Lifestyle needed a clean aesthetic that matched premium global athleisure brands while maintaining ultra-fast mobile performance.',
-    'challenge_points' => [
-      'High mobile cart abandonment due to complex multi-step checkout forms',
-      'Lack of intuitive size guides and color swatches on product detail pages',
-      'Heavy high-res lifestyle lookbook images slowing mobile page loads',
-      'Missing structured product schema for Google Shopping search visibility'
-    ],
-    'solution_title' => 'Minimalist Aesthetic & Frictionless 1-Page Mobile Checkout',
-    'solution' => 'Rankmator developed a lightweight, mobile-first storefront with instant color swatch switching, sticky "Add to Bag" triggers, and a fast 1-page checkout flow.',
-    'solution_steps' => [
-      [
-        'step_num' => '01',
-        'title' => 'Minimalist Brand UI & Visual Architecture',
-        'description' => 'Designed a sleek, contemporary storefront with clean typography, full-width editorial lookbooks, and uncluttered navigation.',
-        'icon' => 'fa-bag-shopping'
-      ],
-      [
-        'step_num' => '02',
-        'title' => 'Interactive Size Guides & Color Swatches',
-        'description' => 'Implemented interactive size charts and instant thumbnail color switching without reloading the page.',
-        'icon' => 'fa-palette'
-      ],
-      [
-        'step_num' => '03',
-        'title' => 'Streamlined 1-Page Mobile Checkout',
-        'description' => 'Replaced multi-step checkout with a consolidated single-page flow supporting UPI, Cards, and Netbanking.',
-        'icon' => 'fa-credit-card'
-      ],
-      [
-        'step_num' => '04',
-        'title' => 'Core Web Vitals & Asset Optimization',
-        'description' => 'Implemented WebP next-gen compression, responsive srcset images, and Cloudflare CDN caching for sub-1.5s loads.',
-        'icon' => 'fa-gauge-high'
-      ]
-    ],
-    'results_title' => 'Lightning-Fast Shopping Experience & Smooth Mobile Conversions',
-    'results' => [
-      'Sub-1.5 second page load speeds across all smartphone devices and networks',
-      'Single-page checkout reduces friction and cart abandonment for mobile shoppers',
-      'Valid Product and Breadcrumb schema verified in Google Search Console',
-      'Modern visual aesthetic establishes strong credibility for social media ad traffic'
-    ],
-    'results_stats' => [
-      ['stat' => '97/100', 'label' => 'Google Mobile Score'],
-      ['stat' => '< 1.4s', 'label' => 'Average Page Load'],
-      ['stat' => '1-Page', 'label' => 'Fast Mobile Checkout'],
-      ['stat' => 'Live', 'label' => 'eCommerce Storefront']
-    ],
-    'quote' => 'The site looks fantastic and loads instantly on mobile. Shoppers find it easy to pick sizes and complete checkout smoothly without drop-offs.',
-    'quote_author' => 'Founder & Brand Team',
-    'quote_role' => 'Nere Lifestyle',
-    'related_ids' => ['eyedell-seo', 'bobby-seo', 'shganesh-seo']
-  ],
-
-  // ─────────────────────────────────────────────────────────────
-  // 15. DR. GAURAV MATHPAL (Orthopedic & Joint Specialist Portal)
+  // 14. DR. GAURAV MATHPAL (Orthopedic & Joint Specialist Portal)
   // ─────────────────────────────────────────────────────────────
   'drmathpal-web' => [
     'id' => 'drmathpal-web',
@@ -1446,8 +1362,9 @@ $projects = [
     'tagline' => 'Orthopedic Surgeon, Joint Replacement & Sports Injury Specialist',
     'meta_title' => 'Dr. Gaurav Mathpal Case Study | Medical Web & Patient Booking — Rankmator',
     'meta_description' => 'Discover how Rankmator built a credible orthopedic practice website with condition guides, patient consultation funnels, and local SEO for Dr. Gaurav Mathpal.',
-    'url' => 'https://drgauravmathpal.com/',
-    'display_url' => 'drgauravmathpal.com',
+    'url' => 'https://drgauravmathpal.in/',
+    'display_url' => 'drgauravmathpal.in',
+    'thumb_image' => 'assets/images/portfolio/dr-gaurav-mathpal.webp',
     'industry' => 'Healthcare & Orthopedics',
     'service_category' => 'Medical Practice Web & Patient Lead Funnels',
     'category' => 'web healthcare',
@@ -1543,8 +1460,9 @@ $projects = [
     'tagline' => 'Ultra-Luxury 3 & 4 BHK Apartments, Penthouses & Gated Community Living',
     'meta_title' => 'The Golden Residences Case Study | Luxury Real Estate Web & Leads — Rankmator',
     'meta_description' => 'Explore how Rankmator developed a luxury residential real estate showcase with floor plans, amenity walk-throughs, and site visit booking funnels.',
-    'url' => 'https://thegoldenresidences.in/',
-    'display_url' => 'thegoldenresidences.in',
+    'url' => 'https://thegoldenresidences.com/',
+    'display_url' => 'thegoldenresidences.com',
+    'thumb_image' => 'assets/images/portfolio/the-golden-residence.webp',
     'industry' => 'Luxury Real Estate & Development',
     'service_category' => 'Real Estate Showcase & Site Visit Leads',
     'category' => 'web realestate',
@@ -1625,205 +1543,11 @@ $projects = [
     'quote' => 'Rankmator presented our luxury project with remarkable finesse. The floor plans look sharp, and prospective buyers regularly book physical site visits through the website.',
     'quote_author' => 'Sales & Marketing Director',
     'quote_role' => 'The Golden Residences',
-    'related_ids' => ['goldencity-web', 'goldenindustrial-web', 'drmathpal-web']
+    'related_ids' => ['drmathpal-web', 'dermatales-web', 'cognivic-web']
   ],
 
   // ─────────────────────────────────────────────────────────────
-  // 17. THE GOLDEN CITY (Integrated Township & Commercial Real Estate)
-  // ─────────────────────────────────────────────────────────────
-  'goldencity-web' => [
-    'id' => 'goldencity-web',
-    'file' => 'case-study-the-golden-city.php',
-    'slug' => 'case-study-the-golden-city',
-    'title' => 'The Golden City',
-    'client_name' => 'The Golden City Megaproject',
-    'tagline' => 'Integrated Township, Commercial Retail Plazas & Plotted Development',
-    'meta_title' => 'The Golden City Case Study | Real Estate Township Web & Leads — Rankmator',
-    'meta_description' => 'See how Rankmator structured The Golden City megaproject website with interactive master layout, plot availability, and investment lead capture.',
-    'url' => 'https://thegoldencity.in/',
-    'display_url' => 'thegoldencity.in',
-    'industry' => 'Commercial & Plotted Real Estate',
-    'service_category' => 'Township Web Portal & Investment Leads',
-    'category' => 'web realestate',
-    'gradient' => 'linear-gradient(135deg, #1c1917, #44403c)',
-    'badge_text' => 'Township Portal & Investment Leads',
-    'timeline' => 'Megaproject Web Build',
-    'services_provided' => [
-      'Integrated Township Master Plan Layout UI',
-      'Commercial Retail & Plotted Development Showcase',
-      'Investment ROI & Payment Plan Breakdown',
-      'Direct WhatsApp & Site Inspection Booking Flow',
-      'RERA Verification & Real Estate Schema Implementation'
-    ],
-    'tech_stack' => ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'Schema.org RealEstateListing', 'Google Search Console'],
-    'metric1_num' => '100%',
-    'metric1_label' => 'Mobile Responsive',
-    'metric1_green' => true,
-    'metric2_num' => '< 1.5s',
-    'metric2_label' => 'Master Plan Speed',
-    'metric2_green' => true,
-    'metric3_num' => 'B2B & Retail',
-    'metric3_label' => 'Commercial Lead Setup',
-    'metric3_green' => false,
-    'metric4_num' => 'Live',
-    'metric4_label' => 'Township Portal',
-    'summary' => 'Developed an expansive township real estate portal showcasing master plan zones, commercial high-street retail shops, residential plots, and direct investor inquiry funnels.',
-    'verified' => 'Live Megaproject Portal',
-    'about_client' => 'The Golden City is a multi-acre master-planned integrated township featuring residential plots, commercial shopping plazas, institutional hubs, and modern infrastructure.',
-    'challenge_title' => 'Communicating Township Scale & Multipurpose Land Zones',
-    'challenge' => 'Large-scale townships encompass multiple asset classes (residential plots, commercial SCO plots, high-street retail, green parks). Investors and commercial buyers needed a clear, unified digital portal to explore zone layouts, infrastructure road connectivity, payment schedules, and RERA approvals.',
-    'challenge_points' => [
-      'Difficulty in communicating township scale without a clear interactive master layout',
-      'Need to capture separate inquiries for residential plots vs commercial retail shops',
-      'Slow mobile page loading caused by large high-resolution master plan graphics',
-      'Missing structured location schema and infrastructure connectivity details'
-    ],
-    'solution_title' => 'Zoned Master Plan Architecture & Investor Lead Capture',
-    'solution' => 'Rankmator developed a structured real estate portal with clear zone categorization, infrastructure connectivity timelines, and streamlined investor lead funnels.',
-    'solution_steps' => [
-      [
-        'step_num' => '01',
-        'title' => 'Master Layout & Sector Mapping',
-        'description' => 'Designed an easy-to-navigate layout mapping commercial zones, plotted sectors, central green parks, and wide arterial roads.',
-        'icon' => 'fa-map'
-      ],
-      [
-        'step_num' => '02',
-        'title' => 'Segmented Commercial & Residential Funnels',
-        'description' => 'Created distinct lead capture options for individual homebuilders and commercial high-street retail investors.',
-        'icon' => 'fa-shop'
-      ],
-      [
-        'step_num' => '03',
-        'title' => 'Highway Connectivity & Infrastructure Guides',
-        'description' => 'Highlighted proximity to expressways, metro connectivity, airport access, and upcoming social infrastructure.',
-        'icon' => 'fa-road'
-      ],
-      [
-        'step_num' => '04',
-        'title' => 'Performance & Schema Integration',
-        'description' => 'Optimized heavy land layout imagery to fast-loading WebP assets with structured RealEstateListing data.',
-        'icon' => 'fa-bolt'
-      ]
-    ],
-    'results_title' => 'Clear Project Vision & Steady Investor Inquiries',
-    'results' => [
-      'Investors and homebuyers can explore the entire township master plan on mobile screens',
-      'Segmented lead capture forms route commercial and residential leads to appropriate teams',
-      'Sub-1.5 second loading ensures smooth browsing of extensive project details',
-      'Transparent display of RERA approvals and construction milestone updates'
-    ],
-    'results_stats' => [
-      ['stat' => '100%', 'label' => 'Mobile Responsive'],
-      ['stat' => '< 1.5s', 'label' => 'Page Load Time'],
-      ['stat' => 'Dual', 'label' => 'Plot & Retail Leads'],
-      ['stat' => 'Live', 'label' => 'Township Portal']
-    ],
-    'quote' => 'Rankmator brought our township project to life online. The master layout is easy to understand, and investors can inspect different sectors and book site visits seamlessly.',
-    'quote_author' => 'Project Management',
-    'quote_role' => 'The Golden City',
-    'related_ids' => ['goldenresidences-web', 'goldenindustrial-web', 'a3techno-seo']
-  ],
-
-  // ─────────────────────────────────────────────────────────────
-  // 18. GOLDEN INDUSTRIAL ZONE (Industrial Parks & Warehousing)
-  // ─────────────────────────────────────────────────────────────
-  'goldenindustrial-web' => [
-    'id' => 'goldenindustrial-web',
-    'file' => 'case-study-golden-industrial-zone.php',
-    'slug' => 'case-study-golden-industrial-zone',
-    'title' => 'Golden Industrial Zone',
-    'client_name' => 'Golden Industrial Zone & Logistics Park',
-    'tagline' => 'Industrial Land, Warehousing Plots & Turnkey Manufacturing Infrastructure',
-    'meta_title' => 'Golden Industrial Zone Case Study | Industrial Park Web & B2B Leads — Rankmator',
-    'meta_description' => 'Discover how Rankmator developed the Golden Industrial Zone portal with plot zoning specs, power/water utility data, and B2B industrial RFQ funnels.',
-    'url' => 'https://goldenindustrialzone.com/',
-    'display_url' => 'goldenindustrialzone.com',
-    'industry' => 'Industrial Infrastructure & Logistics',
-    'service_category' => 'Industrial Land Portal & B2B Lead Funnels',
-    'category' => 'web realestate',
-    'gradient' => 'linear-gradient(135deg, #1e293b, #0f172a)',
-    'badge_text' => 'Industrial Land & B2B Leads',
-    'timeline' => 'Industrial Web Build',
-    'services_provided' => [
-      'Industrial Plot Master Layout & Acreage Sizing Specs',
-      'Power, Water & Effluent Treatment Utility Guides',
-      'B2B Land Allocation & Factory Setup RFQ Funnel',
-      'Logistics Freight Connectivity & Highway Proximity Map',
-      'Technical SEO & Industrial Land Schema Implementation'
-    ],
-    'tech_stack' => ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'Schema.org', 'Google Search Console'],
-    'metric1_num' => '100%',
-    'metric1_label' => 'Mobile Responsive',
-    'metric1_green' => true,
-    'metric2_num' => '< 1.4s',
-    'metric2_label' => 'Page Load Time',
-    'metric2_green' => true,
-    'metric3_num' => 'B2B RFQ',
-    'metric3_label' => 'Factory Land Inquiries',
-    'metric3_green' => false,
-    'metric4_num' => 'Live',
-    'metric4_label' => 'Industrial Park Portal',
-    'summary' => 'Built a robust industrial park web platform detailing plot zoning, high-tension power availability, freight corridor connectivity, and direct industrial land inquiry funnels.',
-    'verified' => 'Live Industrial Park',
-    'about_client' => 'Golden Industrial Zone is an industrial and logistics park offering planned industrial plots, ready-built factory sheds, and warehousing land with government approvals and freight corridor access.',
-    'challenge_title' => 'Meeting Stringent B2B Technical Criteria & Factory Land Needs',
-    'challenge' => 'Industrialists, manufacturing CEOs, and supply chain directors evaluate land based on heavy industrial infrastructure: electrical grid capacity (MVA), dedicated water supply, effluent treatment plants (ETP), road width for multi-axle trailers, and industrial zoning approvals. The client needed a B2B portal to present these technical specs clearly.',
-    'challenge_points' => [
-      'Need to display technical utility data (power feeder lines, water allocation, zoning NOCs)',
-      'Lack of a dedicated B2B plot inquiry form capturing factory type, required acreage, and power needs',
-      'Absence of freight transit connectivity maps for rail and national highway routes',
-      'Slow loading on mobile devices used by field inspection teams'
-    ],
-    'solution_title' => 'B2B Utility Specifications & Land Allocation Workflow',
-    'solution' => 'Rankmator created a clear, technical industrial infrastructure portal with plot dimension tables, utility checklists, and direct manufacturing RFQ forms.',
-    'solution_steps' => [
-      [
-        'step_num' => '01',
-        'title' => 'Zoning & Utility Specification Grid',
-        'description' => 'Published clear details on industrial power substation capacity, industrial water supply, storm drainage, and gas pipelines.',
-        'icon' => 'fa-bolt'
-      ],
-      [
-        'step_num' => '02',
-        'title' => 'B2B Industrial Land Inquiry Form',
-        'description' => 'Designed an industrial RFQ funnel capturing industry sector (engineering, pharma, logistics), required acreage, and timeline.',
-        'icon' => 'fa-industry'
-      ],
-      [
-        'step_num' => '03',
-        'title' => 'Freight Corridor & Highway Transit Map',
-        'description' => 'Mapped driving distances and transit times to major national highways, container freight stations, and cargo airports.',
-        'icon' => 'fa-truck'
-      ],
-      [
-        'step_num' => '04',
-        'title' => 'Fast Lightweight Frontend Architecture',
-        'description' => 'Engineered a clean, lightweight responsive structure delivering sub-1.5s loads across all devices.',
-        'icon' => 'fa-gauge-high'
-      ]
-    ],
-    'results_title' => 'Transparent Infrastructure Specs & Qualified Industrial Leads',
-    'results' => [
-      'Manufacturing and logistics companies can quickly evaluate industrial land specs and utility availability',
-      'Structured B2B inquiry form captures detailed factory requirements for the industrial leasing team',
-      'Sub-1.5 second loading ensures fast access during on-site and desktop evaluations',
-      'Full technical SEO and Google Search Console indexing active'
-    ],
-    'results_stats' => [
-      ['stat' => '100%', 'label' => 'Mobile Responsive'],
-      ['stat' => '< 1.4s', 'label' => 'Page Load Time'],
-      ['stat' => 'B2B', 'label' => 'Industrial RFQ Funnel'],
-      ['stat' => 'Live', 'label' => 'Industrial Land Portal']
-    ],
-    'quote' => 'Rankmator built an industrial portal that speaks our buyers\' language. Manufacturing clients can review power specs, road widths, and submit land requirements directly.',
-    'quote_author' => 'Industrial Leasing Team',
-    'quote_role' => 'Golden Industrial Zone',
-    'related_ids' => ['goldencity-web', 'goldenresidences-web', 'a3techno-seo']
-  ],
-
-  // ─────────────────────────────────────────────────────────────
-  // 19. DERMATALES PORTAL (Clinical Treatment & Booking Platform)
+  // 16. DERMATALES PORTAL (Clinical Treatment & Booking Platform)
   // ─────────────────────────────────────────────────────────────
   'dermatales-web' => [
     'id' => 'dermatales-web',
@@ -1834,8 +1558,9 @@ $projects = [
     'tagline' => 'Aesthetic Skincare, Laser Treatments & Online Consultation Booking',
     'meta_title' => 'DermaTales Portal Case Study | Clinic Web UI & Booking Funnel — Rankmator',
     'meta_description' => 'See how Rankmator designed a modern clinical web platform with treatment guides, doctor credentials, and direct WhatsApp booking for DermaTales.',
-    'url' => 'https://www.dermatales.com/',
-    'display_url' => 'dermatales.com',
+    'url' => 'https://software.dermatales.com/',
+    'display_url' => 'software.dermatales.com',
+    'thumb_image' => 'assets/images/portfolio/Dermatales Portal.webp',
     'industry' => 'Healthcare & Aesthetic Dermatology',
     'service_category' => 'Clinical Web UI/UX & Consultation Funnel',
     'category' => 'web healthcare',
@@ -1931,8 +1656,9 @@ $projects = [
     'tagline' => 'Enterprise Custom Software, Cloud Migration & Digital Transformation Solutions',
     'meta_title' => 'Cognivic Technologies Case Study | Enterprise IT Web & B2B Leads — Rankmator',
     'meta_description' => 'Learn how Rankmator developed Cognivic Technologies enterprise IT website with modern tech stack showcase, case studies, and B2B project RFQ funnels.',
-    'url' => 'https://cognivic.com/',
-    'display_url' => 'cognivic.com',
+    'url' => 'https://cognivic.in/',
+    'display_url' => 'cognivic.in',
+    'thumb_image' => 'assets/images/portfolio/Cognivic.webp',
     'industry' => 'Information Technology & Software',
     'service_category' => 'Enterprise IT Web & B2B Inquiries',
     'category' => 'web software',
@@ -2013,11 +1739,11 @@ $projects = [
     'quote' => 'Rankmator built a sophisticated, high-performance website for Cognivic. Our technology offerings are clearly articulated, and enterprise clients find our platform trustworthy and easy to navigate.',
     'quote_author' => 'Executive Leadership',
     'quote_role' => 'Cognivic Technologies',
-    'related_ids' => ['cognivicdigital-web', 'a3techno-seo', 'goldenindustrial-web']
+    'related_ids' => ['cognivicdigital-web', 'a3techno-seo', 'dermatales-web']
   ],
 
   // ─────────────────────────────────────────────────────────────
-  // 21. COGNIVIC DIGITAL (Performance Digital Marketing Agency)
+  // 18. COGNIVIC DIGITAL (Performance Digital Marketing Agency)
   // ─────────────────────────────────────────────────────────────
   'cognivicdigital-web' => [
     'id' => 'cognivicdigital-web',
@@ -2030,6 +1756,7 @@ $projects = [
     'meta_description' => 'See how Rankmator developed the Cognivic Digital agency website with service blueprints, client proof points, and free growth audit funnels.',
     'url' => 'https://cognivicdigital.com/',
     'display_url' => 'cognivicdigital.com',
+    'thumb_image' => 'assets/images/portfolio/cognivic-digital.webp',
     'industry' => 'Digital Marketing & Growth Strategy',
     'service_category' => 'Agency Web Design & Lead Generation',
     'category' => 'web marketing',
@@ -2110,6 +1837,6 @@ $projects = [
     'quote' => 'Rankmator built a modern, conversion-focused website for our marketing agency. The service breakdowns are crystal clear, and the audit request form generates quality client leads.',
     'quote_author' => 'Agency Director',
     'quote_role' => 'Cognivic Digital',
-    'related_ids' => ['cognivic-web', 'dermatales-seo', 'nere-web']
+    'related_ids' => ['cognivic-web', 'dermatales-seo', 'drmathpal-web']
   ]
 ];

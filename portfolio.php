@@ -240,61 +240,83 @@
       border-color: rgba(8, 104, 160, 0.35);
     }
 
-    .card-banner {
-      min-height: 175px;
+    /* ─── CARD THUMBNAIL WRAPPER (100% CLEAR IMAGE) ─── */
+    .card-thumb-wrap {
+      height: 200px;
       position: relative;
-      background-size: cover;
-      background-position: center;
+      background: #0f172a;
+      overflow: hidden;
+      display: block;
+      border-bottom: 1px solid #f1f5f9;
+      text-decoration: none;
+    }
+
+    .card-thumb-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+      transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .portfolio-card:hover .card-thumb-img {
+      transform: scale(1.06);
+    }
+
+    .card-thumb-fallback {
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      padding: 20px;
-      overflow: hidden;
-    }
-
-    .card-banner::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(7, 30, 51, 0.45) 0%, rgba(7, 30, 51, 0.92) 100%);
-      z-index: 1;
-    }
-
-    .banner-top {
-      display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: center;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* ─── BADGES ROW (BELOW IMAGE) ─── */
+    .card-badges-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       gap: 8px;
-      position: relative;
-      z-index: 2;
+      flex-wrap: wrap;
+    }
+
+    .card-badges-left {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
     }
 
     .industry-badge {
-      background: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      color: #fff;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      color: #475569;
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      padding: 4px 12px;
+      letter-spacing: 0.4px;
+      padding: 3px 10px;
       border-radius: 50px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      max-width: 180px;
+      max-width: 160px;
+      display: inline-block;
     }
 
     .live-site-badge {
-      background: rgba(107, 171, 68, 0.25);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(107, 171, 68, 0.55);
-      color: #a3d977;
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #166534;
       font-size: 11.5px;
       font-weight: 700;
       text-decoration: none;
-      padding: 4px 12px;
+      padding: 3px 10px;
       border-radius: 50px;
       display: inline-flex;
       align-items: center;
@@ -305,22 +327,21 @@
 
     .live-site-badge:hover {
       background: var(--secondary);
-      color: #fff;
+      color: #ffffff;
       border-color: var(--secondary);
     }
 
     .gsc-card-badge {
-      background: rgba(26, 115, 232, 0.22);
-      backdrop-filter: blur(8px);
-      border: 1px solid rgba(66, 133, 244, 0.6);
-      color: #93c5fd;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1d4ed8;
       font-size: 11px;
       font-weight: 700;
-      padding: 3px 10px;
+      padding: 3px 9px;
       border-radius: 50px;
       display: inline-flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
       white-space: nowrap;
     }
 
@@ -423,42 +444,58 @@
       }
     }
 
-    .banner-bottom {
-      position: relative;
-      z-index: 2;
-      margin-top: 15px;
-    }
-
-    .client-title {
-      font-size: 20px;
-      font-weight: 800;
-      color: #ffffff;
-      margin-bottom: 3px;
-      line-height: 1.3;
-    }
-
-    .client-tagline {
-      font-size: 12.5px;
-      color: rgba(255, 255, 255, 0.88);
-      font-weight: 500;
-      display: block;
-    }
-
     .card-body {
-      padding: 22px;
+      padding: 20px 22px 22px;
       flex: 1;
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .card-heading-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .client-title {
+      font-size: 19px;
+      font-weight: 800;
+      color: #071e33;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .client-title a {
+      color: #071e33;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .client-title a:hover {
+      color: var(--primary);
+    }
+
+    .client-tagline {
+      font-size: 13px;
+      color: #64748b;
+      font-weight: 500;
+      line-height: 1.45;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     /* Metric Highlight Strip */
     .metric-pills-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      margin-bottom: 18px;
-      background: #f1f5f9;
-      padding: 12px 10px;
+      gap: 8px;
+      background: #f8fafc;
+      padding: 10px 8px;
       border-radius: 12px;
       border: 1px solid #e2e8f0;
     }
@@ -468,10 +505,10 @@
     }
 
     .metric-num {
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 900;
       color: var(--primary);
-      line-height: 1.2;
+      line-height: 1.15;
     }
 
     .metric-num.green {
@@ -479,7 +516,7 @@
     }
 
     .metric-label {
-      font-size: 10.5px;
+      font-size: 10px;
       font-weight: 700;
       color: #64748b;
       text-transform: uppercase;
@@ -487,65 +524,70 @@
       margin-top: 2px;
     }
 
-    .case-summary {
-      font-size: 13.5px;
-      color: var(--text-secondary);
-      line-height: 1.6;
-      margin-bottom: 18px;
-      flex: 1;
-    }
-
-    .tools-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-bottom: 20px;
-    }
-
-    .tool-tag {
-      font-size: 11px;
-      font-weight: 600;
-      background: #f8fafc;
+    .case-summary-short {
+      font-size: 13px;
       color: #475569;
-      padding: 3px 8px;
-      border-radius: 6px;
-      border: 1px solid #e2e8f0;
+      line-height: 1.5;
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     .card-footer-action {
       border-top: 1px solid #f1f5f9;
-      padding-top: 16px;
+      padding-top: 14px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-    }
-
-    .btn-case-study {
-      font-size: 13.5px;
-      font-weight: 800;
-      color: var(--primary);
-      background: none;
-      border: none;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      padding: 0;
-      transition: gap 0.2s, color 0.2s;
-    }
-
-    .btn-case-study:hover {
-      color: var(--secondary);
       gap: 10px;
     }
 
-    .verified-badge {
+    .btn-read-portfolio {
+      flex: 1;
+      background: linear-gradient(135deg, #0868A0 0%, #054e78 100%);
+      color: #ffffff !important;
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-size: 13.5px;
+      font-weight: 800;
+      text-decoration: none;
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      font-size: 11.5px;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 14px rgba(8, 104, 160, 0.25);
+      border: none;
+    }
+
+    .btn-read-portfolio:hover {
+      background: linear-gradient(135deg, #6BAB44 0%, #538834 100%);
+      box-shadow: 0 6px 20px rgba(107, 171, 68, 0.4);
+      transform: translateY(-2px);
+      color: #ffffff !important;
+    }
+
+    .btn-quick-preview {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      padding: 9px 14px;
+      border-radius: 50px;
+      font-size: 12.5px;
       font-weight: 700;
-      color: #059669;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-quick-preview:hover {
+      background: #e2e8f0;
+      color: var(--primary);
+      border-color: #cbd5e1;
     }
 
     /* ─── MODAL POPUP STYLES ─── */
@@ -616,6 +658,29 @@
       color: #fff;
       border-radius: 24px 24px 0 0;
       position: relative;
+      overflow: hidden;
+    }
+
+    .modal-banner-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: top center;
+      opacity: 0.25;
+      z-index: 0;
+    }
+
+    .modal-header-banner::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(7, 30, 51, 0.45) 0%, rgba(7, 30, 51, 0.92) 100%);
+      z-index: 1;
+    }
+
+    .modal-header-banner > * {
+      position: relative;
+      z-index: 2;
     }
 
     .modal-header-banner .modal-badge {
@@ -1001,6 +1066,25 @@
 ═══════════════════════════════════════════ -->
   <?php
   require_once __DIR__ . '/portfolio-data.php';
+
+  $cat_counts = [
+    'all' => count($projects),
+    'seo' => 0,
+    'web-dev' => 0,
+    'healthcare' => 0,
+    'travel' => 0,
+    'real-estate' => 0,
+    'industrial' => 0,
+  ];
+  foreach ($projects as $p) {
+    $c = $p['category'] ?? '';
+    if (strpos($c, 'seo') !== false) $cat_counts['seo']++;
+    if (strpos($c, 'web') !== false) $cat_counts['web-dev']++;
+    if (strpos($c, 'healthcare') !== false) $cat_counts['healthcare']++;
+    if (strpos($c, 'travel') !== false) $cat_counts['travel']++;
+    if (strpos($c, 'realestate') !== false) $cat_counts['real-estate']++;
+    if (strpos($c, 'industrial') !== false) $cat_counts['industrial']++;
+  }
   ?>
 
   <!-- ═══════════════════════════════════════════
@@ -1013,25 +1097,25 @@
       <div class="portfolio-toolbar">
         <div class="filter-wrapper">
           <button class="filter-btn active" data-filter="all">
-            <i class="fa-solid fa-layer-group"></i> All Projects <span class="filter-count"><?php echo count($projects); ?></span>
+            <i class="fa-solid fa-layer-group"></i> All Projects <span class="filter-count"><?php echo $cat_counts['all']; ?></span>
           </button>
           <button class="filter-btn" data-filter="seo">
-            <i class="fa-solid fa-magnifying-glass"></i> SEO &amp; Organic Growth <span class="filter-count">13</span>
+            <i class="fa-solid fa-magnifying-glass"></i> SEO &amp; Organic Growth <span class="filter-count"><?php echo $cat_counts['seo']; ?></span>
           </button>
           <button class="filter-btn" data-filter="web-dev">
-            <i class="fa-solid fa-code"></i> Website Development <span class="filter-count">8</span>
+            <i class="fa-solid fa-code"></i> Website Development <span class="filter-count"><?php echo $cat_counts['web-dev']; ?></span>
           </button>
           <button class="filter-btn" data-filter="healthcare">
-            <i class="fa-solid fa-heart-pulse"></i> Healthcare &amp; Medical <span class="filter-count">3</span>
+            <i class="fa-solid fa-heart-pulse"></i> Healthcare &amp; Medical <span class="filter-count"><?php echo $cat_counts['healthcare']; ?></span>
           </button>
           <button class="filter-btn" data-filter="travel">
-            <i class="fa-solid fa-compass"></i> Travel &amp; Hospitality <span class="filter-count">4</span>
+            <i class="fa-solid fa-compass"></i> Travel &amp; Hospitality <span class="filter-count"><?php echo $cat_counts['travel']; ?></span>
           </button>
           <button class="filter-btn" data-filter="real-estate">
-            <i class="fa-solid fa-building"></i> Real Estate &amp; Infra <span class="filter-count">3</span>
+            <i class="fa-solid fa-building"></i> Real Estate &amp; Infra <span class="filter-count"><?php echo $cat_counts['real-estate']; ?></span>
           </button>
           <button class="filter-btn" data-filter="industrial">
-            <i class="fa-solid fa-industry"></i> Industrial &amp; Tech <span class="filter-count">7</span>
+            <i class="fa-solid fa-industry"></i> Industrial &amp; Tech <span class="filter-count"><?php echo $cat_counts['industrial']; ?></span>
           </button>
         </div>
 
@@ -1046,9 +1130,20 @@
         <?php foreach ($projects as $project): ?>
           <div class="portfolio-card" data-category="<?php echo htmlspecialchars($project['category']); ?>" data-search="<?php echo htmlspecialchars(strtolower($project['title'] . ' ' . $project['tagline'] . ' ' . $project['industry'] . ' ' . implode(' ', $project['tags'] ?? $project['services_provided']))); ?>">
             
-            <div class="card-banner" style="background: <?php echo $project['gradient']; ?>;">
-              <div class="banner-top">
-                <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+            <a href="<?php echo htmlspecialchars($project['file']); ?>" class="card-thumb-wrap" title="<?php echo htmlspecialchars($project['title']); ?>">
+              <?php if (!empty($project['thumb_image'])): ?>
+                <img src="<?php echo htmlspecialchars($project['thumb_image']); ?>" alt="<?php echo htmlspecialchars($project['title']); ?> Website Thumbnail" class="card-thumb-img" loading="lazy" />
+              <?php else: ?>
+                <div class="card-thumb-fallback" style="background: <?php echo $project['gradient']; ?>;">
+                  <i class="fa-solid fa-layer-group" style="font-size: 32px; margin-bottom: 8px; opacity: 0.8;"></i>
+                  <strong style="font-size: 16px;"><?php echo htmlspecialchars($project['title']); ?></strong>
+                </div>
+              <?php endif; ?>
+            </a>
+
+            <div class="card-body">
+              <div class="card-badges-row">
+                <div class="card-badges-left">
                   <span class="industry-badge" title="<?php echo htmlspecialchars($project['industry']); ?>"><?php echo htmlspecialchars($project['industry']); ?></span>
                   <?php if (!empty($project['insight_image'])): ?>
                     <span class="gsc-card-badge" title="Verified Google Search Console SEO Insights"><i class="fa-brands fa-google"></i> GSC Insights</span>
@@ -1058,17 +1153,18 @@
                   <i class="fa-solid fa-arrow-up-right-from-square"></i> <?php echo htmlspecialchars($project['display_url']); ?>
                 </a>
               </div>
-              <div class="banner-bottom">
+
+              <div class="card-heading-group">
                 <h3 class="client-title">
-                  <a href="<?php echo htmlspecialchars($project['file']); ?>" style="color:inherit;text-decoration:none;">
+                  <a href="<?php echo htmlspecialchars($project['file']); ?>">
                     <?php echo htmlspecialchars($project['title']); ?>
                   </a>
                 </h3>
-                <span class="client-tagline"><?php echo htmlspecialchars($project['tagline']); ?></span>
+                <p class="client-tagline" title="<?php echo htmlspecialchars($project['tagline']); ?>">
+                  <?php echo htmlspecialchars($project['tagline']); ?>
+                </p>
               </div>
-            </div>
 
-            <div class="card-body">
               <div class="metric-pills-row">
                 <div class="metric-pill">
                   <div class="metric-num <?php echo $project['metric1_green'] ? 'green' : ''; ?>"><?php echo htmlspecialchars($project['metric1_num']); ?></div>
@@ -1080,29 +1176,17 @@
                 </div>
               </div>
 
-              <p class="case-summary">
+              <p class="case-summary-short" title="<?php echo htmlspecialchars($project['summary']); ?>">
                 <?php echo htmlspecialchars($project['summary']); ?>
               </p>
 
-              <div class="tools-list">
-                <?php 
-                $displayTags = $project['tags'] ?? array_slice($project['services_provided'], 0, 4);
-                foreach ($displayTags as $tag): 
-                ?>
-                  <span class="tool-tag"><?php echo htmlspecialchars($tag); ?></span>
-                <?php endforeach; ?>
-              </div>
-
               <div class="card-footer-action">
-                <span class="verified-badge"><i class="fa-solid fa-circle-check"></i> <?php echo htmlspecialchars($project['verified']); ?></span>
-                <div style="display:flex;align-items:center;gap:12px;">
-                  <button class="btn-case-study" style="font-size:12.5px;color:#64748b;" onclick="openCaseModal('modal-<?php echo $project['id']; ?>')">
-                    Quick View
-                  </button>
-                  <a href="<?php echo htmlspecialchars($project['file']); ?>" class="btn-case-study" style="color:var(--primary);font-weight:800;">
-                    Read Story <i class="fa-solid fa-arrow-right"></i>
-                  </a>
-                </div>
+                <button type="button" class="btn-quick-preview" onclick="openCaseModal('modal-<?php echo $project['id']; ?>')" title="Quick View Summary">
+                  <i class="fa-regular fa-eye"></i> Quick View
+                </button>
+                <a href="<?php echo htmlspecialchars($project['file']); ?>" class="btn-read-portfolio">
+                  Read Portfolio <i class="fa-solid fa-arrow-right"></i>
+                </a>
               </div>
             </div>
 
@@ -1181,6 +1265,9 @@
       <div class="case-modal-box">
         <button class="modal-close-btn" onclick="closeCaseModal()">&times;</button>
         <div class="modal-header-banner" style="background: <?php echo $project['gradient']; ?>;">
+          <?php if (!empty($project['thumb_image'])): ?>
+            <div class="modal-banner-bg" style="background-image: url('<?php echo htmlspecialchars($project['thumb_image']); ?>');"></div>
+          <?php endif; ?>
           <span class="modal-badge"><?php echo htmlspecialchars($project['badge_text']); ?></span>
           <h2><?php echo htmlspecialchars($project['title']); ?></h2>
           <p><?php echo htmlspecialchars($project['tagline']); ?></p>

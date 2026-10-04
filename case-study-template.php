@@ -828,6 +828,131 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
       gap: 10px;
     }
 
+    /* ─── LIVE WEBSITE MOCKUP SHOWCASE ─── */
+    .cs-site-preview-block {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      padding: 0 !important;
+    }
+
+    .cs-browser-chrome {
+      background: #0f172a;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .cs-browser-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .cs-browser-dots span {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .cs-browser-dots span:nth-child(1) { background: #ef4444; }
+    .cs-browser-dots span:nth-child(2) { background: #f59e0b; }
+    .cs-browser-dots span:nth-child(3) { background: #10b981; }
+
+    .cs-browser-address-bar {
+      flex: 1;
+      max-width: 480px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 50px;
+      padding: 5px 14px;
+      font-size: 12px;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .cs-browser-link-btn {
+      color: #a3d977;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 50px;
+      background: rgba(107, 171, 68, 0.22);
+      border: 1px solid rgba(107, 171, 68, 0.45);
+      transition: all 0.2s;
+    }
+
+    .cs-browser-link-btn:hover {
+      background: var(--secondary);
+      color: #fff;
+    }
+
+    .cs-browser-viewport {
+      background: #f1f5f9;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .cs-browser-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .cs-site-preview-block:hover .cs-browser-img {
+      transform: scale(1.01);
+    }
+
+    .cs-browser-footer {
+      background: #f8fafc;
+      padding: 12px 20px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 12.5px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cs-live-card-thumb {
+      width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 16px;
+      border: 1.5px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    }
+
+    .cs-live-card-thumb img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .cs-live-card:hover .cs-live-card-thumb img {
+      transform: scale(1.05);
+    }
+
     /* ─── LIGHTBOX MODAL ─── */
     .cs-insight-lightbox {
       position: fixed;
@@ -1306,7 +1431,99 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
         
         <!-- LEFT COLUMN: DEEP CASE STUDY STORY -->
         <main class="cs-main-body">
+
+          <!-- Google Search Console Performance Insights (If Available) -->
+          <?php if (!empty($p['insight_image'])): ?>
+            <div class="cs-section-block cs-gsc-block">
+              <div class="cs-gsc-header">
+                <div>
+                  <div class="cs-gsc-tag">
+                    <i class="fa-brands fa-google"></i> Verified Google Search Console Data
+                  </div>
+                  <h2 class="cs-block-title" style="margin-top: 10px; margin-bottom: 4px;">
+                    <span class="cs-block-title-icon" style="background: rgba(26, 115, 232, 0.12); color: #1a73e8;">
+                      <i class="fa-solid fa-chart-line-up"></i>
+                    </span>
+                    <?php echo htmlspecialchars($p['insight_title'] ?? 'Google Search Console Growth Performance'); ?>
+                  </h2>
+                  <span class="cs-gsc-period"><i class="fa-regular fa-calendar-check"></i> <?php echo htmlspecialchars($p['insight_period'] ?? 'Performance Report (Web Search)'); ?></span>
+                </div>
+                <span class="cs-gsc-badge-live"><i class="fa-solid fa-circle-check"></i> Verified Data</span>
+              </div>
+
+              <p class="cs-block-text" style="margin-top: 14px; margin-bottom: 18px;">
+                <?php echo htmlspecialchars($p['insight_summary'] ?? 'Live Google Search Console verification demonstrating significant organic clicks, ranking gains, and impressions trajectory.'); ?>
+              </p>
+
+              <?php if (!empty($p['insight_stats'])): ?>
+                <div class="cs-gsc-stats-grid">
+                  <?php foreach ($p['insight_stats'] as $istat): ?>
+                    <div class="cs-gsc-stat-card">
+                      <div class="cs-gsc-stat-val"><?php echo htmlspecialchars($istat['val']); ?></div>
+                      <div class="cs-gsc-stat-label"><?php echo htmlspecialchars($istat['label']); ?></div>
+                      <?php if (!empty($istat['sub'])): ?>
+                        <div class="cs-gsc-stat-sub"><i class="fa-solid fa-arrow-trend-up"></i> <?php echo htmlspecialchars($istat['sub']); ?></div>
+                      <?php endif; ?>
+                    </div>
+                  <?php endforeach; ?>
+                </div>
+              <?php endif; ?>
+
+              <div class="cs-gsc-chart-card">
+                <div class="cs-gsc-chrome">
+                  <div class="cs-chrome-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="cs-chrome-title">
+                    <i class="fa-brands fa-google" style="color:#4285F4;"></i> Google Search Console — Performance (Search type: Web)
+                  </div>
+                  <div class="cs-chrome-action">
+                    <button type="button" class="cs-gsc-zoom-btn" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
+                      <i class="fa-solid fa-expand"></i> Enlarge
+                    </button>
+                  </div>
+                </div>
+
+                <div class="cs-gsc-img-wrap" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
+                  <img src="<?php echo htmlspecialchars($p['insight_image']); ?>" alt="<?php echo htmlspecialchars($p['title']); ?> Google Search Console Performance Report" class="cs-gsc-img" loading="lazy" />
+                  <div class="cs-gsc-overlay-hint">
+                    <span class="cs-gsc-hint-badge"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to Enlarge Report</span>
+                  </div>
+                </div>
+
+                <div class="cs-gsc-footer-note">
+                  <i class="fa-solid fa-shield-halved" style="color: #10b981; font-size: 15px;"></i>
+                  <span><strong>Rankmator SEO Engine:</strong> Data verified directly from Google Search Console property tracking live search queries, clicks, and ranking impressions.</span>
+                </div>
+              </div>
+
+            </div>
+          <?php endif; ?>
           
+          <!-- Live Website Interface Showcase -->
+          <?php if (!empty($p['thumb_image'])): ?>
+            <div class="cs-section-block cs-site-preview-block">
+              <div class="cs-browser-chrome">
+                <div class="cs-browser-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="cs-browser-address-bar">
+                  <i class="fa-solid fa-lock" style="color:#10b981;font-size:11px;"></i> https://<?php echo htmlspecialchars($p['display_url']); ?>
+                </div>
+                <a href="<?php echo htmlspecialchars($p['url']); ?>" target="_blank" rel="noopener noreferrer" class="cs-browser-link-btn" title="Visit live production site in a new tab">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Live
+                </a>
+              </div>
+              <div class="cs-browser-viewport">
+                <img src="<?php echo htmlspecialchars($p['thumb_image']); ?>" alt="<?php echo htmlspecialchars($p['title']); ?> Live Website Interface Showcase" class="cs-browser-img" loading="lazy" />
+              </div>
+              <div class="cs-browser-footer">
+                <i class="fa-solid fa-laptop-code" style="color:var(--primary);font-size:15px;"></i>
+                <span><strong>Live Production Deployment:</strong> Fully responsive UI architecture, Core Web Vitals optimized, and structured search schema.</span>
+              </div>
+            </div>
+          <?php endif; ?>
+
           <!-- 1. Client Overview -->
           <div class="cs-section-block">
             <h2 class="cs-block-title">
@@ -1393,74 +1610,6 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
               </div>
             </div>
           </div>
-
-          <!-- Google Search Console Performance Insights (If Available) -->
-          <?php if (!empty($p['insight_image'])): ?>
-            <div class="cs-section-block cs-gsc-block">
-              <div class="cs-gsc-header">
-                <div>
-                  <div class="cs-gsc-tag">
-                    <i class="fa-brands fa-google"></i> Verified Google Search Console Data
-                  </div>
-                  <h2 class="cs-block-title" style="margin-top: 10px; margin-bottom: 4px;">
-                    <span class="cs-block-title-icon" style="background: rgba(26, 115, 232, 0.12); color: #1a73e8;">
-                      <i class="fa-solid fa-chart-line-up"></i>
-                    </span>
-                    <?php echo htmlspecialchars($p['insight_title'] ?? 'Google Search Console Growth Performance'); ?>
-                  </h2>
-                  <span class="cs-gsc-period"><i class="fa-regular fa-calendar-check"></i> <?php echo htmlspecialchars($p['insight_period'] ?? 'Performance Report (Web Search)'); ?></span>
-                </div>
-                <span class="cs-gsc-badge-live"><i class="fa-solid fa-circle-check"></i> Verified Data</span>
-              </div>
-
-              <p class="cs-block-text" style="margin-top: 14px; margin-bottom: 18px;">
-                <?php echo htmlspecialchars($p['insight_summary'] ?? 'Live Google Search Console verification demonstrating significant organic clicks, ranking gains, and impressions trajectory.'); ?>
-              </p>
-
-              <?php if (!empty($p['insight_stats'])): ?>
-                <div class="cs-gsc-stats-grid">
-                  <?php foreach ($p['insight_stats'] as $istat): ?>
-                    <div class="cs-gsc-stat-card">
-                      <div class="cs-gsc-stat-val"><?php echo htmlspecialchars($istat['val']); ?></div>
-                      <div class="cs-gsc-stat-label"><?php echo htmlspecialchars($istat['label']); ?></div>
-                      <?php if (!empty($istat['sub'])): ?>
-                        <div class="cs-gsc-stat-sub"><i class="fa-solid fa-arrow-trend-up"></i> <?php echo htmlspecialchars($istat['sub']); ?></div>
-                      <?php endif; ?>
-                    </div>
-                  <?php endforeach; ?>
-                </div>
-              <?php endif; ?>
-
-              <div class="cs-gsc-chart-card">
-                <div class="cs-gsc-chrome">
-                  <div class="cs-chrome-dots">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="cs-chrome-title">
-                    <i class="fa-brands fa-google" style="color:#4285F4;"></i> Google Search Console — Performance (Search type: Web)
-                  </div>
-                  <div class="cs-chrome-action">
-                    <button type="button" class="cs-gsc-zoom-btn" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
-                      <i class="fa-solid fa-expand"></i> Enlarge
-                    </button>
-                  </div>
-                </div>
-
-                <div class="cs-gsc-img-wrap" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
-                  <img src="<?php echo htmlspecialchars($p['insight_image']); ?>" alt="<?php echo htmlspecialchars($p['title']); ?> Google Search Console Performance Report" class="cs-gsc-img" loading="lazy" />
-                  <div class="cs-gsc-overlay-hint">
-                    <span class="cs-gsc-hint-badge"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to Enlarge Report</span>
-                  </div>
-                </div>
-
-                <div class="cs-gsc-footer-note">
-                  <i class="fa-solid fa-shield-halved" style="color: #10b981; font-size: 15px;"></i>
-                  <span><strong>Rankmator SEO Engine:</strong> Data verified directly from Google Search Console property tracking live search queries, clicks, and ranking impressions.</span>
-                </div>
-              </div>
-
-            </div>
-          <?php endif; ?>
 
           <!-- 5. Measurable Results -->
           <div class="cs-section-block">
@@ -1551,6 +1700,11 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
 
           <!-- Live Website Link Widget -->
           <div class="cs-live-card">
+            <?php if (!empty($p['thumb_image'])): ?>
+              <div class="cs-live-card-thumb">
+                <img src="<?php echo htmlspecialchars($p['thumb_image']); ?>" alt="<?php echo htmlspecialchars($p['title']); ?> Website Preview" loading="lazy" />
+              </div>
+            <?php endif; ?>
             <h4>Inspect Live Deployment</h4>
             <p>Experience the live user interface, ranking authority, and mobile speed directly on the production website.</p>
             <a href="<?php echo htmlspecialchars($p['url']); ?>" target="_blank" rel="noopener noreferrer" class="cs-btn-visit-full">
