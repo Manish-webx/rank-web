@@ -589,6 +589,351 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
       color: #a3d977;
     }
 
+    /* ─── GOOGLE SEARCH CONSOLE INSIGHTS STYLES ─── */
+    .cs-gsc-block {
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+      border: 1.5px solid #dbeafe;
+      border-radius: 20px;
+      padding: 32px 28px;
+      margin-bottom: 45px;
+      box-shadow: 0 10px 30px rgba(26, 115, 232, 0.06);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cs-gsc-block::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #4285F4 0%, #34A853 33%, #FBBC05 66%, #EA4335 100%);
+    }
+
+    .cs-gsc-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 8px;
+    }
+
+    .cs-gsc-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 800;
+      color: #1a73e8;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      background: rgba(26, 115, 232, 0.1);
+      padding: 4px 14px;
+      border-radius: 50px;
+      border: 1px solid rgba(26, 115, 232, 0.2);
+    }
+
+    .cs-gsc-period {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #64748b;
+      margin-top: 4px;
+    }
+
+    .cs-gsc-badge-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #059669;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 6px 14px;
+      border-radius: 50px;
+    }
+
+    .cs-gsc-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin: 22px 0 26px;
+    }
+
+    .cs-gsc-stat-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 16px 14px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+      transition: all 0.25s;
+    }
+
+    .cs-gsc-stat-card:hover {
+      border-color: #1a73e8;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(26, 115, 232, 0.1);
+    }
+
+    .cs-gsc-stat-val {
+      font-size: 24px;
+      font-weight: 900;
+      color: #1a73e8;
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+
+    .cs-gsc-stat-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #475569;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .cs-gsc-stat-sub {
+      font-size: 11px;
+      font-weight: 600;
+      color: #059669;
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .cs-gsc-chart-card {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    }
+
+    .cs-gsc-chrome {
+      background: #f1f5f9;
+      padding: 10px 16px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .cs-chrome-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .cs-chrome-dots span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #cbd5e1;
+    }
+
+    .cs-chrome-dots span:nth-child(1) { background: #ff5f56; }
+    .cs-chrome-dots span:nth-child(2) { background: #ffbd2e; }
+    .cs-chrome-dots span:nth-child(3) { background: #27c93f; }
+
+    .cs-chrome-title {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #334155;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cs-gsc-zoom-btn {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #1e293b;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s;
+    }
+
+    .cs-gsc-zoom-btn:hover {
+      background: #1a73e8;
+      border-color: #1a73e8;
+      color: #fff;
+    }
+
+    .cs-gsc-img-wrap {
+      position: relative;
+      cursor: zoom-in;
+      background: #fafafa;
+      overflow: hidden;
+    }
+
+    .cs-gsc-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.35s ease;
+    }
+
+    .cs-gsc-img-wrap:hover .cs-gsc-img {
+      transform: scale(1.02);
+    }
+
+    .cs-gsc-overlay-hint {
+      position: absolute;
+      bottom: 16px;
+      right: 16px;
+      opacity: 0.9;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+
+    .cs-gsc-img-wrap:hover .cs-gsc-overlay-hint {
+      opacity: 1;
+    }
+
+    .cs-gsc-hint-badge {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .cs-gsc-footer-note {
+      background: #f8fafc;
+      padding: 12px 18px;
+      border-top: 1px solid #f1f5f9;
+      font-size: 12.5px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* ─── LIGHTBOX MODAL ─── */
+    .cs-insight-lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(7, 30, 51, 0.92);
+      backdrop-filter: blur(10px);
+      z-index: 999999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .cs-insight-lightbox.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .cs-lightbox-content {
+      background: #ffffff;
+      border-radius: 20px;
+      max-width: 1100px;
+      width: 100%;
+      max-height: 92vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+      position: relative;
+      transform: scale(0.95);
+      transition: transform 0.3s ease;
+    }
+
+    .cs-insight-lightbox.active .cs-lightbox-content {
+      transform: scale(1);
+    }
+
+    .cs-lightbox-header {
+      padding: 16px 24px;
+      background: #f8fafc;
+      border-bottom: 1px solid #e2e8f0;
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cs-lightbox-close {
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #0f172a;
+      font-size: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: all 0.2s;
+    }
+
+    .cs-lightbox-close:hover {
+      background: #fee2e2;
+      color: #dc2626;
+      border-color: #fca5a5;
+    }
+
+    .cs-lightbox-body {
+      padding: 16px;
+      overflow: auto;
+      max-height: calc(92vh - 60px);
+      background: #f1f5f9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cs-lightbox-body img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .cs-gsc-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .cs-gsc-block {
+        padding: 22px 16px;
+      }
+      .cs-insight-lightbox {
+        padding: 12px;
+      }
+    }
+
     /* ─── SIDEBAR WIDGETS ─── */
     .cs-sidebar {
       display: flex;
@@ -1049,6 +1394,74 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
             </div>
           </div>
 
+          <!-- Google Search Console Performance Insights (If Available) -->
+          <?php if (!empty($p['insight_image'])): ?>
+            <div class="cs-section-block cs-gsc-block">
+              <div class="cs-gsc-header">
+                <div>
+                  <div class="cs-gsc-tag">
+                    <i class="fa-brands fa-google"></i> Verified Google Search Console Data
+                  </div>
+                  <h2 class="cs-block-title" style="margin-top: 10px; margin-bottom: 4px;">
+                    <span class="cs-block-title-icon" style="background: rgba(26, 115, 232, 0.12); color: #1a73e8;">
+                      <i class="fa-solid fa-chart-line-up"></i>
+                    </span>
+                    <?php echo htmlspecialchars($p['insight_title'] ?? 'Google Search Console Growth Performance'); ?>
+                  </h2>
+                  <span class="cs-gsc-period"><i class="fa-regular fa-calendar-check"></i> <?php echo htmlspecialchars($p['insight_period'] ?? 'Performance Report (Web Search)'); ?></span>
+                </div>
+                <span class="cs-gsc-badge-live"><i class="fa-solid fa-circle-check"></i> Verified Data</span>
+              </div>
+
+              <p class="cs-block-text" style="margin-top: 14px; margin-bottom: 18px;">
+                <?php echo htmlspecialchars($p['insight_summary'] ?? 'Live Google Search Console verification demonstrating significant organic clicks, ranking gains, and impressions trajectory.'); ?>
+              </p>
+
+              <?php if (!empty($p['insight_stats'])): ?>
+                <div class="cs-gsc-stats-grid">
+                  <?php foreach ($p['insight_stats'] as $istat): ?>
+                    <div class="cs-gsc-stat-card">
+                      <div class="cs-gsc-stat-val"><?php echo htmlspecialchars($istat['val']); ?></div>
+                      <div class="cs-gsc-stat-label"><?php echo htmlspecialchars($istat['label']); ?></div>
+                      <?php if (!empty($istat['sub'])): ?>
+                        <div class="cs-gsc-stat-sub"><i class="fa-solid fa-arrow-trend-up"></i> <?php echo htmlspecialchars($istat['sub']); ?></div>
+                      <?php endif; ?>
+                    </div>
+                  <?php endforeach; ?>
+                </div>
+              <?php endif; ?>
+
+              <div class="cs-gsc-chart-card">
+                <div class="cs-gsc-chrome">
+                  <div class="cs-chrome-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="cs-chrome-title">
+                    <i class="fa-brands fa-google" style="color:#4285F4;"></i> Google Search Console — Performance (Search type: Web)
+                  </div>
+                  <div class="cs-chrome-action">
+                    <button type="button" class="cs-gsc-zoom-btn" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
+                      <i class="fa-solid fa-expand"></i> Enlarge
+                    </button>
+                  </div>
+                </div>
+
+                <div class="cs-gsc-img-wrap" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Console Performance Report')">
+                  <img src="<?php echo htmlspecialchars($p['insight_image']); ?>" alt="<?php echo htmlspecialchars($p['title']); ?> Google Search Console Performance Report" class="cs-gsc-img" loading="lazy" />
+                  <div class="cs-gsc-overlay-hint">
+                    <span class="cs-gsc-hint-badge"><i class="fa-solid fa-magnifying-glass-plus"></i> Click to Enlarge Report</span>
+                  </div>
+                </div>
+
+                <div class="cs-gsc-footer-note">
+                  <i class="fa-solid fa-shield-halved" style="color: #10b981; font-size: 15px;"></i>
+                  <span><strong>Rankmator SEO Engine:</strong> Data verified directly from Google Search Console property tracking live search queries, clicks, and ranking impressions.</span>
+                </div>
+              </div>
+
+            </div>
+          <?php endif; ?>
+
           <!-- 5. Measurable Results -->
           <div class="cs-section-block">
             <h2 class="cs-block-title">
@@ -1145,6 +1558,21 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
             </a>
           </div>
 
+          <?php if (!empty($p['insight_image'])): ?>
+            <!-- GSC Verified Widget -->
+            <div class="cs-widget" style="background: linear-gradient(135deg, #f0f7ff 0%, #e0effe 100%); border-color: #bfdbfe;">
+              <h3 class="cs-widget-title" style="color: #1d4ed8; border-color: #dbeafe;">
+                <i class="fa-brands fa-google" style="color: #2563eb;"></i> Live GSC Insights
+              </h3>
+              <p style="font-size: 13px; color: #1e40af; line-height: 1.5; margin-bottom: 12px;">
+                Verified Search Console growth report attached for this property.
+              </p>
+              <button type="button" onclick="openInsightModal('<?php echo htmlspecialchars($p['insight_image']); ?>', '<?php echo htmlspecialchars(addslashes($p['title'])); ?> — Search Performance')" class="cs-btn-visit-full" style="background: #2563eb; color: #fff; border: none; cursor: pointer;">
+                <i class="fa-solid fa-chart-line"></i> View GSC Screenshot
+              </button>
+            </div>
+          <?php endif; ?>
+
           <!-- Free Strategy Audit Widget -->
           <div class="cs-widget" style="background: #f0fdf4; border-color: #bbf7d0;">
             <h3 class="cs-widget-title" style="color:#166534; border-color:#dcfce7;">
@@ -1199,6 +1627,49 @@ $canonical_url = "https://www.rankmator.com/" . $p['file'];
       </div>
     </div>
   </section>
+
+  <!-- Lightbox Modal for Insights Image -->
+  <div id="insightLightbox" class="cs-insight-lightbox" onclick="closeInsightModal(event)">
+    <div class="cs-lightbox-content" onclick="event.stopPropagation()">
+      <button class="cs-lightbox-close" onclick="closeInsightModal()">&times;</button>
+      <div class="cs-lightbox-header" id="lightboxTitle">
+        <i class="fa-brands fa-google" style="color:#4285F4;"></i> Google Search Console Performance Report
+      </div>
+      <div class="cs-lightbox-body">
+        <img id="lightboxImg" src="" alt="SEO Insights Report" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openInsightModal(src, title) {
+      var lightbox = document.getElementById('insightLightbox');
+      var img = document.getElementById('lightboxImg');
+      var titleEl = document.getElementById('lightboxTitle');
+      if (lightbox && img) {
+        img.src = src;
+        if (title && titleEl) {
+          titleEl.innerHTML = '<i class="fa-brands fa-google" style="color:#4285F4;"></i> ' + title;
+        }
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeInsightModal(e) {
+      var lightbox = document.getElementById('insightLightbox');
+      if (lightbox) {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        closeInsightModal();
+      }
+    });
+  </script>
 
   <?php include 'footer.php'; ?>
 

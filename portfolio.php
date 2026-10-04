@@ -309,6 +309,120 @@
       border-color: var(--secondary);
     }
 
+    .gsc-card-badge {
+      background: rgba(26, 115, 232, 0.22);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(66, 133, 244, 0.6);
+      color: #93c5fd;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+
+    /* Modal GSC Preview Card */
+    .modal-gsc-box {
+      background: linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%);
+      border: 1.5px solid #bfdbfe;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .modal-gsc-box::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #4285F4 0%, #34A853 33%, #FBBC05 66%, #EA4335 100%);
+      border-radius: 16px 16px 0 0;
+    }
+
+    .modal-gsc-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .modal-gsc-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #1e3a8a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-gsc-tag {
+      font-size: 11px;
+      font-weight: 700;
+      color: #059669;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      padding: 3px 10px;
+      border-radius: 50px;
+    }
+
+    .modal-gsc-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .modal-gsc-stat {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 10px 8px;
+      text-align: center;
+    }
+
+    .modal-gsc-stat-val {
+      font-size: 16px;
+      font-weight: 900;
+      color: #1a73e8;
+      line-height: 1.1;
+    }
+
+    .modal-gsc-stat-lbl {
+      font-size: 9.5px;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .modal-gsc-img-wrap {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #cbd5e1;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+      background: #f8fafc;
+    }
+
+    .modal-gsc-img-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 600px) {
+      .modal-gsc-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
     .banner-bottom {
       position: relative;
       z-index: 2;
@@ -934,7 +1048,12 @@
             
             <div class="card-banner" style="background: <?php echo $project['gradient']; ?>;">
               <div class="banner-top">
-                <span class="industry-badge" title="<?php echo htmlspecialchars($project['industry']); ?>"><?php echo htmlspecialchars($project['industry']); ?></span>
+                <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                  <span class="industry-badge" title="<?php echo htmlspecialchars($project['industry']); ?>"><?php echo htmlspecialchars($project['industry']); ?></span>
+                  <?php if (!empty($project['insight_image'])): ?>
+                    <span class="gsc-card-badge" title="Verified Google Search Console SEO Insights"><i class="fa-brands fa-google"></i> GSC Insights</span>
+                  <?php endif; ?>
+                </div>
                 <a href="<?php echo htmlspecialchars($project['url']); ?>" target="_blank" rel="noopener noreferrer" class="live-site-badge" title="Visit <?php echo htmlspecialchars($project['display_url']); ?> (Opens in new tab)">
                   <i class="fa-solid fa-arrow-up-right-from-square"></i> <?php echo htmlspecialchars($project['display_url']); ?>
                 </a>
@@ -1089,6 +1208,34 @@
             <h3><i class="fa-solid fa-triangle-exclamation"></i> The Challenge</h3>
             <p><?php echo htmlspecialchars($project['challenge']); ?></p>
           </div>
+
+          <?php if (!empty($project['insight_image'])): ?>
+            <!-- Modal GSC Performance Insights -->
+            <div class="modal-gsc-box">
+              <div class="modal-gsc-head">
+                <div class="modal-gsc-title">
+                  <i class="fa-brands fa-google" style="color: #4285F4;"></i> Google Search Console Performance
+                </div>
+                <span class="modal-gsc-tag"><i class="fa-solid fa-circle-check"></i> Verified Data</span>
+              </div>
+              <p style="font-size: 13px; color: #334155; margin-bottom: 12px; line-height: 1.5;">
+                <?php echo htmlspecialchars($project['insight_summary'] ?? 'Search Console performance report showing continuous organic search click surge and impressions.'); ?>
+              </p>
+              <?php if (!empty($project['insight_stats'])): ?>
+                <div class="modal-gsc-stats">
+                  <?php foreach ($project['insight_stats'] as $istat): ?>
+                    <div class="modal-gsc-stat">
+                      <div class="modal-gsc-stat-val"><?php echo htmlspecialchars($istat['val']); ?></div>
+                      <div class="modal-gsc-stat-lbl"><?php echo htmlspecialchars($istat['label']); ?></div>
+                    </div>
+                  <?php endforeach; ?>
+                </div>
+              <?php endif; ?>
+              <div class="modal-gsc-img-wrap">
+                <img src="<?php echo htmlspecialchars($project['insight_image']); ?>" alt="<?php echo htmlspecialchars($project['title']); ?> Search Console Report" loading="lazy" />
+              </div>
+            </div>
+          <?php endif; ?>
 
           <div class="modal-section-block">
             <h3><i class="fa-solid fa-lightbulb"></i> The Rankmator Solution</h3>
