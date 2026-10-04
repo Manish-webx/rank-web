@@ -1063,62 +1063,19 @@
 
   <!-- ═══════════════════════════════════════════
      PORTFOLIO DATA DEFINITION (PHP)
-═══════════════════════════════════════════ -->
+  ═══════════════════════════════════════════ -->
   <?php
   require_once __DIR__ . '/portfolio-data.php';
-
-  $cat_counts = [
-    'all' => count($projects),
-    'seo' => 0,
-    'web-dev' => 0,
-    'healthcare' => 0,
-    'travel' => 0,
-    'real-estate' => 0,
-    'industrial' => 0,
-  ];
-  foreach ($projects as $p) {
-    $c = $p['category'] ?? '';
-    if (strpos($c, 'seo') !== false) $cat_counts['seo']++;
-    if (strpos($c, 'web') !== false) $cat_counts['web-dev']++;
-    if (strpos($c, 'healthcare') !== false) $cat_counts['healthcare']++;
-    if (strpos($c, 'travel') !== false) $cat_counts['travel']++;
-    if (strpos($c, 'realestate') !== false) $cat_counts['real-estate']++;
-    if (strpos($c, 'industrial') !== false) $cat_counts['industrial']++;
-  }
   ?>
 
   <!-- ═══════════════════════════════════════════
-     PORTFOLIO GRID & FILTER SECTION
-═══════════════════════════════════════════ -->
+     PORTFOLIO GRID & SEARCH SECTION
+  ═══════════════════════════════════════════ -->
   <section class="portfolio-main-section">
     <div class="container">
       
-      <!-- Toolbar: Filters & Live Search -->
+      <!-- Toolbar: Live Search -->
       <div class="portfolio-toolbar">
-        <div class="filter-wrapper">
-          <button class="filter-btn active" data-filter="all">
-            <i class="fa-solid fa-layer-group"></i> All Projects <span class="filter-count"><?php echo $cat_counts['all']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="seo">
-            <i class="fa-solid fa-magnifying-glass"></i> SEO &amp; Organic Growth <span class="filter-count"><?php echo $cat_counts['seo']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="web-dev">
-            <i class="fa-solid fa-code"></i> Website Development <span class="filter-count"><?php echo $cat_counts['web-dev']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="healthcare">
-            <i class="fa-solid fa-heart-pulse"></i> Healthcare &amp; Medical <span class="filter-count"><?php echo $cat_counts['healthcare']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="travel">
-            <i class="fa-solid fa-compass"></i> Travel &amp; Hospitality <span class="filter-count"><?php echo $cat_counts['travel']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="real-estate">
-            <i class="fa-solid fa-building"></i> Real Estate &amp; Infra <span class="filter-count"><?php echo $cat_counts['real-estate']; ?></span>
-          </button>
-          <button class="filter-btn" data-filter="industrial">
-            <i class="fa-solid fa-industry"></i> Industrial &amp; Tech <span class="filter-count"><?php echo $cat_counts['industrial']; ?></span>
-          </button>
-        </div>
-
         <div class="search-box-wrapper">
           <i class="fa-solid fa-search"></i>
           <input type="text" id="portfolioSearch" placeholder="Search client name, industry, or service (e.g. Dental, Battery, Safari)..." />
@@ -1365,26 +1322,20 @@
      SCRIPTS: FILTER, SEARCH & MODAL LOGIC
 ═══════════════════════════════════════════ -->
   <script>
-    // Category Filter & Search Logic
-    const filterBtns = document.querySelectorAll('.filter-btn');
+    // Live Search Logic
     const portfolioCards = document.querySelectorAll('.portfolio-card');
     const searchInput = document.getElementById('portfolioSearch');
     const noResults = document.getElementById('noResults');
 
-    let currentFilter = 'all';
-
-    function applyFilterAndSearch() {
+    function applySearch() {
       const searchTerm = searchInput ? searchInput.value.trim().toLowerCase() : '';
       let visibleCount = 0;
 
       portfolioCards.forEach(card => {
-        const category = card.getAttribute('data-category') || '';
         const searchData = card.getAttribute('data-search') || '';
-
-        const matchesFilter = (currentFilter === 'all' || category.includes(currentFilter));
         const matchesSearch = (!searchTerm || searchData.includes(searchTerm));
 
-        if (matchesFilter && matchesSearch) {
+        if (matchesSearch) {
           card.style.display = 'flex';
           card.style.animation = 'fadeIn 0.35s ease forwards';
           visibleCount++;
@@ -1398,17 +1349,8 @@
       }
     }
 
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        currentFilter = btn.getAttribute('data-filter');
-        applyFilterAndSearch();
-      });
-    });
-
     if (searchInput) {
-      searchInput.addEventListener('input', applyFilterAndSearch);
+      searchInput.addEventListener('input', applySearch);
     }
 
     // Modal Popup Controls
